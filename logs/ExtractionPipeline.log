@@ -1,0 +1,187 @@
+2026-07-18 08:44:22,841 | INFO | ExtractionPipeline | Starting extraction for Patient
+2026-07-18 08:44:24,128 | INFO | ExtractionPipeline | Page=1 | Records=10 | Saved=data\raw\Patient\2026-07-18\page_00001.json
+2026-07-18 08:44:25,564 | INFO | ExtractionPipeline | Page=1 | Records=10 | Saved=data\raw\Patient\2026-07-18\page_00001.json
+2026-07-18 08:44:26,472 | INFO | ExtractionPipeline | Page=1 | Records=10 | Saved=data\raw\Patient\2026-07-18\page_00001.json
+2026-07-18 08:44:27,804 | INFO | ExtractionPipeline | Page=1 | Records=10 | Saved=data\raw\Patient\2026-07-18\page_00001.json
+2026-07-18 08:44:28,726 | INFO | ExtractionPipeline | Page=1 | Records=10 | Saved=data\raw\Patient\2026-07-18\page_00001.json
+2026-07-18 08:44:29,656 | INFO | ExtractionPipeline | Page=1 | Records=10 | Saved=data\raw\Patient\2026-07-18\page_00001.json
+2026-07-18 08:44:30,603 | INFO | ExtractionPipeline | Page=1 | Records=10 | Saved=data\raw\Patient\2026-07-18\page_00001.json
+2026-07-18 08:44:31,595 | INFO | ExtractionPipeline | Page=1 | Records=10 | Saved=data\raw\Patient\2026-07-18\page_00001.json
+2026-07-18 08:44:32,719 | INFO | ExtractionPipeline | Page=1 | Records=10 | Saved=data\raw\Patient\2026-07-18\page_00001.json
+2026-07-18 08:44:33,641 | INFO | ExtractionPipeline | Page=1 | Records=10 | Saved=data\raw\Patient\2026-07-18\page_00001.json
+2026-07-18 08:44:34,565 | INFO | ExtractionPipeline | Page=1 | Records=10 | Saved=data\raw\Patient\2026-07-18\page_00001.json
+2026-07-18 08:44:35,495 | INFO | ExtractionPipeline | Page=1 | Records=10 | Saved=data\raw\Patient\2026-07-18\page_00001.json
+2026-07-18 08:44:36,817 | INFO | ExtractionPipeline | Page=1 | Records=10 | Saved=data\raw\Patient\2026-07-18\page_00001.json
+2026-07-18 08:44:37,737 | INFO | ExtractionPipeline | Page=1 | Records=10 | Saved=data\raw\Patient\2026-07-18\page_00001.json
+2026-07-18 08:44:38,557 | INFO | ExtractionPipeline | Page=1 | Records=10 | Saved=data\raw\Patient\2026-07-18\page_00001.json
+2026-07-18 08:44:39,487 | INFO | ExtractionPipeline | Page=1 | Records=10 | Saved=data\raw\Patient\2026-07-18\page_00001.json
+2026-07-18 08:44:40,415 | INFO | ExtractionPipeline | Page=1 | Records=10 | Saved=data\raw\Patient\2026-07-18\page_00001.json
+2026-07-18 08:44:41,321 | INFO | ExtractionPipeline | Page=1 | Records=10 | Saved=data\raw\Patient\2026-07-18\page_00001.json
+2026-07-18 08:44:42,241 | INFO | ExtractionPipeline | Page=1 | Records=10 | Saved=data\raw\Patient\2026-07-18\page_00001.json
+2026-07-18 08:44:43,167 | INFO | ExtractionPipeline | Page=1 | Records=10 | Saved=data\raw\Patient\2026-07-18\page_00001.json
+2026-07-18 08:44:44,087 | INFO | ExtractionPipeline | Page=1 | Records=10 | Saved=data\raw\Patient\2026-07-18\page_00001.json
+2026-07-18 08:44:45,009 | INFO | ExtractionPipeline | Page=1 | Records=10 | Saved=data\raw\Patient\2026-07-18\page_00001.json
+2026-07-18 08:44:46,032 | INFO | ExtractionPipeline | Page=1 | Records=10 | Saved=data\raw\Patient\2026-07-18\page_00001.json
+2026-07-18 08:44:46,959 | INFO | ExtractionPipeline | Page=1 | Records=10 | Saved=data\raw\Patient\2026-07-18\page_00001.json
+2026-07-18 08:44:47,876 | INFO | ExtractionPipeline | Page=1 | Records=10 | Saved=data\raw\Patient\2026-07-18\page_00001.json
+2026-07-18 08:44:48,707 | INFO | ExtractionPipeline | Page=1 | Records=10 | Saved=data\raw\Patient\2026-07-18\page_00001.json
+2026-07-18 08:44:49,560 | INFO | ExtractionPipeline | Page=1 | Records=10 | Saved=data\raw\Patient\2026-07-18\page_00001.json
+2026-07-18 08:44:50,546 | INFO | ExtractionPipeline | Page=1 | Records=10 | Saved=data\raw\Patient\2026-07-18\page_00001.json
+2026-07-18 08:44:51,462 | INFO | ExtractionPipeline | Page=1 | Records=10 | Saved=data\raw\Patient\2026-07-18\page_00001.json
+2026-07-18 08:44:52,405 | INFO | ExtractionPipeline | Page=1 | Records=10 | Saved=data\raw\Patient\2026-07-18\page_00001.json
+2026-07-18 08:44:53,207 | INFO | ExtractionPipeline | Page=1 | Records=10 | Saved=data\raw\Patient\2026-07-18\page_00001.json
+2026-07-18 08:44:54,124 | INFO | ExtractionPipeline | Page=1 | Records=10 | Saved=data\raw\Patient\2026-07-18\page_00001.json
+2026-07-18 08:44:55,056 | INFO | ExtractionPipeline | Page=1 | Records=10 | Saved=data\raw\Patient\2026-07-18\page_00001.json
+2026-07-18 08:44:56,065 | INFO | ExtractionPipeline | Page=1 | Records=10 | Saved=data\raw\Patient\2026-07-18\page_00001.json
+2026-07-18 08:44:56,991 | INFO | ExtractionPipeline | Page=1 | Records=10 | Saved=data\raw\Patient\2026-07-18\page_00001.json
+2026-07-18 08:44:58,204 | INFO | ExtractionPipeline | Page=1 | Records=10 | Saved=data\raw\Patient\2026-07-18\page_00001.json
+2026-07-18 08:44:59,152 | INFO | ExtractionPipeline | Page=1 | Records=10 | Saved=data\raw\Patient\2026-07-18\page_00001.json
+2026-07-18 08:45:00,076 | INFO | ExtractionPipeline | Page=1 | Records=10 | Saved=data\raw\Patient\2026-07-18\page_00001.json
+2026-07-18 08:45:01,088 | INFO | ExtractionPipeline | Page=1 | Records=10 | Saved=data\raw\Patient\2026-07-18\page_00001.json
+2026-07-18 08:45:02,006 | INFO | ExtractionPipeline | Page=1 | Records=10 | Saved=data\raw\Patient\2026-07-18\page_00001.json
+2026-07-18 08:45:02,926 | INFO | ExtractionPipeline | Page=1 | Records=10 | Saved=data\raw\Patient\2026-07-18\page_00001.json
+2026-07-18 08:45:03,847 | INFO | ExtractionPipeline | Page=1 | Records=10 | Saved=data\raw\Patient\2026-07-18\page_00001.json
+2026-07-18 08:45:04,680 | INFO | ExtractionPipeline | Page=1 | Records=10 | Saved=data\raw\Patient\2026-07-18\page_00001.json
+2026-07-18 08:45:05,591 | INFO | ExtractionPipeline | Page=1 | Records=10 | Saved=data\raw\Patient\2026-07-18\page_00001.json
+2026-07-18 08:45:06,408 | INFO | ExtractionPipeline | Page=1 | Records=10 | Saved=data\raw\Patient\2026-07-18\page_00001.json
+2026-07-18 08:45:07,332 | INFO | ExtractionPipeline | Page=1 | Records=10 | Saved=data\raw\Patient\2026-07-18\page_00001.json
+2026-07-18 08:45:08,256 | INFO | ExtractionPipeline | Page=1 | Records=10 | Saved=data\raw\Patient\2026-07-18\page_00001.json
+2026-07-18 08:45:09,276 | INFO | ExtractionPipeline | Page=1 | Records=10 | Saved=data\raw\Patient\2026-07-18\page_00001.json
+2026-07-18 08:45:10,389 | INFO | ExtractionPipeline | Page=1 | Records=10 | Saved=data\raw\Patient\2026-07-18\page_00001.json
+2026-07-18 08:45:11,324 | INFO | ExtractionPipeline | Page=1 | Records=10 | Saved=data\raw\Patient\2026-07-18\page_00001.json
+2026-07-18 08:45:12,871 | INFO | ExtractionPipeline | Page=1 | Records=10 | Saved=data\raw\Patient\2026-07-18\page_00001.json
+2026-07-18 08:45:13,783 | INFO | ExtractionPipeline | Page=1 | Records=10 | Saved=data\raw\Patient\2026-07-18\page_00001.json
+2026-07-18 08:45:14,705 | INFO | ExtractionPipeline | Page=1 | Records=10 | Saved=data\raw\Patient\2026-07-18\page_00001.json
+2026-07-18 08:45:15,625 | INFO | ExtractionPipeline | Page=1 | Records=10 | Saved=data\raw\Patient\2026-07-18\page_00001.json
+2026-07-18 08:45:16,548 | INFO | ExtractionPipeline | Page=1 | Records=10 | Saved=data\raw\Patient\2026-07-18\page_00001.json
+2026-07-18 08:45:17,686 | INFO | ExtractionPipeline | Page=1 | Records=10 | Saved=data\raw\Patient\2026-07-18\page_00001.json
+2026-07-18 08:45:18,801 | INFO | ExtractionPipeline | Page=1 | Records=10 | Saved=data\raw\Patient\2026-07-18\page_00001.json
+2026-07-18 08:45:19,924 | INFO | ExtractionPipeline | Page=1 | Records=10 | Saved=data\raw\Patient\2026-07-18\page_00001.json
+2026-07-18 08:45:20,965 | INFO | ExtractionPipeline | Page=1 | Records=10 | Saved=data\raw\Patient\2026-07-18\page_00001.json
+2026-07-18 08:45:22,182 | INFO | ExtractionPipeline | Page=1 | Records=10 | Saved=data\raw\Patient\2026-07-18\page_00001.json
+2026-07-18 08:45:23,115 | INFO | ExtractionPipeline | Page=1 | Records=10 | Saved=data\raw\Patient\2026-07-18\page_00001.json
+2026-07-18 08:45:24,024 | INFO | ExtractionPipeline | Page=1 | Records=10 | Saved=data\raw\Patient\2026-07-18\page_00001.json
+2026-07-18 08:45:24,941 | INFO | ExtractionPipeline | Page=1 | Records=10 | Saved=data\raw\Patient\2026-07-18\page_00001.json
+2026-07-18 08:45:25,864 | INFO | ExtractionPipeline | Page=1 | Records=10 | Saved=data\raw\Patient\2026-07-18\page_00001.json
+2026-07-18 08:45:26,888 | INFO | ExtractionPipeline | Page=1 | Records=10 | Saved=data\raw\Patient\2026-07-18\page_00001.json
+2026-07-18 08:45:27,923 | INFO | ExtractionPipeline | Page=1 | Records=10 | Saved=data\raw\Patient\2026-07-18\page_00001.json
+2026-07-18 08:45:28,909 | INFO | ExtractionPipeline | Page=1 | Records=10 | Saved=data\raw\Patient\2026-07-18\page_00001.json
+2026-07-18 08:45:29,864 | INFO | ExtractionPipeline | Page=1 | Records=10 | Saved=data\raw\Patient\2026-07-18\page_00001.json
+2026-07-18 08:45:30,984 | INFO | ExtractionPipeline | Page=1 | Records=10 | Saved=data\raw\Patient\2026-07-18\page_00001.json
+2026-07-18 08:45:32,115 | INFO | ExtractionPipeline | Page=1 | Records=10 | Saved=data\raw\Patient\2026-07-18\page_00001.json
+2026-07-18 08:45:33,051 | INFO | ExtractionPipeline | Page=1 | Records=10 | Saved=data\raw\Patient\2026-07-18\page_00001.json
+2026-07-18 08:45:33,957 | INFO | ExtractionPipeline | Page=1 | Records=10 | Saved=data\raw\Patient\2026-07-18\page_00001.json
+2026-07-18 08:49:02,846 | INFO | ExtractionPipeline | Starting extraction for Patient
+2026-07-18 08:49:03,778 | INFO | ExtractionPipeline | Page=1 | Records=10 | Saved=data\raw\Patient\2026-07-18\page_00001.json
+2026-07-18 08:49:05,225 | INFO | ExtractionPipeline | Page=2 | Records=10 | Saved=data\raw\Patient\2026-07-18\page_00002.json
+2026-07-18 08:49:06,262 | INFO | ExtractionPipeline | Page=3 | Records=10 | Saved=data\raw\Patient\2026-07-18\page_00003.json
+2026-07-18 08:49:07,155 | INFO | ExtractionPipeline | Page=4 | Records=10 | Saved=data\raw\Patient\2026-07-18\page_00004.json
+2026-07-18 08:49:08,074 | INFO | ExtractionPipeline | Page=5 | Records=10 | Saved=data\raw\Patient\2026-07-18\page_00005.json
+2026-07-18 08:49:09,206 | INFO | ExtractionPipeline | Page=6 | Records=10 | Saved=data\raw\Patient\2026-07-18\page_00006.json
+2026-07-18 08:49:10,128 | INFO | ExtractionPipeline | Page=7 | Records=10 | Saved=data\raw\Patient\2026-07-18\page_00007.json
+2026-07-18 08:49:11,044 | INFO | ExtractionPipeline | Page=8 | Records=10 | Saved=data\raw\Patient\2026-07-18\page_00008.json
+2026-07-18 08:49:11,979 | INFO | ExtractionPipeline | Page=9 | Records=10 | Saved=data\raw\Patient\2026-07-18\page_00009.json
+2026-07-18 08:49:12,887 | INFO | ExtractionPipeline | Page=10 | Records=10 | Saved=data\raw\Patient\2026-07-18\page_00010.json
+2026-07-18 08:49:12,889 | INFO | ExtractionPipeline | Reached development limit of 10 pages.
+2026-07-18 08:49:12,892 | ERROR | ExtractionPipeline | 'WindowsPath' object does not support item assignment
+Traceback (most recent call last):
+  File "C:\Users\MohammadSameerUddin\FHIR_ETL\src\pipeline\extractor_pipeline.py", line 48, in run
+    self.checkpoint.save(
+    ~~~~~~~~~~~~~~~~~~~~^
+            resource=resource,
+            ^^^^^^^^^^^^^^^^^^
+            last_page=page_number,
+            ^^^^^^^^^^^^^^^^^^^^^^
+            total_records=total_records,
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+            status="SUCCESS")
+            ^^^^^^^^^^^^^^^^^
+  File "C:\Users\MohammadSameerUddin\FHIR_ETL\src\common\checkpoint.py", line 22, in save
+    self.checkpoint_path[resource] = {
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+TypeError: 'WindowsPath' object does not support item assignment
+2026-07-18 08:52:04,700 | INFO | ExtractionPipeline | Starting extraction for Patient
+2026-07-18 08:52:05,642 | INFO | ExtractionPipeline | Page=1 | Records=10 | Saved=data\raw\Patient\2026-07-18\page_00001.json
+2026-07-18 08:52:07,177 | INFO | ExtractionPipeline | Page=2 | Records=10 | Saved=data\raw\Patient\2026-07-18\page_00002.json
+2026-07-18 08:52:08,095 | INFO | ExtractionPipeline | Page=3 | Records=10 | Saved=data\raw\Patient\2026-07-18\page_00003.json
+2026-07-18 08:52:08,915 | INFO | ExtractionPipeline | Page=4 | Records=10 | Saved=data\raw\Patient\2026-07-18\page_00004.json
+2026-07-18 08:52:09,738 | INFO | ExtractionPipeline | Page=5 | Records=10 | Saved=data\raw\Patient\2026-07-18\page_00005.json
+2026-07-18 08:52:10,567 | INFO | ExtractionPipeline | Page=6 | Records=10 | Saved=data\raw\Patient\2026-07-18\page_00006.json
+2026-07-18 08:52:12,908 | INFO | ExtractionPipeline | Page=7 | Records=10 | Saved=data\raw\Patient\2026-07-18\page_00007.json
+2026-07-18 08:52:13,828 | INFO | ExtractionPipeline | Page=8 | Records=10 | Saved=data\raw\Patient\2026-07-18\page_00008.json
+2026-07-18 08:52:14,859 | INFO | ExtractionPipeline | Page=9 | Records=10 | Saved=data\raw\Patient\2026-07-18\page_00009.json
+2026-07-18 08:52:15,776 | INFO | ExtractionPipeline | Page=10 | Records=10 | Saved=data\raw\Patient\2026-07-18\page_00010.json
+2026-07-18 08:52:15,776 | INFO | ExtractionPipeline | Reached development limit of 10 pages.
+2026-07-18 08:52:15,780 | INFO | ExtractionPipeline | Patient extraction completed successfully.
+2026-07-18 08:52:43,347 | INFO | ExtractionPipeline | Starting extraction for Patient
+2026-07-18 08:52:44,559 | INFO | ExtractionPipeline | Page=1 | Records=10 | Saved=data\raw\Patient\2026-07-18\page_00001.json
+2026-07-18 08:52:45,340 | INFO | ExtractionPipeline | Page=2 | Records=10 | Saved=data\raw\Patient\2026-07-18\page_00002.json
+2026-07-18 08:52:46,185 | INFO | ExtractionPipeline | Page=3 | Records=10 | Saved=data\raw\Patient\2026-07-18\page_00003.json
+2026-07-18 08:52:47,081 | INFO | ExtractionPipeline | Page=4 | Records=10 | Saved=data\raw\Patient\2026-07-18\page_00004.json
+2026-07-18 08:52:48,438 | INFO | ExtractionPipeline | Page=5 | Records=10 | Saved=data\raw\Patient\2026-07-18\page_00005.json
+2026-07-18 08:52:49,377 | INFO | ExtractionPipeline | Page=6 | Records=10 | Saved=data\raw\Patient\2026-07-18\page_00006.json
+2026-07-18 08:52:50,498 | INFO | ExtractionPipeline | Page=7 | Records=10 | Saved=data\raw\Patient\2026-07-18\page_00007.json
+2026-07-18 08:52:51,408 | INFO | ExtractionPipeline | Page=8 | Records=10 | Saved=data\raw\Patient\2026-07-18\page_00008.json
+2026-07-18 08:52:52,338 | INFO | ExtractionPipeline | Page=9 | Records=10 | Saved=data\raw\Patient\2026-07-18\page_00009.json
+2026-07-18 08:52:53,352 | INFO | ExtractionPipeline | Page=10 | Records=10 | Saved=data\raw\Patient\2026-07-18\page_00010.json
+2026-07-18 08:52:53,353 | INFO | ExtractionPipeline | Reached development limit of 10 pages.
+2026-07-18 08:52:53,379 | INFO | ExtractionPipeline | Patient extraction completed successfully.
+2026-07-18 08:54:49,667 | INFO | ExtractionPipeline | Starting extraction for Patient
+2026-07-18 08:54:50,707 | INFO | ExtractionPipeline | Page=1 | Records=10 | Saved=data\raw\Patient\2026-07-18\page_00001.json
+2026-07-18 08:54:52,141 | INFO | ExtractionPipeline | Page=2 | Records=10 | Saved=data\raw\Patient\2026-07-18\page_00002.json
+2026-07-18 08:54:53,240 | INFO | ExtractionPipeline | Page=3 | Records=10 | Saved=data\raw\Patient\2026-07-18\page_00003.json
+2026-07-18 08:54:54,492 | INFO | ExtractionPipeline | Page=4 | Records=10 | Saved=data\raw\Patient\2026-07-18\page_00004.json
+2026-07-18 08:54:55,416 | INFO | ExtractionPipeline | Page=5 | Records=10 | Saved=data\raw\Patient\2026-07-18\page_00005.json
+2026-07-18 08:54:56,446 | INFO | ExtractionPipeline | Page=6 | Records=10 | Saved=data\raw\Patient\2026-07-18\page_00006.json
+2026-07-18 08:54:57,371 | INFO | ExtractionPipeline | Page=7 | Records=10 | Saved=data\raw\Patient\2026-07-18\page_00007.json
+2026-07-18 08:54:58,242 | INFO | ExtractionPipeline | Page=8 | Records=10 | Saved=data\raw\Patient\2026-07-18\page_00008.json
+2026-07-18 08:54:59,109 | INFO | ExtractionPipeline | Page=9 | Records=10 | Saved=data\raw\Patient\2026-07-18\page_00009.json
+2026-07-18 08:54:59,940 | INFO | ExtractionPipeline | Page=10 | Records=10 | Saved=data\raw\Patient\2026-07-18\page_00010.json
+2026-07-18 08:54:59,940 | INFO | ExtractionPipeline | Reached development limit of 10 pages.
+2026-07-18 08:54:59,944 | INFO | ExtractionPipeline | Patient extraction completed successfully.
+2026-07-18 08:55:46,315 | INFO | ExtractionPipeline | Starting extraction for Patient
+2026-07-18 08:55:47,447 | INFO | ExtractionPipeline | Page=1 | Records=10 | Saved=data\raw\Patient\2026-07-18\page_00001.json
+2026-07-18 08:55:48,329 | INFO | ExtractionPipeline | Page=2 | Records=10 | Saved=data\raw\Patient\2026-07-18\page_00002.json
+2026-07-18 08:55:49,280 | INFO | ExtractionPipeline | Page=3 | Records=10 | Saved=data\raw\Patient\2026-07-18\page_00003.json
+2026-07-18 08:55:50,200 | INFO | ExtractionPipeline | Page=4 | Records=10 | Saved=data\raw\Patient\2026-07-18\page_00004.json
+2026-07-18 08:55:51,223 | INFO | ExtractionPipeline | Page=5 | Records=10 | Saved=data\raw\Patient\2026-07-18\page_00005.json
+2026-07-18 08:55:52,145 | INFO | ExtractionPipeline | Page=6 | Records=10 | Saved=data\raw\Patient\2026-07-18\page_00006.json
+2026-07-18 08:55:53,072 | INFO | ExtractionPipeline | Page=7 | Records=10 | Saved=data\raw\Patient\2026-07-18\page_00007.json
+2026-07-18 08:55:53,989 | INFO | ExtractionPipeline | Page=8 | Records=10 | Saved=data\raw\Patient\2026-07-18\page_00008.json
+2026-07-18 08:55:54,909 | INFO | ExtractionPipeline | Page=9 | Records=10 | Saved=data\raw\Patient\2026-07-18\page_00009.json
+2026-07-18 08:55:55,834 | INFO | ExtractionPipeline | Page=10 | Records=10 | Saved=data\raw\Patient\2026-07-18\page_00010.json
+2026-07-18 08:55:55,842 | INFO | ExtractionPipeline | Reached development limit of 10 pages.
+2026-07-18 08:55:55,870 | INFO | ExtractionPipeline | Patient extraction completed successfully.
+2026-07-18 09:18:53,631 | INFO | ExtractionPipeline | Starting extraction for Patient
+2026-07-18 09:18:53,631 | ERROR | ExtractionPipeline | name 'params' is not defined
+Traceback (most recent call last):
+  File "C:\Users\MohammadSameerUddin\FHIR_ETL\src\pipeline\extractor_pipeline.py", line 32, in run
+    for bundle in self.paginator.fetch_pages(resource, params):
+                                                       ^^^^^^
+NameError: name 'params' is not defined
+2026-07-18 09:19:48,179 | INFO | ExtractionPipeline | Starting extraction for Patient
+2026-07-18 09:19:49,449 | INFO | ExtractionPipeline | Page=1 | Records=20 | Saved=data\raw\Patient\2026-07-18\page_00001.json
+2026-07-18 09:19:49,451 | ERROR | ExtractionPipeline | name 'max_pages' is not defined
+Traceback (most recent call last):
+  File "C:\Users\MohammadSameerUddin\FHIR_ETL\src\pipeline\extractor_pipeline.py", line 44, in run
+    if max_pages is not None and page_number >= max_pages:
+       ^^^^^^^^^
+NameError: name 'max_pages' is not defined. Did you mean: 'self.max_pages'?
+2026-07-18 09:20:12,545 | INFO | ExtractionPipeline | Starting extraction for Patient
+2026-07-18 09:20:13,507 | INFO | ExtractionPipeline | Page=1 | Records=20 | Saved=data\raw\Patient\2026-07-18\page_00001.json
+2026-07-18 09:20:15,145 | INFO | ExtractionPipeline | Page=2 | Records=20 | Saved=data\raw\Patient\2026-07-18\page_00002.json
+2026-07-18 09:20:16,076 | INFO | ExtractionPipeline | Page=3 | Records=20 | Saved=data\raw\Patient\2026-07-18\page_00003.json
+2026-07-18 09:20:16,076 | INFO | ExtractionPipeline | Reached development limit of 3 pages.
+2026-07-18 09:20:16,100 | INFO | ExtractionPipeline | Patient extraction completed successfully.
+2026-07-18 09:20:56,656 | INFO | ExtractionPipeline | Starting extraction for Patient
+2026-07-18 09:20:57,651 | INFO | ExtractionPipeline | Page=1 | Records=20 | Saved=data\raw\Patient\2026-07-18\page_00001.json
+2026-07-18 09:20:59,201 | INFO | ExtractionPipeline | Page=2 | Records=20 | Saved=data\raw\Patient\2026-07-18\page_00002.json
+2026-07-18 09:21:00,201 | INFO | ExtractionPipeline | Page=3 | Records=20 | Saved=data\raw\Patient\2026-07-18\page_00003.json
+2026-07-18 09:21:00,201 | INFO | ExtractionPipeline | Reached development limit of 3 pages.
+2026-07-18 09:21:00,205 | INFO | ExtractionPipeline | Patient extraction completed successfully.
+2026-07-18 09:27:37,076 | INFO | ExtractionPipeline | Starting extraction for Patient
+2026-07-18 09:27:38,649 | INFO | ExtractionPipeline | Page=1 | Records=100 | Saved=data\raw\Patient\2026-07-18\page_00001.json
+2026-07-18 09:27:40,599 | INFO | ExtractionPipeline | Page=2 | Records=100 | Saved=data\raw\Patient\2026-07-18\page_00002.json
+2026-07-18 09:27:43,468 | INFO | ExtractionPipeline | Page=3 | Records=100 | Saved=data\raw\Patient\2026-07-18\page_00003.json
+2026-07-18 09:27:43,468 | INFO | ExtractionPipeline | Reached development limit of 3 pages.
+2026-07-18 09:27:43,471 | INFO | ExtractionPipeline | Patient extraction completed successfully.

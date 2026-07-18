@@ -1,0 +1,272 @@
+{
+  "resourceType": "Bundle",
+  "id": "eca155dc-5eed-43c8-bcaa-293f403c5905",
+  "meta": {
+    "lastUpdated": "2026-07-17T13:59:12.502-04:00"
+  },
+  "type": "searchset",
+  "link": [
+    {
+      "relation": "self",
+      "url": "https://hapi.fhir.org/baseR4?_getpages=eca155dc-5eed-43c8-bcaa-293f403c5905&_getpagesoffset=5&_count=5&_pretty=true&_bundletype=searchset"
+    },
+    {
+      "relation": "next",
+      "url": "https://hapi.fhir.org/baseR4?_getpages=eca155dc-5eed-43c8-bcaa-293f403c5905&_getpagesoffset=10&_count=5&_pretty=true&_bundletype=searchset"
+    },
+    {
+      "relation": "previous",
+      "url": "https://hapi.fhir.org/baseR4?_getpages=eca155dc-5eed-43c8-bcaa-293f403c5905&_getpagesoffset=0&_count=5&_pretty=true&_bundletype=searchset"
+    }
+  ],
+  "entry": [
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Patient/132080123",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "132080123",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-05-22T11:44:21.296-04:00",
+          "source": "#Nb6WB6dPFgsNPrMb"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Ashleigh <b>HILLL </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>pat-0001-qfgyhy</td></tr><tr><td>Date of birth</td><td><span>13 November 2000</span></td></tr></tbody></table></div>"
+        },
+        "identifier": [
+          {
+            "system": "http://example.org/patient-id",
+            "value": "pat-0001-qfgyhy"
+          }
+        ],
+        "name": [
+          {
+            "family": "Hilll",
+            "given": [
+              "Ashleigh"
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "+1-345-566-2496"
+          },
+          {
+            "system": "email",
+            "value": "ashleigh.hilll@synthetic.example"
+          },
+          {
+            "system": "email",
+            "value": "pavan.parekh@nuroblox.com"
+          },
+          {
+            "system": "email",
+            "value": "neelgami467work@gmail.com"
+          }
+        ],
+        "gender": "female",
+        "birthDate": "2000-11-13"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Patient/132080157",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "132080157",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-05-22T11:44:23.021-04:00",
+          "source": "#GNPJVUkZFOn8dq6Y"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Christa <b>HANE </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>pat-0003-ryzyrw</td></tr><tr><td>Date of birth</td><td><span>02 August 1978</span></td></tr></tbody></table></div>"
+        },
+        "identifier": [
+          {
+            "system": "http://example.org/patient-id",
+            "value": "pat-0003-ryzyrw"
+          }
+        ],
+        "name": [
+          {
+            "family": "Hane",
+            "given": [
+              "Christa"
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "+1-326-209-2878"
+          },
+          {
+            "system": "email",
+            "value": "christa.hane@synthetic.example"
+          },
+          {
+            "system": "email",
+            "value": "pavan.parekh@nuroblox.com"
+          },
+          {
+            "system": "email",
+            "value": "neelgami467work@gmail.com"
+          }
+        ],
+        "gender": "other",
+        "birthDate": "1978-08-02"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Patient/132080174",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "132080174",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-05-22T11:44:24.024-04:00",
+          "source": "#lfYnj3irYO5CZMP6"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Orin <b>MILLS </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>pat-0004-cknkvp</td></tr><tr><td>Date of birth</td><td><span>23 May 1993</span></td></tr></tbody></table></div>"
+        },
+        "identifier": [
+          {
+            "system": "http://example.org/patient-id",
+            "value": "pat-0004-cknkvp"
+          }
+        ],
+        "name": [
+          {
+            "family": "Mills",
+            "given": [
+              "Orin"
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "+1-646-609-6785"
+          },
+          {
+            "system": "email",
+            "value": "orin.mills@synthetic.example"
+          },
+          {
+            "system": "email",
+            "value": "pavan.parekh@nuroblox.com"
+          },
+          {
+            "system": "email",
+            "value": "neelgami467work@gmail.com"
+          }
+        ],
+        "gender": "male",
+        "birthDate": "1993-05-23"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Patient/132080203",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "132080203",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-05-22T11:45:25.678-04:00",
+          "source": "#bFcHjTZo2fZLPsCc"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">TestGiven <b>TESTFAMILY </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>2b19b705-8da1-4828-9eee-27c8154ea602</td></tr></tbody></table></div>"
+        },
+        "identifier": [
+          {
+            "system": "urn:fhir-mcp-server:generated-identifier",
+            "value": "2b19b705-8da1-4828-9eee-27c8154ea602"
+          }
+        ],
+        "name": [
+          {
+            "family": "TestFamily",
+            "given": [
+              "TestGiven"
+            ]
+          }
+        ],
+        "gender": "male"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Patient/132080205",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "132080205",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-05-22T11:45:27.929-04:00",
+          "source": "#Iz0dfNFwsQ2hO7QI"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Rahul <b>SHARMA </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>P1006</td></tr><tr><td>Address</td><td><span>MG Road </span><br/><span>Jaipur </span><span>Rajasthan </span><span>India </span></td></tr><tr><td>Date of birth</td><td><span>01 January 1995</span></td></tr></tbody></table></div>"
+        },
+        "identifier": [
+          {
+            "system": "http://hospital.org/mrn",
+            "value": "P1006"
+          }
+        ],
+        "active": true,
+        "name": [
+          {
+            "use": "official",
+            "family": "Sharma",
+            "given": [
+              "Rahul"
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "9876543210",
+            "use": "mobile"
+          }
+        ],
+        "gender": "male",
+        "birthDate": "1995-01-01",
+        "address": [
+          {
+            "line": [
+              "MG Road"
+            ],
+            "city": "Jaipur",
+            "state": "Rajasthan",
+            "postalCode": "302001",
+            "country": "India"
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    }
+  ]
+}

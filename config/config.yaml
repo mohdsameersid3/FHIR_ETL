@@ -1,0 +1,32 @@
+project:
+  name: FHIR_ETL
+  environment: local
+
+api:
+  base_url: "https://hapi.fhir.org/baseR4"
+  timeout: 30
+  page_size: 100
+  retry_count: 3
+
+resources:
+  - Patient
+  - Encounter
+  - Observation
+  - Condition
+
+storage:
+  raw_path: "./data/raw"
+  bronze_path: "./data/bronze"
+  silver_path: "./data/silver"
+  gold_path: "./data/gold"
+
+logging:
+  level: INFO
+  log_path: "./logs"
+
+metadata:
+  source_system: HAPI_FHIR
+
+pipeline:
+  mode: development
+  max_pages: 3

@@ -1,0 +1,4355 @@
+{
+  "resourceType": "Bundle",
+  "id": "587ea34d-2a9b-4450-a538-cd1b487cb60a",
+  "meta": {
+    "lastUpdated": "2026-07-17T23:57:39.200-04:00"
+  },
+  "type": "searchset",
+  "link": [
+    {
+      "relation": "self",
+      "url": "https://hapi.fhir.org/baseR4?_getpages=587ea34d-2a9b-4450-a538-cd1b487cb60a&_getpagesoffset=200&_count=100&_pretty=true&_bundletype=searchset"
+    },
+    {
+      "relation": "next",
+      "url": "https://hapi.fhir.org/baseR4?_getpages=587ea34d-2a9b-4450-a538-cd1b487cb60a&_getpagesoffset=300&_count=100&_pretty=true&_bundletype=searchset"
+    },
+    {
+      "relation": "previous",
+      "url": "https://hapi.fhir.org/baseR4?_getpages=587ea34d-2a9b-4450-a538-cd1b487cb60a&_getpagesoffset=100&_count=100&_pretty=true&_bundletype=searchset"
+    }
+  ],
+  "entry": [
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Patient/132083736",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "132083736",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-05-24T02:49:44.295-04:00",
+          "source": "#n8jpZh29MtrYz1KG"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\"/><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>TW-TEST-0524-1049-67</td></tr></tbody></table></div>"
+        },
+        "identifier": [
+          {
+            "system": "https://aicoach.aiatw.org/patient-id",
+            "value": "TW-TEST-0524-1049-67"
+          }
+        ],
+        "active": true,
+        "name": [
+          {
+            "use": "usual",
+            "text": "\u91cf\u6e2c\u5c0d\u8c61"
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Patient/132083742",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "132083742",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-05-24T02:50:39.324-04:00",
+          "source": "#jSgWNu5vfxuhKYT1"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\"/><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>TW-TEST-0524-1050-15</td></tr></tbody></table></div>"
+        },
+        "identifier": [
+          {
+            "system": "https://aicoach.aiatw.org/patient-id",
+            "value": "TW-TEST-0524-1050-15"
+          }
+        ],
+        "active": true,
+        "name": [
+          {
+            "use": "usual",
+            "text": "\u91cf\u6e2c\u5c0d\u8c61"
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Patient/132083748",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "132083748",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-05-24T02:52:03.144-04:00",
+          "source": "#N0COlVXbJlUFaMo9"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\"/><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>TW-TEST-0524-1051-23</td></tr></tbody></table></div>"
+        },
+        "identifier": [
+          {
+            "system": "https://aicoach.aiatw.org/patient-id",
+            "value": "TW-TEST-0524-1051-23"
+          }
+        ],
+        "active": true,
+        "name": [
+          {
+            "use": "usual",
+            "text": "\u91cf\u6e2c\u5c0d\u8c61"
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Patient/132083754",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "132083754",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-05-24T02:58:39.274-04:00",
+          "source": "#4eM6vlSRGKCfGiz5"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\"/><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>TW-TEST-0524-1058-68</td></tr></tbody></table></div>"
+        },
+        "identifier": [
+          {
+            "system": "https://aicoach.aiatw.org/patient-id",
+            "value": "TW-TEST-0524-1058-68"
+          }
+        ],
+        "active": true,
+        "name": [
+          {
+            "use": "usual",
+            "text": "\u91cf\u6e2c\u5c0d\u8c61"
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Patient/132083806",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "132083806",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-05-24T04:24:03.830-04:00",
+          "source": "#IzP22FYmM5t1mJRV"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Maria <b>JOHNSON </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>SGT-78685</td></tr><tr><td>Date of birth</td><td><span>15 April 1968</span></td></tr></tbody></table></div>"
+        },
+        "identifier": [
+          {
+            "system": "http://droidal.example/patients",
+            "value": "SGT-78685"
+          }
+        ],
+        "name": [
+          {
+            "use": "official",
+            "family": "Johnson",
+            "given": [
+              "Maria"
+            ]
+          }
+        ],
+        "gender": "female",
+        "birthDate": "1968-04-15"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Patient/132083810",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "132083810",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-05-24T04:53:57.321-04:00",
+          "source": "#jpFoB9zzE9R9EFx4"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Sakthi <b>VEL </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>UHID0025</td></tr><tr><td>Date of birth</td><td><span>10 May 1995</span></td></tr></tbody></table></div>"
+        },
+        "identifier": [
+          {
+            "system": "http://hospital.smarthealth.org",
+            "value": "UHID0025"
+          }
+        ],
+        "name": [
+          {
+            "family": "Vel",
+            "given": [
+              "Sakthi"
+            ]
+          }
+        ],
+        "gender": "male",
+        "birthDate": "1995-05-10"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Patient/132084805",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "132084805",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-05-24T09:49:27.871-04:00",
+          "source": "#vXl8ywuUHq88rU9e"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">John <b>MEDDOLLINA </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>MED-001</td></tr><tr><td>Date of birth</td><td><span>15 March 1975</span></td></tr></tbody></table></div>"
+        },
+        "identifier": [
+          {
+            "use": "official",
+            "system": "urn:meddollina:mrn",
+            "value": "MED-001"
+          }
+        ],
+        "active": true,
+        "name": [
+          {
+            "use": "official",
+            "family": "Meddollina",
+            "given": [
+              "John"
+            ]
+          }
+        ],
+        "gender": "male",
+        "birthDate": "1975-03-15"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Patient/132084811",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "132084811",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-05-24T09:49:33.871-04:00",
+          "source": "#ATA0BxqwF0A3VcFu"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Sarah <b>MEDDOLLINA </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>MED-002</td></tr><tr><td>Date of birth</td><td><span>22 July 1988</span></td></tr></tbody></table></div>"
+        },
+        "identifier": [
+          {
+            "use": "official",
+            "system": "urn:meddollina:mrn",
+            "value": "MED-002"
+          }
+        ],
+        "active": true,
+        "name": [
+          {
+            "use": "official",
+            "family": "Meddollina",
+            "given": [
+              "Sarah"
+            ]
+          }
+        ],
+        "gender": "female",
+        "birthDate": "1988-07-22"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Patient/132084817",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "132084817",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-05-24T09:49:39.872-04:00",
+          "source": "#ZtPgzrVqXFz0kuTo"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">James <b>MEDDOLLINA </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>MED-003</td></tr><tr><td>Date of birth</td><td><span>08 November 1965</span></td></tr></tbody></table></div>"
+        },
+        "identifier": [
+          {
+            "use": "official",
+            "system": "urn:meddollina:mrn",
+            "value": "MED-003"
+          }
+        ],
+        "active": true,
+        "name": [
+          {
+            "use": "official",
+            "family": "Meddollina",
+            "given": [
+              "James"
+            ]
+          }
+        ],
+        "gender": "male",
+        "birthDate": "1965-11-08"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Patient/132084823",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "132084823",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-05-24T09:56:34.307-04:00",
+          "source": "#Qpt3ON4bBYi1hHND"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">NANCYS II <b>SMARTS </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>12724066</td></tr><tr><td>Date of birth</td><td><span>02 January 1990</span></td></tr></tbody></table></div>"
+        },
+        "identifier": [
+          {
+            "use": "official",
+            "system": "urn:meddollina:mrn",
+            "value": "12724066"
+          }
+        ],
+        "active": true,
+        "name": [
+          {
+            "use": "official",
+            "family": "SMARTS",
+            "given": [
+              "NANCYS II"
+            ]
+          }
+        ],
+        "gender": "other",
+        "birthDate": "1990-01-02"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Patient/132084829",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "132084829",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-05-24T09:56:40.308-04:00",
+          "source": "#B5bFoVndBQqs3R7i"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">JOE TEST <b>TESTPATIENT </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>12724067</td></tr><tr><td>Date of birth</td><td><span>15 June 1900</span></td></tr></tbody></table></div>"
+        },
+        "identifier": [
+          {
+            "use": "official",
+            "system": "urn:meddollina:mrn",
+            "value": "12724067"
+          }
+        ],
+        "active": true,
+        "name": [
+          {
+            "use": "official",
+            "family": "TESTPATIENT",
+            "given": [
+              "JOE TEST"
+            ]
+          }
+        ],
+        "gender": "male",
+        "birthDate": "1900-06-15"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Patient/132084838",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "132084838",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-05-24T09:57:56.876-04:00",
+          "source": "#6OtIPsY4u75RUAjr"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">TIM <b>PETERS </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>12742400</td></tr><tr><td>Date of birth</td><td><span>15 September 1990</span></td></tr></tbody></table></div>"
+        },
+        "identifier": [
+          {
+            "use": "official",
+            "system": "urn:meddollina:mrn",
+            "value": "12742400"
+          }
+        ],
+        "active": true,
+        "name": [
+          {
+            "use": "official",
+            "family": "PETERS",
+            "given": [
+              "TIM"
+            ]
+          }
+        ],
+        "gender": "male",
+        "birthDate": "1990-09-15"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Patient/132084844",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "132084844",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-05-24T09:58:02.876-04:00",
+          "source": "#Ejbnl5PQvPIURrFu"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">TESTONE <b>NURSING </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>12457981</td></tr><tr><td>Date of birth</td><td><span>07 July 1953</span></td></tr></tbody></table></div>"
+        },
+        "identifier": [
+          {
+            "use": "official",
+            "system": "urn:meddollina:mrn",
+            "value": "12457981"
+          }
+        ],
+        "active": true,
+        "name": [
+          {
+            "use": "official",
+            "family": "NURSING",
+            "given": [
+              "TESTONE"
+            ]
+          }
+        ],
+        "gender": "female",
+        "birthDate": "1953-07-07"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Patient/132084850",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "132084850",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-05-24T09:58:08.875-04:00",
+          "source": "#O4L1XdMfhYeXMQDb"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Harry James <b>SMART </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>12724068</td></tr><tr><td>Date of birth</td><td><span>15 September 1990</span></td></tr></tbody></table></div>"
+        },
+        "identifier": [
+          {
+            "use": "official",
+            "system": "urn:meddollina:mrn",
+            "value": "12724068"
+          }
+        ],
+        "active": true,
+        "name": [
+          {
+            "use": "official",
+            "family": "SMART",
+            "given": [
+              "Harry James"
+            ]
+          }
+        ],
+        "gender": "female",
+        "birthDate": "1990-09-15"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Patient/132084856",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "132084856",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-05-24T09:58:14.875-04:00",
+          "source": "#He8MjLEotoMINhsO"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Joed Voleta <b>ASPDEVPSEDNFDSINGLE </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>12764252</td></tr><tr><td>Date of birth</td><td><span>02 January 1970</span></td></tr></tbody></table></div>"
+        },
+        "identifier": [
+          {
+            "use": "official",
+            "system": "urn:meddollina:mrn",
+            "value": "12764252"
+          }
+        ],
+        "active": true,
+        "name": [
+          {
+            "use": "official",
+            "family": "ASPDEVPSEDNfdSingle",
+            "given": [
+              "Joed Voleta"
+            ]
+          }
+        ],
+        "gender": "female",
+        "birthDate": "1970-01-02"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Patient/132084871",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "132084871",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-05-24T10:26:37.407-04:00",
+          "source": "#3gyGGskpEjAF0FXQ"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\"/><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>185B79C0E8FC</td></tr></tbody></table></div>"
+        },
+        "identifier": [
+          {
+            "system": "https://example.org/mrn",
+            "value": "185B79C0E8FC"
+          }
+        ],
+        "name": [
+          {
+            "text": "Melody"
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Patient/132085009",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "132085009",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-05-24T11:40:17.956-04:00",
+          "source": "#akbEv14rFEPSBwIz",
+          "profile": [
+            "http://minhealth.gov.bk/core/StructureDefinition/BerzerkistanPatient"
+          ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Gender: male</p><p>Birth Date: 1922-06-14</p><p>Name: Albert Gruollian</p><p>BNI: 9000031</p><p>NHIB: 23327758999</p><p>PPH Tax: M</p><p>Telephone: +541155555555</p></div>"
+        },
+        "extension": [
+          {
+            "url": "http://minhealth.gov.bk/core/StructureDefinition/PPHTaxSituation",
+            "valueCode": "M"
+          }
+        ],
+        "identifier": [
+          {
+            "use": "official",
+            "system": "http://www.berzerkistan.gov/bni",
+            "value": "565656565"
+          },
+          {
+            "use": "usual",
+            "system": "http://www.berzerkistan.gov/nhib",
+            "value": "56565656"
+          }
+        ],
+        "name": [
+          {
+            "family": "Gruollian",
+            "given": [
+              "Albert"
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "+541155555555"
+          }
+        ],
+        "gender": "male",
+        "birthDate": "1922-06-14"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Patient/132085185",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "132085185",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-05-24T14:29:20.523-04:00",
+          "source": "#pt0NhLoBSqoSX4ip"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">TestGiven <b>TESTFAMILY </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>mary-123-test</td></tr></tbody></table></div>"
+        },
+        "identifier": [
+          {
+            "system": "urn:uuid",
+            "value": "mary-123-test"
+          }
+        ],
+        "name": [
+          {
+            "family": "TestFamily",
+            "given": [
+              "TestGiven"
+            ]
+          }
+        ],
+        "gender": "male"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Patient/132085187",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "132085187",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-05-24T14:39:20.457-04:00",
+          "source": "#K0BmynqZ9fTSsCaM"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">John <b>DOE </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>Consultorio-661531</td></tr></tbody></table></div>"
+        },
+        "identifier": [
+          {
+            "value": "Consultorio-661531"
+          }
+        ],
+        "name": [
+          {
+            "family": "Doe",
+            "given": [
+              "John"
+            ]
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Patient/132085191",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "132085191",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-05-24T14:42:18.713-04:00",
+          "source": "#FaxIfKmXvL8dd7RX"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\"/><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>185B79C0E8FC-20260524224222</td></tr></tbody></table></div>"
+        },
+        "identifier": [
+          {
+            "system": "https://example.org/mrn",
+            "value": "185B79C0E8FC-20260524224222"
+          }
+        ],
+        "name": [
+          {
+            "text": "Melody"
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Patient/132085195",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "132085195",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-05-24T14:48:01.038-04:00",
+          "source": "#Hp8gxkangs8HSXh0"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">TestGiven <b>TESTFAMILY </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>urn:uuid:ca9b4549-207f-4480-8e01-5973c2fa8b7e</td></tr></tbody></table></div>"
+        },
+        "identifier": [
+          {
+            "system": "urn:ietf:rfc:3986",
+            "value": "urn:uuid:ca9b4549-207f-4480-8e01-5973c2fa8b7e"
+          }
+        ],
+        "name": [
+          {
+            "family": "TestFamily",
+            "given": [
+              "TestGiven"
+            ]
+          }
+        ],
+        "gender": "male"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Patient/132085197",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "132085197",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-05-24T14:48:05.239-04:00",
+          "source": "#Xedn09sanuzIKN0u"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">TestGiven <b>TESTFAMILY </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>urn:uuid:39c3eaba-abe5-4099-b1ef-0fd1441e2b7e</td></tr></tbody></table></div>"
+        },
+        "identifier": [
+          {
+            "system": "urn:ietf:rfc:3986",
+            "value": "urn:uuid:39c3eaba-abe5-4099-b1ef-0fd1441e2b7e"
+          }
+        ],
+        "name": [
+          {
+            "family": "TestFamily",
+            "given": [
+              "TestGiven"
+            ]
+          }
+        ],
+        "gender": "male"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Patient/132085203",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "132085203",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-05-24T14:48:58.098-04:00",
+          "source": "#tAS2DBc0alWAg23J"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">TestGiven <b>TESTFAMILY </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>urn:uuid:303e1f32-433f-4b73-9bc9-fafdd038670f</td></tr></tbody></table></div>"
+        },
+        "identifier": [
+          {
+            "system": "urn:ietf:rfc:3986",
+            "value": "urn:uuid:303e1f32-433f-4b73-9bc9-fafdd038670f"
+          }
+        ],
+        "name": [
+          {
+            "family": "TestFamily",
+            "given": [
+              "TestGiven"
+            ]
+          }
+        ],
+        "gender": "male"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Patient/132085205",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "132085205",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-05-24T14:49:01.868-04:00",
+          "source": "#0a21XIMi8hMhVnNA"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">TestGiven <b>TESTFAMILY </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>urn:uuid:3f39a140-d39b-47cf-a0ee-75a7594261a7</td></tr></tbody></table></div>"
+        },
+        "identifier": [
+          {
+            "system": "urn:ietf:rfc:3986",
+            "value": "urn:uuid:3f39a140-d39b-47cf-a0ee-75a7594261a7"
+          }
+        ],
+        "name": [
+          {
+            "family": "TestFamily",
+            "given": [
+              "TestGiven"
+            ]
+          }
+        ],
+        "gender": "male"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Patient/132085210",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "132085210",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-05-24T14:54:02.354-04:00",
+          "source": "#3HSxiTv0qLwc2B1o"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\"/><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>185B79C0E8FC-20260524225405</td></tr></tbody></table></div>"
+        },
+        "identifier": [
+          {
+            "system": "https://example.org/mrn",
+            "value": "185B79C0E8FC-20260524225405"
+          }
+        ],
+        "name": [
+          {
+            "text": "Melody"
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Patient/132085215",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "132085215",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-05-24T15:02:37.283-04:00",
+          "source": "#eb3fsaTwwQDQPLiT"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">TestGiven <b>TESTFAMILY </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>urn:uuid:1a91e508-fe87-4393-b9c6-140d773ede6d</td></tr></tbody></table></div>"
+        },
+        "identifier": [
+          {
+            "system": "urn:ietf:rfc:3986",
+            "value": "urn:uuid:1a91e508-fe87-4393-b9c6-140d773ede6d"
+          }
+        ],
+        "name": [
+          {
+            "family": "TestFamily",
+            "given": [
+              "TestGiven"
+            ]
+          }
+        ],
+        "gender": "male"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Patient/132085217",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "132085217",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-05-24T15:02:41.748-04:00",
+          "source": "#pLdKicsNys5QFeJx"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">TestGiven <b>TESTFAMILY </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>urn:uuid:49cbb999-920d-4693-85fd-6f29c9519629</td></tr></tbody></table></div>"
+        },
+        "identifier": [
+          {
+            "system": "urn:ietf:rfc:3986",
+            "value": "urn:uuid:49cbb999-920d-4693-85fd-6f29c9519629"
+          }
+        ],
+        "name": [
+          {
+            "family": "TestFamily",
+            "given": [
+              "TestGiven"
+            ]
+          }
+        ],
+        "gender": "male"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Patient/132085224",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "132085224",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-05-24T15:15:33.806-04:00",
+          "source": "#wYpAhHy3ueMcudzq"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Gianfranco <b>MARCONI </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>gfsdsad@gmail.com</td></tr></tbody></table></div>"
+        },
+        "extension": [
+          {
+            "url": "urn:unisa:consultorio:servizio",
+            "valueCode": "medicina"
+          }
+        ],
+        "identifier": [
+          {
+            "system": "urn:unisa:consultorio",
+            "value": "gfsdsad@gmail.com"
+          }
+        ],
+        "active": true,
+        "name": [
+          {
+            "use": "official",
+            "family": "Marconi",
+            "given": [
+              "Gianfranco"
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "email",
+            "value": "gfsdsad@gmail.com",
+            "use": "home"
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Patient/132085226",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "132085226",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-05-24T15:21:22.419-04:00",
+          "source": "#P4ycrejiGbm6a8M1"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">TestGiven <b>TESTFAMILY </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>urn:uuid:174c42c6-690c-48f8-aac1-feeb4515cc7e</td></tr></tbody></table></div>"
+        },
+        "identifier": [
+          {
+            "system": "urn:ietf:rfc:3986",
+            "value": "urn:uuid:174c42c6-690c-48f8-aac1-feeb4515cc7e"
+          }
+        ],
+        "name": [
+          {
+            "family": "TestFamily",
+            "given": [
+              "TestGiven"
+            ]
+          }
+        ],
+        "gender": "male"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Patient/132085228",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "132085228",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-05-24T15:21:26.201-04:00",
+          "source": "#dUjxkIp5rPPZc9DN"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">TestGiven <b>TESTFAMILY </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>urn:uuid:e958da3c-0347-45d3-b220-455b08d09d45</td></tr></tbody></table></div>"
+        },
+        "identifier": [
+          {
+            "system": "urn:ietf:rfc:3986",
+            "value": "urn:uuid:e958da3c-0347-45d3-b220-455b08d09d45"
+          }
+        ],
+        "name": [
+          {
+            "family": "TestFamily",
+            "given": [
+              "TestGiven"
+            ]
+          }
+        ],
+        "gender": "male"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Patient/132085234",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "132085234",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-05-24T15:27:35.939-04:00",
+          "source": "#8z1hnXEUvjzqWTt3"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">TestGiven <b>TESTFAMILY </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>urn:uuid:3fc7ed1e-9a41-4b18-a9c7-641c0d0f1db4</td></tr></tbody></table></div>"
+        },
+        "identifier": [
+          {
+            "system": "urn:ietf:rfc:3986",
+            "value": "urn:uuid:3fc7ed1e-9a41-4b18-a9c7-641c0d0f1db4"
+          }
+        ],
+        "name": [
+          {
+            "family": "TestFamily",
+            "given": [
+              "TestGiven"
+            ]
+          }
+        ],
+        "gender": "male"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Patient/132085236",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "132085236",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-05-24T15:27:39.661-04:00",
+          "source": "#PaPkSzsKLpc9yDlL"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">TestGiven <b>TESTFAMILY </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>urn:uuid:a4c4cd18-38b3-48aa-8822-055be5c7c25a</td></tr></tbody></table></div>"
+        },
+        "identifier": [
+          {
+            "system": "urn:ietf:rfc:3986",
+            "value": "urn:uuid:a4c4cd18-38b3-48aa-8822-055be5c7c25a"
+          }
+        ],
+        "name": [
+          {
+            "family": "TestFamily",
+            "given": [
+              "TestGiven"
+            ]
+          }
+        ],
+        "gender": "male"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Patient/132085313",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "132085313",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-05-24T15:57:29.183-04:00",
+          "source": "#XzLcubHVctKkvxwi"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">TestGiven <b>TESTFAMILY </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>urn:uuid:e4378991-912f-4b6d-901e-d8c1c01f9a3c</td></tr></tbody></table></div>"
+        },
+        "identifier": [
+          {
+            "system": "urn:ietf:rfc:3986",
+            "value": "urn:uuid:e4378991-912f-4b6d-901e-d8c1c01f9a3c"
+          }
+        ],
+        "name": [
+          {
+            "family": "TestFamily",
+            "given": [
+              "TestGiven"
+            ]
+          }
+        ],
+        "gender": "male"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Patient/132085315",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "132085315",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-05-24T15:57:32.823-04:00",
+          "source": "#ukeI8FAbWlwb6awI"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">TestGiven <b>TESTFAMILY </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>urn:uuid:b62ec434-04b3-447f-8eb1-5a4b0f8be0e0</td></tr></tbody></table></div>"
+        },
+        "identifier": [
+          {
+            "system": "urn:ietf:rfc:3986",
+            "value": "urn:uuid:b62ec434-04b3-447f-8eb1-5a4b0f8be0e0"
+          }
+        ],
+        "name": [
+          {
+            "family": "TestFamily",
+            "given": [
+              "TestGiven"
+            ]
+          }
+        ],
+        "gender": "male"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Patient/132085320",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "132085320",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-05-24T15:57:56.299-04:00",
+          "source": "#QZsS1SB63p1YzdtL"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Peter James <b>CHALMERS </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>12345</td></tr><tr><td>Address</td><td><span>534 Erewhon St </span><br/><span>PleasantVille </span><span>Vic </span></td></tr><tr><td>Date of birth</td><td><span>25 December 1974</span></td></tr></tbody></table></div>"
+        },
+        "identifier": [
+          {
+            "use": "usual",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "code": "MR"
+                }
+              ]
+            },
+            "system": "urn:oid:1.2.36.146.595.217.0.1",
+            "value": "12345",
+            "period": {
+              "start": "2001-05-06"
+            },
+            "assigner": {
+              "display": "Acme Healthcare"
+            }
+          }
+        ],
+        "active": true,
+        "name": [
+          {
+            "use": "official",
+            "family": "Chalmers",
+            "given": [
+              "Peter",
+              "James"
+            ]
+          },
+          {
+            "use": "usual",
+            "given": [
+              "Jim"
+            ]
+          },
+          {
+            "use": "maiden",
+            "family": "Windsor",
+            "given": [
+              "Peter",
+              "James"
+            ],
+            "period": {
+              "end": "2002"
+            }
+          }
+        ],
+        "gender": "male",
+        "birthDate": "1974-12-25",
+        "address": [
+          {
+            "use": "home",
+            "type": "both",
+            "text": "534 Erewhon St PeasantVille, Rainbow, Vic  3999",
+            "line": [
+              "534 Erewhon St"
+            ],
+            "city": "PleasantVille",
+            "district": "Rainbow",
+            "state": "Vic",
+            "postalCode": "3999",
+            "period": {
+              "start": "1974-12-25"
+            }
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Patient/132085306",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "132085306",
+        "meta": {
+          "versionId": "3",
+          "lastUpdated": "2026-05-24T16:08:26.884-04:00",
+          "source": "#B6KHQorImdsOowDL"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Jean-Pierre <b>DUPONT </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>26f2c3b2-65f6-4bb0-858f-5b0a706e7bca</td></tr><tr><td>Address</td><td><span>15 rue de Rivoli </span><br/><span>Paris </span><span>FR </span></td></tr><tr><td>Date of birth</td><td><span>15 June 1985</span></td></tr></tbody></table></div>"
+        },
+        "identifier": [
+          {
+            "system": "urn:ietf:rfc:3986",
+            "value": "26f2c3b2-65f6-4bb0-858f-5b0a706e7bca"
+          }
+        ],
+        "name": [
+          {
+            "use": "official",
+            "family": "Dupont",
+            "given": [
+              "Jean-Pierre"
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "+33611111111",
+            "use": "mobile"
+          },
+          {
+            "system": "phone",
+            "value": "+33622222222",
+            "use": "mobile"
+          }
+        ],
+        "gender": "male",
+        "birthDate": "1985-06-15",
+        "address": [
+          {
+            "use": "home",
+            "line": [
+              "20 rue de la R\u00e9publique"
+            ],
+            "city": "Paris",
+            "postalCode": "75004",
+            "country": "FR"
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Patient/132085327",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "132085327",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-05-24T16:17:18.091-04:00",
+          "source": "#oD3qseUPu9RQ1FIs"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">TestGiven <b>TESTFAMILY </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>urn:uuid:aa827a80-dacc-402d-a559-bbd4ddc3e760</td></tr></tbody></table></div>"
+        },
+        "identifier": [
+          {
+            "system": "urn:ietf:rfc:3986",
+            "value": "urn:uuid:aa827a80-dacc-402d-a559-bbd4ddc3e760"
+          }
+        ],
+        "name": [
+          {
+            "family": "TestFamily",
+            "given": [
+              "TestGiven"
+            ]
+          }
+        ],
+        "gender": "male"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Patient/132085329",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "132085329",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-05-24T16:17:22.042-04:00",
+          "source": "#rxc9sNldArd8YgRc"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">TestGiven <b>TESTFAMILY </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>urn:uuid:ddaf0185-3ba4-4a9e-bf6e-b684f4d4b663</td></tr></tbody></table></div>"
+        },
+        "identifier": [
+          {
+            "system": "urn:ietf:rfc:3986",
+            "value": "urn:uuid:ddaf0185-3ba4-4a9e-bf6e-b684f4d4b663"
+          }
+        ],
+        "name": [
+          {
+            "family": "TestFamily",
+            "given": [
+              "TestGiven"
+            ]
+          }
+        ],
+        "gender": "male"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Patient/132085336",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "132085336",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-05-24T16:21:21.844-04:00",
+          "source": "#5CIH6kYMPAMWgZvt"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">TestGiven <b>TESTFAMILY </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>urn:uuid:f88ecdf8-5711-40b7-b238-14b3c9e2581b</td></tr></tbody></table></div>"
+        },
+        "identifier": [
+          {
+            "system": "urn:ietf:rfc:3986",
+            "value": "urn:uuid:f88ecdf8-5711-40b7-b238-14b3c9e2581b"
+          }
+        ],
+        "name": [
+          {
+            "family": "TestFamily",
+            "given": [
+              "TestGiven"
+            ]
+          }
+        ],
+        "gender": "male"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Patient/132085338",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "132085338",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-05-24T16:21:25.578-04:00",
+          "source": "#lBIMRfV0jOlZghU8"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">TestGiven <b>TESTFAMILY </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>urn:uuid:93b93c99-984a-4be7-bf01-2c8938ac0340</td></tr></tbody></table></div>"
+        },
+        "identifier": [
+          {
+            "system": "urn:ietf:rfc:3986",
+            "value": "urn:uuid:93b93c99-984a-4be7-bf01-2c8938ac0340"
+          }
+        ],
+        "name": [
+          {
+            "family": "TestFamily",
+            "given": [
+              "TestGiven"
+            ]
+          }
+        ],
+        "gender": "male"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Patient/132085344",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "132085344",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-05-24T16:26:44.465-04:00",
+          "source": "#n1RwmV4NAG2r18zL"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">TestGiven <b>TESTFAMILY </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>urn:uuid:dc78871d-eb1b-4458-8868-45043c8ba824</td></tr></tbody></table></div>"
+        },
+        "identifier": [
+          {
+            "system": "urn:ietf:rfc:3986",
+            "value": "urn:uuid:dc78871d-eb1b-4458-8868-45043c8ba824"
+          }
+        ],
+        "name": [
+          {
+            "family": "TestFamily",
+            "given": [
+              "TestGiven"
+            ]
+          }
+        ],
+        "gender": "male"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Patient/132085346",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "132085346",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-05-24T16:26:48.216-04:00",
+          "source": "#WuJJxM305GSLGx9V"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">TestGiven <b>TESTFAMILY </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>urn:uuid:2319bef7-53a1-498b-92dd-95e46ab3e4a8</td></tr></tbody></table></div>"
+        },
+        "identifier": [
+          {
+            "system": "urn:ietf:rfc:3986",
+            "value": "urn:uuid:2319bef7-53a1-498b-92dd-95e46ab3e4a8"
+          }
+        ],
+        "name": [
+          {
+            "family": "TestFamily",
+            "given": [
+              "TestGiven"
+            ]
+          }
+        ],
+        "gender": "male"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Patient/132085352",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "132085352",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-05-24T16:32:09.043-04:00",
+          "source": "#9nf7E7oTL15B6jbf"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">TestGiven <b>TESTFAMILY </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>urn:uuid:24c64fc7-a2ce-4879-b60c-7ca5fade62f9</td></tr></tbody></table></div>"
+        },
+        "identifier": [
+          {
+            "system": "urn:ietf:rfc:3986",
+            "value": "urn:uuid:24c64fc7-a2ce-4879-b60c-7ca5fade62f9"
+          }
+        ],
+        "name": [
+          {
+            "family": "TestFamily",
+            "given": [
+              "TestGiven"
+            ]
+          }
+        ],
+        "gender": "male"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Patient/132085354",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "132085354",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-05-24T16:32:12.747-04:00",
+          "source": "#T4tr5tUwZYI4dcFO"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">TestGiven <b>TESTFAMILY </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>urn:uuid:a961bc39-802b-4371-a017-4e099712a632</td></tr></tbody></table></div>"
+        },
+        "identifier": [
+          {
+            "system": "urn:ietf:rfc:3986",
+            "value": "urn:uuid:a961bc39-802b-4371-a017-4e099712a632"
+          }
+        ],
+        "name": [
+          {
+            "family": "TestFamily",
+            "given": [
+              "TestGiven"
+            ]
+          }
+        ],
+        "gender": "male"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Patient/132085360",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "132085360",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-05-24T16:45:27.487-04:00",
+          "source": "#TwovX8M2Wv9CGShG"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">TestGiven <b>TESTFAMILY </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>urn:uuid:8e5c1cd6-061c-4102-9a97-8a4615550ca5</td></tr></tbody></table></div>"
+        },
+        "identifier": [
+          {
+            "system": "urn:ietf:rfc:3986",
+            "value": "urn:uuid:8e5c1cd6-061c-4102-9a97-8a4615550ca5"
+          }
+        ],
+        "name": [
+          {
+            "family": "TestFamily",
+            "given": [
+              "TestGiven"
+            ]
+          }
+        ],
+        "gender": "male"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Patient/132085362",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "132085362",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-05-24T16:45:35.248-04:00",
+          "source": "#9qGeGzq2dimtuOI9"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">TestGiven <b>TESTFAMILY </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>urn:uuid:02ed4392-f9a9-4e08-8bb2-4c66ba7a6a16</td></tr></tbody></table></div>"
+        },
+        "identifier": [
+          {
+            "system": "urn:ietf:rfc:3986",
+            "value": "urn:uuid:02ed4392-f9a9-4e08-8bb2-4c66ba7a6a16"
+          }
+        ],
+        "name": [
+          {
+            "family": "TestFamily",
+            "given": [
+              "TestGiven"
+            ]
+          }
+        ],
+        "gender": "male"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Patient/132085369",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "132085369",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-05-24T17:00:29.056-04:00",
+          "source": "#QnE6p7lnnlejQNGQ"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">TestGiven <b>TESTFAMILY </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>urn:uuid:88c35d3c-edb9-49d9-b63d-d2aa33f1268c</td></tr></tbody></table></div>"
+        },
+        "identifier": [
+          {
+            "system": "urn:ietf:rfc:3986",
+            "value": "urn:uuid:88c35d3c-edb9-49d9-b63d-d2aa33f1268c"
+          }
+        ],
+        "name": [
+          {
+            "family": "TestFamily",
+            "given": [
+              "TestGiven"
+            ]
+          }
+        ],
+        "gender": "male"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Patient/132085371",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "132085371",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-05-24T17:00:32.872-04:00",
+          "source": "#T2csNJIYyQzVMcsJ"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">TestGiven <b>TESTFAMILY </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>urn:uuid:eb1da5de-a6d6-44de-a761-c53c9d41f841</td></tr></tbody></table></div>"
+        },
+        "identifier": [
+          {
+            "system": "urn:ietf:rfc:3986",
+            "value": "urn:uuid:eb1da5de-a6d6-44de-a761-c53c9d41f841"
+          }
+        ],
+        "name": [
+          {
+            "family": "TestFamily",
+            "given": [
+              "TestGiven"
+            ]
+          }
+        ],
+        "gender": "male"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Patient/132085377",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "132085377",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-05-24T17:07:13.676-04:00",
+          "source": "#gq3Z1cOmEjKd9HrN"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">TestGiven <b>TESTFAMILY </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>urn:uuid:24eb6207-2703-423b-9c18-6009efa3ed4b</td></tr></tbody></table></div>"
+        },
+        "identifier": [
+          {
+            "system": "urn:ietf:rfc:3986",
+            "value": "urn:uuid:24eb6207-2703-423b-9c18-6009efa3ed4b"
+          }
+        ],
+        "name": [
+          {
+            "family": "TestFamily",
+            "given": [
+              "TestGiven"
+            ]
+          }
+        ],
+        "gender": "male"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Patient/132085379",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "132085379",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-05-24T17:07:17.418-04:00",
+          "source": "#Y9nyTjQdeOjnQkaY"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">TestGiven <b>TESTFAMILY </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>urn:uuid:40332eff-f341-494e-855e-30fff3e58dd3</td></tr></tbody></table></div>"
+        },
+        "identifier": [
+          {
+            "system": "urn:ietf:rfc:3986",
+            "value": "urn:uuid:40332eff-f341-494e-855e-30fff3e58dd3"
+          }
+        ],
+        "name": [
+          {
+            "family": "TestFamily",
+            "given": [
+              "TestGiven"
+            ]
+          }
+        ],
+        "gender": "male"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Patient/patient-6355f591-26a8-422b-801a-51ecbb4f11e8",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "patient-6355f591-26a8-422b-801a-51ecbb4f11e8",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-05-24T17:19:53.547-04:00",
+          "source": "#9AZyDVllB5xtnsGE"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\"/><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>1122</td></tr><tr><td>Address</td><td><span>E </span><br/><span>RW 2 </span><br/><span>RT 1 </span><br/><span>ANDBE HOME, INC </span></td></tr><tr><td>Date of birth</td><td><span>03 November 2011</span></td></tr></tbody></table></div>"
+        },
+        "identifier": [
+          {
+            "system": "https://bidanku.id/fhir/identifier/nik",
+            "value": "1122"
+          },
+          {
+            "system": "https://bidanku.id/fhir/identifier/kk",
+            "value": "123"
+          }
+        ],
+        "active": true,
+        "name": [
+          {
+            "use": "official",
+            "text": "Teenaget"
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "08",
+            "use": "mobile"
+          }
+        ],
+        "gender": "male",
+        "birthDate": "2011-11-03",
+        "address": [
+          {
+            "use": "home",
+            "type": "physical",
+            "text": "E, ENDEAVOR HEALTH MEDICAL GROUP, ANDBE HOME, INC, RW 2, RT 1",
+            "line": [
+              "E",
+              "RW 2",
+              "RT 1"
+            ],
+            "city": "ANDBE HOME, INC",
+            "district": "ENDEAVOR HEALTH MEDICAL GROUP"
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Patient/132085559",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "132085559",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-05-24T18:58:50.362-04:00",
+          "source": "#5KhANdtxwJZsvlQ0"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">gio <b>D ANIELL </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>GSPDAN10S50L509T</td></tr></tbody></table></div>"
+        },
+        "identifier": [
+          {
+            "system": "http://codice-fiscale.it",
+            "value": "GSPDAN10S50L509T"
+          }
+        ],
+        "name": [
+          {
+            "family": "d aniell",
+            "given": [
+              "gio"
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "email",
+            "value": "ff@gmail.com"
+          }
+        ],
+        "generalPractitioner": [
+          {
+            "reference": "Practitioner/105794624"
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Patient/cds-emrz130-test-patient",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "cds-emrz130-test-patient",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-05-24T20:12:05.860-04:00",
+          "source": "#B3Kvf9QX6qPhhTWE"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">EmrzTest <b>TESTRDS </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>MRN-EMRZ130-TEST</td></tr><tr><td>Date of birth</td><td><span>22 March 2018</span></td></tr></tbody></table></div>"
+        },
+        "identifier": [
+          {
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "code": "MR"
+                }
+              ]
+            },
+            "system": "http://hospital.smarthealthit.org",
+            "value": "MRN-EMRZ130-TEST"
+          }
+        ],
+        "name": [
+          {
+            "use": "official",
+            "family": "TestRDS",
+            "given": [
+              "EmrzTest"
+            ]
+          }
+        ],
+        "gender": "female",
+        "birthDate": "2018-03-22"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Patient/132085729",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "132085729",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-05-25T03:28:14.914-04:00",
+          "source": "#Ue7XK0e0SMIjSYjf"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Haskell <b>STROSIN </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>pat-0001-lem9xs</td></tr><tr><td>Date of birth</td><td><span>27 September 2004</span></td></tr></tbody></table></div>"
+        },
+        "identifier": [
+          {
+            "system": "http://example.org/patient-id",
+            "value": "pat-0001-lem9xs"
+          }
+        ],
+        "name": [
+          {
+            "family": "Strosin",
+            "given": [
+              "Haskell"
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "+1-328-247-1448"
+          },
+          {
+            "system": "email",
+            "value": "haskell_strosin@synthetic.example"
+          },
+          {
+            "system": "email",
+            "value": "neelgami467work@gmail.com"
+          },
+          {
+            "system": "email",
+            "value": "pavan.parekh@nuroblox.com"
+          }
+        ],
+        "gender": "female",
+        "birthDate": "2004-09-27"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Patient/132085738",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "132085738",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-05-25T03:28:15.661-04:00",
+          "source": "#nKsbTkqq9A6ZD8R4"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Colleen <b>KIHN </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>pat-0002-5mykbk</td></tr><tr><td>Date of birth</td><td><span>12 October 1961</span></td></tr></tbody></table></div>"
+        },
+        "identifier": [
+          {
+            "system": "http://example.org/patient-id",
+            "value": "pat-0002-5mykbk"
+          }
+        ],
+        "name": [
+          {
+            "family": "Kihn",
+            "given": [
+              "Colleen"
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "+1-463-974-9975"
+          },
+          {
+            "system": "email",
+            "value": "colleen_kihn@synthetic.example"
+          },
+          {
+            "system": "email",
+            "value": "neelgami467work@gmail.com"
+          },
+          {
+            "system": "email",
+            "value": "pavan.parekh@nuroblox.com"
+          }
+        ],
+        "gender": "other",
+        "birthDate": "1961-10-12"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Patient/132085747",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "132085747",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-05-25T03:28:16.660-04:00",
+          "source": "#P8jx9YaZ792IbA0u"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Reilly <b>MULLER </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>pat-0003-7vq3w2</td></tr><tr><td>Date of birth</td><td><span>15 April 1992</span></td></tr></tbody></table></div>"
+        },
+        "identifier": [
+          {
+            "system": "http://example.org/patient-id",
+            "value": "pat-0003-7vq3w2"
+          }
+        ],
+        "name": [
+          {
+            "family": "Muller",
+            "given": [
+              "Reilly"
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "+1-283-820-3425"
+          },
+          {
+            "system": "email",
+            "value": "reilly_muller18@synthetic.example"
+          },
+          {
+            "system": "email",
+            "value": "neelgami467work@gmail.com"
+          },
+          {
+            "system": "email",
+            "value": "pavan.parekh@nuroblox.com"
+          }
+        ],
+        "gender": "male",
+        "birthDate": "1992-04-15"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Patient/132085765",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "132085765",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-05-25T03:28:17.928-04:00",
+          "source": "#JSqlTM6qQWIdBgkY"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Sammy <b>HEIDENREICH </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>pat-0004-yrm1ex</td></tr><tr><td>Date of birth</td><td><span>04 December 1973</span></td></tr></tbody></table></div>"
+        },
+        "identifier": [
+          {
+            "system": "http://example.org/patient-id",
+            "value": "pat-0004-yrm1ex"
+          }
+        ],
+        "name": [
+          {
+            "family": "Heidenreich",
+            "given": [
+              "Sammy"
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "+1-249-416-8373"
+          },
+          {
+            "system": "email",
+            "value": "sammy.heidenreich@synthetic.example"
+          },
+          {
+            "system": "email",
+            "value": "neelgami467work@gmail.com"
+          },
+          {
+            "system": "email",
+            "value": "pavan.parekh@nuroblox.com"
+          }
+        ],
+        "gender": "other",
+        "birthDate": "1973-12-04"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Patient/132085773",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "132085773",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-05-25T03:28:18.666-04:00",
+          "source": "#7uMFyQx5hfclJIjz"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Karlee <b>BODE </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>pat-0005-2vgioa</td></tr><tr><td>Date of birth</td><td><span>24 June 1966</span></td></tr></tbody></table></div>"
+        },
+        "identifier": [
+          {
+            "system": "http://example.org/patient-id",
+            "value": "pat-0005-2vgioa"
+          }
+        ],
+        "name": [
+          {
+            "family": "Bode",
+            "given": [
+              "Karlee"
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "+1-997-803-3795"
+          },
+          {
+            "system": "email",
+            "value": "karlee_bode@synthetic.example"
+          },
+          {
+            "system": "email",
+            "value": "neelgami467work@gmail.com"
+          },
+          {
+            "system": "email",
+            "value": "pavan.parekh@nuroblox.com"
+          }
+        ],
+        "gender": "female",
+        "birthDate": "1966-06-24"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Patient/132085785",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "132085785",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-05-25T03:29:41.871-04:00",
+          "source": "#6hIh96UEL2e9XSH5"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\"/><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>TW-TEST-0525-1129-54</td></tr><tr><td>Date of birth</td><td><span>21 February 1972</span></td></tr></tbody></table></div>"
+        },
+        "identifier": [
+          {
+            "system": "https://aicoach.aiatw.org/patient-id",
+            "value": "TW-TEST-0525-1129-54"
+          }
+        ],
+        "active": true,
+        "name": [
+          {
+            "use": "usual",
+            "text": "\u865b\u64ec\u6e2c\u8a66\u75c5\u60a3_936"
+          }
+        ],
+        "gender": "female",
+        "birthDate": "1972-02-21"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Patient/132085816",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "132085816",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-05-25T03:40:28.431-04:00",
+          "source": "#OWEiJ8bUMtMDbZx2"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Darrion <b>BOTSFORD </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>pat-0001-oss5jg</td></tr><tr><td>Date of birth</td><td><span>02 July 1970</span></td></tr></tbody></table></div>"
+        },
+        "identifier": [
+          {
+            "system": "http://example.org/patient-id",
+            "value": "pat-0001-oss5jg"
+          }
+        ],
+        "name": [
+          {
+            "family": "Botsford",
+            "given": [
+              "Darrion"
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "+1-863-561-3717"
+          },
+          {
+            "system": "email",
+            "value": "darrion.botsford88@synthetic.example"
+          },
+          {
+            "system": "email",
+            "value": "neelgami467work@gmail.com"
+          },
+          {
+            "system": "email",
+            "value": "pavan.parekh@nuroblox.com"
+          }
+        ],
+        "gender": "female",
+        "birthDate": "1970-07-02"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Patient/132085833",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "132085833",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-05-25T03:40:29.213-04:00",
+          "source": "#kfKKTlohqKSabXYA"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Hillard <b>LINDGREN-MAYERT </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>pat-0002-besrev</td></tr><tr><td>Date of birth</td><td><span>23 December 1952</span></td></tr></tbody></table></div>"
+        },
+        "identifier": [
+          {
+            "system": "http://example.org/patient-id",
+            "value": "pat-0002-besrev"
+          }
+        ],
+        "name": [
+          {
+            "family": "Lindgren-Mayert",
+            "given": [
+              "Hillard"
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "+1-201-960-4562"
+          },
+          {
+            "system": "email",
+            "value": "hillard_lindgren-mayert@synthetic.example"
+          },
+          {
+            "system": "email",
+            "value": "neelgami467work@gmail.com"
+          },
+          {
+            "system": "email",
+            "value": "pavan.parekh@nuroblox.com"
+          }
+        ],
+        "gender": "unknown",
+        "birthDate": "1952-12-23"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Patient/132085852",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "132085852",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-05-25T03:47:00.607-04:00",
+          "source": "#2Pqr0WFy7XCkDjdE"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Maverick <b>HINTZ </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>pat-0001-yskiwo</td></tr><tr><td>Date of birth</td><td><span>18 October 1952</span></td></tr></tbody></table></div>"
+        },
+        "identifier": [
+          {
+            "system": "http://example.org/patient-id",
+            "value": "pat-0001-yskiwo"
+          }
+        ],
+        "name": [
+          {
+            "family": "Hintz",
+            "given": [
+              "Maverick"
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "+1-568-931-5626"
+          },
+          {
+            "system": "email",
+            "value": "maverick_hintz@synthetic.example"
+          },
+          {
+            "system": "email",
+            "value": "neelgami467work@gmail.com"
+          },
+          {
+            "system": "email",
+            "value": "pavan.parekh@nuroblox.com"
+          }
+        ],
+        "gender": "male",
+        "birthDate": "1952-10-18"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Patient/132085869",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "132085869",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-05-25T03:47:01.341-04:00",
+          "source": "#jeDK7iDv0XkcXEtV"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Hugh <b>BOSCO </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>pat-0002-kob8ym</td></tr><tr><td>Date of birth</td><td><span>14 November 1994</span></td></tr></tbody></table></div>"
+        },
+        "identifier": [
+          {
+            "system": "http://example.org/patient-id",
+            "value": "pat-0002-kob8ym"
+          }
+        ],
+        "name": [
+          {
+            "family": "Bosco",
+            "given": [
+              "Hugh"
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "+1-987-737-7318"
+          },
+          {
+            "system": "email",
+            "value": "hugh.bosco85@synthetic.example"
+          },
+          {
+            "system": "email",
+            "value": "neelgami467work@gmail.com"
+          },
+          {
+            "system": "email",
+            "value": "pavan.parekh@nuroblox.com"
+          }
+        ],
+        "gender": "male",
+        "birthDate": "1994-11-14"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Patient/132085877",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "132085877",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-05-25T03:47:02.054-04:00",
+          "source": "#rVx7P3bdoKLASkhX"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Mossie <b>FISHER </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>pat-0003-ehjupk</td></tr><tr><td>Date of birth</td><td><span>06 October 1957</span></td></tr></tbody></table></div>"
+        },
+        "identifier": [
+          {
+            "system": "http://example.org/patient-id",
+            "value": "pat-0003-ehjupk"
+          }
+        ],
+        "name": [
+          {
+            "family": "Fisher",
+            "given": [
+              "Mossie"
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "+1-278-530-6999"
+          },
+          {
+            "system": "email",
+            "value": "mossie.fisher@synthetic.example"
+          },
+          {
+            "system": "email",
+            "value": "neelgami467work@gmail.com"
+          },
+          {
+            "system": "email",
+            "value": "pavan.parekh@nuroblox.com"
+          }
+        ],
+        "gender": "unknown",
+        "birthDate": "1957-10-06"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Patient/132085895",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "132085895",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-05-25T03:47:03.351-04:00",
+          "source": "#sqYbzTHogFEwGZxA"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Kayleigh <b>SCHULTZ </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>pat-0004-9sect8</td></tr><tr><td>Date of birth</td><td><span>15 August 2010</span></td></tr></tbody></table></div>"
+        },
+        "identifier": [
+          {
+            "system": "http://example.org/patient-id",
+            "value": "pat-0004-9sect8"
+          }
+        ],
+        "name": [
+          {
+            "family": "Schultz",
+            "given": [
+              "Kayleigh"
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "+1-722-526-2215"
+          },
+          {
+            "system": "email",
+            "value": "kayleigh.schultz@synthetic.example"
+          },
+          {
+            "system": "email",
+            "value": "neelgami467work@gmail.com"
+          },
+          {
+            "system": "email",
+            "value": "pavan.parekh@nuroblox.com"
+          }
+        ],
+        "gender": "other",
+        "birthDate": "2010-08-15"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Patient/132085918",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "132085918",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-05-25T04:06:54.057-04:00",
+          "source": "#LUslxAZzrJkPJNVp"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Clementine <b>HAUCK </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>pat-0001-kupv1e</td></tr><tr><td>Date of birth</td><td><span>28 December 1974</span></td></tr></tbody></table></div>"
+        },
+        "identifier": [
+          {
+            "system": "http://example.org/patient-id",
+            "value": "pat-0001-kupv1e"
+          }
+        ],
+        "name": [
+          {
+            "family": "Hauck",
+            "given": [
+              "Clementine"
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "+1-614-663-1973"
+          },
+          {
+            "system": "email",
+            "value": "clementine_hauck@synthetic.example"
+          },
+          {
+            "system": "email",
+            "value": "neelgami467work@gmail.com"
+          },
+          {
+            "system": "email",
+            "value": "pavan.parekh@nuroblox.com"
+          }
+        ],
+        "gender": "male",
+        "birthDate": "1974-12-28"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Patient/132085926",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "132085926",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-05-25T04:06:54.588-04:00",
+          "source": "#0KG0GQHUjPdC6IKv"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Clementine <b>FEENEY </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>pat-0002-glopty</td></tr><tr><td>Date of birth</td><td><span>04 April 1962</span></td></tr></tbody></table></div>"
+        },
+        "identifier": [
+          {
+            "system": "http://example.org/patient-id",
+            "value": "pat-0002-glopty"
+          }
+        ],
+        "name": [
+          {
+            "family": "Feeney",
+            "given": [
+              "Clementine"
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "+1-973-323-7451"
+          },
+          {
+            "system": "email",
+            "value": "clementine_feeney@synthetic.example"
+          },
+          {
+            "system": "email",
+            "value": "neelgami467work@gmail.com"
+          },
+          {
+            "system": "email",
+            "value": "pavan.parekh@nuroblox.com"
+          }
+        ],
+        "gender": "female",
+        "birthDate": "1962-04-04"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Patient/132085935",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "132085935",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-05-25T04:06:55.526-04:00",
+          "source": "#KtQsA9Smtz3pQY7Y"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Garrison <b>ROLFSON </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>pat-0003-iajevk</td></tr><tr><td>Date of birth</td><td><span>03 July 1956</span></td></tr></tbody></table></div>"
+        },
+        "identifier": [
+          {
+            "system": "http://example.org/patient-id",
+            "value": "pat-0003-iajevk"
+          }
+        ],
+        "name": [
+          {
+            "family": "Rolfson",
+            "given": [
+              "Garrison"
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "+1-952-457-6407"
+          },
+          {
+            "system": "email",
+            "value": "garrison.rolfson@synthetic.example"
+          },
+          {
+            "system": "email",
+            "value": "neelgami467work@gmail.com"
+          },
+          {
+            "system": "email",
+            "value": "pavan.parekh@nuroblox.com"
+          }
+        ],
+        "gender": "other",
+        "birthDate": "1956-07-03"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Patient/132085953",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "132085953",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-05-25T04:06:56.945-04:00",
+          "source": "#pElN9BWq7w6tHEXn"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Emile <b>RUTHERFORD </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>pat-0004-npxtsu</td></tr><tr><td>Date of birth</td><td><span>03 February 1942</span></td></tr></tbody></table></div>"
+        },
+        "identifier": [
+          {
+            "system": "http://example.org/patient-id",
+            "value": "pat-0004-npxtsu"
+          }
+        ],
+        "name": [
+          {
+            "family": "Rutherford",
+            "given": [
+              "Emile"
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "+1-730-775-5658"
+          },
+          {
+            "system": "email",
+            "value": "emile_rutherford30@synthetic.example"
+          },
+          {
+            "system": "email",
+            "value": "neelgami467work@gmail.com"
+          },
+          {
+            "system": "email",
+            "value": "pavan.parekh@nuroblox.com"
+          }
+        ],
+        "gender": "male",
+        "birthDate": "1942-02-03"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Patient/132085970",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "132085970",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-05-25T04:06:57.865-04:00",
+          "source": "#BxGrd2sG6qT3mYHp"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Josue <b>LANGWORTH </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>pat-0005-zmzlwf</td></tr><tr><td>Date of birth</td><td><span>04 January 1949</span></td></tr></tbody></table></div>"
+        },
+        "identifier": [
+          {
+            "system": "http://example.org/patient-id",
+            "value": "pat-0005-zmzlwf"
+          }
+        ],
+        "name": [
+          {
+            "family": "Langworth",
+            "given": [
+              "Josue"
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "+1-245-350-8520"
+          },
+          {
+            "system": "email",
+            "value": "josue_langworth3@synthetic.example"
+          },
+          {
+            "system": "email",
+            "value": "neelgami467work@gmail.com"
+          },
+          {
+            "system": "email",
+            "value": "pavan.parekh@nuroblox.com"
+          }
+        ],
+        "gender": "other",
+        "birthDate": "1949-01-04"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Patient/132085994",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "132085994",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-05-25T04:25:22.071-04:00",
+          "source": "#Pqhs7ZprmOw1BQK8"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Vernice <b>KEELING </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>pat-0001-xqlwwn</td></tr><tr><td>Date of birth</td><td><span>15 August 2005</span></td></tr></tbody></table></div>"
+        },
+        "identifier": [
+          {
+            "system": "http://example.org/patient-id",
+            "value": "pat-0001-xqlwwn"
+          }
+        ],
+        "name": [
+          {
+            "family": "Keeling",
+            "given": [
+              "Vernice"
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "+1-210-709-3785"
+          },
+          {
+            "system": "email",
+            "value": "vernice_keeling@synthetic.example"
+          },
+          {
+            "system": "email",
+            "value": "neelgami467work@gmail.com"
+          },
+          {
+            "system": "email",
+            "value": "pavan.parekh@nuroblox.com"
+          }
+        ],
+        "gender": "other",
+        "birthDate": "2005-08-15"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Patient/132086011",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "132086011",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-05-25T04:25:22.838-04:00",
+          "source": "#K8a2pZpIE1OaZka2"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Laurie <b>WHITE </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>pat-0002-fjl1fp</td></tr><tr><td>Date of birth</td><td><span>01 May 1992</span></td></tr></tbody></table></div>"
+        },
+        "identifier": [
+          {
+            "system": "http://example.org/patient-id",
+            "value": "pat-0002-fjl1fp"
+          }
+        ],
+        "name": [
+          {
+            "family": "White",
+            "given": [
+              "Laurie"
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "+1-489-342-1774"
+          },
+          {
+            "system": "email",
+            "value": "laurie.white@synthetic.example"
+          },
+          {
+            "system": "email",
+            "value": "neelgami467work@gmail.com"
+          },
+          {
+            "system": "email",
+            "value": "pavan.parekh@nuroblox.com"
+          }
+        ],
+        "gender": "male",
+        "birthDate": "1992-05-01"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Patient/132086028",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "132086028",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-05-25T04:25:23.809-04:00",
+          "source": "#8aWYMUeExWkEvM8y"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Dayna <b>DENESIK </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>pat-0003-88uv8d</td></tr><tr><td>Date of birth</td><td><span>22 March 1973</span></td></tr></tbody></table></div>"
+        },
+        "identifier": [
+          {
+            "system": "http://example.org/patient-id",
+            "value": "pat-0003-88uv8d"
+          }
+        ],
+        "name": [
+          {
+            "family": "Denesik",
+            "given": [
+              "Dayna"
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "+1-338-402-4253"
+          },
+          {
+            "system": "email",
+            "value": "dayna_denesik82@synthetic.example"
+          },
+          {
+            "system": "email",
+            "value": "neelgami467work@gmail.com"
+          },
+          {
+            "system": "email",
+            "value": "pavan.parekh@nuroblox.com"
+          }
+        ],
+        "gender": "other",
+        "birthDate": "1973-03-22"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Patient/132086045",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "132086045",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-05-25T04:25:24.848-04:00",
+          "source": "#Z3YrA1ZvDSo98Vi6"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Josianne <b>SCHULIST </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>pat-0004-dgwlje</td></tr><tr><td>Date of birth</td><td><span>07 October 1941</span></td></tr></tbody></table></div>"
+        },
+        "identifier": [
+          {
+            "system": "http://example.org/patient-id",
+            "value": "pat-0004-dgwlje"
+          }
+        ],
+        "name": [
+          {
+            "family": "Schulist",
+            "given": [
+              "Josianne"
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "+1-421-759-7170"
+          },
+          {
+            "system": "email",
+            "value": "josianne.schulist@synthetic.example"
+          },
+          {
+            "system": "email",
+            "value": "neelgami467work@gmail.com"
+          },
+          {
+            "system": "email",
+            "value": "pavan.parekh@nuroblox.com"
+          }
+        ],
+        "gender": "female",
+        "birthDate": "1941-10-07"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Patient/132086062",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "132086062",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-05-25T04:25:25.774-04:00",
+          "source": "#smbaxNJi8RSgvJlP"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Bessie <b>THIEL </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>pat-0005-miulu5</td></tr><tr><td>Date of birth</td><td><span>27 August 2004</span></td></tr></tbody></table></div>"
+        },
+        "identifier": [
+          {
+            "system": "http://example.org/patient-id",
+            "value": "pat-0005-miulu5"
+          }
+        ],
+        "name": [
+          {
+            "family": "Thiel",
+            "given": [
+              "Bessie"
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "+1-241-918-5435"
+          },
+          {
+            "system": "email",
+            "value": "bessie.thiel72@synthetic.example"
+          },
+          {
+            "system": "email",
+            "value": "neelgami467work@gmail.com"
+          },
+          {
+            "system": "email",
+            "value": "pavan.parekh@nuroblox.com"
+          }
+        ],
+        "gender": "female",
+        "birthDate": "2004-08-27"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Patient/132086084",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "132086084",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-05-25T04:59:47.850-04:00",
+          "source": "#ehU8Mu9GMvZo1xVI"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Joe <b>RUNOLFSSON </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>pat-0001-sj7jcr</td></tr><tr><td>Date of birth</td><td><span>10 June 1994</span></td></tr></tbody></table></div>"
+        },
+        "identifier": [
+          {
+            "system": "http://example.org/patient-id",
+            "value": "pat-0001-sj7jcr"
+          }
+        ],
+        "name": [
+          {
+            "family": "Runolfsson",
+            "given": [
+              "Joe"
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "+1-548-590-3687"
+          },
+          {
+            "system": "email",
+            "value": "joe.runolfsson@synthetic.example"
+          },
+          {
+            "system": "email",
+            "value": "neelgami467work@gmail.com"
+          },
+          {
+            "system": "email",
+            "value": "pavan.parekh@nuroblox.com"
+          }
+        ],
+        "gender": "female",
+        "birthDate": "1994-06-10"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Patient/132086103",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "132086103",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-05-25T05:04:10.905-04:00",
+          "source": "#AiUITOSZCI6Rocwg"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Leonel <b>O'REILLY </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>pat-0001-lmuaji</td></tr><tr><td>Date of birth</td><td><span>06 December 2002</span></td></tr></tbody></table></div>"
+        },
+        "identifier": [
+          {
+            "system": "http://example.org/patient-id",
+            "value": "pat-0001-lmuaji"
+          }
+        ],
+        "name": [
+          {
+            "family": "O'Reilly",
+            "given": [
+              "Leonel"
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "+1-684-357-9349"
+          },
+          {
+            "system": "email",
+            "value": "leonel_oreilly@synthetic.example"
+          },
+          {
+            "system": "email",
+            "value": "neelgami467work@gmail.com"
+          },
+          {
+            "system": "email",
+            "value": "pavan.parekh@nuroblox.com"
+          }
+        ],
+        "gender": "unknown",
+        "birthDate": "2002-12-06"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Patient/132086121",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "132086121",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-05-25T05:07:32.507-04:00",
+          "source": "#34c9lGpVLyo3P6DK"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Brennan <b>MORISSETTE </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>pat-0001-dgjcho</td></tr><tr><td>Date of birth</td><td><span>19 July 1973</span></td></tr></tbody></table></div>"
+        },
+        "identifier": [
+          {
+            "system": "http://example.org/patient-id",
+            "value": "pat-0001-dgjcho"
+          }
+        ],
+        "name": [
+          {
+            "family": "Morissette",
+            "given": [
+              "Brennan"
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "+1-212-647-7206"
+          },
+          {
+            "system": "email",
+            "value": "brennan_morissette@synthetic.example"
+          },
+          {
+            "system": "email",
+            "value": "neelgami467work@gmail.com"
+          },
+          {
+            "system": "email",
+            "value": "pavan.parekh@nuroblox.com"
+          }
+        ],
+        "gender": "unknown",
+        "birthDate": "1973-07-19"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Patient/132086138",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "132086138",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-05-25T05:07:33.255-04:00",
+          "source": "#61rGISYtaI160WIO"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Devin <b>DANIEL </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>pat-0002-d6qei3</td></tr><tr><td>Date of birth</td><td><span>26 August 1951</span></td></tr></tbody></table></div>"
+        },
+        "identifier": [
+          {
+            "system": "http://example.org/patient-id",
+            "value": "pat-0002-d6qei3"
+          }
+        ],
+        "name": [
+          {
+            "family": "Daniel",
+            "given": [
+              "Devin"
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "+1-446-270-2206"
+          },
+          {
+            "system": "email",
+            "value": "devin_daniel64@synthetic.example"
+          },
+          {
+            "system": "email",
+            "value": "neelgami467work@gmail.com"
+          },
+          {
+            "system": "email",
+            "value": "pavan.parekh@nuroblox.com"
+          }
+        ],
+        "gender": "other",
+        "birthDate": "1951-08-26"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Patient/132086155",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "132086155",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-05-25T05:07:34.497-04:00",
+          "source": "#t7aZltoAjCEapF16"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Trinity <b>STANTON </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>pat-0003-irrfga</td></tr><tr><td>Date of birth</td><td><span>16 December 2009</span></td></tr></tbody></table></div>"
+        },
+        "identifier": [
+          {
+            "system": "http://example.org/patient-id",
+            "value": "pat-0003-irrfga"
+          }
+        ],
+        "name": [
+          {
+            "family": "Stanton",
+            "given": [
+              "Trinity"
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "+1-580-650-2024"
+          },
+          {
+            "system": "email",
+            "value": "trinity_stanton@synthetic.example"
+          },
+          {
+            "system": "email",
+            "value": "neelgami467work@gmail.com"
+          },
+          {
+            "system": "email",
+            "value": "pavan.parekh@nuroblox.com"
+          }
+        ],
+        "gender": "female",
+        "birthDate": "2009-12-16"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Patient/132086172",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "132086172",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-05-25T05:07:35.312-04:00",
+          "source": "#dOZFwOqQQ7uKvmrA"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Gillian <b>HARRIS </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>pat-0004-vjwyr6</td></tr><tr><td>Date of birth</td><td><span>07 October 1940</span></td></tr></tbody></table></div>"
+        },
+        "identifier": [
+          {
+            "system": "http://example.org/patient-id",
+            "value": "pat-0004-vjwyr6"
+          }
+        ],
+        "name": [
+          {
+            "family": "Harris",
+            "given": [
+              "Gillian"
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "+1-505-978-5382"
+          },
+          {
+            "system": "email",
+            "value": "gillian.harris3@synthetic.example"
+          },
+          {
+            "system": "email",
+            "value": "neelgami467work@gmail.com"
+          },
+          {
+            "system": "email",
+            "value": "pavan.parekh@nuroblox.com"
+          }
+        ],
+        "gender": "other",
+        "birthDate": "1940-10-07"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Patient/132086189",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "132086189",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-05-25T05:07:36.334-04:00",
+          "source": "#JXOmiPuZadWLG7Bu"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Reynold <b>WEISSNAT </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>pat-0005-w69a3a</td></tr><tr><td>Date of birth</td><td><span>04 May 1954</span></td></tr></tbody></table></div>"
+        },
+        "identifier": [
+          {
+            "system": "http://example.org/patient-id",
+            "value": "pat-0005-w69a3a"
+          }
+        ],
+        "name": [
+          {
+            "family": "Weissnat",
+            "given": [
+              "Reynold"
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "+1-821-743-4392"
+          },
+          {
+            "system": "email",
+            "value": "reynold.weissnat@synthetic.example"
+          },
+          {
+            "system": "email",
+            "value": "neelgami467work@gmail.com"
+          },
+          {
+            "system": "email",
+            "value": "pavan.parekh@nuroblox.com"
+          }
+        ],
+        "gender": "unknown",
+        "birthDate": "1954-05-04"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Patient/132086270",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "132086270",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-05-25T07:05:36.989-04:00",
+          "source": "#a8hV9J9i5IC7ZwG1"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Annapia <b>BONAVITA </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>fisiorag-1779692735089-hw7o6k1</td></tr></tbody></table></div>"
+        },
+        "identifier": [
+          {
+            "system": "https://fisiorag.it/pazienti",
+            "value": "fisiorag-1779692735089-hw7o6k1"
+          }
+        ],
+        "name": [
+          {
+            "family": "Bonavita",
+            "given": [
+              "Annapia"
+            ]
+          }
+        ],
+        "gender": "female"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Patient/132086283",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "132086283",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-05-25T07:06:31.688-04:00",
+          "source": "#lz8gxyLlfLXH2vQt"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Nico <b>DACH </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>pat-0001-0jnvor</td></tr><tr><td>Date of birth</td><td><span>22 October 1967</span></td></tr></tbody></table></div>"
+        },
+        "identifier": [
+          {
+            "system": "http://example.org/patient-id",
+            "value": "pat-0001-0jnvor"
+          }
+        ],
+        "name": [
+          {
+            "family": "Dach",
+            "given": [
+              "Nico"
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "+1-526-691-4825"
+          },
+          {
+            "system": "email",
+            "value": "nico.dach74@synthetic.example"
+          },
+          {
+            "system": "email",
+            "value": "neelgami467work@gmail.com"
+          }
+        ],
+        "gender": "male",
+        "birthDate": "1967-10-22"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Patient/132086300",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "132086300",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-05-25T07:06:32.477-04:00",
+          "source": "#0UbZJ6p5qBEunEH8"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Lavada <b>LABADIE </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>pat-0002-alzeyb</td></tr><tr><td>Date of birth</td><td><span>21 July 2002</span></td></tr></tbody></table></div>"
+        },
+        "identifier": [
+          {
+            "system": "http://example.org/patient-id",
+            "value": "pat-0002-alzeyb"
+          }
+        ],
+        "name": [
+          {
+            "family": "Labadie",
+            "given": [
+              "Lavada"
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "+1-760-756-5349"
+          },
+          {
+            "system": "email",
+            "value": "lavada_labadie@synthetic.example"
+          },
+          {
+            "system": "email",
+            "value": "neelgami467work@gmail.com"
+          }
+        ],
+        "gender": "unknown",
+        "birthDate": "2002-07-21"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Patient/132086317",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "132086317",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-05-25T07:06:33.498-04:00",
+          "source": "#BIsL5lp4qdXtTva7"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Ervin <b>HANE </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>pat-0003-sgasfy</td></tr><tr><td>Date of birth</td><td><span>11 August 1950</span></td></tr></tbody></table></div>"
+        },
+        "identifier": [
+          {
+            "system": "http://example.org/patient-id",
+            "value": "pat-0003-sgasfy"
+          }
+        ],
+        "name": [
+          {
+            "family": "Hane",
+            "given": [
+              "Ervin"
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "+1-908-300-9705"
+          },
+          {
+            "system": "email",
+            "value": "ervin.hane@synthetic.example"
+          },
+          {
+            "system": "email",
+            "value": "neelgami467work@gmail.com"
+          }
+        ],
+        "gender": "unknown",
+        "birthDate": "1950-08-11"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Patient/132086334",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "132086334",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-05-25T07:06:34.516-04:00",
+          "source": "#rx6jXCCfJs5flt9T"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Lilla <b>ROLFSON </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>pat-0004-ti5qkf</td></tr><tr><td>Date of birth</td><td><span>16 July 1985</span></td></tr></tbody></table></div>"
+        },
+        "identifier": [
+          {
+            "system": "http://example.org/patient-id",
+            "value": "pat-0004-ti5qkf"
+          }
+        ],
+        "name": [
+          {
+            "family": "Rolfson",
+            "given": [
+              "Lilla"
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "+1-348-876-8992"
+          },
+          {
+            "system": "email",
+            "value": "lilla.rolfson13@synthetic.example"
+          },
+          {
+            "system": "email",
+            "value": "neelgami467work@gmail.com"
+          }
+        ],
+        "gender": "other",
+        "birthDate": "1985-07-16"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Patient/132086351",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "132086351",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-05-25T07:06:35.469-04:00",
+          "source": "#B07PGpBR5IP1pe0K"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Eugene <b>ROSENBAUM </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>pat-0005-zmagnu</td></tr><tr><td>Date of birth</td><td><span>15 September 2005</span></td></tr></tbody></table></div>"
+        },
+        "identifier": [
+          {
+            "system": "http://example.org/patient-id",
+            "value": "pat-0005-zmagnu"
+          }
+        ],
+        "name": [
+          {
+            "family": "Rosenbaum",
+            "given": [
+              "Eugene"
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "+1-727-414-4626"
+          },
+          {
+            "system": "email",
+            "value": "eugene.rosenbaum@synthetic.example"
+          },
+          {
+            "system": "email",
+            "value": "neelgami467work@gmail.com"
+          }
+        ],
+        "gender": "male",
+        "birthDate": "2005-09-15"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Patient/132086512",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "132086512",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-05-25T08:09:16.160-04:00",
+          "source": "#24ejEC32om6CuR9x"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">John <b>DOE </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>Consultorio-854113</td></tr></tbody></table></div>"
+        },
+        "identifier": [
+          {
+            "value": "Consultorio-854113"
+          }
+        ],
+        "name": [
+          {
+            "family": "Doe",
+            "given": [
+              "John"
+            ]
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Patient/132086515",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "132086515",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-05-25T08:22:05.746-04:00",
+          "source": "#lTenK5JRJP7nNPZh"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Rita <b>SGOBBO </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>fisiorag-1779697324219-sz5rqye</td></tr></tbody></table></div>"
+        },
+        "identifier": [
+          {
+            "system": "https://fisiorag.it/pazienti",
+            "value": "fisiorag-1779697324219-sz5rqye"
+          }
+        ],
+        "name": [
+          {
+            "family": "Sgobbo",
+            "given": [
+              "Rita"
+            ]
+          }
+        ],
+        "gender": "unknown"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Patient/132086526",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "132086526",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-05-25T08:26:53.805-04:00",
+          "source": "#FBSEdZoivbcHxWKW"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Mafalda <b>ABBOTT </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>pat-0001-brg6xf</td></tr><tr><td>Date of birth</td><td><span>15 March 1996</span></td></tr></tbody></table></div>"
+        },
+        "identifier": [
+          {
+            "system": "http://example.org/patient-id",
+            "value": "pat-0001-brg6xf"
+          }
+        ],
+        "name": [
+          {
+            "family": "Abbott",
+            "given": [
+              "Mafalda"
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "+1-700-287-7653"
+          },
+          {
+            "system": "email",
+            "value": "mafalda.abbott10@synthetic.example"
+          },
+          {
+            "system": "email",
+            "value": "neelgami467work@gmail.com"
+          }
+        ],
+        "gender": "female",
+        "birthDate": "1996-03-15"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Patient/132086543",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "132086543",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-05-25T08:26:54.569-04:00",
+          "source": "#gv7etW70wWVyxULz"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Noel <b>BERNHARD </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>pat-0002-srmkok</td></tr><tr><td>Date of birth</td><td><span>28 March 1968</span></td></tr></tbody></table></div>"
+        },
+        "identifier": [
+          {
+            "system": "http://example.org/patient-id",
+            "value": "pat-0002-srmkok"
+          }
+        ],
+        "name": [
+          {
+            "family": "Bernhard",
+            "given": [
+              "Noel"
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "+1-943-818-9662"
+          },
+          {
+            "system": "email",
+            "value": "noel.bernhard@synthetic.example"
+          },
+          {
+            "system": "email",
+            "value": "neelgami467work@gmail.com"
+          }
+        ],
+        "gender": "female",
+        "birthDate": "1968-03-28"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Patient/132086560",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "132086560",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-05-25T08:26:55.562-04:00",
+          "source": "#XmUvWswSVltjM3yt"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Bryana <b>WIEGAND </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>pat-0003-5axsmm</td></tr><tr><td>Date of birth</td><td><span>13 December 1939</span></td></tr></tbody></table></div>"
+        },
+        "identifier": [
+          {
+            "system": "http://example.org/patient-id",
+            "value": "pat-0003-5axsmm"
+          }
+        ],
+        "name": [
+          {
+            "family": "Wiegand",
+            "given": [
+              "Bryana"
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "+1-362-606-1574"
+          },
+          {
+            "system": "email",
+            "value": "bryana.wiegand48@synthetic.example"
+          },
+          {
+            "system": "email",
+            "value": "neelgami467work@gmail.com"
+          }
+        ],
+        "gender": "male",
+        "birthDate": "1939-12-13"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Patient/132086601",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "132086601",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-05-25T08:35:59.207-04:00",
+          "source": "#y44wHScvXzwq5Thr"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Rosa <b>GREENHOLT </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>pat-0002-nt00gd</td></tr><tr><td>Date of birth</td><td><span>14 November 1940</span></td></tr></tbody></table></div>"
+        },
+        "identifier": [
+          {
+            "system": "http://example.org/patient-id",
+            "value": "pat-0002-nt00gd"
+          }
+        ],
+        "name": [
+          {
+            "family": "Greenholt",
+            "given": [
+              "Rosa"
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "+1-670-365-2834"
+          },
+          {
+            "system": "email",
+            "value": "rosa_greenholt@synthetic.example"
+          },
+          {
+            "system": "email",
+            "value": "neelgami467work@gmail.com"
+          }
+        ],
+        "gender": "other",
+        "birthDate": "1940-11-14"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Patient/132086618",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "132086618",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-05-25T08:36:00.113-04:00",
+          "source": "#UbDqtSjtx7mX55Ai"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Lonny <b>HAYES </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>pat-0003-jgdaen</td></tr><tr><td>Date of birth</td><td><span>14 February 2000</span></td></tr></tbody></table></div>"
+        },
+        "identifier": [
+          {
+            "system": "http://example.org/patient-id",
+            "value": "pat-0003-jgdaen"
+          }
+        ],
+        "name": [
+          {
+            "family": "Hayes",
+            "given": [
+              "Lonny"
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "+1-923-622-2352"
+          },
+          {
+            "system": "email",
+            "value": "lonny_hayes@synthetic.example"
+          },
+          {
+            "system": "email",
+            "value": "neelgami467work@gmail.com"
+          }
+        ],
+        "gender": "male",
+        "birthDate": "2000-02-14"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Patient/132086635",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "132086635",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-05-25T08:36:01.144-04:00",
+          "source": "#SyUWQD55jlAboFi7"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Charity <b>KIHN-PROSACCO </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>pat-0004-pungeu</td></tr><tr><td>Date of birth</td><td><span>04 July 1999</span></td></tr></tbody></table></div>"
+        },
+        "identifier": [
+          {
+            "system": "http://example.org/patient-id",
+            "value": "pat-0004-pungeu"
+          }
+        ],
+        "name": [
+          {
+            "family": "Kihn-Prosacco",
+            "given": [
+              "Charity"
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "+1-395-717-1950"
+          },
+          {
+            "system": "email",
+            "value": "charity_kihn-prosacco@synthetic.example"
+          },
+          {
+            "system": "email",
+            "value": "neelgami467work@gmail.com"
+          }
+        ],
+        "gender": "unknown",
+        "birthDate": "1999-07-04"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Patient/132086652",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "132086652",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-05-25T08:36:02.136-04:00",
+          "source": "#K4nO6pWuNdvVS7WR"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Payton <b>SHANAHAN </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>pat-0005-r1tdvh</td></tr><tr><td>Date of birth</td><td><span>06 May 1992</span></td></tr></tbody></table></div>"
+        },
+        "identifier": [
+          {
+            "system": "http://example.org/patient-id",
+            "value": "pat-0005-r1tdvh"
+          }
+        ],
+        "name": [
+          {
+            "family": "Shanahan",
+            "given": [
+              "Payton"
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "+1-763-895-3915"
+          },
+          {
+            "system": "email",
+            "value": "payton_shanahan@synthetic.example"
+          },
+          {
+            "system": "email",
+            "value": "neelgami467work@gmail.com"
+          }
+        ],
+        "gender": "female",
+        "birthDate": "1992-05-06"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Patient/132086674",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "132086674",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-05-25T08:52:23.089-04:00",
+          "source": "#GlqpntRMwN7LIYy9"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Oma <b>DONNELLY </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>pat-0001-iahpqo</td></tr><tr><td>Date of birth</td><td><span>20 November 1966</span></td></tr></tbody></table></div>"
+        },
+        "identifier": [
+          {
+            "system": "http://example.org/patient-id",
+            "value": "pat-0001-iahpqo"
+          }
+        ],
+        "name": [
+          {
+            "family": "Donnelly",
+            "given": [
+              "Oma"
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "+1-931-722-7286"
+          },
+          {
+            "system": "email",
+            "value": "oma_donnelly@synthetic.example"
+          },
+          {
+            "system": "email",
+            "value": "neelgami467work@gmail.com"
+          }
+        ],
+        "gender": "male",
+        "birthDate": "1966-11-20"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Patient/132086691",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "132086691",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-05-25T08:52:24.152-04:00",
+          "source": "#rodnrKLjpE0b25GO"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Glennie <b>REICHERT </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>pat-0002-wic2hi</td></tr><tr><td>Date of birth</td><td><span>13 June 1942</span></td></tr></tbody></table></div>"
+        },
+        "identifier": [
+          {
+            "system": "http://example.org/patient-id",
+            "value": "pat-0002-wic2hi"
+          }
+        ],
+        "name": [
+          {
+            "family": "Reichert",
+            "given": [
+              "Glennie"
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "+1-648-616-6360"
+          },
+          {
+            "system": "email",
+            "value": "glennie_reichert85@synthetic.example"
+          },
+          {
+            "system": "email",
+            "value": "neelgami467work@gmail.com"
+          }
+        ],
+        "gender": "female",
+        "birthDate": "1942-06-13"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Patient/132086708",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "132086708",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-05-25T08:52:26.590-04:00",
+          "source": "#2TWEkm3nBIP8OtSJ"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Werner <b>CONROY </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>pat-0003-g4j7ut</td></tr><tr><td>Date of birth</td><td><span>15 October 1999</span></td></tr></tbody></table></div>"
+        },
+        "identifier": [
+          {
+            "system": "http://example.org/patient-id",
+            "value": "pat-0003-g4j7ut"
+          }
+        ],
+        "name": [
+          {
+            "family": "Conroy",
+            "given": [
+              "Werner"
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "+1-356-512-1020"
+          },
+          {
+            "system": "email",
+            "value": "werner_conroy@synthetic.example"
+          },
+          {
+            "system": "email",
+            "value": "neelgami467work@gmail.com"
+          }
+        ],
+        "gender": "male",
+        "birthDate": "1999-10-15"
+      },
+      "search": {
+        "mode": "match"
+      }
+    }
+  ]
+}
