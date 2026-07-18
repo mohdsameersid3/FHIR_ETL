@@ -1,6 +1,24 @@
 {
     "Patient": {
-        "last_successful_run": "2026-07-18T03:57:43.470464+00:00",
+        "last_successful_run": "2026-07-18T07:15:00.679189+00:00",
+        "last_page": 3,
+        "total_records": 300,
+        "status": "SUCCESS"
+    },
+    "Encounter": {
+        "last_successful_run": "2026-07-18T07:15:04.339620+00:00",
+        "last_page": 3,
+        "total_records": 300,
+        "status": "SUCCESS"
+    },
+    "Observation": {
+        "last_successful_run": "2026-07-18T07:15:08.772367+00:00",
+        "last_page": 3,
+        "total_records": 300,
+        "status": "SUCCESS"
+    },
+    "Condition": {
+        "last_successful_run": "2026-07-18T07:15:11.927476+00:00",
         "last_page": 3,
         "total_records": 300,
         "status": "SUCCESS"

@@ -67,8 +67,3 @@ class ExtractionPipeline:
             )
             raise
 
-pipeline = ExtractionPipeline()
-
-pipeline.run(
-    resource="Patient"
-)

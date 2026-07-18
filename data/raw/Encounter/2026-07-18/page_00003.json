@@ -1,0 +1,4769 @@
+{
+  "resourceType": "Bundle",
+  "id": "e33e77de-6a8b-4c03-8a54-c98c5f653e66",
+  "meta": {
+    "lastUpdated": "2026-07-18T03:15:02.931-04:00"
+  },
+  "type": "searchset",
+  "link": [
+    {
+      "relation": "self",
+      "url": "https://hapi.fhir.org/baseR4?_getpages=e33e77de-6a8b-4c03-8a54-c98c5f653e66&_getpagesoffset=200&_count=100&_pretty=true&_bundletype=searchset"
+    },
+    {
+      "relation": "next",
+      "url": "https://hapi.fhir.org/baseR4?_getpages=e33e77de-6a8b-4c03-8a54-c98c5f653e66&_getpagesoffset=300&_count=100&_pretty=true&_bundletype=searchset"
+    },
+    {
+      "relation": "previous",
+      "url": "https://hapi.fhir.org/baseR4?_getpages=e33e77de-6a8b-4c03-8a54-c98c5f653e66&_getpagesoffset=100&_count=100&_pretty=true&_bundletype=searchset"
+    }
+  ],
+  "entry": [
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/131266078",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "131266078",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-12T16:00:57.425-05:00",
+          "source": "#7c1g8i7NuwRB8tw9"
+        },
+        "identifier": [
+          {
+            "value": "fef254188a9e4f569914af173d5ab7e4"
+          }
+        ],
+        "subject": {
+          "display": "Rita Z\u00e1goni"
+        },
+        "period": {
+          "start": "2025-09-12T20:42:25.088000Z"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/131269122",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "131269122",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-13T13:13:39.908-05:00",
+          "source": "#Gn5u1PvGMPFYToZl"
+        },
+        "status": "finished",
+        "class": {
+          "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+          "code": "AMB",
+          "display": "ambulatory"
+        },
+        "subject": {
+          "reference": "Patient/131269124",
+          "display": "\u6797\u963f\u5b24"
+        },
+        "participant": [
+          {
+            "individual": {
+              "reference": "Practitioner/131269125",
+              "display": "\u9673\u91ab\u5e2b"
+            }
+          }
+        ],
+        "period": {
+          "start": "2026-01-14T09:00:00+08:00",
+          "end": "2026-01-14T09:30:00+08:00"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/131271401",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "131271401",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-13T21:09:34.224-05:00",
+          "source": "#XJ4TEyWM4LWTpg7l"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">undefined</div>"
+        },
+        "status": "finished",
+        "class": {
+          "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+          "code": "AMB"
+        },
+        "type": [
+          {
+            "text": "Primary care visit"
+          }
+        ],
+        "subject": {
+          "reference": "Patient/131271362"
+        },
+        "participant": [
+          {
+            "individual": {
+              "reference": "Practitioner/131271364",
+              "display": "Joseph Jones"
+            }
+          }
+        ],
+        "period": {
+          "start": "2026-01-30T21:09:34.370Z"
+        },
+        "reasonCode": [
+          {
+            "text": "Sore throat"
+          }
+        ],
+        "diagnosis": [
+          {
+            "condition": {
+              "reference": "Condition/131271376"
+            }
+          },
+          {
+            "condition": {
+              "reference": "Condition/131271370"
+            }
+          },
+          {
+            "condition": {
+              "reference": "Condition/131271368"
+            }
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/131271402",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "131271402",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-13T21:09:34.224-05:00",
+          "source": "#XJ4TEyWM4LWTpg7l"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Jan 30th 2026 for Sore throat</div>"
+        },
+        "status": "finished",
+        "class": {
+          "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+          "code": "AMB"
+        },
+        "type": [
+          {
+            "text": "Primary care visit"
+          }
+        ],
+        "subject": {
+          "reference": "Patient/131271362"
+        },
+        "participant": [
+          {
+            "individual": {
+              "reference": "Practitioner/131271364",
+              "display": "Joseph Jones"
+            }
+          }
+        ],
+        "period": {
+          "start": "2026-01-12T21:09:34.370Z"
+        },
+        "reasonCode": [
+          {
+            "text": "Sore throat"
+          }
+        ],
+        "diagnosis": [
+          {
+            "condition": {
+              "reference": "Condition/131271376"
+            }
+          },
+          {
+            "condition": {
+              "reference": "Condition/131271375"
+            }
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/131271403",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "131271403",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-13T21:09:34.224-05:00",
+          "source": "#XJ4TEyWM4LWTpg7l"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Jan 12th 2026 for Sore throat</div>"
+        },
+        "status": "finished",
+        "class": {
+          "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+          "code": "AMB"
+        },
+        "type": [
+          {
+            "text": "Primary care visit"
+          }
+        ],
+        "subject": {
+          "reference": "Patient/131271362"
+        },
+        "participant": [
+          {
+            "individual": {
+              "reference": "Practitioner/131271365",
+              "display": "Karen Kobold"
+            }
+          }
+        ],
+        "period": {
+          "start": "2026-01-19T21:09:34.370Z"
+        },
+        "reasonCode": [
+          {
+            "text": "Sore throat"
+          }
+        ],
+        "diagnosis": [
+          {
+            "condition": {
+              "reference": "Condition/131271375"
+            }
+          },
+          {
+            "condition": {
+              "reference": "Condition/131271370"
+            }
+          },
+          {
+            "condition": {
+              "reference": "Condition/131271368"
+            }
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/131271404",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "131271404",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-13T21:09:34.224-05:00",
+          "source": "#XJ4TEyWM4LWTpg7l"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Jan 19th 2026 for Sore throat</div>"
+        },
+        "status": "finished",
+        "class": {
+          "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+          "code": "AMB"
+        },
+        "type": [
+          {
+            "text": "Primary care visit"
+          }
+        ],
+        "subject": {
+          "reference": "Patient/131271362"
+        },
+        "participant": [
+          {
+            "individual": {
+              "reference": "Practitioner/131271363",
+              "display": "Mary Smith"
+            }
+          }
+        ],
+        "period": {
+          "start": "2026-01-16T21:09:34.370Z"
+        },
+        "reasonCode": [
+          {
+            "text": "Sore throat"
+          }
+        ],
+        "diagnosis": [
+          {
+            "condition": {
+              "reference": "Condition/131271370"
+            }
+          },
+          {
+            "condition": {
+              "reference": "Condition/131271367"
+            }
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/131271405",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "131271405",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-13T21:09:34.224-05:00",
+          "source": "#XJ4TEyWM4LWTpg7l"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Jan 16th 2026 for Sore throat</div>"
+        },
+        "status": "finished",
+        "class": {
+          "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+          "code": "AMB"
+        },
+        "type": [
+          {
+            "text": "Primary care visit"
+          }
+        ],
+        "subject": {
+          "reference": "Patient/131271362"
+        },
+        "participant": [
+          {
+            "individual": {
+              "reference": "Practitioner/131271364",
+              "display": "Joseph Jones"
+            }
+          }
+        ],
+        "period": {
+          "start": "2026-01-16T21:09:34.370Z"
+        },
+        "reasonCode": [
+          {
+            "text": "Sore throat"
+          }
+        ],
+        "diagnosis": [
+          {
+            "condition": {
+              "reference": "Condition/131271368"
+            }
+          },
+          {
+            "condition": {
+              "reference": "Condition/131271374"
+            }
+          },
+          {
+            "condition": {
+              "reference": "Condition/131271373"
+            }
+          },
+          {
+            "condition": {
+              "reference": "Condition/131271373"
+            }
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/131271406",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "131271406",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-13T21:09:34.224-05:00",
+          "source": "#XJ4TEyWM4LWTpg7l"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Jan 16th 2026 for Sore throat</div>"
+        },
+        "status": "finished",
+        "class": {
+          "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+          "code": "AMB"
+        },
+        "type": [
+          {
+            "text": "Primary care visit"
+          }
+        ],
+        "subject": {
+          "reference": "Patient/131271362"
+        },
+        "participant": [
+          {
+            "individual": {
+              "reference": "Practitioner/131271365",
+              "display": "Karen Kobold"
+            }
+          }
+        ],
+        "period": {
+          "start": "2026-01-11T21:09:34.370Z"
+        },
+        "reasonCode": [
+          {
+            "text": "Sore throat"
+          }
+        ],
+        "diagnosis": [
+          {
+            "condition": {
+              "reference": "Condition/131271376"
+            }
+          },
+          {
+            "condition": {
+              "reference": "Condition/131271376"
+            }
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/131271407",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "131271407",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-13T21:09:34.224-05:00",
+          "source": "#XJ4TEyWM4LWTpg7l"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Jan 11th 2026 for Sore throat</div>"
+        },
+        "status": "finished",
+        "class": {
+          "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+          "code": "AMB"
+        },
+        "type": [
+          {
+            "text": "Primary care visit"
+          }
+        ],
+        "subject": {
+          "reference": "Patient/131271362"
+        },
+        "participant": [
+          {
+            "individual": {
+              "reference": "Practitioner/131271363",
+              "display": "Mary Smith"
+            }
+          }
+        ],
+        "period": {
+          "start": "2026-01-21T21:09:34.370Z"
+        },
+        "reasonCode": [
+          {
+            "text": "Sore throat"
+          }
+        ],
+        "diagnosis": [
+          {
+            "condition": {
+              "reference": "Condition/131271376"
+            }
+          },
+          {
+            "condition": {
+              "reference": "Condition/131271366"
+            }
+          },
+          {
+            "condition": {
+              "reference": "Condition/131271374"
+            }
+          },
+          {
+            "condition": {
+              "reference": "Condition/131271376"
+            }
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/131271408",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "131271408",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-13T21:09:34.224-05:00",
+          "source": "#XJ4TEyWM4LWTpg7l"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Jan 21st 2026 for Sore throat</div>"
+        },
+        "status": "finished",
+        "class": {
+          "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+          "code": "AMB"
+        },
+        "type": [
+          {
+            "text": "Primary care visit"
+          }
+        ],
+        "subject": {
+          "reference": "Patient/131271362"
+        },
+        "participant": [
+          {
+            "individual": {
+              "reference": "Practitioner/131271363",
+              "display": "Mary Smith"
+            }
+          }
+        ],
+        "period": {
+          "start": "2025-12-25T21:09:34.370Z"
+        },
+        "reasonCode": [
+          {
+            "text": "Sore throat"
+          }
+        ],
+        "diagnosis": [
+          {
+            "condition": {
+              "reference": "Condition/131271371"
+            }
+          },
+          {
+            "condition": {
+              "reference": "Condition/131271367"
+            }
+          },
+          {
+            "condition": {
+              "reference": "Condition/131271372"
+            }
+          },
+          {
+            "condition": {
+              "reference": "Condition/131271371"
+            }
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/131271409",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "131271409",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-13T21:09:34.224-05:00",
+          "source": "#XJ4TEyWM4LWTpg7l"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Dec 25th 2025 for Sore throat</div>"
+        },
+        "status": "finished",
+        "class": {
+          "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+          "code": "AMB"
+        },
+        "type": [
+          {
+            "text": "Primary care visit"
+          }
+        ],
+        "subject": {
+          "reference": "Patient/131271362"
+        },
+        "participant": [
+          {
+            "individual": {
+              "reference": "Practitioner/131271365",
+              "display": "Karen Kobold"
+            }
+          }
+        ],
+        "period": {
+          "start": "2026-02-05T21:09:34.370Z"
+        },
+        "reasonCode": [
+          {
+            "text": "Sore throat"
+          }
+        ],
+        "diagnosis": [
+          {
+            "condition": {
+              "reference": "Condition/131271373"
+            }
+          },
+          {
+            "condition": {
+              "reference": "Condition/131271375"
+            }
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/131271410",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "131271410",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-13T21:09:34.224-05:00",
+          "source": "#XJ4TEyWM4LWTpg7l"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Feb 5th 2026 for Sore throat</div>"
+        },
+        "status": "finished",
+        "class": {
+          "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+          "code": "AMB"
+        },
+        "type": [
+          {
+            "text": "Primary care visit"
+          }
+        ],
+        "subject": {
+          "reference": "Patient/131271362"
+        },
+        "participant": [
+          {
+            "individual": {
+              "reference": "Practitioner/131271364",
+              "display": "Joseph Jones"
+            }
+          }
+        ],
+        "period": {
+          "start": "2026-01-12T21:09:34.370Z"
+        },
+        "reasonCode": [
+          {
+            "text": "Sore throat"
+          }
+        ],
+        "diagnosis": [
+          {
+            "condition": {
+              "reference": "Condition/131271366"
+            }
+          },
+          {
+            "condition": {
+              "reference": "Condition/131271372"
+            }
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/131271449",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "131271449",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-13T21:46:16.034-05:00",
+          "source": "#teVSoa9UVxx7i9DR"
+        },
+        "status": "finished",
+        "class": {
+          "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+          "code": "AMB"
+        },
+        "subject": {
+          "reference": "Patient/131271448"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/131272926",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "131272926",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-15T01:18:42.037-05:00",
+          "source": "#kXVzVgNoTHxjKWPF"
+        },
+        "status": "finished",
+        "class": {
+          "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+          "code": "AMB",
+          "display": "ambulatory"
+        },
+        "type": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v2-0004",
+                "code": "AMB",
+                "display": "Consulta M\u00e9dica"
+              }
+            ],
+            "text": "Consulta M\u00e9dica"
+          }
+        ],
+        "subject": {
+          "reference": "Patient/id-5678923"
+        },
+        "participant": [
+          {
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                    "code": "ATND",
+                    "display": "attending"
+                  }
+                ]
+              }
+            ],
+            "individual": {
+              "reference": "Practitioner/131272924",
+              "display": "Dr. Carlos Mendoza"
+            }
+          }
+        ],
+        "period": {
+          "start": "2026-02-15"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/131273042",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "131273042",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-15T08:00:47.368-05:00",
+          "source": "#eZdg8fUQ8JHbLUjQ"
+        },
+        "identifier": [
+          {
+            "value": "a037a5d9-98a5-41f3-b405-0f5d2c7ce49b"
+          }
+        ],
+        "subject": {
+          "display": "Green Acres"
+        },
+        "period": {
+          "start": "2025-09-01T06:50:10.571000Z"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/131273043",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "131273043",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-15T08:00:48.370-05:00",
+          "source": "#zFQuXsWT9JOtExbi"
+        },
+        "identifier": [
+          {
+            "value": "8d02ede5-1422-4413-91b6-039dac2830d4"
+          }
+        ],
+        "subject": {
+          "display": "Pius Kariuki"
+        },
+        "period": {
+          "start": "2025-09-01T08:07:36.051000Z"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/131273044",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "131273044",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-15T08:00:49.369-05:00",
+          "source": "#48KEBvy6jRAO6v3t"
+        },
+        "identifier": [
+          {
+            "value": "fdb73065-01cd-43c5-acf5-0624479e226f"
+          }
+        ],
+        "subject": {
+          "display": "Jane Doe"
+        },
+        "period": {
+          "start": "2025-09-01T08:13:04.081000Z"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/131273045",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "131273045",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-15T08:00:50.370-05:00",
+          "source": "#1abhHB8u7pxzRfP8"
+        },
+        "identifier": [
+          {
+            "value": "32294fcd-e050-4487-b3ea-575539241ea3"
+          }
+        ],
+        "subject": {
+          "display": "Bob Bowman"
+        },
+        "period": {
+          "start": "2025-09-01T08:49:54.682000Z"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/131273046",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "131273046",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-15T08:00:51.369-05:00",
+          "source": "#5qi0n1VMehG3Xwtm"
+        },
+        "identifier": [
+          {
+            "value": "5b8ec78e-5094-4a57-8f23-38719c3f57fb"
+          }
+        ],
+        "subject": {
+          "display": "Bill Burr"
+        },
+        "period": {
+          "start": "2025-09-01T09:04:55.353000Z"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/131273047",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "131273047",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-15T08:00:52.369-05:00",
+          "source": "#1GYF7HQDS3yfrNzx"
+        },
+        "identifier": [
+          {
+            "value": "739796a9-2632-4823-860e-374f0e3ff60c"
+          }
+        ],
+        "subject": {
+          "display": "Christina P."
+        },
+        "period": {
+          "start": "2025-09-01T09:50:46.289000Z"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/131273048",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "131273048",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-15T08:00:53.369-05:00",
+          "source": "#Ok8ItfkfxkEJhsZb"
+        },
+        "identifier": [
+          {
+            "value": "27b5e448-c001-4399-b748-49e72f5d41b9"
+          }
+        ],
+        "subject": {
+          "display": "Jack Hilton"
+        },
+        "period": {
+          "start": "2025-09-01T13:00:00.558000Z"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/131273049",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "131273049",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-15T08:00:54.370-05:00",
+          "source": "#YX9tuPpCboIY2HEF"
+        },
+        "identifier": [
+          {
+            "value": "4eb83840-0a1e-496f-80f0-75bc3abc0bed"
+          }
+        ],
+        "subject": {
+          "display": "Taylor Downs"
+        },
+        "period": {
+          "start": "2025-09-01T13:02:15.351000Z"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/131273050",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "131273050",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-15T08:00:55.368-05:00",
+          "source": "#4CQbBnLfhhJxcniM"
+        },
+        "identifier": [
+          {
+            "value": "5c1f39a8-47d0-4100-8bcd-27acc5f86b45"
+          }
+        ],
+        "subject": {
+          "display": "Jon Snow"
+        },
+        "period": {
+          "start": "2025-09-02T11:30:04.884000Z"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/131273051",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "131273051",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-15T08:00:56.368-05:00",
+          "source": "#Cvqpfv3h0Zq1FWXP"
+        },
+        "identifier": [
+          {
+            "value": "2ca5242c-a234-4606-af0c-6a42d3aab0ac"
+          }
+        ],
+        "subject": {
+          "display": "Geoffrey Oyu"
+        },
+        "period": {
+          "start": "2025-09-02T13:38:57.999000Z"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/131273052",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "131273052",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-15T08:00:57.369-05:00",
+          "source": "#qqVf7Yw7wOVFahBA"
+        },
+        "identifier": [
+          {
+            "value": "aa56cb5e018f4a2eb25a6244194816a6"
+          }
+        ],
+        "subject": {
+          "display": "Jane Doe"
+        },
+        "period": {
+          "start": "2025-09-12T20:42:24.168789Z"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/131273053",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "131273053",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-15T08:00:58.369-05:00",
+          "source": "#IQuwEOHjcdSKtmCO"
+        },
+        "identifier": [
+          {
+            "value": "a0059382b0ed443caa5d91179da3e8ea"
+          }
+        ],
+        "subject": {
+          "display": "Jane Doe"
+        },
+        "period": {
+          "start": "2025-09-12T20:42:24.437283Z"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/131273054",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "131273054",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-15T08:00:59.370-05:00",
+          "source": "#gs2gc0zG2EQ9IpnJ"
+        },
+        "identifier": [
+          {
+            "value": "e80a94c700dc4917a02bab8555af9ed7"
+          }
+        ],
+        "subject": {
+          "display": "Jane Doe"
+        },
+        "period": {
+          "start": "2025-09-12T20:42:24.654874Z"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/131273055",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "131273055",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-15T08:01:00.368-05:00",
+          "source": "#WYYo66aXkRRuj7bU"
+        },
+        "identifier": [
+          {
+            "value": "049ef80b9de54a2b9daa2a253f6b03ac"
+          }
+        ],
+        "subject": {
+          "display": "John Doe"
+        },
+        "period": {
+          "start": "2025-09-12T20:42:24.871026Z"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/131273056",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "131273056",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-15T08:01:01.368-05:00",
+          "source": "#Yol3SinaU3mPDqCE"
+        },
+        "identifier": [
+          {
+            "value": "fef254188a9e4f569914af173d5ab7e4"
+          }
+        ],
+        "subject": {
+          "display": "Rita Z\u00e1goni"
+        },
+        "period": {
+          "start": "2025-09-12T20:42:25.088000Z"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/131273429",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "131273429",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-16T15:29:12.812-05:00",
+          "source": "#7p42rZhagtPNDhDk"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/131275027",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "131275027",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-17T11:00:42.471-05:00",
+          "source": "#P9wmx71nNIqHahOf"
+        },
+        "identifier": [
+          {
+            "value": "a037a5d9-98a5-41f3-b405-0f5d2c7ce49b"
+          }
+        ],
+        "subject": {
+          "display": "Green Acres"
+        },
+        "period": {
+          "start": "2025-09-01T06:50:10.571000Z"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/131275029",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "131275029",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-17T11:00:43.471-05:00",
+          "source": "#Fi7iddI4RFi8GgoZ"
+        },
+        "identifier": [
+          {
+            "value": "8d02ede5-1422-4413-91b6-039dac2830d4"
+          }
+        ],
+        "subject": {
+          "display": "Pius Kariuki"
+        },
+        "period": {
+          "start": "2025-09-01T08:07:36.051000Z"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/131275031",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "131275031",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-17T11:00:44.471-05:00",
+          "source": "#wNgGr0IaORnxq7k3"
+        },
+        "identifier": [
+          {
+            "value": "fdb73065-01cd-43c5-acf5-0624479e226f"
+          }
+        ],
+        "subject": {
+          "display": "Jane Doe"
+        },
+        "period": {
+          "start": "2025-09-01T08:13:04.081000Z"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/131275033",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "131275033",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-17T11:00:45.472-05:00",
+          "source": "#D4mr8O6VkPn5XTMW"
+        },
+        "identifier": [
+          {
+            "value": "32294fcd-e050-4487-b3ea-575539241ea3"
+          }
+        ],
+        "subject": {
+          "display": "Bob Bowman"
+        },
+        "period": {
+          "start": "2025-09-01T08:49:54.682000Z"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/131275035",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "131275035",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-17T11:00:46.472-05:00",
+          "source": "#uF9ROQRPKMm1PJVm"
+        },
+        "identifier": [
+          {
+            "value": "5b8ec78e-5094-4a57-8f23-38719c3f57fb"
+          }
+        ],
+        "subject": {
+          "display": "Bill Burr"
+        },
+        "period": {
+          "start": "2025-09-01T09:04:55.353000Z"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/131275037",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "131275037",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-17T11:00:47.471-05:00",
+          "source": "#ApMRzfTeO9cqSELD"
+        },
+        "identifier": [
+          {
+            "value": "739796a9-2632-4823-860e-374f0e3ff60c"
+          }
+        ],
+        "subject": {
+          "display": "Christina P."
+        },
+        "period": {
+          "start": "2025-09-01T09:50:46.289000Z"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/131275039",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "131275039",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-17T11:00:48.472-05:00",
+          "source": "#UW7HhwV2NBQIsOTu"
+        },
+        "identifier": [
+          {
+            "value": "27b5e448-c001-4399-b748-49e72f5d41b9"
+          }
+        ],
+        "subject": {
+          "display": "Jack Hilton"
+        },
+        "period": {
+          "start": "2025-09-01T13:00:00.558000Z"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/131275041",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "131275041",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-17T11:00:49.472-05:00",
+          "source": "#CcoaCcfjWC8UuADd"
+        },
+        "identifier": [
+          {
+            "value": "4eb83840-0a1e-496f-80f0-75bc3abc0bed"
+          }
+        ],
+        "subject": {
+          "display": "Taylor Downs"
+        },
+        "period": {
+          "start": "2025-09-01T13:02:15.351000Z"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/131275043",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "131275043",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-17T11:00:50.472-05:00",
+          "source": "#MIsxcaugObauMWo0"
+        },
+        "identifier": [
+          {
+            "value": "5c1f39a8-47d0-4100-8bcd-27acc5f86b45"
+          }
+        ],
+        "subject": {
+          "display": "Jon Snow"
+        },
+        "period": {
+          "start": "2025-09-02T11:30:04.884000Z"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/131275045",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "131275045",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-17T11:00:51.472-05:00",
+          "source": "#5mTduvMSoiwckjx3"
+        },
+        "identifier": [
+          {
+            "value": "2ca5242c-a234-4606-af0c-6a42d3aab0ac"
+          }
+        ],
+        "subject": {
+          "display": "Geoffrey Oyu"
+        },
+        "period": {
+          "start": "2025-09-02T13:38:57.999000Z"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/131275047",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "131275047",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-17T11:00:52.471-05:00",
+          "source": "#NPIIAj58ehJOfVhi"
+        },
+        "identifier": [
+          {
+            "value": "aa56cb5e018f4a2eb25a6244194816a6"
+          }
+        ],
+        "subject": {
+          "display": "Jane Doe"
+        },
+        "period": {
+          "start": "2025-09-12T20:42:24.168789Z"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/131275049",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "131275049",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-17T11:00:53.472-05:00",
+          "source": "#uz72FBns1Ch6N02F"
+        },
+        "identifier": [
+          {
+            "value": "a0059382b0ed443caa5d91179da3e8ea"
+          }
+        ],
+        "subject": {
+          "display": "Jane Doe"
+        },
+        "period": {
+          "start": "2025-09-12T20:42:24.437283Z"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/131275051",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "131275051",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-17T11:00:54.471-05:00",
+          "source": "#PEYoSPKqknDQRM7O"
+        },
+        "identifier": [
+          {
+            "value": "e80a94c700dc4917a02bab8555af9ed7"
+          }
+        ],
+        "subject": {
+          "display": "Jane Doe"
+        },
+        "period": {
+          "start": "2025-09-12T20:42:24.654874Z"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/131275053",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "131275053",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-17T11:00:55.471-05:00",
+          "source": "#9OYOZZojgFvT94ET"
+        },
+        "identifier": [
+          {
+            "value": "049ef80b9de54a2b9daa2a253f6b03ac"
+          }
+        ],
+        "subject": {
+          "display": "John Doe"
+        },
+        "period": {
+          "start": "2025-09-12T20:42:24.871026Z"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/131275055",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "131275055",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-17T11:00:56.471-05:00",
+          "source": "#7mNm0l7MAaeUK4px"
+        },
+        "identifier": [
+          {
+            "value": "fef254188a9e4f569914af173d5ab7e4"
+          }
+        ],
+        "subject": {
+          "display": "Rita Z\u00e1goni"
+        },
+        "period": {
+          "start": "2025-09-12T20:42:25.088000Z"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/131275822",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "131275822",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-17T15:24:15.563-05:00",
+          "source": "#mabpQ3nGxHWfFpcw"
+        },
+        "identifier": [
+          {
+            "system": "http://yourfacility.org/encounter-number",
+            "value": "1"
+          }
+        ],
+        "status": "in-progress",
+        "class": {
+          "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+          "code": "AMB",
+          "display": "Ambulatory"
+        },
+        "subject": {
+          "reference": "Patient/131275821"
+        },
+        "participant": [
+          {
+            "individual": {
+              "display": "Chraish Miiro"
+            }
+          }
+        ],
+        "period": {
+          "start": "2026-02-17T15:24:15.392200+00:00"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/T-PAT-WITH-AGGREGATED-CONSENT-000000-EK",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "T-PAT-WITH-AGGREGATED-CONSENT-000000-EK",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-17T19:56:19.135-05:00",
+          "source": "#0jchpsVemwmF7U9f",
+          "profile": [
+            "https://www.medizininformatik-initiative.de/fhir/core/modul-fall/StructureDefinition/KontaktGesundheitseinrichtung"
+          ]
+        },
+        "extension": [
+          {
+            "url": "http://fhir.de/StructureDefinition/Aufnahmegrund",
+            "extension": [
+              {
+                "url": "ErsteUndZweiteStelle",
+                "valueCoding": {
+                  "system": "http://fhir.de/CodeSystem/dkgev/AufnahmegrundErsteUndZweiteStelle",
+                  "code": "01",
+                  "display": "KH-Behandlung, vollstat."
+                }
+              },
+              {
+                "url": "DritteStelle",
+                "valueCoding": {
+                  "system": "http://fhir.de/CodeSystem/dkgev/AufnahmegrundDritteStelle",
+                  "code": "0",
+                  "display": "Anderes"
+                }
+              },
+              {
+                "url": "VierteStelle",
+                "valueCoding": {
+                  "system": "http://fhir.de/CodeSystem/dkgev/AufnahmegrundVierteStelle",
+                  "code": "1",
+                  "display": "Normalfall"
+                }
+              }
+            ]
+          }
+        ],
+        "identifier": [
+          {
+            "use": "official",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "code": "VN"
+                }
+              ]
+            },
+            "system": "http://localIdentifier.de/identifiers/encounter",
+            "value": "T-PAT-WITH-AGGREGATED-CONSENT"
+          },
+          {
+            "use": "secondary",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "code": "U"
+                }
+              ]
+            },
+            "system": "http://localIdentifier.de/identifiers/encounter_transferid",
+            "value": "000000"
+          },
+          {
+            "use": "secondary",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "code": "U"
+                }
+              ]
+            },
+            "system": "http://localIdentifier.de/identifiers/encounter_contactlevel",
+            "value": "EK"
+          }
+        ],
+        "status": "finished",
+        "class": {
+          "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+          "code": "IMP",
+          "display": "inpatient encounter"
+        },
+        "type": [
+          {
+            "coding": [
+              {
+                "system": "http://fhir.de/CodeSystem/Kontaktebene",
+                "code": "einrichtungskontakt",
+                "display": "Einrichtungskontakt"
+              }
+            ]
+          }
+        ],
+        "subject": {
+          "reference": "Patient/PAT-WITH-AGGREGATED-CONSENT"
+        },
+        "period": {
+          "start": "2025-01-26T01:00:00+02:00",
+          "end": "2025-01-29T17:00:00+02:00"
+        },
+        "diagnosis": [
+          {
+            "condition": {
+              "reference": "Condition/T-PAT-WITH-AGGREGATED-CONSENT-1"
+            },
+            "use": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/diagnosis-role",
+                  "code": "DD",
+                  "display": "Discharge diagnosis"
+                }
+              ]
+            }
+          },
+          {
+            "condition": {
+              "reference": "Condition/T-PAT-WITH-AGGREGATED-CONSENT-2"
+            },
+            "use": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/diagnosis-role",
+                  "code": "DD",
+                  "display": "Discharge diagnosis"
+                }
+              ]
+            }
+          }
+        ],
+        "hospitalization": {
+          "admitSource": {
+            "coding": [
+              {
+                "system": "http://fhir.de/CodeSystem/dgkev/Aufnahmeanlass",
+                "code": "A",
+                "display": "Verlegung (mit Behandlungsdauer im verlegenden Krankenhaus bis zu 24 Stunden)"
+              }
+            ]
+          },
+          "dischargeDisposition": {
+            "extension": [
+              {
+                "url": "http://fhir.de/StructureDefinition/Entlassungsgrund",
+                "extension": [
+                  {
+                    "url": "ErsteUndZweiteStelle",
+                    "valueCoding": {
+                      "system": "http://fhir.de/CodeSystem/dkgev/EntlassungsgrundErsteUndZweiteStelle",
+                      "code": "07",
+                      "display": "Tod"
+                    }
+                  },
+                  {
+                    "url": "DritteStelle",
+                    "valueCoding": {
+                      "system": "http://fhir.de/CodeSystem/dkgev/EntlassungsgrundDritteStelle",
+                      "code": "9",
+                      "display": "keine Angabe"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/T-TEST-AGGREGATED-CONSENT-IGNORED-ENCOUNTER-000000-EK",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "T-TEST-AGGREGATED-CONSENT-IGNORED-ENCOUNTER-000000-EK",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-17T19:56:19.135-05:00",
+          "source": "#0jchpsVemwmF7U9f",
+          "profile": [
+            "https://www.medizininformatik-initiative.de/fhir/core/modul-fall/StructureDefinition/KontaktGesundheitseinrichtung"
+          ]
+        },
+        "extension": [
+          {
+            "url": "http://fhir.de/StructureDefinition/Aufnahmegrund",
+            "extension": [
+              {
+                "url": "ErsteUndZweiteStelle",
+                "valueCoding": {
+                  "system": "http://fhir.de/CodeSystem/dkgev/AufnahmegrundErsteUndZweiteStelle",
+                  "code": "01",
+                  "display": "KH-Behandlung, vollstat."
+                }
+              },
+              {
+                "url": "DritteStelle",
+                "valueCoding": {
+                  "system": "http://fhir.de/CodeSystem/dkgev/AufnahmegrundDritteStelle",
+                  "code": "0",
+                  "display": "Anderes"
+                }
+              },
+              {
+                "url": "VierteStelle",
+                "valueCoding": {
+                  "system": "http://fhir.de/CodeSystem/dkgev/AufnahmegrundVierteStelle",
+                  "code": "1",
+                  "display": "Normalfall"
+                }
+              }
+            ]
+          }
+        ],
+        "identifier": [
+          {
+            "use": "official",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "code": "VN"
+                }
+              ]
+            },
+            "system": "http://localIdentifier.de/identifiers/encounter",
+            "value": "T-TEST-AGGREGATED-CONSENT-IGNORED-ENCOUNTER"
+          },
+          {
+            "use": "secondary",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "code": "U"
+                }
+              ]
+            },
+            "system": "http://localIdentifier.de/identifiers/encounter_transferid",
+            "value": "000000"
+          },
+          {
+            "use": "secondary",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "code": "U"
+                }
+              ]
+            },
+            "system": "http://localIdentifier.de/identifiers/encounter_contactlevel",
+            "value": "EK"
+          }
+        ],
+        "status": "finished",
+        "class": {
+          "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+          "code": "IMP",
+          "display": "inpatient encounter"
+        },
+        "type": [
+          {
+            "coding": [
+              {
+                "system": "http://fhir.de/CodeSystem/Kontaktebene",
+                "code": "einrichtungskontakt",
+                "display": "Einrichtungskontakt"
+              }
+            ]
+          }
+        ],
+        "subject": {
+          "reference": "Patient/TEST-AGGREGATED-CONSENT-IGNORED-ENCOUNTER"
+        },
+        "period": {
+          "start": "2025-01-01T01:00:00+02:00",
+          "end": "2025-01-29T17:00:00+02:00"
+        },
+        "diagnosis": [
+          {
+            "condition": {
+              "reference": "Condition/T-TEST-AGGREGATED-CONSENT-IGNORED-ENCOUNTER-1"
+            },
+            "use": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/diagnosis-role",
+                  "code": "DD",
+                  "display": "Discharge diagnosis"
+                }
+              ]
+            }
+          },
+          {
+            "condition": {
+              "reference": "Condition/T-TEST-AGGREGATED-CONSENT-IGNORED-ENCOUNTER-2"
+            },
+            "use": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/diagnosis-role",
+                  "code": "DD",
+                  "display": "Discharge diagnosis"
+                }
+              ]
+            }
+          }
+        ],
+        "hospitalization": {
+          "admitSource": {
+            "coding": [
+              {
+                "system": "http://fhir.de/CodeSystem/dgkev/Aufnahmeanlass",
+                "code": "A",
+                "display": "Verlegung (mit Behandlungsdauer im verlegenden Krankenhaus bis zu 24 Stunden)"
+              }
+            ]
+          },
+          "dischargeDisposition": {
+            "extension": [
+              {
+                "url": "http://fhir.de/StructureDefinition/Entlassungsgrund",
+                "extension": [
+                  {
+                    "url": "ErsteUndZweiteStelle",
+                    "valueCoding": {
+                      "system": "http://fhir.de/CodeSystem/dkgev/EntlassungsgrundErsteUndZweiteStelle",
+                      "code": "07",
+                      "display": "Tod"
+                    }
+                  },
+                  {
+                    "url": "DritteStelle",
+                    "valueCoding": {
+                      "system": "http://fhir.de/CodeSystem/dkgev/EntlassungsgrundDritteStelle",
+                      "code": "9",
+                      "display": "keine Angabe"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/T-TEST-AGGREGATED-CONSENT-IGNORED-ENCOUNTER-IGNORED-000000-EK",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "T-TEST-AGGREGATED-CONSENT-IGNORED-ENCOUNTER-IGNORED-000000-EK",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-17T19:56:19.135-05:00",
+          "source": "#0jchpsVemwmF7U9f",
+          "profile": [
+            "https://www.medizininformatik-initiative.de/fhir/core/modul-fall/StructureDefinition/KontaktGesundheitseinrichtung"
+          ]
+        },
+        "extension": [
+          {
+            "url": "http://fhir.de/StructureDefinition/Aufnahmegrund",
+            "extension": [
+              {
+                "url": "ErsteUndZweiteStelle",
+                "valueCoding": {
+                  "system": "http://fhir.de/CodeSystem/dkgev/AufnahmegrundErsteUndZweiteStelle",
+                  "code": "01",
+                  "display": "KH-Behandlung, vollstat."
+                }
+              },
+              {
+                "url": "DritteStelle",
+                "valueCoding": {
+                  "system": "http://fhir.de/CodeSystem/dkgev/AufnahmegrundDritteStelle",
+                  "code": "0",
+                  "display": "Anderes"
+                }
+              },
+              {
+                "url": "VierteStelle",
+                "valueCoding": {
+                  "system": "http://fhir.de/CodeSystem/dkgev/AufnahmegrundVierteStelle",
+                  "code": "1",
+                  "display": "Normalfall"
+                }
+              }
+            ]
+          }
+        ],
+        "identifier": [
+          {
+            "use": "official",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "code": "VN"
+                }
+              ]
+            },
+            "system": "http://localIdentifier.de/identifiers/encounter",
+            "value": "T-TEST-AGGREGATED-CONSENT-IGNORED-ENCOUNTER-IGNORED"
+          },
+          {
+            "use": "secondary",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "code": "U"
+                }
+              ]
+            },
+            "system": "http://localIdentifier.de/identifiers/encounter_transferid",
+            "value": "000000"
+          },
+          {
+            "use": "secondary",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "code": "U"
+                }
+              ]
+            },
+            "system": "http://localIdentifier.de/identifiers/encounter_contactlevel",
+            "value": "EK"
+          }
+        ],
+        "status": "finished",
+        "class": {
+          "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+          "code": "IMP",
+          "display": "inpatient encounter"
+        },
+        "type": [
+          {
+            "coding": [
+              {
+                "system": "http://fhir.de/CodeSystem/Kontaktebene",
+                "code": "einrichtungskontakt",
+                "display": "Einrichtungskontakt"
+              }
+            ]
+          }
+        ],
+        "subject": {
+          "reference": "Patient/TEST-AGGREGATED-CONSENT-IGNORED-ENCOUNTER"
+        },
+        "period": {
+          "start": "2024-12-01T01:00:00+02:00",
+          "end": "2024-12-29T17:00:00+02:00"
+        },
+        "diagnosis": [
+          {
+            "condition": {
+              "reference": "Condition/T-TEST-AGGREGATED-CONSENT-IGNORED-ENCOUNTER-3"
+            },
+            "use": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/diagnosis-role",
+                  "code": "DD",
+                  "display": "Discharge diagnosis"
+                }
+              ]
+            }
+          }
+        ],
+        "hospitalization": {
+          "admitSource": {
+            "coding": [
+              {
+                "system": "http://fhir.de/CodeSystem/dgkev/Aufnahmeanlass",
+                "code": "A",
+                "display": "Verlegung (mit Behandlungsdauer im verlegenden Krankenhaus bis zu 24 Stunden)"
+              }
+            ]
+          },
+          "dischargeDisposition": {
+            "extension": [
+              {
+                "url": "http://fhir.de/StructureDefinition/Entlassungsgrund",
+                "extension": [
+                  {
+                    "url": "ErsteUndZweiteStelle",
+                    "valueCoding": {
+                      "system": "http://fhir.de/CodeSystem/dkgev/EntlassungsgrundErsteUndZweiteStelle",
+                      "code": "07",
+                      "display": "Tod"
+                    }
+                  },
+                  {
+                    "url": "DritteStelle",
+                    "valueCoding": {
+                      "system": "http://fhir.de/CodeSystem/dkgev/EntlassungsgrundDritteStelle",
+                      "code": "9",
+                      "display": "keine Angabe"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/T-NO-ICU-BUT-VENT-000000-EK",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "T-NO-ICU-BUT-VENT-000000-EK",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-17T20:00:13.621-05:00",
+          "source": "#t2wWHQ5Epxcpgj3y",
+          "profile": [
+            "https://www.medizininformatik-initiative.de/fhir/core/modul-fall/StructureDefinition/KontaktGesundheitseinrichtung"
+          ]
+        },
+        "extension": [
+          {
+            "url": "http://fhir.de/StructureDefinition/Aufnahmegrund",
+            "extension": [
+              {
+                "url": "ErsteUndZweiteStelle",
+                "valueCoding": {
+                  "system": "http://fhir.de/CodeSystem/dkgev/AufnahmegrundErsteUndZweiteStelle",
+                  "code": "01",
+                  "display": "KH-Behandlung, vollstat."
+                }
+              },
+              {
+                "url": "DritteStelle",
+                "valueCoding": {
+                  "system": "http://fhir.de/CodeSystem/dkgev/AufnahmegrundDritteStelle",
+                  "code": "0",
+                  "display": "Anderes"
+                }
+              },
+              {
+                "url": "VierteStelle",
+                "valueCoding": {
+                  "system": "http://fhir.de/CodeSystem/dkgev/AufnahmegrundVierteStelle",
+                  "code": "1",
+                  "display": "Normalfall"
+                }
+              }
+            ]
+          }
+        ],
+        "identifier": [
+          {
+            "use": "official",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "code": "VN"
+                }
+              ]
+            },
+            "system": "http://localIdentifier.de/identifiers/encounter",
+            "value": "T-NO-ICU-BUT-VENT"
+          },
+          {
+            "use": "secondary",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "code": "U"
+                }
+              ]
+            },
+            "system": "http://localIdentifier.de/identifiers/encounter_transferid",
+            "value": "000000"
+          },
+          {
+            "use": "secondary",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "code": "U"
+                }
+              ]
+            },
+            "system": "http://localIdentifier.de/identifiers/encounter_contactlevel",
+            "value": "EK"
+          }
+        ],
+        "status": "finished",
+        "class": {
+          "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+          "code": "IMP",
+          "display": "inpatient encounter"
+        },
+        "type": [
+          {
+            "coding": [
+              {
+                "system": "http://fhir.de/CodeSystem/Kontaktebene",
+                "code": "einrichtungskontakt",
+                "display": "Einrichtungskontakt"
+              }
+            ]
+          }
+        ],
+        "subject": {
+          "reference": "Patient/T-NO-ICU-BUT-VENT"
+        },
+        "period": {
+          "start": "2025-01-01T10:00:00+02:00",
+          "end": "2025-01-20T17:00:00+02:00"
+        },
+        "hospitalization": {
+          "admitSource": {
+            "coding": [
+              {
+                "system": "http://fhir.de/CodeSystem/dgkev/Aufnahmeanlass",
+                "code": "A",
+                "display": "Verlegung (mit Behandlungsdauer im verlegenden Krankenhaus bis zu 24 Stunden)"
+              }
+            ]
+          },
+          "dischargeDisposition": {
+            "extension": [
+              {
+                "url": "http://fhir.de/StructureDefinition/Entlassungsgrund",
+                "extension": [
+                  {
+                    "url": "ErsteUndZweiteStelle",
+                    "valueCoding": {
+                      "system": "http://fhir.de/CodeSystem/dkgev/EntlassungsgrundErsteUndZweiteStelle",
+                      "code": "07",
+                      "display": "Tod"
+                    }
+                  },
+                  {
+                    "url": "DritteStelle",
+                    "valueCoding": {
+                      "system": "http://fhir.de/CodeSystem/dkgev/EntlassungsgrundDritteStelle",
+                      "code": "9",
+                      "display": "keine Angabe"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/T-NO-ICU-BUT-VENT-AK-0-0",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "T-NO-ICU-BUT-VENT-AK-0-0",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-17T20:00:13.621-05:00",
+          "source": "#t2wWHQ5Epxcpgj3y",
+          "profile": [
+            "https://www.medizininformatik-initiative.de/fhir/core/modul-fall/StructureDefinition/KontaktGesundheitseinrichtung"
+          ]
+        },
+        "identifier": [
+          {
+            "use": "official",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "code": "VN"
+                }
+              ]
+            },
+            "system": "http://localIdentifier.de/identifiers/encounter",
+            "value": "T-NO-ICU-BUT-VENT"
+          }
+        ],
+        "status": "finished",
+        "class": {
+          "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+          "code": "IMP",
+          "display": "inpatient encounter"
+        },
+        "type": [
+          {
+            "coding": [
+              {
+                "system": "http://fhir.de/CodeSystem/Kontaktebene",
+                "code": "abteilungskontakt",
+                "display": "Abteilungskontakt"
+              }
+            ]
+          }
+        ],
+        "serviceType": {
+          "coding": [
+            {
+              "system": "http://fhir.de/CodeSystem/dkgev/Fachabteilungsschluessel",
+              "code": "0300",
+              "display": "Kardiologie"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/T-NO-ICU-BUT-VENT"
+        },
+        "period": {
+          "start": "2025-01-01T10:00:00+02:00",
+          "end": "2025-01-20T17:00:00+02:00"
+        },
+        "partOf": {
+          "reference": "Encounter/T-NO-ICU-BUT-VENT-000000-EK"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/T-SHORT-STAY-SEMI-STATIONARY-000000-EK",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "T-SHORT-STAY-SEMI-STATIONARY-000000-EK",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-17T20:00:13.621-05:00",
+          "source": "#t2wWHQ5Epxcpgj3y",
+          "profile": [
+            "https://www.medizininformatik-initiative.de/fhir/core/modul-fall/StructureDefinition/KontaktGesundheitseinrichtung"
+          ]
+        },
+        "extension": [
+          {
+            "url": "http://fhir.de/StructureDefinition/Aufnahmegrund",
+            "extension": [
+              {
+                "url": "ErsteUndZweiteStelle",
+                "valueCoding": {
+                  "system": "http://fhir.de/CodeSystem/dkgev/AufnahmegrundErsteUndZweiteStelle",
+                  "code": "01",
+                  "display": "KH-Behandlung, vollstat."
+                }
+              },
+              {
+                "url": "DritteStelle",
+                "valueCoding": {
+                  "system": "http://fhir.de/CodeSystem/dkgev/AufnahmegrundDritteStelle",
+                  "code": "0",
+                  "display": "Anderes"
+                }
+              },
+              {
+                "url": "VierteStelle",
+                "valueCoding": {
+                  "system": "http://fhir.de/CodeSystem/dkgev/AufnahmegrundVierteStelle",
+                  "code": "1",
+                  "display": "Normalfall"
+                }
+              }
+            ]
+          }
+        ],
+        "identifier": [
+          {
+            "use": "official",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "code": "VN"
+                }
+              ]
+            },
+            "system": "http://localIdentifier.de/identifiers/encounter",
+            "value": "T-SHORT-STAY-SEMI-STATIONARY"
+          },
+          {
+            "use": "secondary",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "code": "U"
+                }
+              ]
+            },
+            "system": "http://localIdentifier.de/identifiers/encounter_transferid",
+            "value": "000000"
+          },
+          {
+            "use": "secondary",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "code": "U"
+                }
+              ]
+            },
+            "system": "http://localIdentifier.de/identifiers/encounter_contactlevel",
+            "value": "EK"
+          }
+        ],
+        "status": "finished",
+        "class": {
+          "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+          "code": "SS",
+          "display": "short stay"
+        },
+        "type": [
+          {
+            "coding": [
+              {
+                "system": "http://fhir.de/CodeSystem/Kontaktebene",
+                "code": "einrichtungskontakt",
+                "display": "Einrichtungskontakt"
+              }
+            ]
+          },
+          {
+            "coding": [
+              {
+                "system": "http://fhir.de/CodeSystem/kontaktart-de",
+                "code": "teilstationaer",
+                "display": "Teilstation\u00e4re Behandlung"
+              }
+            ]
+          }
+        ],
+        "subject": {
+          "reference": "Patient/T-SHORT-STAY-SEMI-STATIONARY"
+        },
+        "period": {
+          "start": "2022-08-01T10:00:00+02:00",
+          "end": "2022-08-10T17:00:00+02:00"
+        },
+        "hospitalization": {
+          "admitSource": {
+            "coding": [
+              {
+                "system": "http://fhir.de/CodeSystem/dgkev/Aufnahmeanlass",
+                "code": "A",
+                "display": "Verlegung (mit Behandlungsdauer im verlegenden Krankenhaus bis zu 24 Stunden)"
+              }
+            ]
+          },
+          "dischargeDisposition": {
+            "extension": [
+              {
+                "url": "http://fhir.de/StructureDefinition/Entlassungsgrund",
+                "extension": [
+                  {
+                    "url": "ErsteUndZweiteStelle",
+                    "valueCoding": {
+                      "system": "http://fhir.de/CodeSystem/dkgev/EntlassungsgrundErsteUndZweiteStelle",
+                      "code": "07",
+                      "display": "Tod"
+                    }
+                  },
+                  {
+                    "url": "DritteStelle",
+                    "valueCoding": {
+                      "system": "http://fhir.de/CodeSystem/dkgev/EntlassungsgrundDritteStelle",
+                      "code": "9",
+                      "display": "keine Angabe"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/T-SHORT-STAY-SEMI-STATIONARY-22222222-AK-0-0",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "T-SHORT-STAY-SEMI-STATIONARY-22222222-AK-0-0",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-17T20:00:13.621-05:00",
+          "source": "#t2wWHQ5Epxcpgj3y",
+          "profile": [
+            "https://www.medizininformatik-initiative.de/fhir/core/modul-fall/StructureDefinition/KontaktGesundheitseinrichtung"
+          ]
+        },
+        "identifier": [
+          {
+            "use": "official",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "code": "VN"
+                }
+              ]
+            },
+            "system": "http://localIdentifier.de/identifiers/encounter",
+            "value": "T-SHORT-STAY-SEMI-STATIONARY"
+          },
+          {
+            "use": "secondary",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "code": "U"
+                }
+              ]
+            },
+            "system": "http://localIdentifier.de/identifiers/encounter_transferid",
+            "value": "22222222"
+          },
+          {
+            "use": "secondary",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "code": "U"
+                }
+              ]
+            },
+            "system": "http://localIdentifier.de/identifiers/encounter_contactlevel",
+            "value": "AK"
+          }
+        ],
+        "status": "finished",
+        "class": {
+          "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+          "code": "SS",
+          "display": "short stay"
+        },
+        "type": [
+          {
+            "coding": [
+              {
+                "system": "http://fhir.de/CodeSystem/Kontaktebene",
+                "code": "abteilungskontakt",
+                "display": "Abteilungskontakt"
+              }
+            ]
+          }
+        ],
+        "serviceType": {
+          "coding": [
+            {
+              "system": "http://fhir.de/CodeSystem/dkgev/Fachabteilungsschluessel",
+              "code": "0300",
+              "display": "Kardiologie"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/T-SHORT-STAY-SEMI-STATIONARY"
+        },
+        "period": {
+          "start": "2022-08-01T10:00:00+02:00",
+          "end": "2022-08-10T17:00:00+02:00"
+        },
+        "location": [
+          {
+            "location": {
+              "reference": "Location/T-222222"
+            },
+            "physicalType": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/location-physical-type",
+                  "code": "wa",
+                  "display": "Ward"
+                }
+              ]
+            },
+            "period": {
+              "start": "2022-08-01T10:00:00+02:00",
+              "end": "2022-08-10T17:00:00+02:00"
+            }
+          }
+        ],
+        "partOf": {
+          "reference": "Encounter/T-SHORT-STAY-SEMI-STATIONARY-000000-EK"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/T-876587658-000000-EK",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "T-876587658-000000-EK",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-17T20:01:39.263-05:00",
+          "source": "#RO6aK2FIu56splaG",
+          "profile": [
+            "https://www.medizininformatik-initiative.de/fhir/core/modul-fall/StructureDefinition/KontaktGesundheitseinrichtung"
+          ]
+        },
+        "extension": [
+          {
+            "url": "http://fhir.de/StructureDefinition/Aufnahmegrund",
+            "extension": [
+              {
+                "url": "ErsteUndZweiteStelle",
+                "valueCoding": {
+                  "system": "http://fhir.de/CodeSystem/dkgev/AufnahmegrundErsteUndZweiteStelle",
+                  "code": "01",
+                  "display": "KH-Behandlung, vollstat."
+                }
+              },
+              {
+                "url": "DritteStelle",
+                "valueCoding": {
+                  "system": "http://fhir.de/CodeSystem/dkgev/AufnahmegrundDritteStelle",
+                  "code": "0",
+                  "display": "Anderes"
+                }
+              },
+              {
+                "url": "VierteStelle",
+                "valueCoding": {
+                  "system": "http://fhir.de/CodeSystem/dkgev/AufnahmegrundVierteStelle",
+                  "code": "1",
+                  "display": "Normalfall"
+                }
+              }
+            ]
+          }
+        ],
+        "identifier": [
+          {
+            "use": "official",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "code": "VN"
+                }
+              ]
+            },
+            "system": "http://localIdentifier.de/identifiers/encounter",
+            "value": "T-876587658"
+          },
+          {
+            "use": "secondary",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "code": "U"
+                }
+              ]
+            },
+            "system": "http://localIdentifier.de/identifiers/encounter_transferid",
+            "value": "000000"
+          },
+          {
+            "use": "secondary",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "code": "U"
+                }
+              ]
+            },
+            "system": "http://localIdentifier.de/identifiers/encounter_contactlevel",
+            "value": "EK"
+          }
+        ],
+        "status": "in-progress",
+        "class": {
+          "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+          "code": "IMP",
+          "display": "inpatient encounter"
+        },
+        "type": [
+          {
+            "coding": [
+              {
+                "system": "http://fhir.de/CodeSystem/Kontaktebene",
+                "code": "einrichtungskontakt",
+                "display": "Einrichtungskontakt"
+              }
+            ]
+          }
+        ],
+        "subject": {
+          "reference": "Patient/T-876587658"
+        },
+        "period": {
+          "start": "2024-04-03T10:00:00+02:00"
+        },
+        "hospitalization": {
+          "admitSource": {
+            "coding": [
+              {
+                "system": "http://fhir.de/CodeSystem/dgkev/Aufnahmeanlass",
+                "code": "A",
+                "display": "Verlegung (mit Behandlungsdauer im verlegenden Krankenhaus bis zu 24 Stunden)"
+              }
+            ]
+          }
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/T-876587658-22222222-AK-0-0",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "T-876587658-22222222-AK-0-0",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-17T20:01:39.263-05:00",
+          "source": "#RO6aK2FIu56splaG",
+          "profile": [
+            "https://www.medizininformatik-initiative.de/fhir/core/modul-fall/StructureDefinition/KontaktGesundheitseinrichtung"
+          ]
+        },
+        "identifier": [
+          {
+            "use": "official",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "code": "VN"
+                }
+              ]
+            },
+            "system": "http://localIdentifier.de/identifiers/encounter",
+            "value": "T-876587658"
+          },
+          {
+            "use": "secondary",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "code": "U"
+                }
+              ]
+            },
+            "system": "http://localIdentifier.de/identifiers/encounter_transferid",
+            "value": "22222222"
+          },
+          {
+            "use": "secondary",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "code": "U"
+                }
+              ]
+            },
+            "system": "http://localIdentifier.de/identifiers/encounter_contactlevel",
+            "value": "AK"
+          }
+        ],
+        "status": "in-progress",
+        "class": {
+          "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+          "code": "IMP",
+          "display": "inpatient encounter"
+        },
+        "type": [
+          {
+            "coding": [
+              {
+                "system": "http://fhir.de/CodeSystem/Kontaktebene",
+                "code": "abteilungskontakt",
+                "display": "Abteilungskontakt"
+              }
+            ]
+          }
+        ],
+        "serviceType": {
+          "coding": [
+            {
+              "system": "http://fhir.de/CodeSystem/dkgev/Fachabteilungsschluessel",
+              "code": "0300",
+              "display": "Kardiologie"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/T-876587658"
+        },
+        "period": {
+          "start": "2024-04-03T10:00:00+02:00"
+        },
+        "location": [
+          {
+            "location": {
+              "reference": "Location/T-222222"
+            },
+            "physicalType": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/location-physical-type",
+                  "code": "wa",
+                  "display": "Ward"
+                }
+              ]
+            },
+            "period": {
+              "start": "2024-04-03T10:00:00+02:00"
+            }
+          }
+        ],
+        "partOf": {
+          "reference": "Encounter/T-876587658-000000-EK"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/T-1234567911-000000-EK",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "T-1234567911-000000-EK",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-17T20:01:39.263-05:00",
+          "source": "#RO6aK2FIu56splaG",
+          "profile": [
+            "https://www.medizininformatik-initiative.de/fhir/core/modul-fall/StructureDefinition/KontaktGesundheitseinrichtung"
+          ]
+        },
+        "extension": [
+          {
+            "url": "http://fhir.de/StructureDefinition/Aufnahmegrund",
+            "extension": [
+              {
+                "url": "ErsteUndZweiteStelle",
+                "valueCoding": {
+                  "system": "http://fhir.de/CodeSystem/dkgev/AufnahmegrundErsteUndZweiteStelle",
+                  "code": "01",
+                  "display": "KH-Behandlung, vollstat."
+                }
+              },
+              {
+                "url": "DritteStelle",
+                "valueCoding": {
+                  "system": "http://fhir.de/CodeSystem/dkgev/AufnahmegrundDritteStelle",
+                  "code": "0",
+                  "display": "Anderes"
+                }
+              },
+              {
+                "url": "VierteStelle",
+                "valueCoding": {
+                  "system": "http://fhir.de/CodeSystem/dkgev/AufnahmegrundVierteStelle",
+                  "code": "1",
+                  "display": "Normalfall"
+                }
+              }
+            ]
+          }
+        ],
+        "identifier": [
+          {
+            "use": "official",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "code": "VN"
+                }
+              ]
+            },
+            "system": "http://localIdentifier.de/identifiers/encounter",
+            "value": "T-1234567911"
+          },
+          {
+            "use": "secondary",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "code": "U"
+                }
+              ]
+            },
+            "system": "http://localIdentifier.de/identifiers/encounter_transferid",
+            "value": "000000"
+          },
+          {
+            "use": "secondary",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "code": "U"
+                }
+              ]
+            },
+            "system": "http://localIdentifier.de/identifiers/encounter_contactlevel",
+            "value": "EK"
+          }
+        ],
+        "status": "finished",
+        "class": {
+          "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+          "code": "IMP",
+          "display": "inpatient encounter"
+        },
+        "type": [
+          {
+            "coding": [
+              {
+                "system": "http://fhir.de/CodeSystem/Kontaktebene",
+                "code": "einrichtungskontakt",
+                "display": "Einrichtungskontakt"
+              }
+            ]
+          }
+        ],
+        "subject": {
+          "reference": "Patient/T-1234567911",
+          "type": "Patient",
+          "identifier": {
+            "system": "http://localIdentifier.de/identifiers/patient",
+            "value": "T-1234567911"
+          }
+        },
+        "period": {
+          "start": "2024-01-01T00:00:00+02:00",
+          "end": "2024-01-30T00:00:00+02:00"
+        },
+        "hospitalization": {
+          "admitSource": {
+            "coding": [
+              {
+                "system": "http://fhir.de/CodeSystem/dgkev/Aufnahmeanlass",
+                "code": "E",
+                "display": "Einweisung durch einen Arzt"
+              }
+            ]
+          },
+          "dischargeDisposition": {
+            "extension": [
+              {
+                "url": "http://fhir.de/StructureDefinition/Entlassungsgrund",
+                "extension": [
+                  {
+                    "url": "ErsteUndZweiteStelle",
+                    "valueCoding": {
+                      "system": "http://fhir.de/CodeSystem/dkgev/EntlassungsgrundErsteUndZweiteStelle",
+                      "code": "07",
+                      "display": "Tod"
+                    }
+                  },
+                  {
+                    "url": "DritteStelle",
+                    "valueCoding": {
+                      "system": "http://fhir.de/CodeSystem/dkgev/EntlassungsgrundDritteStelle",
+                      "code": "9",
+                      "display": "keine Angabe"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/T-OUTPATIENT-000000-EK",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "T-OUTPATIENT-000000-EK",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-17T20:01:39.263-05:00",
+          "source": "#RO6aK2FIu56splaG",
+          "profile": [
+            "https://www.medizininformatik-initiative.de/fhir/core/modul-fall/StructureDefinition/KontaktGesundheitseinrichtung"
+          ]
+        },
+        "identifier": [
+          {
+            "use": "official",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "code": "VN"
+                }
+              ]
+            },
+            "system": "http://localIdentifier.de/identifiers/encounter",
+            "value": "T-OUTPATIENT"
+          },
+          {
+            "use": "secondary",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "code": "U"
+                }
+              ]
+            },
+            "system": "http://localIdentifier.de/identifiers/encounter_transferid",
+            "value": "000000"
+          },
+          {
+            "use": "secondary",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "code": "U"
+                }
+              ]
+            },
+            "system": "http://localIdentifier.de/identifiers/encounter_contactlevel",
+            "value": "EK"
+          }
+        ],
+        "status": "finished",
+        "class": {
+          "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+          "code": "AMB",
+          "display": "ambulatory"
+        },
+        "type": [
+          {
+            "coding": [
+              {
+                "system": "http://fhir.de/CodeSystem/Kontaktebene",
+                "code": "einrichtungskontakt",
+                "display": "Einrichtungskontakt"
+              }
+            ]
+          }
+        ],
+        "subject": {
+          "reference": "Patient/T-OUTPATIENT",
+          "type": "Patient",
+          "identifier": {
+            "system": "http://localIdentifier.de/identifiers/patient",
+            "value": "T-OUTPATIENT"
+          }
+        },
+        "period": {
+          "start": "2024-02-29T14:00:00+01:00",
+          "end": "2024-02-29T14:00:00+01:00"
+        },
+        "location": [
+          {
+            "location": {
+              "reference": "Location/T-123456791"
+            },
+            "physicalType": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/location-physical-type",
+                  "code": "wa",
+                  "display": "Ward"
+                }
+              ]
+            },
+            "period": {
+              "start": "2024-02-29T14:00:00+01:00",
+              "end": "2024-02-29T14:00:00+01:00"
+            }
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/T-PRESTATIONARY-000000-EK",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "T-PRESTATIONARY-000000-EK",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-17T20:01:39.263-05:00",
+          "source": "#RO6aK2FIu56splaG",
+          "profile": [
+            "https://www.medizininformatik-initiative.de/fhir/core/modul-fall/StructureDefinition/KontaktGesundheitseinrichtung"
+          ]
+        },
+        "identifier": [
+          {
+            "use": "official",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "code": "VN"
+                }
+              ]
+            },
+            "system": "http://localIdentifier.de/identifiers/encounter",
+            "value": "T-PRESTATIONARY"
+          },
+          {
+            "use": "secondary",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "code": "U"
+                }
+              ]
+            },
+            "system": "http://localIdentifier.de/identifiers/encounter_transferid",
+            "value": "000000"
+          },
+          {
+            "use": "secondary",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "code": "U"
+                }
+              ]
+            },
+            "system": "http://localIdentifier.de/identifiers/encounter_contactlevel",
+            "value": "EK"
+          }
+        ],
+        "status": "finished",
+        "class": {
+          "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+          "code": "AMB",
+          "display": "ambulatory"
+        },
+        "type": [
+          {
+            "coding": [
+              {
+                "system": "http://fhir.de/CodeSystem/Kontaktebene",
+                "code": "einrichtungskontakt",
+                "display": "Einrichtungskontakt"
+              },
+              {
+                "system": "http://fhir.de/CodeSystem/kontaktart-de",
+                "code": "vorstationaer",
+                "display": "Vorstation\u00e4r"
+              }
+            ]
+          }
+        ],
+        "subject": {
+          "reference": "Patient/T-PRESTATIONARY",
+          "type": "Patient",
+          "identifier": {
+            "system": "http://localIdentifier.de/identifiers/patient",
+            "value": "T-PRESTATIONARY"
+          }
+        },
+        "period": {
+          "start": "2024-06-01T00:00:00+01:00",
+          "end": "2024-06-01T00:00:00+01:00"
+        },
+        "location": [
+          {
+            "location": {
+              "reference": "Location/T-123456791"
+            },
+            "physicalType": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/location-physical-type",
+                  "code": "wa",
+                  "display": "Ward"
+                }
+              ]
+            },
+            "period": {
+              "start": "2024-06-01T00:00:00+01:00",
+              "end": "2024-06-01T00:00:00+01:00"
+            }
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/T-UNKNOWN-ENCOUNTER-STATUS-000000-EK",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "T-UNKNOWN-ENCOUNTER-STATUS-000000-EK",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-17T20:01:39.263-05:00",
+          "source": "#RO6aK2FIu56splaG",
+          "profile": [
+            "https://www.medizininformatik-initiative.de/fhir/core/modul-fall/StructureDefinition/KontaktGesundheitseinrichtung"
+          ]
+        },
+        "identifier": [
+          {
+            "use": "official",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "code": "VN"
+                }
+              ]
+            },
+            "system": "http://localIdentifier.de/identifiers/encounter",
+            "value": "T-UNKNOWN-ENCOUNTER-STATUS"
+          },
+          {
+            "use": "secondary",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "code": "U"
+                }
+              ]
+            },
+            "system": "http://localIdentifier.de/identifiers/encounter_transferid",
+            "value": "000000"
+          },
+          {
+            "use": "secondary",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "code": "U"
+                }
+              ]
+            },
+            "system": "http://localIdentifier.de/identifiers/encounter_contactlevel",
+            "value": "EK"
+          }
+        ],
+        "status": "unknown",
+        "class": {
+          "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+          "code": "AMB",
+          "display": "ambulatory"
+        },
+        "type": [
+          {
+            "coding": [
+              {
+                "system": "http://fhir.de/CodeSystem/Kontaktebene",
+                "code": "einrichtungskontakt",
+                "display": "Einrichtungskontakt"
+              }
+            ]
+          }
+        ],
+        "subject": {
+          "reference": "Patient/T-UNKNOWN-ENCOUNTER-STATUS",
+          "type": "Patient",
+          "identifier": {
+            "system": "http://localIdentifier.de/identifiers/patient",
+            "value": "T-UNKNOWN-ENCOUNTER-STATUS"
+          }
+        },
+        "period": {
+          "start": "2024-06-01T00:00:00+01:00",
+          "end": "2024-06-01T00:00:00+01:00"
+        },
+        "location": [
+          {
+            "location": {
+              "reference": "Location/T-123456791"
+            },
+            "physicalType": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/location-physical-type",
+                  "code": "wa",
+                  "display": "Ward"
+                }
+              ]
+            },
+            "period": {
+              "start": "2024-06-01T00:00:00+01:00",
+              "end": "2024-06-01T00:00:00+01:00"
+            }
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/131276923",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "131276923",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-19T02:31:31.893-05:00",
+          "source": "#X9zjARD005MGEflA"
+        },
+        "status": "finished",
+        "class": {
+          "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+          "code": "AMB"
+        },
+        "type": [
+          {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "11429006",
+                "display": "Consultation"
+              }
+            ]
+          }
+        ],
+        "subject": {
+          "reference": "Patient/131276922"
+        },
+        "period": {
+          "start": "2026-02-17T10:00:00Z",
+          "end": "2026-02-17T10:30:00Z"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/131276924",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "131276924",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-19T02:31:32.893-05:00",
+          "source": "#Hzymu1isBW5Ny6ix"
+        },
+        "status": "finished",
+        "class": {
+          "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+          "code": "AMB"
+        },
+        "type": [
+          {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "11429006",
+                "display": "Consultation"
+              }
+            ]
+          }
+        ],
+        "subject": {
+          "reference": "Patient/131276922"
+        },
+        "period": {
+          "start": "2026-02-16T10:00:00Z",
+          "end": "2026-02-16T10:30:00Z"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/131276925",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "131276925",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-19T02:31:33.894-05:00",
+          "source": "#YgyRLKv7NmkF3u8Y"
+        },
+        "status": "finished",
+        "class": {
+          "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+          "code": "AMB"
+        },
+        "type": [
+          {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "11429006",
+                "display": "Consultation"
+              }
+            ]
+          }
+        ],
+        "subject": {
+          "reference": "Patient/131276922"
+        },
+        "period": {
+          "start": "2026-02-15T10:00:00Z",
+          "end": "2026-02-15T10:30:00Z"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/131276926",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "131276926",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-19T02:31:34.893-05:00",
+          "source": "#lGgZiPIj3dIfCXmS"
+        },
+        "status": "finished",
+        "class": {
+          "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+          "code": "AMB"
+        },
+        "type": [
+          {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "11429006",
+                "display": "Consultation"
+              }
+            ]
+          }
+        ],
+        "subject": {
+          "reference": "Patient/131276922"
+        },
+        "period": {
+          "start": "2026-02-14T10:00:00Z",
+          "end": "2026-02-14T10:30:00Z"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/131276927",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "131276927",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-19T02:31:35.893-05:00",
+          "source": "#HNusccyNg6Sh4w94"
+        },
+        "status": "finished",
+        "class": {
+          "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+          "code": "AMB"
+        },
+        "type": [
+          {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "11429006",
+                "display": "Consultation"
+              }
+            ]
+          }
+        ],
+        "subject": {
+          "reference": "Patient/131276922"
+        },
+        "period": {
+          "start": "2026-02-13T10:00:00Z",
+          "end": "2026-02-13T10:30:00Z"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/131276928",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "131276928",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-19T02:31:36.894-05:00",
+          "source": "#DTdSerHuDwMselGC"
+        },
+        "status": "finished",
+        "class": {
+          "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+          "code": "AMB"
+        },
+        "type": [
+          {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "11429006",
+                "display": "Consultation"
+              }
+            ]
+          }
+        ],
+        "subject": {
+          "reference": "Patient/131276922"
+        },
+        "period": {
+          "start": "2026-02-12T10:00:00Z",
+          "end": "2026-02-12T10:30:00Z"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/131276929",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "131276929",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-19T02:31:37.894-05:00",
+          "source": "#74EjdvguMgKJpBxL"
+        },
+        "status": "finished",
+        "class": {
+          "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+          "code": "AMB"
+        },
+        "type": [
+          {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "11429006",
+                "display": "Consultation"
+              }
+            ]
+          }
+        ],
+        "subject": {
+          "reference": "Patient/131276922"
+        },
+        "period": {
+          "start": "2026-02-11T10:00:00Z",
+          "end": "2026-02-11T10:30:00Z"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/131276930",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "131276930",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-19T02:31:38.894-05:00",
+          "source": "#PTSx7Wl3oErDNn65"
+        },
+        "status": "finished",
+        "class": {
+          "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+          "code": "AMB"
+        },
+        "type": [
+          {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "11429006",
+                "display": "Consultation"
+              }
+            ]
+          }
+        ],
+        "subject": {
+          "reference": "Patient/131276922"
+        },
+        "period": {
+          "start": "2026-02-10T10:00:00Z",
+          "end": "2026-02-10T10:30:00Z"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/131276931",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "131276931",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-19T02:31:39.894-05:00",
+          "source": "#NJVqXfS3CC2XvDpX"
+        },
+        "status": "finished",
+        "class": {
+          "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+          "code": "AMB"
+        },
+        "type": [
+          {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "11429006",
+                "display": "Consultation"
+              }
+            ]
+          }
+        ],
+        "subject": {
+          "reference": "Patient/131276922"
+        },
+        "period": {
+          "start": "2026-02-09T10:00:00Z",
+          "end": "2026-02-09T10:30:00Z"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/131276932",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "131276932",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-19T02:31:40.894-05:00",
+          "source": "#DoMKg7zKP7ZG4phl"
+        },
+        "status": "finished",
+        "class": {
+          "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+          "code": "AMB"
+        },
+        "type": [
+          {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "11429006",
+                "display": "Consultation"
+              }
+            ]
+          }
+        ],
+        "subject": {
+          "reference": "Patient/131276922"
+        },
+        "period": {
+          "start": "2026-02-08T10:00:00Z",
+          "end": "2026-02-08T10:30:00Z"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/131276954",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "131276954",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-19T02:38:45.215-05:00",
+          "source": "#fecPqAkD1KnlWaqW"
+        },
+        "status": "finished",
+        "class": {
+          "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+          "code": "AMB"
+        },
+        "type": [
+          {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "11429006",
+                "display": "Consultation"
+              }
+            ]
+          }
+        ],
+        "subject": {
+          "reference": "Patient/131276953"
+        },
+        "period": {
+          "start": "2026-02-17T10:00:00Z",
+          "end": "2026-02-17T10:30:00Z"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/131276955",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "131276955",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-19T02:38:46.216-05:00",
+          "source": "#yYXfNrdtLsIp6Xd8"
+        },
+        "status": "finished",
+        "class": {
+          "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+          "code": "AMB"
+        },
+        "type": [
+          {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "11429006",
+                "display": "Consultation"
+              }
+            ]
+          }
+        ],
+        "subject": {
+          "reference": "Patient/131276953"
+        },
+        "period": {
+          "start": "2026-02-16T10:00:00Z",
+          "end": "2026-02-16T10:30:00Z"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/131276956",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "131276956",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-19T02:38:47.215-05:00",
+          "source": "#x6m9BmXP1i1Z09eJ"
+        },
+        "status": "finished",
+        "class": {
+          "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+          "code": "AMB"
+        },
+        "type": [
+          {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "11429006",
+                "display": "Consultation"
+              }
+            ]
+          }
+        ],
+        "subject": {
+          "reference": "Patient/131276953"
+        },
+        "period": {
+          "start": "2026-02-15T10:00:00Z",
+          "end": "2026-02-15T10:30:00Z"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/131276957",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "131276957",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-19T02:38:48.216-05:00",
+          "source": "#Ma0o036bGkgHiKHT"
+        },
+        "status": "finished",
+        "class": {
+          "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+          "code": "AMB"
+        },
+        "type": [
+          {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "11429006",
+                "display": "Consultation"
+              }
+            ]
+          }
+        ],
+        "subject": {
+          "reference": "Patient/131276953"
+        },
+        "period": {
+          "start": "2026-02-14T10:00:00Z",
+          "end": "2026-02-14T10:30:00Z"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/131276958",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "131276958",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-19T02:38:49.216-05:00",
+          "source": "#jxeiaSUgm9mNJqlw"
+        },
+        "status": "finished",
+        "class": {
+          "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+          "code": "AMB"
+        },
+        "type": [
+          {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "11429006",
+                "display": "Consultation"
+              }
+            ]
+          }
+        ],
+        "subject": {
+          "reference": "Patient/131276953"
+        },
+        "period": {
+          "start": "2026-02-13T10:00:00Z",
+          "end": "2026-02-13T10:30:00Z"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/131276959",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "131276959",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-19T02:38:50.216-05:00",
+          "source": "#6OPKfBu4k877cNcE"
+        },
+        "status": "finished",
+        "class": {
+          "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+          "code": "AMB"
+        },
+        "type": [
+          {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "11429006",
+                "display": "Consultation"
+              }
+            ]
+          }
+        ],
+        "subject": {
+          "reference": "Patient/131276953"
+        },
+        "period": {
+          "start": "2026-02-12T10:00:00Z",
+          "end": "2026-02-12T10:30:00Z"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/131276960",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "131276960",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-19T02:38:51.215-05:00",
+          "source": "#gOGkV7AoxcJZ3wsH"
+        },
+        "status": "finished",
+        "class": {
+          "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+          "code": "AMB"
+        },
+        "type": [
+          {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "11429006",
+                "display": "Consultation"
+              }
+            ]
+          }
+        ],
+        "subject": {
+          "reference": "Patient/131276953"
+        },
+        "period": {
+          "start": "2026-02-11T10:00:00Z",
+          "end": "2026-02-11T10:30:00Z"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/131276961",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "131276961",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-19T02:38:52.215-05:00",
+          "source": "#X4pzZKIG68vyA08K"
+        },
+        "status": "finished",
+        "class": {
+          "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+          "code": "AMB"
+        },
+        "type": [
+          {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "11429006",
+                "display": "Consultation"
+              }
+            ]
+          }
+        ],
+        "subject": {
+          "reference": "Patient/131276953"
+        },
+        "period": {
+          "start": "2026-02-10T10:00:00Z",
+          "end": "2026-02-10T10:30:00Z"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/131276962",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "131276962",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-19T02:38:53.216-05:00",
+          "source": "#keAiioBp1NGGdrZP"
+        },
+        "status": "finished",
+        "class": {
+          "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+          "code": "AMB"
+        },
+        "type": [
+          {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "11429006",
+                "display": "Consultation"
+              }
+            ]
+          }
+        ],
+        "subject": {
+          "reference": "Patient/131276953"
+        },
+        "period": {
+          "start": "2026-02-09T10:00:00Z",
+          "end": "2026-02-09T10:30:00Z"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/131276963",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "131276963",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-19T02:38:54.216-05:00",
+          "source": "#DMiFoCHzwTbfMwWV"
+        },
+        "status": "finished",
+        "class": {
+          "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+          "code": "AMB"
+        },
+        "type": [
+          {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "11429006",
+                "display": "Consultation"
+              }
+            ]
+          }
+        ],
+        "subject": {
+          "reference": "Patient/131276953"
+        },
+        "period": {
+          "start": "2026-02-08T10:00:00Z",
+          "end": "2026-02-08T10:30:00Z"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/131277294",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "131277294",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-19T14:00:43.192-05:00",
+          "source": "#0vSBmkL56gSvoWdG"
+        },
+        "identifier": [
+          {
+            "value": "a037a5d9-98a5-41f3-b405-0f5d2c7ce49b"
+          }
+        ],
+        "subject": {
+          "display": "Green Acres"
+        },
+        "period": {
+          "start": "2025-09-01T06:50:10.571000Z"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/131277295",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "131277295",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-19T14:00:44.191-05:00",
+          "source": "#PIrwhCPqJvMbiKU4"
+        },
+        "identifier": [
+          {
+            "value": "8d02ede5-1422-4413-91b6-039dac2830d4"
+          }
+        ],
+        "subject": {
+          "display": "Pius Kariuki"
+        },
+        "period": {
+          "start": "2025-09-01T08:07:36.051000Z"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/131277296",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "131277296",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-19T14:00:45.190-05:00",
+          "source": "#0FMDnxfe7OBLnvHq"
+        },
+        "identifier": [
+          {
+            "value": "fdb73065-01cd-43c5-acf5-0624479e226f"
+          }
+        ],
+        "subject": {
+          "display": "Jane Doe"
+        },
+        "period": {
+          "start": "2025-09-01T08:13:04.081000Z"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/131277297",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "131277297",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-19T14:00:46.191-05:00",
+          "source": "#VwiLqmhoE8VwymrB"
+        },
+        "identifier": [
+          {
+            "value": "32294fcd-e050-4487-b3ea-575539241ea3"
+          }
+        ],
+        "subject": {
+          "display": "Bob Bowman"
+        },
+        "period": {
+          "start": "2025-09-01T08:49:54.682000Z"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/131277298",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "131277298",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-19T14:00:47.191-05:00",
+          "source": "#yxNrE8uwQhOgjwyY"
+        },
+        "identifier": [
+          {
+            "value": "5b8ec78e-5094-4a57-8f23-38719c3f57fb"
+          }
+        ],
+        "subject": {
+          "display": "Bill Burr"
+        },
+        "period": {
+          "start": "2025-09-01T09:04:55.353000Z"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/131277299",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "131277299",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-19T14:00:48.192-05:00",
+          "source": "#Ks8RnU7IxXHw7M0y"
+        },
+        "identifier": [
+          {
+            "value": "739796a9-2632-4823-860e-374f0e3ff60c"
+          }
+        ],
+        "subject": {
+          "display": "Christina P."
+        },
+        "period": {
+          "start": "2025-09-01T09:50:46.289000Z"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/131277300",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "131277300",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-19T14:00:49.190-05:00",
+          "source": "#p6mGZ95QPWVOkk8i"
+        },
+        "identifier": [
+          {
+            "value": "27b5e448-c001-4399-b748-49e72f5d41b9"
+          }
+        ],
+        "subject": {
+          "display": "Jack Hilton"
+        },
+        "period": {
+          "start": "2025-09-01T13:00:00.558000Z"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/131277301",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "131277301",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-19T14:00:50.191-05:00",
+          "source": "#fosmGf0mZOZatyiK"
+        },
+        "identifier": [
+          {
+            "value": "4eb83840-0a1e-496f-80f0-75bc3abc0bed"
+          }
+        ],
+        "subject": {
+          "display": "Taylor Downs"
+        },
+        "period": {
+          "start": "2025-09-01T13:02:15.351000Z"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/131277302",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "131277302",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-19T14:00:51.191-05:00",
+          "source": "#lSr4E2OLxgc3oxVl"
+        },
+        "identifier": [
+          {
+            "value": "5c1f39a8-47d0-4100-8bcd-27acc5f86b45"
+          }
+        ],
+        "subject": {
+          "display": "Jon Snow"
+        },
+        "period": {
+          "start": "2025-09-02T11:30:04.884000Z"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/131277303",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "131277303",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-19T14:00:52.192-05:00",
+          "source": "#uBsbugQK6QWtPIMv"
+        },
+        "identifier": [
+          {
+            "value": "2ca5242c-a234-4606-af0c-6a42d3aab0ac"
+          }
+        ],
+        "subject": {
+          "display": "Geoffrey Oyu"
+        },
+        "period": {
+          "start": "2025-09-02T13:38:57.999000Z"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/131277304",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "131277304",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-19T14:00:53.191-05:00",
+          "source": "#bbX1PdfO1Su5EWcJ"
+        },
+        "identifier": [
+          {
+            "value": "aa56cb5e018f4a2eb25a6244194816a6"
+          }
+        ],
+        "subject": {
+          "display": "Jane Doe"
+        },
+        "period": {
+          "start": "2025-09-12T20:42:24.168789Z"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/131277305",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "131277305",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-19T14:00:54.192-05:00",
+          "source": "#cmXDMtB1TM866dkt"
+        },
+        "identifier": [
+          {
+            "value": "a0059382b0ed443caa5d91179da3e8ea"
+          }
+        ],
+        "subject": {
+          "display": "Jane Doe"
+        },
+        "period": {
+          "start": "2025-09-12T20:42:24.437283Z"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/131277306",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "131277306",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-19T14:00:55.191-05:00",
+          "source": "#WIdaHSjDDLtozrC6"
+        },
+        "identifier": [
+          {
+            "value": "e80a94c700dc4917a02bab8555af9ed7"
+          }
+        ],
+        "subject": {
+          "display": "Jane Doe"
+        },
+        "period": {
+          "start": "2025-09-12T20:42:24.654874Z"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/131277307",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "131277307",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-19T14:00:56.191-05:00",
+          "source": "#OCAMxi37PHMrUYLO"
+        },
+        "identifier": [
+          {
+            "value": "049ef80b9de54a2b9daa2a253f6b03ac"
+          }
+        ],
+        "subject": {
+          "display": "John Doe"
+        },
+        "period": {
+          "start": "2025-09-12T20:42:24.871026Z"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/131277308",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "131277308",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-19T14:00:57.192-05:00",
+          "source": "#9JHC9jEq1Fe3OcWq"
+        },
+        "identifier": [
+          {
+            "value": "fef254188a9e4f569914af173d5ab7e4"
+          }
+        ],
+        "subject": {
+          "display": "Rita Z\u00e1goni"
+        },
+        "period": {
+          "start": "2025-09-12T20:42:25.088000Z"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/131274050",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "131274050",
+        "meta": {
+          "versionId": "2",
+          "lastUpdated": "2026-02-19T14:23:57.442-05:00",
+          "source": "#LIwPbi348Z5f394l"
+        },
+        "identifier": [
+          {
+            "system": "http://yourfacility.org/encounter-number",
+            "value": "1"
+          }
+        ],
+        "status": "finished",
+        "class": {
+          "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+          "code": "AMB",
+          "display": "Ambulatory"
+        },
+        "subject": {
+          "reference": "Patient/131274049"
+        },
+        "participant": [
+          {
+            "individual": {
+              "display": "Jordan Ssozi Francis"
+            }
+          },
+          {
+            "individual": {
+              "display": "Jordan Ssozi Francis"
+            }
+          }
+        ],
+        "period": {
+          "start": "2026-02-17T06:42:18.933087+00:00",
+          "end": "2026-02-19T14:23:56.487614+00:00"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/131277459",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "131277459",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-19T18:47:18.422-05:00",
+          "source": "#6K2t4TwwkkVRub2H"
+        },
+        "status": "finished",
+        "class": {
+          "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+          "code": "AMB"
+        },
+        "type": [
+          {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "11429006",
+                "display": "Consultation"
+              }
+            ]
+          }
+        ],
+        "subject": {
+          "reference": "Patient/131277458"
+        },
+        "period": {
+          "start": "2026-02-17T09:00:00Z",
+          "end": "2026-02-17T09:30:00Z"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/131277460",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "131277460",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-19T18:47:19.423-05:00",
+          "source": "#Alo7In4VrnrCdEZm"
+        },
+        "status": "finished",
+        "class": {
+          "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+          "code": "AMB"
+        },
+        "type": [
+          {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "11429006",
+                "display": "Consultation"
+              }
+            ]
+          }
+        ],
+        "subject": {
+          "reference": "Patient/131277458"
+        },
+        "period": {
+          "start": "2026-02-15T09:00:00Z",
+          "end": "2026-02-15T09:30:00Z"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/131277461",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "131277461",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-19T18:47:20.423-05:00",
+          "source": "#mb1S4qeQ4x3ADQ7C"
+        },
+        "status": "finished",
+        "class": {
+          "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+          "code": "AMB"
+        },
+        "type": [
+          {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "11429006",
+                "display": "Consultation"
+              }
+            ]
+          }
+        ],
+        "subject": {
+          "reference": "Patient/131277458"
+        },
+        "period": {
+          "start": "2026-02-13T09:00:00Z",
+          "end": "2026-02-13T09:30:00Z"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/131277462",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "131277462",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-19T18:47:21.422-05:00",
+          "source": "#U8HSzLHve7rrl9tV"
+        },
+        "status": "finished",
+        "class": {
+          "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+          "code": "AMB"
+        },
+        "type": [
+          {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "11429006",
+                "display": "Consultation"
+              }
+            ]
+          }
+        ],
+        "subject": {
+          "reference": "Patient/131277458"
+        },
+        "period": {
+          "start": "2026-02-11T09:00:00Z",
+          "end": "2026-02-11T09:30:00Z"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/131277463",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "131277463",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-19T18:47:22.423-05:00",
+          "source": "#haF1mPIKkAjK3ELZ"
+        },
+        "status": "finished",
+        "class": {
+          "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+          "code": "AMB"
+        },
+        "type": [
+          {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "11429006",
+                "display": "Consultation"
+              }
+            ]
+          }
+        ],
+        "subject": {
+          "reference": "Patient/131277458"
+        },
+        "period": {
+          "start": "2026-02-09T09:00:00Z",
+          "end": "2026-02-09T09:30:00Z"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    }
+  ]
+}

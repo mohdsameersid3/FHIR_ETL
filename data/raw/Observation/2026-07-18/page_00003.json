@@ -1,0 +1,3855 @@
+{
+  "resourceType": "Bundle",
+  "id": "5173ee72-2cc3-4d27-9456-edec3e89a5b3",
+  "meta": {
+    "lastUpdated": "2026-07-18T03:15:06.103-04:00"
+  },
+  "type": "searchset",
+  "link": [
+    {
+      "relation": "self",
+      "url": "https://hapi.fhir.org/baseR4?_getpages=5173ee72-2cc3-4d27-9456-edec3e89a5b3&_getpagesoffset=200&_count=100&_pretty=true&_bundletype=searchset"
+    },
+    {
+      "relation": "next",
+      "url": "https://hapi.fhir.org/baseR4?_getpages=5173ee72-2cc3-4d27-9456-edec3e89a5b3&_getpagesoffset=300&_count=100&_pretty=true&_bundletype=searchset"
+    },
+    {
+      "relation": "previous",
+      "url": "https://hapi.fhir.org/baseR4?_getpages=5173ee72-2cc3-4d27-9456-edec3e89a5b3&_getpagesoffset=100&_count=100&_pretty=true&_bundletype=searchset"
+    }
+  ],
+  "entry": [
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Observation/131286774",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "131286774",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-24T22:38:34.341-05:00",
+          "source": "#wN9mh1i2sxuV8S86"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ],
+            "text": "HL7 import"
+          }
+        ],
+        "code": {
+          "text": "300710^Candida albicans (UTI)"
+        },
+        "subject": {
+          "reference": "Patient/131281457"
+        },
+        "effectiveDateTime": "2026-02-24T22:38:34.685Z",
+        "valueString": "Not Detected"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Observation/131286775",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "131286775",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-24T22:38:35.340-05:00",
+          "source": "#Vkx242URaZhmO2Mt"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ],
+            "text": "HL7 import"
+          }
+        ],
+        "code": {
+          "text": "300711^Enterobacter aerogenes (UTI)"
+        },
+        "subject": {
+          "reference": "Patient/131281457"
+        },
+        "effectiveDateTime": "2026-02-24T22:38:35.684Z",
+        "valueString": "Not Detected"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Observation/131286776",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "131286776",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-24T22:38:36.341-05:00",
+          "source": "#J4kYbNuWj7Ckw28i"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ],
+            "text": "HL7 import"
+          }
+        ],
+        "code": {
+          "text": "300712^Enterococcus faecalis (UTI)"
+        },
+        "subject": {
+          "reference": "Patient/131281457"
+        },
+        "effectiveDateTime": "2026-02-24T22:38:36.681Z",
+        "valueString": "Not Detected"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Observation/131286777",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "131286777",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-24T22:38:37.341-05:00",
+          "source": "#KidGd7MwYq4zOaxq"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ],
+            "text": "HL7 import"
+          }
+        ],
+        "code": {
+          "text": "300713^Escherichia coli (UTI)"
+        },
+        "subject": {
+          "reference": "Patient/131281457"
+        },
+        "effectiveDateTime": "2026-02-24T22:38:37.681Z",
+        "valueString": "Not Detected"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Observation/131286778",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "131286778",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-24T22:38:38.340-05:00",
+          "source": "#qgibrROrVbij9qX3"
+        },
+        "status": "unknown",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ],
+            "text": "HL7 import"
+          }
+        ],
+        "code": {
+          "text": "300714^Klebsiella pneumoniae (UTI)"
+        },
+        "subject": {
+          "reference": "Patient/131281457"
+        },
+        "effectiveDateTime": "2026-02-24T22:38:38.713Z",
+        "valueString": "Not Detected"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Observation/131286789",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "131286789",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-24T23:25:09.096-05:00",
+          "source": "#sPgDYeQq5hxfrIOQ"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ],
+            "text": "HL7 import"
+          }
+        ],
+        "code": {
+          "text": "3001130^Aminoglycoside"
+        },
+        "subject": {
+          "reference": "Patient/131281457"
+        },
+        "effectiveDateTime": "2026-02-24T23:25:10.054Z",
+        "valueString": "Not Tested"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Observation/131286790",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "131286790",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-24T23:25:10.097-05:00",
+          "source": "#V1g41JYCSGbD7B6x"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ],
+            "text": "HL7 import"
+          }
+        ],
+        "code": {
+          "text": "3001131^AmpC 1"
+        },
+        "subject": {
+          "reference": "Patient/131281457"
+        },
+        "effectiveDateTime": "2026-02-24T23:25:10.519Z",
+        "valueString": "Not Tested"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Observation/131286791",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "131286791",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-24T23:25:11.097-05:00",
+          "source": "#A2xOFQpQZnJryb1L"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ],
+            "text": "HL7 import"
+          }
+        ],
+        "code": {
+          "text": "3001132^AmpC 2"
+        },
+        "subject": {
+          "reference": "Patient/131281457"
+        },
+        "effectiveDateTime": "2026-02-24T23:25:11.501Z",
+        "valueString": "Not Tested"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Observation/131286792",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "131286792",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-24T23:25:12.097-05:00",
+          "source": "#uoFwC5dDykSie9M5"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ],
+            "text": "HL7 import"
+          }
+        ],
+        "code": {
+          "text": "3001133^Vancomycin"
+        },
+        "subject": {
+          "reference": "Patient/131281457"
+        },
+        "effectiveDateTime": "2026-02-24T23:25:12.495Z",
+        "valueString": "Not Tested"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Observation/131286793",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "131286793",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-24T23:25:13.097-05:00",
+          "source": "#YH8I1A1xjVgfEvpq"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ],
+            "text": "HL7 import"
+          }
+        ],
+        "code": {
+          "text": "3001134^Macrolide"
+        },
+        "subject": {
+          "reference": "Patient/131281457"
+        },
+        "effectiveDateTime": "2026-02-24T23:25:13.495Z",
+        "valueString": "Not Tested"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Observation/131286794",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "131286794",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-24T23:25:14.097-05:00",
+          "source": "#1Ojz9bbJ3ISBEYti"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ],
+            "text": "HL7 import"
+          }
+        ],
+        "code": {
+          "text": "3001135^ESBL 1"
+        },
+        "subject": {
+          "reference": "Patient/131281457"
+        },
+        "effectiveDateTime": "2026-02-24T23:25:14.498Z",
+        "valueString": "Not Tested"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Observation/131286795",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "131286795",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-24T23:25:15.096-05:00",
+          "source": "#a8qZQOzZMP0UCpv5"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ],
+            "text": "HL7 import"
+          }
+        ],
+        "code": {
+          "text": "3001137^ESBL 3"
+        },
+        "subject": {
+          "reference": "Patient/131281457"
+        },
+        "effectiveDateTime": "2026-02-24T23:25:15.493Z",
+        "valueString": "Not Tested"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Observation/131286796",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "131286796",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-24T23:25:16.097-05:00",
+          "source": "#0LUgA7NKfgocZaSd"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ],
+            "text": "HL7 import"
+          }
+        ],
+        "code": {
+          "text": "3001138^Carbapenemase 1"
+        },
+        "subject": {
+          "reference": "Patient/131281457"
+        },
+        "effectiveDateTime": "2026-02-24T23:25:16.493Z",
+        "valueString": "Not Tested"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Observation/131286797",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "131286797",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-24T23:25:17.097-05:00",
+          "source": "#IterldDlCclDDfOW"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ],
+            "text": "HL7 import"
+          }
+        ],
+        "code": {
+          "text": "3001139^Carbapenemase 2"
+        },
+        "subject": {
+          "reference": "Patient/131281457"
+        },
+        "effectiveDateTime": "2026-02-24T23:25:17.493Z",
+        "valueString": "Not Tested"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Observation/131286798",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "131286798",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-24T23:25:18.096-05:00",
+          "source": "#ZQ7i6ERqg1skfMAP"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ],
+            "text": "HL7 import"
+          }
+        ],
+        "code": {
+          "text": "3001140^Metallo-BetaLactamase"
+        },
+        "subject": {
+          "reference": "Patient/131281457"
+        },
+        "effectiveDateTime": "2026-02-24T23:25:18.498Z",
+        "valueString": "Not Tested"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Observation/131286799",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "131286799",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-24T23:25:19.096-05:00",
+          "source": "#qg5vJzAo6VTDNPSG"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ],
+            "text": "HL7 import"
+          }
+        ],
+        "code": {
+          "text": "3001141^Methicillin"
+        },
+        "subject": {
+          "reference": "Patient/131281457"
+        },
+        "effectiveDateTime": "2026-02-24T23:25:19.490Z",
+        "valueString": "Not Tested"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Observation/131286800",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "131286800",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-24T23:25:20.097-05:00",
+          "source": "#KFhfLQQZHcZUVIpd"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ],
+            "text": "HL7 import"
+          }
+        ],
+        "code": {
+          "text": "3001142^Carbapenemase 3"
+        },
+        "subject": {
+          "reference": "Patient/131281457"
+        },
+        "effectiveDateTime": "2026-02-24T23:25:20.500Z",
+        "valueString": "Not Tested"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Observation/131286801",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "131286801",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-24T23:25:21.097-05:00",
+          "source": "#L8RWH7hhmFJZvImM"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ],
+            "text": "HL7 import"
+          }
+        ],
+        "code": {
+          "text": "3001143^Polymyxins"
+        },
+        "subject": {
+          "reference": "Patient/131281457"
+        },
+        "effectiveDateTime": "2026-02-24T23:25:21.494Z",
+        "valueString": "Not Tested"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Observation/131286802",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "131286802",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-24T23:25:22.096-05:00",
+          "source": "#TZtNaqSI7HcYisKX"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ],
+            "text": "HL7 import"
+          }
+        ],
+        "code": {
+          "text": "3001144^Quinolone and fluoroquinolone 1"
+        },
+        "subject": {
+          "reference": "Patient/131281457"
+        },
+        "effectiveDateTime": "2026-02-24T23:25:22.501Z",
+        "valueString": "Not Tested"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Observation/131286803",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "131286803",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-24T23:25:23.096-05:00",
+          "source": "#E0RrVGVXnWcmGX6O"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ],
+            "text": "HL7 import"
+          }
+        ],
+        "code": {
+          "text": "3001145^Quinolone and fluoroquinolone 2"
+        },
+        "subject": {
+          "reference": "Patient/131281457"
+        },
+        "effectiveDateTime": "2026-02-24T23:25:23.498Z",
+        "valueString": "Not Tested"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Observation/131286804",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "131286804",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-24T23:25:24.097-05:00",
+          "source": "#9HzenRyb1PJt2Q0C"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ],
+            "text": "HL7 import"
+          }
+        ],
+        "code": {
+          "text": "3001146^Tetracycline"
+        },
+        "subject": {
+          "reference": "Patient/131281457"
+        },
+        "effectiveDateTime": "2026-02-24T23:25:24.498Z",
+        "valueString": "Not Tested"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Observation/131286805",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "131286805",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-24T23:25:25.096-05:00",
+          "source": "#SfOBPIHU7JZGbVor"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ],
+            "text": "HL7 import"
+          }
+        ],
+        "code": {
+          "text": "3001147^Sulfonamide"
+        },
+        "subject": {
+          "reference": "Patient/131281457"
+        },
+        "effectiveDateTime": "2026-02-24T23:25:25.516Z",
+        "valueString": "Not Tested"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Observation/131286806",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "131286806",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-24T23:25:26.096-05:00",
+          "source": "#BKoV9coaoYChiDnJ"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ],
+            "text": "HL7 import"
+          }
+        ],
+        "code": {
+          "text": "3001464^Metallo-BetaLactamase 2"
+        },
+        "subject": {
+          "reference": "Patient/131281457"
+        },
+        "effectiveDateTime": "2026-02-24T23:25:26.494Z",
+        "valueString": "Not Tested"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Observation/131286807",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "131286807",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-24T23:25:27.096-05:00",
+          "source": "#aLMhPQnT41QJsXQX"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ],
+            "text": "HL7 import"
+          }
+        ],
+        "code": {
+          "text": "300699^Providencia stuartii (UTI)"
+        },
+        "subject": {
+          "reference": "Patient/131281457"
+        },
+        "effectiveDateTime": "2026-02-24T23:25:27.490Z",
+        "valueString": "Not Detected"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Observation/131286808",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "131286808",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-24T23:25:28.097-05:00",
+          "source": "#wRWNwAYk28OFwJFy"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ],
+            "text": "HL7 import"
+          }
+        ],
+        "code": {
+          "text": "300700^Staphylococcus saprophyticus (UTI)"
+        },
+        "subject": {
+          "reference": "Patient/131281457"
+        },
+        "effectiveDateTime": "2026-02-24T23:25:28.495Z",
+        "valueString": "Not Detected"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Observation/131286809",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "131286809",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-24T23:25:29.096-05:00",
+          "source": "#FPD33lifMFQrn72h"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ],
+            "text": "HL7 import"
+          }
+        ],
+        "code": {
+          "text": "300701^Acinetobacter baumannii (UTI)"
+        },
+        "subject": {
+          "reference": "Patient/131281457"
+        },
+        "effectiveDateTime": "2026-02-24T23:25:29.497Z",
+        "valueString": "Not Detected"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Observation/131286810",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "131286810",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-24T23:25:30.096-05:00",
+          "source": "#bH5GeTOlI2qePSxU"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ],
+            "text": "HL7 import"
+          }
+        ],
+        "code": {
+          "text": "300702^Citrobacter freundii (UTI)"
+        },
+        "subject": {
+          "reference": "Patient/131281457"
+        },
+        "effectiveDateTime": "2026-02-24T23:25:30.493Z",
+        "valueString": "Not Detected"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Observation/131286811",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "131286811",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-24T23:25:31.096-05:00",
+          "source": "#jNuuuB3MWLfNAhQ1"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ],
+            "text": "HL7 import"
+          }
+        ],
+        "code": {
+          "text": "300703^Enterobacter cloacae (UTI)"
+        },
+        "subject": {
+          "reference": "Patient/131281457"
+        },
+        "effectiveDateTime": "2026-02-24T23:25:31.498Z",
+        "valueString": "Not Detected"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Observation/131286812",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "131286812",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-24T23:25:32.097-05:00",
+          "source": "#iGsQ4BZjK7Znm535"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ],
+            "text": "HL7 import"
+          }
+        ],
+        "code": {
+          "text": "300704^Enterococcus faecium (UTI)"
+        },
+        "subject": {
+          "reference": "Patient/131281457"
+        },
+        "effectiveDateTime": "2026-02-24T23:25:32.491Z",
+        "valueString": "Not Detected"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Observation/131286813",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "131286813",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-24T23:25:33.096-05:00",
+          "source": "#tOHcB9bwpPqwNNNN"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ],
+            "text": "HL7 import"
+          }
+        ],
+        "code": {
+          "text": "300705^Klebsiella oxytoca (UTI)"
+        },
+        "subject": {
+          "reference": "Patient/131281457"
+        },
+        "effectiveDateTime": "2026-02-24T23:25:33.496Z",
+        "valueString": "Not Detected"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Observation/131286814",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "131286814",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-24T23:25:34.097-05:00",
+          "source": "#ZbY9pTAe1t2PufqU"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ],
+            "text": "HL7 import"
+          }
+        ],
+        "code": {
+          "text": "300706^Streptococcus agalactiae (UTI)"
+        },
+        "subject": {
+          "reference": "Patient/131281457"
+        },
+        "effectiveDateTime": "2026-02-24T23:25:34.494Z",
+        "valueString": "Not Detected"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Observation/131286815",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "131286815",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-24T23:25:35.096-05:00",
+          "source": "#3FuUwvKdsJsVCG7y"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ],
+            "text": "HL7 import"
+          }
+        ],
+        "code": {
+          "text": "300707^Morganella morganii (UTI)"
+        },
+        "subject": {
+          "reference": "Patient/131281457"
+        },
+        "effectiveDateTime": "2026-02-24T23:25:35.497Z",
+        "valueString": "Not Detected"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Observation/131286816",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "131286816",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-24T23:25:36.097-05:00",
+          "source": "#xQMXIbrSIZ5tnqN0"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ],
+            "text": "HL7 import"
+          }
+        ],
+        "code": {
+          "text": "300708^Proteus vulgaris (UTI)"
+        },
+        "subject": {
+          "reference": "Patient/131281457"
+        },
+        "effectiveDateTime": "2026-02-24T23:25:36.502Z",
+        "valueString": "Not Detected"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Observation/131286817",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "131286817",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-24T23:25:37.097-05:00",
+          "source": "#AB8OFYy7VObAkW9q"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ],
+            "text": "HL7 import"
+          }
+        ],
+        "code": {
+          "text": "300709^Pseudomonas aeruginosa (UTI)"
+        },
+        "subject": {
+          "reference": "Patient/131281457"
+        },
+        "effectiveDateTime": "2026-02-24T23:25:37.493Z",
+        "valueString": "Not Detected"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Observation/131286818",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "131286818",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-24T23:25:38.097-05:00",
+          "source": "#2oU4tXSl3XCW0At0"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ],
+            "text": "HL7 import"
+          }
+        ],
+        "code": {
+          "text": "300710^Candida albicans (UTI)"
+        },
+        "subject": {
+          "reference": "Patient/131281457"
+        },
+        "effectiveDateTime": "2026-02-24T23:25:38.498Z",
+        "valueString": "Not Detected"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Observation/131286819",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "131286819",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-24T23:25:39.097-05:00",
+          "source": "#1XG0jNGaXgJxexXo"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ],
+            "text": "HL7 import"
+          }
+        ],
+        "code": {
+          "text": "300711^Enterobacter aerogenes (UTI)"
+        },
+        "subject": {
+          "reference": "Patient/131281457"
+        },
+        "effectiveDateTime": "2026-02-24T23:25:39.490Z",
+        "valueString": "Not Detected"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Observation/131286820",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "131286820",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-24T23:25:40.097-05:00",
+          "source": "#ZpJe5EK1MA1XVKrR"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ],
+            "text": "HL7 import"
+          }
+        ],
+        "code": {
+          "text": "300712^Enterococcus faecalis (UTI)"
+        },
+        "subject": {
+          "reference": "Patient/131281457"
+        },
+        "effectiveDateTime": "2026-02-24T23:25:40.495Z",
+        "valueString": "Not Detected"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Observation/131286821",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "131286821",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-24T23:25:41.096-05:00",
+          "source": "#iWk1AsmTPk3sRihV"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ],
+            "text": "HL7 import"
+          }
+        ],
+        "code": {
+          "text": "300713^Escherichia coli (UTI)"
+        },
+        "subject": {
+          "reference": "Patient/131281457"
+        },
+        "effectiveDateTime": "2026-02-24T23:25:41.495Z",
+        "valueString": "Not Detected"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Observation/131286822",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "131286822",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-24T23:25:42.097-05:00",
+          "source": "#D94tR03O9wCicE0W"
+        },
+        "status": "unknown",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ],
+            "text": "HL7 import"
+          }
+        ],
+        "code": {
+          "text": "300714^Klebsiella pneumoniae (UTI)"
+        },
+        "subject": {
+          "reference": "Patient/131281457"
+        },
+        "effectiveDateTime": "2026-02-24T23:25:42.493Z",
+        "valueString": "Not Detected"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Observation/131287160",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "131287160",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-25T09:58:58.124-05:00",
+          "source": "#RvCHVMlOUIlCZxXH"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "text": "Isolate identification"
+        },
+        "subject": {
+          "reference": "Patient/131280998"
+        },
+        "encounter": {
+          "reference": "Encounter/131281002"
+        },
+        "valueString": "Streptococcus agalactiae",
+        "specimen": {
+          "reference": "Specimen/131287068"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Observation/131287163",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "131287163",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-25T10:00:22.910-05:00",
+          "source": "#e2NmeUolSQy0gFmz"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "text": "Isolate identification"
+        },
+        "subject": {
+          "reference": "Patient/131280998"
+        },
+        "encounter": {
+          "reference": "Encounter/131281002"
+        },
+        "valueString": "Streptococcus agalactiae",
+        "specimen": {
+          "reference": "Specimen/131287069"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Observation/131287770",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "131287770",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-25T17:44:07.180-05:00",
+          "source": "#CspK8NIzngzE86PY"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "text": "Organism identified"
+        },
+        "subject": {
+          "reference": "Patient/131274385"
+        },
+        "encounter": {
+          "reference": "Encounter/131274386"
+        },
+        "valueCodeableConcept": {
+          "text": "Escherichia coli"
+        },
+        "specimen": {
+          "reference": "Specimen/131287769"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Observation/131287792",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "131287792",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-25T18:12:34.446-05:00",
+          "source": "#IXNXFytmLmtOE3Mm"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ],
+            "text": "HL7 import"
+          }
+        ],
+        "code": {
+          "text": "3001131^AmpC 1"
+        },
+        "subject": {
+          "reference": "Patient/131281457"
+        },
+        "effectiveDateTime": "2026-02-25T18:12:35.051Z",
+        "valueString": "Not Tested"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Observation/131287793",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "131287793",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-25T18:12:35.447-05:00",
+          "source": "#5ziUcK853tNgKKgc"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ],
+            "text": "HL7 import"
+          }
+        ],
+        "code": {
+          "text": "3001130^Aminoglycoside"
+        },
+        "subject": {
+          "reference": "Patient/131281457"
+        },
+        "effectiveDateTime": "2026-02-25T18:12:35.051Z",
+        "valueString": "Not Tested"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Observation/131287794",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "131287794",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-25T18:12:36.447-05:00",
+          "source": "#USnByCdQfDS5PbcK"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ],
+            "text": "HL7 import"
+          }
+        ],
+        "code": {
+          "text": "3001137^ESBL 3"
+        },
+        "subject": {
+          "reference": "Patient/131281457"
+        },
+        "effectiveDateTime": "2026-02-25T18:12:35.051Z",
+        "valueString": "Not Tested"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Observation/131287795",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "131287795",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-25T18:12:37.447-05:00",
+          "source": "#p3eTma3jKQUCSfn1"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ],
+            "text": "HL7 import"
+          }
+        ],
+        "code": {
+          "text": "3001132^AmpC 2"
+        },
+        "subject": {
+          "reference": "Patient/131281457"
+        },
+        "effectiveDateTime": "2026-02-25T18:12:35.051Z",
+        "valueString": "Not Tested"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Observation/131287796",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "131287796",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-25T18:12:38.447-05:00",
+          "source": "#g0ec61TbRZ900jKz"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ],
+            "text": "HL7 import"
+          }
+        ],
+        "code": {
+          "text": "3001138^Carbapenemase 1"
+        },
+        "subject": {
+          "reference": "Patient/131281457"
+        },
+        "effectiveDateTime": "2026-02-25T18:12:35.051Z",
+        "valueString": "Not Tested"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Observation/131287797",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "131287797",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-25T18:12:39.448-05:00",
+          "source": "#AuNpmNA8KJH1JGkG"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ],
+            "text": "HL7 import"
+          }
+        ],
+        "code": {
+          "text": "3001135^ESBL 1"
+        },
+        "subject": {
+          "reference": "Patient/131281457"
+        },
+        "effectiveDateTime": "2026-02-25T18:12:35.051Z",
+        "valueString": "Not Tested"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Observation/131287799",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "131287799",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-25T18:15:24.517-05:00",
+          "source": "#BBrpRqMl1XEYFx2g"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ],
+            "text": "HL7 import"
+          }
+        ],
+        "code": {
+          "text": "3001130^Aminoglycoside"
+        },
+        "subject": {
+          "reference": "Patient/131281457"
+        },
+        "effectiveDateTime": "2026-02-25T18:15:25.044Z",
+        "valueString": "Not Tested"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Observation/131287800",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "131287800",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-25T18:15:24.517-05:00",
+          "source": "#BBrpRqMl1XEYFx2g"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ],
+            "text": "HL7 import"
+          }
+        ],
+        "code": {
+          "text": "3001131^AmpC 1"
+        },
+        "subject": {
+          "reference": "Patient/131281457"
+        },
+        "effectiveDateTime": "2026-02-25T18:15:25.044Z",
+        "valueString": "Not Tested"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Observation/131287801",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "131287801",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-25T18:15:24.517-05:00",
+          "source": "#BBrpRqMl1XEYFx2g"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ],
+            "text": "HL7 import"
+          }
+        ],
+        "code": {
+          "text": "3001132^AmpC 2"
+        },
+        "subject": {
+          "reference": "Patient/131281457"
+        },
+        "effectiveDateTime": "2026-02-25T18:15:25.044Z",
+        "valueString": "Not Tested"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Observation/131287802",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "131287802",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-25T18:15:24.517-05:00",
+          "source": "#BBrpRqMl1XEYFx2g"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ],
+            "text": "HL7 import"
+          }
+        ],
+        "code": {
+          "text": "3001133^Vancomycin"
+        },
+        "subject": {
+          "reference": "Patient/131281457"
+        },
+        "effectiveDateTime": "2026-02-25T18:15:25.044Z",
+        "valueString": "Not Tested"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Observation/131287803",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "131287803",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-25T18:15:24.517-05:00",
+          "source": "#BBrpRqMl1XEYFx2g"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ],
+            "text": "HL7 import"
+          }
+        ],
+        "code": {
+          "text": "3001134^Macrolide"
+        },
+        "subject": {
+          "reference": "Patient/131281457"
+        },
+        "effectiveDateTime": "2026-02-25T18:15:25.044Z",
+        "valueString": "Not Tested"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Observation/131287804",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "131287804",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-25T18:15:24.517-05:00",
+          "source": "#BBrpRqMl1XEYFx2g"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ],
+            "text": "HL7 import"
+          }
+        ],
+        "code": {
+          "text": "3001135^ESBL 1"
+        },
+        "subject": {
+          "reference": "Patient/131281457"
+        },
+        "effectiveDateTime": "2026-02-25T18:15:25.044Z",
+        "valueString": "Not Tested"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Observation/131287805",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "131287805",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-25T18:15:24.517-05:00",
+          "source": "#BBrpRqMl1XEYFx2g"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ],
+            "text": "HL7 import"
+          }
+        ],
+        "code": {
+          "text": "3001137^ESBL 3"
+        },
+        "subject": {
+          "reference": "Patient/131281457"
+        },
+        "effectiveDateTime": "2026-02-25T18:15:25.044Z",
+        "valueString": "Not Tested"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Observation/131287806",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "131287806",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-25T18:15:24.517-05:00",
+          "source": "#BBrpRqMl1XEYFx2g"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ],
+            "text": "HL7 import"
+          }
+        ],
+        "code": {
+          "text": "3001138^Carbapenemase 1"
+        },
+        "subject": {
+          "reference": "Patient/131281457"
+        },
+        "effectiveDateTime": "2026-02-25T18:15:25.044Z",
+        "valueString": "Not Tested"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Observation/131287807",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "131287807",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-25T18:15:24.517-05:00",
+          "source": "#BBrpRqMl1XEYFx2g"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ],
+            "text": "HL7 import"
+          }
+        ],
+        "code": {
+          "text": "3001139^Carbapenemase 2"
+        },
+        "subject": {
+          "reference": "Patient/131281457"
+        },
+        "effectiveDateTime": "2026-02-25T18:15:25.045Z",
+        "valueString": "Not Tested"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Observation/131287808",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "131287808",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-25T18:15:24.517-05:00",
+          "source": "#BBrpRqMl1XEYFx2g"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ],
+            "text": "HL7 import"
+          }
+        ],
+        "code": {
+          "text": "3001140^Metallo-BetaLactamase"
+        },
+        "subject": {
+          "reference": "Patient/131281457"
+        },
+        "effectiveDateTime": "2026-02-25T18:15:25.045Z",
+        "valueString": "Not Tested"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Observation/131287809",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "131287809",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-25T18:15:24.517-05:00",
+          "source": "#BBrpRqMl1XEYFx2g"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ],
+            "text": "HL7 import"
+          }
+        ],
+        "code": {
+          "text": "3001141^Methicillin"
+        },
+        "subject": {
+          "reference": "Patient/131281457"
+        },
+        "effectiveDateTime": "2026-02-25T18:15:25.045Z",
+        "valueString": "Not Tested"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Observation/131287810",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "131287810",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-25T18:15:24.517-05:00",
+          "source": "#BBrpRqMl1XEYFx2g"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ],
+            "text": "HL7 import"
+          }
+        ],
+        "code": {
+          "text": "3001142^Carbapenemase 3"
+        },
+        "subject": {
+          "reference": "Patient/131281457"
+        },
+        "effectiveDateTime": "2026-02-25T18:15:25.045Z",
+        "valueString": "Not Tested"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Observation/131287811",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "131287811",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-25T18:15:24.517-05:00",
+          "source": "#BBrpRqMl1XEYFx2g"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ],
+            "text": "HL7 import"
+          }
+        ],
+        "code": {
+          "text": "3001143^Polymyxins"
+        },
+        "subject": {
+          "reference": "Patient/131281457"
+        },
+        "effectiveDateTime": "2026-02-25T18:15:25.045Z",
+        "valueString": "Not Tested"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Observation/131287812",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "131287812",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-25T18:15:24.517-05:00",
+          "source": "#BBrpRqMl1XEYFx2g"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ],
+            "text": "HL7 import"
+          }
+        ],
+        "code": {
+          "text": "3001144^Quinolone and fluoroquinolone 1"
+        },
+        "subject": {
+          "reference": "Patient/131281457"
+        },
+        "effectiveDateTime": "2026-02-25T18:15:25.045Z",
+        "valueString": "Not Tested"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Observation/131287813",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "131287813",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-25T18:15:24.517-05:00",
+          "source": "#BBrpRqMl1XEYFx2g"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ],
+            "text": "HL7 import"
+          }
+        ],
+        "code": {
+          "text": "3001145^Quinolone and fluoroquinolone 2"
+        },
+        "subject": {
+          "reference": "Patient/131281457"
+        },
+        "effectiveDateTime": "2026-02-25T18:15:25.045Z",
+        "valueString": "Not Tested"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Observation/131287814",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "131287814",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-25T18:15:24.517-05:00",
+          "source": "#BBrpRqMl1XEYFx2g"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ],
+            "text": "HL7 import"
+          }
+        ],
+        "code": {
+          "text": "3001146^Tetracycline"
+        },
+        "subject": {
+          "reference": "Patient/131281457"
+        },
+        "effectiveDateTime": "2026-02-25T18:15:25.045Z",
+        "valueString": "Not Tested"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Observation/131287815",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "131287815",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-25T18:15:24.517-05:00",
+          "source": "#BBrpRqMl1XEYFx2g"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ],
+            "text": "HL7 import"
+          }
+        ],
+        "code": {
+          "text": "3001147^Sulfonamide"
+        },
+        "subject": {
+          "reference": "Patient/131281457"
+        },
+        "effectiveDateTime": "2026-02-25T18:15:25.045Z",
+        "valueString": "Not Tested"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Observation/131287816",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "131287816",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-25T18:15:24.517-05:00",
+          "source": "#BBrpRqMl1XEYFx2g"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ],
+            "text": "HL7 import"
+          }
+        ],
+        "code": {
+          "text": "3001464^Metallo-BetaLactamase 2"
+        },
+        "subject": {
+          "reference": "Patient/131281457"
+        },
+        "effectiveDateTime": "2026-02-25T18:15:25.045Z",
+        "valueString": "Not Tested"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Observation/131287817",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "131287817",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-25T18:15:24.517-05:00",
+          "source": "#BBrpRqMl1XEYFx2g"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ],
+            "text": "HL7 import"
+          }
+        ],
+        "code": {
+          "text": "300699^Providencia stuartii (UTI)"
+        },
+        "subject": {
+          "reference": "Patient/131281457"
+        },
+        "effectiveDateTime": "2026-02-25T18:15:25.045Z",
+        "valueString": "Not Detected"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Observation/131287818",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "131287818",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-25T18:15:24.517-05:00",
+          "source": "#BBrpRqMl1XEYFx2g"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ],
+            "text": "HL7 import"
+          }
+        ],
+        "code": {
+          "text": "300700^Staphylococcus saprophyticus (UTI)"
+        },
+        "subject": {
+          "reference": "Patient/131281457"
+        },
+        "effectiveDateTime": "2026-02-25T18:15:25.045Z",
+        "valueString": "Not Detected"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Observation/131287819",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "131287819",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-25T18:15:24.517-05:00",
+          "source": "#BBrpRqMl1XEYFx2g"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ],
+            "text": "HL7 import"
+          }
+        ],
+        "code": {
+          "text": "300701^Acinetobacter baumannii (UTI)"
+        },
+        "subject": {
+          "reference": "Patient/131281457"
+        },
+        "effectiveDateTime": "2026-02-25T18:15:25.045Z",
+        "valueString": "Not Detected"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Observation/131287820",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "131287820",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-25T18:15:24.517-05:00",
+          "source": "#BBrpRqMl1XEYFx2g"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ],
+            "text": "HL7 import"
+          }
+        ],
+        "code": {
+          "text": "300702^Citrobacter freundii (UTI)"
+        },
+        "subject": {
+          "reference": "Patient/131281457"
+        },
+        "effectiveDateTime": "2026-02-25T18:15:25.045Z",
+        "valueString": "Not Detected"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Observation/131287821",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "131287821",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-25T18:15:24.517-05:00",
+          "source": "#BBrpRqMl1XEYFx2g"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ],
+            "text": "HL7 import"
+          }
+        ],
+        "code": {
+          "text": "300703^Enterobacter cloacae (UTI)"
+        },
+        "subject": {
+          "reference": "Patient/131281457"
+        },
+        "effectiveDateTime": "2026-02-25T18:15:25.046Z",
+        "valueString": "Not Detected"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Observation/131287822",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "131287822",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-25T18:15:24.517-05:00",
+          "source": "#BBrpRqMl1XEYFx2g"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ],
+            "text": "HL7 import"
+          }
+        ],
+        "code": {
+          "text": "300704^Enterococcus faecium (UTI)"
+        },
+        "subject": {
+          "reference": "Patient/131281457"
+        },
+        "effectiveDateTime": "2026-02-25T18:15:25.046Z",
+        "valueString": "Not Detected"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Observation/131287823",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "131287823",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-25T18:15:24.517-05:00",
+          "source": "#BBrpRqMl1XEYFx2g"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ],
+            "text": "HL7 import"
+          }
+        ],
+        "code": {
+          "text": "300705^Klebsiella oxytoca (UTI)"
+        },
+        "subject": {
+          "reference": "Patient/131281457"
+        },
+        "effectiveDateTime": "2026-02-25T18:15:25.046Z",
+        "valueString": "Not Detected"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Observation/131287824",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "131287824",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-25T18:15:24.517-05:00",
+          "source": "#BBrpRqMl1XEYFx2g"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ],
+            "text": "HL7 import"
+          }
+        ],
+        "code": {
+          "text": "300706^Streptococcus agalactiae (UTI)"
+        },
+        "subject": {
+          "reference": "Patient/131281457"
+        },
+        "effectiveDateTime": "2026-02-25T18:15:25.046Z",
+        "valueString": "Not Detected"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Observation/131287825",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "131287825",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-25T18:15:24.517-05:00",
+          "source": "#BBrpRqMl1XEYFx2g"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ],
+            "text": "HL7 import"
+          }
+        ],
+        "code": {
+          "text": "300707^Morganella morganii (UTI)"
+        },
+        "subject": {
+          "reference": "Patient/131281457"
+        },
+        "effectiveDateTime": "2026-02-25T18:15:25.046Z",
+        "valueString": "Not Detected"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Observation/131287826",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "131287826",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-25T18:15:24.517-05:00",
+          "source": "#BBrpRqMl1XEYFx2g"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ],
+            "text": "HL7 import"
+          }
+        ],
+        "code": {
+          "text": "300708^Proteus vulgaris (UTI)"
+        },
+        "subject": {
+          "reference": "Patient/131281457"
+        },
+        "effectiveDateTime": "2026-02-25T18:15:25.046Z",
+        "valueString": "Not Detected"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Observation/131287827",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "131287827",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-25T18:15:24.517-05:00",
+          "source": "#BBrpRqMl1XEYFx2g"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ],
+            "text": "HL7 import"
+          }
+        ],
+        "code": {
+          "text": "300709^Pseudomonas aeruginosa (UTI)"
+        },
+        "subject": {
+          "reference": "Patient/131281457"
+        },
+        "effectiveDateTime": "2026-02-25T18:15:25.046Z",
+        "valueString": "Not Detected"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Observation/131287828",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "131287828",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-25T18:15:24.517-05:00",
+          "source": "#BBrpRqMl1XEYFx2g"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ],
+            "text": "HL7 import"
+          }
+        ],
+        "code": {
+          "text": "300710^Candida albicans (UTI)"
+        },
+        "subject": {
+          "reference": "Patient/131281457"
+        },
+        "effectiveDateTime": "2026-02-25T18:15:25.046Z",
+        "valueString": "Not Detected"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Observation/131287829",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "131287829",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-25T18:15:24.517-05:00",
+          "source": "#BBrpRqMl1XEYFx2g"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ],
+            "text": "HL7 import"
+          }
+        ],
+        "code": {
+          "text": "300711^Enterobacter aerogenes (UTI)"
+        },
+        "subject": {
+          "reference": "Patient/131281457"
+        },
+        "effectiveDateTime": "2026-02-25T18:15:25.046Z",
+        "valueString": "Not Detected"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Observation/131287830",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "131287830",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-25T18:15:24.517-05:00",
+          "source": "#BBrpRqMl1XEYFx2g"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ],
+            "text": "HL7 import"
+          }
+        ],
+        "code": {
+          "text": "300712^Enterococcus faecalis (UTI)"
+        },
+        "subject": {
+          "reference": "Patient/131281457"
+        },
+        "effectiveDateTime": "2026-02-25T18:15:25.046Z",
+        "valueString": "Not Detected"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Observation/131287831",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "131287831",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-25T18:15:24.517-05:00",
+          "source": "#BBrpRqMl1XEYFx2g"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ],
+            "text": "HL7 import"
+          }
+        ],
+        "code": {
+          "text": "300713^Escherichia coli (UTI)"
+        },
+        "subject": {
+          "reference": "Patient/131281457"
+        },
+        "effectiveDateTime": "2026-02-25T18:15:25.046Z",
+        "valueString": "Not Detected"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Observation/131287832",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "131287832",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-25T18:15:24.517-05:00",
+          "source": "#BBrpRqMl1XEYFx2g"
+        },
+        "status": "unknown",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ],
+            "text": "HL7 import"
+          }
+        ],
+        "code": {
+          "text": "300714^Klebsiella pneumoniae (UTI)"
+        },
+        "subject": {
+          "reference": "Patient/131281457"
+        },
+        "effectiveDateTime": "2026-02-25T18:15:25.046Z",
+        "valueString": "Not Detected"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Observation/131288358",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "131288358",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-26T12:55:49.305-05:00",
+          "source": "#LsRuuDamEzPwNkky"
+        },
+        "basedOn": [
+          {
+            "reference": "ServiceRequest/131288351"
+          }
+        ],
+        "status": "registered",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "100898-6",
+              "display": "Lipid panel - Serum or Plasma"
+            }
+          ],
+          "text": "Lipid panel - Serum or Plasma"
+        },
+        "subject": {
+          "reference": "Patient/131281378"
+        },
+        "encounter": {
+          "reference": "Encounter/131287615"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Observation/131288617",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "131288617",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-26T13:24:26.671-05:00",
+          "source": "#TY1grW1LXRd8KBNF"
+        },
+        "basedOn": [
+          {
+            "reference": "ServiceRequest/131288367"
+          }
+        ],
+        "status": "registered",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "100898-6",
+              "display": "Lipid panel - Serum or Plasma"
+            }
+          ],
+          "text": "Lipid panel - Serum or Plasma"
+        },
+        "subject": {
+          "reference": "Patient/131280998"
+        },
+        "encounter": {
+          "reference": "Encounter/131288366"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Observation/131289248",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "131289248",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-26T18:31:47.497-05:00",
+          "source": "#HsaVM9GwHjC2qs0w",
+          "tag": [
+            {
+              "system": "http://www.alpha.alp/use-case",
+              "code": "EX20"
+            }
+          ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><b>Observation:</b> Inflamed right eardrum, Right Ear. June 14, 2018.\r\n              <ul><li>Observer: Dr. Harold HIPPOCRATES, M, Alpha Hospital, Id: 9865421</li></ul></div>"
+        },
+        "status": "final",
+        "code": {
+          "text": "Ear examination"
+        },
+        "subject": {
+          "reference": "Patient/131289233"
+        },
+        "encounter": {
+          "reference": "Encounter/131289245",
+          "display": "Initial encounter"
+        },
+        "effectiveDateTime": "2018-06-14T15:05:00+01:00",
+        "performer": [
+          {
+            "reference": "Practitioner/131289242",
+            "display": "Dr. Harold Hippocrates"
+          }
+        ],
+        "valueCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "301470001",
+              "display": "Inflamed eardrum"
+            }
+          ]
+        },
+        "bodySite": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "25577004",
+              "display": "Right ear"
+            }
+          ]
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Observation/131289249",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "131289249",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-26T18:31:47.497-05:00",
+          "source": "#HsaVM9GwHjC2qs0w",
+          "tag": [
+            {
+              "system": "http://www.alpha.alp/use-case",
+              "code": "EX20"
+            }
+          ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><b>Observation:</b> Body temperature: 38 degrees C. June 14, 2018.\r\n              <ul><li>Observer: Dr. Harold HIPPOCRATES, M, Alpha Hospital, Id: 9865421</li></ul></div>"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ],
+            "text": "Vital Signs"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8310-5",
+              "display": "Body temperature"
+            }
+          ],
+          "text": "Body temperature"
+        },
+        "subject": {
+          "reference": "Patient/131289233"
+        },
+        "encounter": {
+          "reference": "Encounter/131289245"
+        },
+        "effectiveDateTime": "2018-06-14T15:05:00+01:00",
+        "performer": [
+          {
+            "reference": "Practitioner/131289242",
+            "display": "Dr. Harold Hippocrates"
+          }
+        ],
+        "valueQuantity": {
+          "value": 38,
+          "unit": "C",
+          "system": "http://unitsofmeasure.org",
+          "code": "Cel"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Observation/131289325",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "131289325",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-26T20:54:10.888-05:00",
+          "source": "#T8C8VLI9pen1aYW8"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "29463-7",
+              "display": "Body weight"
+            },
+            {
+              "system": "http://snomed.info/sct",
+              "code": "27113001",
+              "display": "Body weight"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/patient-2026022601"
+        },
+        "effectiveDateTime": "2026-02-26T15:54:00-05:00",
+        "valueQuantity": {
+          "value": 53,
+          "unit": "kg",
+          "system": "http://unitsofmeasure.org",
+          "code": "kg"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Observation/131289326",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "131289326",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-26T20:54:10.888-05:00",
+          "source": "#T8C8VLI9pen1aYW8"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8302-2",
+              "display": "Body height"
+            },
+            {
+              "system": "http://snomed.info/sct",
+              "code": "50373000",
+              "display": "Body height measure"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/patient-2026022601"
+        },
+        "effectiveDateTime": "2026-02-26T15:54:00-05:00",
+        "valueQuantity": {
+          "value": 167,
+          "unit": "cm",
+          "system": "http://unitsofmeasure.org",
+          "code": "cm"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Observation/131289327",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "131289327",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-26T20:54:10.888-05:00",
+          "source": "#T8C8VLI9pen1aYW8"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "39156-5",
+              "display": "Body mass index"
+            },
+            {
+              "system": "http://snomed.info/sct",
+              "code": "60621009",
+              "display": "Body mass index"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/patient-2026022601"
+        },
+        "effectiveDateTime": "2026-02-26T15:54:00-05:00",
+        "valueQuantity": {
+          "value": 19,
+          "unit": "kg/m2",
+          "system": "http://unitsofmeasure.org",
+          "code": "kg/m2"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Observation/131289328",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "131289328",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-26T20:54:10.888-05:00",
+          "source": "#T8C8VLI9pen1aYW8"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8280-0",
+              "display": "Waist circumference"
+            },
+            {
+              "system": "http://snomed.info/sct",
+              "code": "276361009",
+              "display": "Waist circumference"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/patient-2026022601"
+        },
+        "effectiveDateTime": "2026-02-26T15:54:00-05:00",
+        "valueQuantity": {
+          "value": 75,
+          "unit": "cm",
+          "system": "http://unitsofmeasure.org",
+          "code": "cm"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Observation/131289329",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "131289329",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-26T20:54:10.888-05:00",
+          "source": "#T8C8VLI9pen1aYW8"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2093-3",
+              "display": "Cholesterol"
+            },
+            {
+              "system": "http://snomed.info/sct",
+              "code": "166842003",
+              "display": "Serum total cholesterol"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/patient-2026022601"
+        },
+        "effectiveDateTime": "2026-02-26T15:54:00-05:00",
+        "valueQuantity": {
+          "value": 170,
+          "unit": "mg/dL",
+          "system": "http://unitsofmeasure.org",
+          "code": "mg/dL"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Observation/131289330",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "131289330",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-26T20:54:10.888-05:00",
+          "source": "#T8C8VLI9pen1aYW8"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2085-9",
+              "display": "HDL Cholesterol"
+            },
+            {
+              "system": "http://snomed.info/sct",
+              "code": "166832000",
+              "display": "Serum HDL cholesterol"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/patient-2026022601"
+        },
+        "effectiveDateTime": "2026-02-26T15:54:00-05:00",
+        "valueQuantity": {
+          "value": 80,
+          "unit": "mg/dL",
+          "system": "http://unitsofmeasure.org",
+          "code": "mg/dL"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Observation/131289331",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "131289331",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-26T20:54:10.888-05:00",
+          "source": "#T8C8VLI9pen1aYW8"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8480-6",
+              "display": "Systolic blood pressure"
+            },
+            {
+              "system": "http://snomed.info/sct",
+              "code": "271649006",
+              "display": "Systolic arterial pressure"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/patient-2026022601"
+        },
+        "effectiveDateTime": "2026-02-26T15:54:00-05:00",
+        "valueQuantity": {
+          "value": 90,
+          "unit": "mmHg",
+          "system": "http://unitsofmeasure.org",
+          "code": "mm[Hg]"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Observation/131289332",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "131289332",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-26T20:54:10.888-05:00",
+          "source": "#T8C8VLI9pen1aYW8"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "survey",
+                "display": "Survey"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "59261-8",
+              "display": "FINDRISC score"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/patient-2026022601"
+        },
+        "effectiveDateTime": "2026-02-26T15:54:00-05:00",
+        "valueQuantity": {
+          "value": 3,
+          "unit": "{score}",
+          "system": "http://unitsofmeasure.org",
+          "code": "{score}"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Observation/131289333",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "131289333",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-26T20:54:10.888-05:00",
+          "source": "#T8C8VLI9pen1aYW8"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "survey",
+                "display": "Survey"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "79423-0",
+              "display": "Cardiovascular disease 10Y risk"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/patient-2026022601"
+        },
+        "effectiveDateTime": "2026-02-26T15:54:00-05:00",
+        "valueQuantity": {
+          "value": 0,
+          "unit": "%",
+          "system": "http://unitsofmeasure.org",
+          "code": "%"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Observation/131289643",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "131289643",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-27T11:48:42.520-05:00",
+          "source": "#Vbilo5zVNtbCY9Az"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "text": "Isolate identification"
+        },
+        "subject": {
+          "reference": "Patient/131281701"
+        },
+        "encounter": {
+          "reference": "Encounter/131281702"
+        },
+        "valueString": "Streptococcus suis",
+        "specimen": {
+          "reference": "Specimen/131281706"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Observation/131289645",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "131289645",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-27T11:59:11.951-05:00",
+          "source": "#1Ojnpqvvo1WMvxVu"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "text": "Isolate identification"
+        },
+        "subject": {
+          "reference": "Patient/131281701"
+        },
+        "encounter": {
+          "reference": "Encounter/131281702"
+        },
+        "valueString": "Streptococcus pyogenes",
+        "specimen": {
+          "reference": "Specimen/131281706"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Observation/131289661",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "131289661",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-27T12:39:11.755-05:00",
+          "source": "#sxWEiqUPP4eQNvNp"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "text": "Isolate identification"
+        },
+        "subject": {
+          "reference": "Patient/131274049"
+        },
+        "encounter": {
+          "reference": "Encounter/131277342"
+        },
+        "valueString": "Staphylococcus hominis",
+        "specimen": {
+          "reference": "Specimen/131288633"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Observation/131289666",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "131289666",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-27T12:53:27.480-05:00",
+          "source": "#dOy4sI8a8D2p186P"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "text": "Isolate identification"
+        },
+        "subject": {
+          "reference": "Patient/131274049"
+        },
+        "encounter": {
+          "reference": "Encounter/131277342"
+        },
+        "valueString": "Peptostreptococcus",
+        "specimen": {
+          "reference": "Specimen/131288633"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Observation/131291497",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "131291497",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-03-01T11:49:51.145-05:00",
+          "source": "#yF2RAh3Z9Z3D5Xs5"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "text": "Organism identified"
+        },
+        "subject": {
+          "reference": "Patient/131281378"
+        },
+        "encounter": {
+          "reference": "Encounter/131287615"
+        },
+        "valueCodeableConcept": {
+          "text": "Streptococcus agalactiae"
+        },
+        "specimen": {
+          "reference": "Specimen/131287618"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    }
+  ]
+}

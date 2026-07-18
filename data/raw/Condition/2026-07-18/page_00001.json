@@ -1,0 +1,6321 @@
+{
+  "resourceType": "Bundle",
+  "id": "1f66c3d8-31d1-4874-8214-84407c71a894",
+  "meta": {
+    "lastUpdated": "2026-07-18T03:15:10.388-04:00"
+  },
+  "type": "searchset",
+  "link": [
+    {
+      "relation": "self",
+      "url": "https://hapi.fhir.org/baseR4/Condition?_count=100"
+    },
+    {
+      "relation": "next",
+      "url": "https://hapi.fhir.org/baseR4?_getpages=1f66c3d8-31d1-4874-8214-84407c71a894&_getpagesoffset=100&_count=100&_pretty=true&_bundletype=searchset"
+    }
+  ],
+  "entry": [
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Condition/98068728",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "98068728",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-10T05:48:25.885-05:00",
+          "source": "#uDvE85qaH99duEUR"
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "text": "Unilateral primary osteoarthritis, right knee"
+        },
+        "subject": {
+          "reference": "Patient/98067569"
+        },
+        "recordedDate": "2022-05-15"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Condition/Cond-0",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "Cond-0",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-10T14:18:16.881-05:00",
+          "source": "#J6TCtxIfW7omtKdM",
+          "profile": [
+            "https://fhir.minsalud.gov.co/rda/StructureDefinition/ConditionRDA"
+          ]
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active",
+              "display": "Active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code": "confirmed",
+              "display": "Confirmed"
+            }
+          ]
+        },
+        "code": {
+          "text": "Hipertensi\u00f3n esencial"
+        },
+        "subject": {
+          "reference": "Patient/CC-12345678"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Condition/cond-sinusitis-2019",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-sinusitis-2019",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-10T17:49:09.388-05:00",
+          "source": "#1uxojP13nIp8uUlI"
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "resolved",
+              "display": "Resuelta"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code": "confirmed",
+              "display": "Confirmado"
+            }
+          ]
+        },
+        "category": [
+          {
+            "text": "Diagn\u00f3stico"
+          }
+        ],
+        "code": {
+          "text": "Sinusitis aguda"
+        },
+        "subject": {
+          "reference": "Patient/pacientek2bhealt"
+        },
+        "onsetDateTime": "2019-03-10",
+        "abatementDateTime": "2019-03-20",
+        "recordedDate": "2019-03-10",
+        "asserter": {
+          "reference": "Practitioner/dr-perez"
+        },
+        "note": [
+          {
+            "text": "Cuadro respiratorio alto compatible con sinusitis; se indic\u00f3 tratamiento antibi\u00f3tico (luego suspendido por alergia)."
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Condition/123836458",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "123836458",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-11T21:38:12.835-05:00",
+          "source": "#VIBVW7Gt6AmcDM8w"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Asthma</div>"
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code": "confirmed"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "14657009",
+                "display": "Diagnosis"
+              }
+            ],
+            "text": "Diagnosis"
+          }
+        ],
+        "severity": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "6736007",
+              "display": "mild to moderate"
+            }
+          ],
+          "text": "mild to moderate"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "195917001",
+              "display": "asthma"
+            }
+          ],
+          "text": "asthma"
+        },
+        "subject": {
+          "reference": "Patient/123836453"
+        },
+        "onsetAge": {
+          "value": 14,
+          "system": "http://unitsofmeasure.org",
+          "code": "a"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Condition/123836459",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "123836459",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-11T21:38:12.835-05:00",
+          "source": "#VIBVW7Gt6AmcDM8w"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Diabetes</div>"
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code": "confirmed"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "14657009",
+                "display": "Diagnosis"
+              }
+            ],
+            "text": "Diagnosis"
+          }
+        ],
+        "severity": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "6736007",
+              "display": "moderate"
+            }
+          ],
+          "text": "moderate"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "73211009",
+              "display": "diabetes"
+            }
+          ],
+          "text": "diabetes"
+        },
+        "subject": {
+          "reference": "Patient/123836453"
+        },
+        "onsetAge": {
+          "value": 60,
+          "system": "http://unitsofmeasure.org",
+          "code": "a"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Condition/123836460",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "123836460",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-11T21:38:12.835-05:00",
+          "source": "#VIBVW7Gt6AmcDM8w"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Hypertension</div>"
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code": "confirmed"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "14657009",
+                "display": "Diagnosis"
+              }
+            ],
+            "text": "Diagnosis"
+          }
+        ],
+        "severity": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "255604002",
+              "display": "mild"
+            }
+          ],
+          "text": "Mild"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "38341003",
+              "display": "hypertension"
+            }
+          ],
+          "text": "hypertension"
+        },
+        "subject": {
+          "reference": "Patient/123836453"
+        },
+        "onsetAge": {
+          "value": 68,
+          "system": "http://unitsofmeasure.org",
+          "code": "a"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Condition/123836461",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "123836461",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-11T21:38:12.835-05:00",
+          "source": "#VIBVW7Gt6AmcDM8w"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Depression</div>"
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code": "confirmed"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "14657009",
+                "display": "Diagnosis"
+              }
+            ],
+            "text": "Diagnosis"
+          }
+        ],
+        "severity": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "6736007",
+              "display": "moderate"
+            }
+          ],
+          "text": "Moderate"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "35489007",
+              "display": "depression"
+            }
+          ],
+          "text": "depression"
+        },
+        "subject": {
+          "reference": "Patient/123836453"
+        },
+        "onsetAge": {
+          "value": 74,
+          "system": "http://unitsofmeasure.org",
+          "code": "a"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Condition/123836462",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "123836462",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-11T21:38:12.835-05:00",
+          "source": "#VIBVW7Gt6AmcDM8w"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Neuropathic pain</div>"
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code": "confirmed"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "14657009",
+                "display": "Diagnosis"
+              }
+            ],
+            "text": "Diagnosis"
+          }
+        ],
+        "severity": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "6736007",
+              "display": "moderate"
+            }
+          ],
+          "text": "moderate"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "247389009",
+              "display": "neuropathic pain"
+            }
+          ],
+          "text": "neuropathic pain"
+        },
+        "subject": {
+          "reference": "Patient/123836453"
+        },
+        "onsetAge": {
+          "value": 75,
+          "system": "http://unitsofmeasure.org",
+          "code": "a"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Condition/123836464",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "123836464",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-11T21:38:12.835-05:00",
+          "source": "#VIBVW7Gt6AmcDM8w"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Rheumatoid Arthritis</div>"
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code": "confirmed"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "14657009",
+                "display": "Diagnosis"
+              }
+            ],
+            "text": "Diagnosis"
+          }
+        ],
+        "severity": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "6736007",
+              "display": "moderate"
+            }
+          ],
+          "text": "Moderate"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "69896004",
+              "display": "rheumatoid arthritis"
+            }
+          ],
+          "text": "rheumatoid arthritis - both hands"
+        },
+        "bodySite": [
+          {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "12861001",
+                "display": "both hands"
+              }
+            ],
+            "text": "both hands"
+          }
+        ],
+        "subject": {
+          "reference": "Patient/123836453"
+        },
+        "onsetAge": {
+          "value": 72,
+          "system": "http://unitsofmeasure.org",
+          "code": "a"
+        },
+        "evidence": [
+          {
+            "code": [
+              {
+                "coding": [
+                  {
+                    "system": "http://snomed.info/sct",
+                    "code": "57676002",
+                    "display": "Painful Joint"
+                  }
+                ],
+                "text": "Painful joint"
+              }
+            ]
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Condition/123836465",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "123836465",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-11T21:38:12.835-05:00",
+          "source": "#VIBVW7Gt6AmcDM8w"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Rheumatoid arthritis - left elbow</div>"
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code": "confirmed"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "14657009",
+                "display": "Diagnosis"
+              }
+            ],
+            "text": "Diagnosis"
+          }
+        ],
+        "severity": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "6736007",
+              "display": "mild to moderate"
+            }
+          ],
+          "text": "Diagnosis"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "69896004",
+              "display": "rheumatoid arthritis"
+            }
+          ],
+          "text": "rheumatoid arthritis - left elbow"
+        },
+        "bodySite": [
+          {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "1927002",
+                "display": "left elbow"
+              }
+            ],
+            "text": "left elbow"
+          }
+        ],
+        "subject": {
+          "reference": "Patient/123836453"
+        },
+        "onsetAge": {
+          "value": 74,
+          "system": "http://unitsofmeasure.org",
+          "code": "a"
+        },
+        "evidence": [
+          {
+            "code": [
+              {
+                "coding": [
+                  {
+                    "system": "http://snomed.info/sct",
+                    "code": "57676002",
+                    "display": "Painful Joint"
+                  }
+                ],
+                "text": "Painful joint"
+              }
+            ]
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Condition/123836466",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "123836466",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-11T21:38:12.835-05:00",
+          "source": "#VIBVW7Gt6AmcDM8w"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">GERD</div>"
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code": "confirmed"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "14657009",
+                "display": "Diagnosis"
+              }
+            ],
+            "text": "Diagnosis"
+          }
+        ],
+        "severity": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "6736007",
+              "display": "moderate"
+            }
+          ],
+          "text": "Moderate"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "235595009",
+              "display": "GERD"
+            }
+          ],
+          "text": "GERD"
+        },
+        "subject": {
+          "reference": "Patient/123836453"
+        },
+        "onsetAge": {
+          "value": 66,
+          "system": "http://unitsofmeasure.org",
+          "code": "a"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Condition/123836468",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "123836468",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-11T21:38:12.835-05:00",
+          "source": "#VIBVW7Gt6AmcDM8w"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Hypercholesterolaemia</div>"
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code": "confirmed"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "14657009",
+                "display": "Diagnosis"
+              }
+            ],
+            "text": "Diagnosis"
+          }
+        ],
+        "severity": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "6736007",
+              "display": "moderate"
+            }
+          ],
+          "text": "Moderate"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "13644009",
+              "display": "high cholesterol"
+            }
+          ],
+          "text": "high cholesterol"
+        },
+        "subject": {
+          "reference": "Patient/123836453"
+        },
+        "onsetAge": {
+          "value": 68,
+          "system": "http://unitsofmeasure.org",
+          "code": "a"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Condition/123836469",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "123836469",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-11T21:38:12.835-05:00",
+          "source": "#VIBVW7Gt6AmcDM8w"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Onychomycosis</div>"
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code": "confirmed"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "14657009",
+                "display": "Diagnosis"
+              }
+            ],
+            "text": "Diagnosis"
+          }
+        ],
+        "severity": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "24484000",
+              "display": "severe"
+            }
+          ],
+          "text": "severe"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "414941998",
+              "display": "onychomycosis"
+            }
+          ],
+          "text": "onychomycosis"
+        },
+        "subject": {
+          "reference": "Patient/123836453"
+        },
+        "onsetAge": {
+          "value": 77,
+          "system": "http://unitsofmeasure.org",
+          "code": "a"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Condition/123836470",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "123836470",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-11T21:38:12.835-05:00",
+          "source": "#VIBVW7Gt6AmcDM8w"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Angina</div>"
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code": "confirmed"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "14657009",
+                "display": "Diagnosis"
+              }
+            ],
+            "text": "Diagnosis"
+          }
+        ],
+        "severity": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "6736007",
+              "display": "moderate"
+            }
+          ],
+          "text": "Moderate"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "194818000",
+              "display": "angina"
+            }
+          ],
+          "text": "angina"
+        },
+        "subject": {
+          "reference": "Patient/123836453"
+        },
+        "onsetAge": {
+          "value": 76,
+          "system": "http://unitsofmeasure.org",
+          "code": "a"
+        },
+        "evidence": [
+          {
+            "code": [
+              {
+                "coding": [
+                  {
+                    "system": "http://snomed.info/sct",
+                    "code": "29857009",
+                    "display": "Chest Pain"
+                  }
+                ],
+                "text": "Chest Pain"
+              }
+            ]
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Condition/131264012",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "131264012",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-12T11:30:59.348-05:00",
+          "source": "#7CScmydrfGhJJftw"
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "recurrence"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code": "differential"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "code": "encounter-diagnosis"
+              }
+            ]
+          }
+        ],
+        "severity": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "mild",
+              "display": "mild"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-10",
+              "code": "J45.20",
+              "display": "a"
+            }
+          ],
+          "text": "a"
+        },
+        "subject": {
+          "reference": "Patient/pacientek2bhealt",
+          "display": "Carlos Fuentes"
+        },
+        "recordedDate": "2026-02-12T17:00:58+05:30"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Condition/131264022",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "131264022",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-12T11:59:37.586-05:00",
+          "source": "#xh77nEELU3YbeoOi"
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "relapse"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code": "differential"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "code": "problem-list-item"
+              }
+            ]
+          }
+        ],
+        "severity": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "moderate",
+              "display": "moderate"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-10",
+              "code": "J45.20",
+              "display": "ee"
+            }
+          ],
+          "text": "ee"
+        },
+        "subject": {
+          "reference": "Patient/131264020",
+          "display": "Ved Prakash"
+        },
+        "onsetDateTime": "2026-02-13T00:00:00+05:30",
+        "recordedDate": "2026-02-12T17:29:37+05:30",
+        "recorder": {
+          "reference": "Practitioner/105794622"
+        },
+        "note": [
+          {
+            "text": "ee"
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Condition/131264209",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "131264209",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-12T12:37:54.779-05:00",
+          "source": "#Vf8fNqqPYyiL0K5j"
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "relapse"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code": "provisional"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "code": "encounter-diagnosis"
+              }
+            ]
+          }
+        ],
+        "severity": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "mild",
+              "display": "mild"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-10",
+              "code": "J44.0",
+              "display": "cold"
+            }
+          ],
+          "text": "cold"
+        },
+        "subject": {
+          "reference": "Patient/90629914",
+          "display": "Nu\u00c3\u00b1ez Karla"
+        },
+        "onsetDateTime": "2026-02-12T00:00:00+05:30",
+        "recordedDate": "2026-02-12T18:07:54+05:30",
+        "recorder": {
+          "reference": "Practitioner/131264207"
+        },
+        "note": [
+          {
+            "text": "s"
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Condition/131271366",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "131271366",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-13T21:09:34.224-05:00",
+          "source": "#XJ4TEyWM4LWTpg7l"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Asthma</div>"
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code": "confirmed"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "14657009",
+                "display": "Diagnosis"
+              }
+            ],
+            "text": "Diagnosis"
+          }
+        ],
+        "severity": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "6736007",
+              "display": "mild to moderate"
+            }
+          ],
+          "text": "mild to moderate"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "195917001",
+              "display": "asthma"
+            }
+          ],
+          "text": "asthma"
+        },
+        "subject": {
+          "reference": "Patient/131271362"
+        },
+        "onsetAge": {
+          "value": 14,
+          "system": "http://unitsofmeasure.org",
+          "code": "a"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Condition/131271367",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "131271367",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-13T21:09:34.224-05:00",
+          "source": "#XJ4TEyWM4LWTpg7l"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Diabetes</div>"
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code": "confirmed"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "14657009",
+                "display": "Diagnosis"
+              }
+            ],
+            "text": "Diagnosis"
+          }
+        ],
+        "severity": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "6736007",
+              "display": "moderate"
+            }
+          ],
+          "text": "moderate"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "73211009",
+              "display": "diabetes"
+            }
+          ],
+          "text": "diabetes"
+        },
+        "subject": {
+          "reference": "Patient/131271362"
+        },
+        "onsetAge": {
+          "value": 60,
+          "system": "http://unitsofmeasure.org",
+          "code": "a"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Condition/131271368",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "131271368",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-13T21:09:34.224-05:00",
+          "source": "#XJ4TEyWM4LWTpg7l"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Hypertension</div>"
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code": "confirmed"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "14657009",
+                "display": "Diagnosis"
+              }
+            ],
+            "text": "Diagnosis"
+          }
+        ],
+        "severity": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "255604002",
+              "display": "mild"
+            }
+          ],
+          "text": "Mild"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "38341003",
+              "display": "hypertension"
+            }
+          ],
+          "text": "hypertension"
+        },
+        "subject": {
+          "reference": "Patient/131271362"
+        },
+        "onsetAge": {
+          "value": 68,
+          "system": "http://unitsofmeasure.org",
+          "code": "a"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Condition/131271369",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "131271369",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-13T21:09:34.224-05:00",
+          "source": "#XJ4TEyWM4LWTpg7l"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Depression</div>"
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code": "confirmed"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "14657009",
+                "display": "Diagnosis"
+              }
+            ],
+            "text": "Diagnosis"
+          }
+        ],
+        "severity": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "6736007",
+              "display": "moderate"
+            }
+          ],
+          "text": "Moderate"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "35489007",
+              "display": "depression"
+            }
+          ],
+          "text": "depression"
+        },
+        "subject": {
+          "reference": "Patient/131271362"
+        },
+        "onsetAge": {
+          "value": 74,
+          "system": "http://unitsofmeasure.org",
+          "code": "a"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Condition/131271370",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "131271370",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-13T21:09:34.224-05:00",
+          "source": "#XJ4TEyWM4LWTpg7l"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Neuropathic pain</div>"
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code": "confirmed"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "14657009",
+                "display": "Diagnosis"
+              }
+            ],
+            "text": "Diagnosis"
+          }
+        ],
+        "severity": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "6736007",
+              "display": "moderate"
+            }
+          ],
+          "text": "moderate"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "247389009",
+              "display": "neuropathic pain"
+            }
+          ],
+          "text": "neuropathic pain"
+        },
+        "subject": {
+          "reference": "Patient/131271362"
+        },
+        "onsetAge": {
+          "value": 75,
+          "system": "http://unitsofmeasure.org",
+          "code": "a"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Condition/131271371",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "131271371",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-13T21:09:34.224-05:00",
+          "source": "#XJ4TEyWM4LWTpg7l"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Rheumatoid Arthritis</div>"
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code": "confirmed"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "14657009",
+                "display": "Diagnosis"
+              }
+            ],
+            "text": "Diagnosis"
+          }
+        ],
+        "severity": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "6736007",
+              "display": "moderate"
+            }
+          ],
+          "text": "Moderate"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "69896004",
+              "display": "rheumatoid arthritis"
+            }
+          ],
+          "text": "rheumatoid arthritis - both hands"
+        },
+        "bodySite": [
+          {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "12861001",
+                "display": "both hands"
+              }
+            ],
+            "text": "both hands"
+          }
+        ],
+        "subject": {
+          "reference": "Patient/131271362"
+        },
+        "onsetAge": {
+          "value": 72,
+          "system": "http://unitsofmeasure.org",
+          "code": "a"
+        },
+        "evidence": [
+          {
+            "code": [
+              {
+                "coding": [
+                  {
+                    "system": "http://snomed.info/sct",
+                    "code": "57676002",
+                    "display": "Painful Joint"
+                  }
+                ],
+                "text": "Painful joint"
+              }
+            ]
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Condition/131271372",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "131271372",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-13T21:09:34.224-05:00",
+          "source": "#XJ4TEyWM4LWTpg7l"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Rheumatoid arthritis - left elbow</div>"
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code": "confirmed"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "14657009",
+                "display": "Diagnosis"
+              }
+            ],
+            "text": "Diagnosis"
+          }
+        ],
+        "severity": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "6736007",
+              "display": "mild to moderate"
+            }
+          ],
+          "text": "Diagnosis"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "69896004",
+              "display": "rheumatoid arthritis"
+            }
+          ],
+          "text": "rheumatoid arthritis - left elbow"
+        },
+        "bodySite": [
+          {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "1927002",
+                "display": "left elbow"
+              }
+            ],
+            "text": "left elbow"
+          }
+        ],
+        "subject": {
+          "reference": "Patient/131271362"
+        },
+        "onsetAge": {
+          "value": 74,
+          "system": "http://unitsofmeasure.org",
+          "code": "a"
+        },
+        "evidence": [
+          {
+            "code": [
+              {
+                "coding": [
+                  {
+                    "system": "http://snomed.info/sct",
+                    "code": "57676002",
+                    "display": "Painful Joint"
+                  }
+                ],
+                "text": "Painful joint"
+              }
+            ]
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Condition/131271373",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "131271373",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-13T21:09:34.224-05:00",
+          "source": "#XJ4TEyWM4LWTpg7l"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">GERD</div>"
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code": "confirmed"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "14657009",
+                "display": "Diagnosis"
+              }
+            ],
+            "text": "Diagnosis"
+          }
+        ],
+        "severity": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "6736007",
+              "display": "moderate"
+            }
+          ],
+          "text": "Moderate"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "235595009",
+              "display": "GERD"
+            }
+          ],
+          "text": "GERD"
+        },
+        "subject": {
+          "reference": "Patient/131271362"
+        },
+        "onsetAge": {
+          "value": 66,
+          "system": "http://unitsofmeasure.org",
+          "code": "a"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Condition/131271374",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "131271374",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-13T21:09:34.224-05:00",
+          "source": "#XJ4TEyWM4LWTpg7l"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Hypercholesterolaemia</div>"
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code": "confirmed"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "14657009",
+                "display": "Diagnosis"
+              }
+            ],
+            "text": "Diagnosis"
+          }
+        ],
+        "severity": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "6736007",
+              "display": "moderate"
+            }
+          ],
+          "text": "Moderate"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "13644009",
+              "display": "high cholesterol"
+            }
+          ],
+          "text": "high cholesterol"
+        },
+        "subject": {
+          "reference": "Patient/131271362"
+        },
+        "onsetAge": {
+          "value": 68,
+          "system": "http://unitsofmeasure.org",
+          "code": "a"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Condition/131271375",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "131271375",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-13T21:09:34.224-05:00",
+          "source": "#XJ4TEyWM4LWTpg7l"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Onychomycosis</div>"
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code": "confirmed"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "14657009",
+                "display": "Diagnosis"
+              }
+            ],
+            "text": "Diagnosis"
+          }
+        ],
+        "severity": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "24484000",
+              "display": "severe"
+            }
+          ],
+          "text": "severe"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "414941998",
+              "display": "onychomycosis"
+            }
+          ],
+          "text": "onychomycosis"
+        },
+        "subject": {
+          "reference": "Patient/131271362"
+        },
+        "onsetAge": {
+          "value": 77,
+          "system": "http://unitsofmeasure.org",
+          "code": "a"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Condition/131271376",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "131271376",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-13T21:09:34.224-05:00",
+          "source": "#XJ4TEyWM4LWTpg7l"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Angina</div>"
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code": "confirmed"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "14657009",
+                "display": "Diagnosis"
+              }
+            ],
+            "text": "Diagnosis"
+          }
+        ],
+        "severity": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "6736007",
+              "display": "moderate"
+            }
+          ],
+          "text": "Moderate"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "194818000",
+              "display": "angina"
+            }
+          ],
+          "text": "angina"
+        },
+        "subject": {
+          "reference": "Patient/131271362"
+        },
+        "onsetAge": {
+          "value": 76,
+          "system": "http://unitsofmeasure.org",
+          "code": "a"
+        },
+        "evidence": [
+          {
+            "code": [
+              {
+                "coding": [
+                  {
+                    "system": "http://snomed.info/sct",
+                    "code": "29857009",
+                    "display": "Chest Pain"
+                  }
+                ],
+                "text": "Chest Pain"
+              }
+            ]
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Condition/131272927",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "131272927",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-15T01:18:43.037-05:00",
+          "source": "#J9kwsDdVFwJSNuwe"
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code": "confirmed"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "code": "encounter-diagnosis"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-10",
+              "code": "E11",
+              "display": "Diabetes mellitus tipo 2"
+            }
+          ],
+          "text": "Diabetes mellitus tipo 2"
+        },
+        "subject": {
+          "reference": "Patient/id-5678923"
+        },
+        "encounter": {
+          "reference": "Encounter/131272926"
+        },
+        "recordedDate": "2026-02-15T01:18:42.262Z",
+        "recorder": {
+          "reference": "Practitioner/131272924",
+          "display": "Dr. Carlos Mendoza"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Condition/131272928",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "131272928",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-15T01:18:44.036-05:00",
+          "source": "#nAUI2fNZS86ItJEf"
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code": "confirmed"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "code": "encounter-diagnosis"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-10",
+              "code": "I10X",
+              "display": "HIPERTENSION ESENCIAL (PRIMARIA)"
+            }
+          ],
+          "text": "HIPERTENSION ESENCIAL (PRIMARIA)"
+        },
+        "subject": {
+          "reference": "Patient/id-5678923"
+        },
+        "encounter": {
+          "reference": "Encounter/131272926"
+        },
+        "recordedDate": "2026-02-15T01:18:42.262Z",
+        "recorder": {
+          "reference": "Practitioner/131272924",
+          "display": "Dr. Carlos Mendoza"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Condition/T-PAT-WITH-AGGREGATED-CONSENT-1",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "T-PAT-WITH-AGGREGATED-CONSENT-1",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-17T19:56:19.135-05:00",
+          "source": "#0jchpsVemwmF7U9f",
+          "profile": [
+            "https://www.medizininformatik-initiative.de/fhir/core/modul-diagnose/StructureDefinition/Diagnose"
+          ]
+        },
+        "identifier": [
+          {
+            "system": "http://localIdentifier.de/identifiers/condition",
+            "value": "T-PAT-WITH-AGGREGATED-CONSENT-1"
+          }
+        ],
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active",
+              "display": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://fhir.de/CodeSystem/bfarm/icd-10-gm",
+              "version": "2022",
+              "code": "I50.13",
+              "display": "Linksherzinsuffizienz: Mit Beschwerden bei leichter Belastung"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/PAT-WITH-AGGREGATED-CONSENT"
+        },
+        "encounter": {
+          "reference": "Encounter/T-PAT-WITH-AGGREGATED-CONSENT-000000-EK"
+        },
+        "onsetDateTime": "2025-01-27T09:00:00+02:00",
+        "recordedDate": "2025-01-27T09:00:00+02:00"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Condition/T-PAT-WITH-AGGREGATED-CONSENT-2",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "T-PAT-WITH-AGGREGATED-CONSENT-2",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-17T19:56:19.135-05:00",
+          "source": "#0jchpsVemwmF7U9f",
+          "profile": [
+            "https://www.medizininformatik-initiative.de/fhir/core/modul-diagnose/StructureDefinition/Diagnose"
+          ]
+        },
+        "identifier": [
+          {
+            "system": "http://localIdentifier.de/identifiers/condition",
+            "value": "T-PAT-WITH-AGGREGATED-CONSENT-2"
+          }
+        ],
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active",
+              "display": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://fhir.de/CodeSystem/bfarm/icd-10-gm",
+              "version": "2022",
+              "code": "Q20.4",
+              "display": "Doppeleinstromventrikel [Double inlet ventricle]"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/PAT-WITH-AGGREGATED-CONSENT"
+        },
+        "encounter": {
+          "reference": "Encounter/T-PAT-WITH-AGGREGATED-CONSENT-000000-EK"
+        },
+        "onsetDateTime": "2025-01-27T09:00:00+02:00",
+        "recordedDate": "2025-01-27T09:00:00+02:00"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Condition/T-TEST-AGGREGATED-CONSENT-IGNORED-ENCOUNTER-1",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "T-TEST-AGGREGATED-CONSENT-IGNORED-ENCOUNTER-1",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-17T19:56:19.135-05:00",
+          "source": "#0jchpsVemwmF7U9f",
+          "profile": [
+            "https://www.medizininformatik-initiative.de/fhir/core/modul-diagnose/StructureDefinition/Diagnose"
+          ]
+        },
+        "identifier": [
+          {
+            "system": "http://localIdentifier.de/identifiers/condition",
+            "value": "T-TEST-AGGREGATED-CONSENT-IGNORED-ENCOUNTER-1"
+          }
+        ],
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active",
+              "display": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://fhir.de/CodeSystem/bfarm/icd-10-gm",
+              "version": "2022",
+              "code": "I50.13",
+              "display": "Linksherzinsuffizienz: Mit Beschwerden bei leichter Belastung"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/TEST-AGGREGATED-CONSENT-IGNORED-ENCOUNTER"
+        },
+        "encounter": {
+          "reference": "Encounter/T-TEST-AGGREGATED-CONSENT-IGNORED-ENCOUNTER-000000-EK"
+        },
+        "onsetDateTime": "2025-01-01T09:00:00+02:00",
+        "recordedDate": "2025-01-01T09:00:00+02:00"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Condition/T-TEST-AGGREGATED-CONSENT-IGNORED-ENCOUNTER-2",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "T-TEST-AGGREGATED-CONSENT-IGNORED-ENCOUNTER-2",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-17T19:56:19.135-05:00",
+          "source": "#0jchpsVemwmF7U9f",
+          "profile": [
+            "https://www.medizininformatik-initiative.de/fhir/core/modul-diagnose/StructureDefinition/Diagnose"
+          ]
+        },
+        "identifier": [
+          {
+            "system": "http://localIdentifier.de/identifiers/condition",
+            "value": "T-TEST-AGGREGATED-CONSENT-IGNORED-ENCOUNTER-2"
+          }
+        ],
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active",
+              "display": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://fhir.de/CodeSystem/bfarm/icd-10-gm",
+              "version": "2022",
+              "code": "I48.0",
+              "display": "Vorhofflimmern, paroxysmal"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/TEST-AGGREGATED-CONSENT-IGNORED-ENCOUNTER"
+        },
+        "encounter": {
+          "reference": "Encounter/T-TEST-AGGREGATED-CONSENT-IGNORED-ENCOUNTER-000000-EK"
+        },
+        "onsetDateTime": "2025-01-01T09:00:00+02:00",
+        "recordedDate": "2025-01-01T09:00:00+02:00"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Condition/T-TEST-AGGREGATED-CONSENT-IGNORED-ENCOUNTER-3",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "T-TEST-AGGREGATED-CONSENT-IGNORED-ENCOUNTER-3",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-17T19:56:19.135-05:00",
+          "source": "#0jchpsVemwmF7U9f",
+          "profile": [
+            "https://www.medizininformatik-initiative.de/fhir/core/modul-diagnose/StructureDefinition/Diagnose"
+          ]
+        },
+        "identifier": [
+          {
+            "system": "http://localIdentifier.de/identifiers/condition",
+            "value": "T-TEST-AGGREGATED-CONSENT-IGNORED-ENCOUNTER-3"
+          }
+        ],
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active",
+              "display": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://fhir.de/CodeSystem/bfarm/icd-10-gm",
+              "version": "2022",
+              "code": "I63.0",
+              "display": "Hirninfarkt durch Thrombose zerebraler Arterien"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/TEST-AGGREGATED-CONSENT-IGNORED-ENCOUNTER"
+        },
+        "encounter": {
+          "reference": "Encounter/T-TEST-AGGREGATED-CONSENT-IGNORED-ENCOUNTER-IGNORED-000000-EK"
+        },
+        "onsetDateTime": "2024-12-01T09:00:00+02:00",
+        "recordedDate": "2024-12-01T09:00:00+02:00"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Condition/131276600",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "131276600",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-18T11:35:28.728-05:00",
+          "source": "#5DGi2S2Cb6k1vDC9"
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "recurrence"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code": "differential"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "code": "encounter-diagnosis"
+              }
+            ]
+          }
+        ],
+        "severity": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "mild",
+              "display": "mild"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-10",
+              "code": "D59.12",
+              "display": "Cold autoimmune hemolytic anemia"
+            }
+          ],
+          "text": "Cold autoimmune hemolytic anemia"
+        },
+        "subject": {
+          "reference": "Patient/pacientek2bhealt",
+          "display": "Carlos Fuentes"
+        },
+        "onsetDateTime": "2026-02-12T00:00:00+05:30",
+        "recordedDate": "2026-02-18T17:05:28+05:30"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Condition/105794700",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "105794700",
+        "meta": {
+          "versionId": "2",
+          "lastUpdated": "2026-02-18T11:35:53.453-05:00",
+          "source": "#NeovkXhQoepJOnES"
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "recurrence"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code": "confirmed"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-10",
+              "code": "59621000",
+              "display": "Hipertensi\u00f3n esencial"
+            }
+          ],
+          "text": "Hipertensi\u00f3n esencial"
+        },
+        "subject": {
+          "reference": "Patient/pacientek2bhealt"
+        },
+        "onsetDateTime": "2018-06-05T00:00:00+05:30",
+        "recordedDate": "2026-02-18T17:05:52+05:30"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Condition/131281335",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "131281335",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-21T18:58:07.539-05:00",
+          "source": "#L4btfSXCUhL6tHbx",
+          "tag": [
+            {
+              "system": "http://www.alpha.alp/use-case",
+              "code": "EX20"
+            }
+          ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n            <b>Condition:</b> Itchy skin rash (resolved). June 28, 2018.\n          </div>"
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "resolved"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "64144002",
+              "display": "Itchy skin eruption"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/example-r4"
+        },
+        "encounter": {
+          "reference": "Encounter/131281328"
+        },
+        "recordedDate": "2018-06-28",
+        "asserter": {
+          "reference": "Patient/example-r4"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Condition/131284199",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "131284199",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-23T16:18:56.022-05:00",
+          "source": "#RWBQWA2sC3VsewRr"
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "52448006",
+              "display": "Dementia"
+            }
+          ],
+          "text": "Dementia"
+        },
+        "subject": {
+          "reference": "Patient/131284194"
+        },
+        "onsetDateTime": "2022-01-15"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Condition/131284325",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "131284325",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-23T18:26:34.682-05:00",
+          "source": "#o2Gl06QMRosGJ2Cf"
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "code": "problem-list-item",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "text": "Hypertension"
+        },
+        "subject": {
+          "reference": "Patient/131284321"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Condition/131284326",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "131284326",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-23T18:26:34.682-05:00",
+          "source": "#o2Gl06QMRosGJ2Cf"
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "code": "problem-list-item",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "text": "Former smoker"
+        },
+        "subject": {
+          "reference": "Patient/131284321"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Condition/131284347",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "131284347",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-23T20:26:43.795-05:00",
+          "source": "#WfqPiQ5DsxUXXdxD"
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "38341003",
+              "display": "Hypertension"
+            }
+          ],
+          "text": "Hypertension"
+        },
+        "subject": {
+          "reference": "Patient/131284346"
+        },
+        "onsetDateTime": "2018-03-01"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Condition/131284348",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "131284348",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-23T20:26:43.795-05:00",
+          "source": "#WfqPiQ5DsxUXXdxD"
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "55822004",
+              "display": "Hyperlipidemia"
+            }
+          ],
+          "text": "Hyperlipidemia"
+        },
+        "subject": {
+          "reference": "Patient/131284346"
+        },
+        "onsetDateTime": "2018-03-01"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Condition/131284368",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "131284368",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-23T23:14:53.786-05:00",
+          "source": "#ZKlalKwGBFGzHiG2",
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/Condition"
+          ]
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active",
+              "display": "Active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code": "confirmed",
+              "display": "Confirmed"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "code": "problem-list-item",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-10-cm",
+              "code": "E11.9",
+              "display": "Type 2 diabetes mellitus without complications"
+            }
+          ],
+          "text": "Type 2 Diabetes"
+        },
+        "subject": {
+          "reference": "Patient/131284367"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Condition/131284369",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "131284369",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-23T23:14:53.786-05:00",
+          "source": "#ZKlalKwGBFGzHiG2",
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/Condition"
+          ]
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active",
+              "display": "Active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code": "confirmed",
+              "display": "Confirmed"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "code": "problem-list-item",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-10-cm",
+              "code": "I10",
+              "display": "Essential (primary) hypertension"
+            }
+          ],
+          "text": "Hypertension"
+        },
+        "subject": {
+          "reference": "Patient/131284367"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Condition/ailovdisyb1",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "ailovdisyb1",
+        "meta": {
+          "versionId": "4",
+          "lastUpdated": "2026-02-24T00:05:52.476-05:00",
+          "source": "#mvkGRSn5IQRo3Rzp"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Mild Asthma (Date: 12-Nov 2012)</div>"
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code": "confirmed"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "code": "problem-list-item",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "severity": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "255604002",
+              "display": "Mild"
+            }
+          ]
+        },
+        "code": {
+          "text": "Asthma"
+        },
+        "subject": {
+          "reference": "Patient/ailovdisyb2"
+        },
+        "onsetString": "approximately November 2012",
+        "asserter": {
+          "reference": "Practitioner/ailovdisyb3"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Condition/lalo1",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "lalo1",
+        "meta": {
+          "versionId": "4",
+          "lastUpdated": "2026-02-24T00:05:55.351-05:00",
+          "source": "#pwgygGpBYxxaLzBA"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Mild Asthma (Date: 12-Nov 2012)</div>"
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code": "confirmed"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "code": "problem-list-item",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "severity": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "255604002",
+              "display": "Mild"
+            }
+          ]
+        },
+        "code": {
+          "text": "Asthma"
+        },
+        "subject": {
+          "reference": "Patient/lalo2"
+        },
+        "encounter": {
+          "reference": "Encounter/lalo0"
+        },
+        "onsetString": "approximately November 2012",
+        "asserter": {
+          "reference": "Practitioner/lalo3"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Condition/frt3",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "frt3",
+        "meta": {
+          "versionId": "4",
+          "lastUpdated": "2026-02-24T00:05:57.757-05:00",
+          "source": "#wmlIq45HxwAr6eiA"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Mild Asthma (Date: 12-Nov 2012)</div>"
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code": "confirmed"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "code": "problem-list-item",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "severity": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "255604002",
+              "display": "Mild"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "386661006",
+              "display": "Cashew nuts"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/frt2"
+        },
+        "encounter": {
+          "reference": "Encounter/lalo0"
+        },
+        "onsetString": "approximately November 2012",
+        "asserter": {
+          "reference": "Practitioner/lalo3"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Condition/131284381",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "131284381",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-24T02:20:49.501-05:00",
+          "source": "#6Syt0A7qNWwg4C5j"
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active",
+              "display": "Active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "109006",
+              "display": "Anxiety disorder of childhood OR adolescence"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/131283433"
+        },
+        "recordedDate": "2026-02-24T02:20:48.567Z"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Condition/131285577",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "131285577",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-24T13:34:59.755-05:00",
+          "source": "#8qwU0wSD83bdFCXQ"
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "370143000",
+              "display": "Major depressive disorder, recurrent"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/131284103"
+        },
+        "onsetDateTime": "2022-01-15",
+        "note": [
+          {
+            "text": "Moderate severity. On SSRI therapy."
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Condition/131285578",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "131285578",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-24T13:35:00.755-05:00",
+          "source": "#qbWtt2GasPFFllbg"
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "197480006",
+              "display": "Anxiety disorder"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/131284103"
+        },
+        "onsetDateTime": "2022-03-08"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Condition/131285579",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "131285579",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-24T13:35:01.755-05:00",
+          "source": "#OpkMbY3RO9sRJQMs"
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "193462001",
+              "display": "Insomnia"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/131284103"
+        },
+        "onsetDateTime": "2022-06-01"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Condition/131285580",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "131285580",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-24T13:35:02.754-05:00",
+          "source": "#HVzpqgV5JWeK60D1"
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "73211009",
+              "display": "Diabetes mellitus type 2"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/131284103"
+        },
+        "onsetDateTime": "2019-09-20"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Condition/131286275",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "131286275",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-24T16:28:51.459-05:00",
+          "source": "#JMjZHo2HZWZJ6VAI"
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "inactive",
+              "display": "Inactive"
+            }
+          ],
+          "text": "#[REF_STATO]"
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code": "confirmed",
+              "display": "Confirmed"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "75326-9",
+                "display": "Problem"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "60975-0",
+              "display": "Resistenza Vascolare"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/131286295"
+        },
+        "encounter": {
+          "reference": "Encounter/131286279"
+        },
+        "onsetPeriod": {
+          "start": "2022-03-30T11:24:26+01:00",
+          "end": "2022-04-04T11:00:00+02:00"
+        },
+        "evidence": [
+          {
+            "detail": [
+              {
+                "reference": "Observation/131286261"
+              }
+            ]
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Condition/131286877",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "131286877",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-25T04:06:40.004-05:00",
+          "source": "#zTBfZZLEEGF8vQNK"
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code": "confirmed"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "code": "encounter-diagnosis",
+                "display": "Encounter Diagnosis"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "38341003",
+              "display": "Hypertension"
+            }
+          ],
+          "text": "High Blood Pressure"
+        },
+        "subject": {
+          "reference": "Patient/131286868"
+        },
+        "onsetDateTime": "2026-02-25T12:00:00Z"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Condition/131287079",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "131287079",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-25T09:32:12.731-05:00",
+          "source": "#z5svHOMnrQvD8a8K"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Asthma</div>"
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code": "confirmed"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "14657009",
+                "display": "Diagnosis"
+              }
+            ],
+            "text": "Diagnosis"
+          }
+        ],
+        "severity": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "6736007",
+              "display": "mild to moderate"
+            }
+          ],
+          "text": "mild to moderate"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "195917001",
+              "display": "asthma"
+            }
+          ],
+          "text": "asthma"
+        },
+        "subject": {
+          "reference": "Patient/131287075"
+        },
+        "onsetAge": {
+          "value": 14,
+          "system": "http://unitsofmeasure.org",
+          "code": "a"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Condition/131287080",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "131287080",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-25T09:32:12.731-05:00",
+          "source": "#z5svHOMnrQvD8a8K"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Diabetes</div>"
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code": "confirmed"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "14657009",
+                "display": "Diagnosis"
+              }
+            ],
+            "text": "Diagnosis"
+          }
+        ],
+        "severity": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "6736007",
+              "display": "moderate"
+            }
+          ],
+          "text": "moderate"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "73211009",
+              "display": "diabetes"
+            }
+          ],
+          "text": "diabetes"
+        },
+        "subject": {
+          "reference": "Patient/131287075"
+        },
+        "onsetAge": {
+          "value": 60,
+          "system": "http://unitsofmeasure.org",
+          "code": "a"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Condition/131287081",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "131287081",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-25T09:32:12.731-05:00",
+          "source": "#z5svHOMnrQvD8a8K"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Hypertension</div>"
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code": "confirmed"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "14657009",
+                "display": "Diagnosis"
+              }
+            ],
+            "text": "Diagnosis"
+          }
+        ],
+        "severity": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "255604002",
+              "display": "mild"
+            }
+          ],
+          "text": "Mild"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "38341003",
+              "display": "hypertension"
+            }
+          ],
+          "text": "hypertension"
+        },
+        "subject": {
+          "reference": "Patient/131287075"
+        },
+        "onsetAge": {
+          "value": 68,
+          "system": "http://unitsofmeasure.org",
+          "code": "a"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Condition/131287082",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "131287082",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-25T09:32:12.731-05:00",
+          "source": "#z5svHOMnrQvD8a8K"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Depression</div>"
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code": "confirmed"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "14657009",
+                "display": "Diagnosis"
+              }
+            ],
+            "text": "Diagnosis"
+          }
+        ],
+        "severity": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "6736007",
+              "display": "moderate"
+            }
+          ],
+          "text": "Moderate"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "35489007",
+              "display": "depression"
+            }
+          ],
+          "text": "depression"
+        },
+        "subject": {
+          "reference": "Patient/131287075"
+        },
+        "onsetAge": {
+          "value": 74,
+          "system": "http://unitsofmeasure.org",
+          "code": "a"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Condition/131287083",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "131287083",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-25T09:32:12.731-05:00",
+          "source": "#z5svHOMnrQvD8a8K"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Neuropathic pain</div>"
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code": "confirmed"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "14657009",
+                "display": "Diagnosis"
+              }
+            ],
+            "text": "Diagnosis"
+          }
+        ],
+        "severity": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "6736007",
+              "display": "moderate"
+            }
+          ],
+          "text": "moderate"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "247389009",
+              "display": "neuropathic pain"
+            }
+          ],
+          "text": "neuropathic pain"
+        },
+        "subject": {
+          "reference": "Patient/131287075"
+        },
+        "onsetAge": {
+          "value": 75,
+          "system": "http://unitsofmeasure.org",
+          "code": "a"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Condition/131287084",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "131287084",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-25T09:32:12.731-05:00",
+          "source": "#z5svHOMnrQvD8a8K"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Rheumatoid Arthritis</div>"
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code": "confirmed"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "14657009",
+                "display": "Diagnosis"
+              }
+            ],
+            "text": "Diagnosis"
+          }
+        ],
+        "severity": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "6736007",
+              "display": "moderate"
+            }
+          ],
+          "text": "Moderate"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "69896004",
+              "display": "rheumatoid arthritis"
+            }
+          ],
+          "text": "rheumatoid arthritis - both hands"
+        },
+        "bodySite": [
+          {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "12861001",
+                "display": "both hands"
+              }
+            ],
+            "text": "both hands"
+          }
+        ],
+        "subject": {
+          "reference": "Patient/131287075"
+        },
+        "onsetAge": {
+          "value": 72,
+          "system": "http://unitsofmeasure.org",
+          "code": "a"
+        },
+        "evidence": [
+          {
+            "code": [
+              {
+                "coding": [
+                  {
+                    "system": "http://snomed.info/sct",
+                    "code": "57676002",
+                    "display": "Painful Joint"
+                  }
+                ],
+                "text": "Painful joint"
+              }
+            ]
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Condition/131287085",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "131287085",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-25T09:32:12.731-05:00",
+          "source": "#z5svHOMnrQvD8a8K"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Rheumatoid arthritis - left elbow</div>"
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code": "confirmed"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "14657009",
+                "display": "Diagnosis"
+              }
+            ],
+            "text": "Diagnosis"
+          }
+        ],
+        "severity": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "6736007",
+              "display": "mild to moderate"
+            }
+          ],
+          "text": "Diagnosis"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "69896004",
+              "display": "rheumatoid arthritis"
+            }
+          ],
+          "text": "rheumatoid arthritis - left elbow"
+        },
+        "bodySite": [
+          {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "1927002",
+                "display": "left elbow"
+              }
+            ],
+            "text": "left elbow"
+          }
+        ],
+        "subject": {
+          "reference": "Patient/131287075"
+        },
+        "onsetAge": {
+          "value": 74,
+          "system": "http://unitsofmeasure.org",
+          "code": "a"
+        },
+        "evidence": [
+          {
+            "code": [
+              {
+                "coding": [
+                  {
+                    "system": "http://snomed.info/sct",
+                    "code": "57676002",
+                    "display": "Painful Joint"
+                  }
+                ],
+                "text": "Painful joint"
+              }
+            ]
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Condition/131287086",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "131287086",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-25T09:32:12.731-05:00",
+          "source": "#z5svHOMnrQvD8a8K"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">GERD</div>"
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code": "confirmed"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "14657009",
+                "display": "Diagnosis"
+              }
+            ],
+            "text": "Diagnosis"
+          }
+        ],
+        "severity": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "6736007",
+              "display": "moderate"
+            }
+          ],
+          "text": "Moderate"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "235595009",
+              "display": "GERD"
+            }
+          ],
+          "text": "GERD"
+        },
+        "subject": {
+          "reference": "Patient/131287075"
+        },
+        "onsetAge": {
+          "value": 66,
+          "system": "http://unitsofmeasure.org",
+          "code": "a"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Condition/131287087",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "131287087",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-25T09:32:12.731-05:00",
+          "source": "#z5svHOMnrQvD8a8K"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Hypercholesterolaemia</div>"
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code": "confirmed"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "14657009",
+                "display": "Diagnosis"
+              }
+            ],
+            "text": "Diagnosis"
+          }
+        ],
+        "severity": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "6736007",
+              "display": "moderate"
+            }
+          ],
+          "text": "Moderate"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "13644009",
+              "display": "high cholesterol"
+            }
+          ],
+          "text": "high cholesterol"
+        },
+        "subject": {
+          "reference": "Patient/131287075"
+        },
+        "onsetAge": {
+          "value": 68,
+          "system": "http://unitsofmeasure.org",
+          "code": "a"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Condition/131287088",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "131287088",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-25T09:32:12.731-05:00",
+          "source": "#z5svHOMnrQvD8a8K"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Onychomycosis</div>"
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code": "confirmed"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "14657009",
+                "display": "Diagnosis"
+              }
+            ],
+            "text": "Diagnosis"
+          }
+        ],
+        "severity": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "24484000",
+              "display": "severe"
+            }
+          ],
+          "text": "severe"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "414941998",
+              "display": "onychomycosis"
+            }
+          ],
+          "text": "onychomycosis"
+        },
+        "subject": {
+          "reference": "Patient/131287075"
+        },
+        "onsetAge": {
+          "value": 77,
+          "system": "http://unitsofmeasure.org",
+          "code": "a"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Condition/131287089",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "131287089",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-25T09:32:12.731-05:00",
+          "source": "#z5svHOMnrQvD8a8K"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Angina</div>"
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code": "confirmed"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "14657009",
+                "display": "Diagnosis"
+              }
+            ],
+            "text": "Diagnosis"
+          }
+        ],
+        "severity": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "6736007",
+              "display": "moderate"
+            }
+          ],
+          "text": "Moderate"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "194818000",
+              "display": "angina"
+            }
+          ],
+          "text": "angina"
+        },
+        "subject": {
+          "reference": "Patient/131287075"
+        },
+        "onsetAge": {
+          "value": 76,
+          "system": "http://unitsofmeasure.org",
+          "code": "a"
+        },
+        "evidence": [
+          {
+            "code": [
+              {
+                "coding": [
+                  {
+                    "system": "http://snomed.info/sct",
+                    "code": "29857009",
+                    "display": "Chest Pain"
+                  }
+                ],
+                "text": "Chest Pain"
+              }
+            ]
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Condition/131287574",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "131287574",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-25T15:21:41.321-05:00",
+          "source": "#rA9pZoUk3ojuCmeY"
+        },
+        "code": {
+          "text": "Caries into pulp"
+        },
+        "subject": {
+          "reference": "Patient/131287570"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Condition/131287680",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "131287680",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-25T16:39:26.251-05:00",
+          "source": "#Rt8obNxEsIJorgLN"
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code": "confirmed"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "44054006",
+              "display": "Type 2 diabetes mellitus"
+            }
+          ],
+          "text": "Type 2 diabetes mellitus"
+        },
+        "subject": {
+          "reference": "Patient/131287660"
+        },
+        "onsetDateTime": "2019-03-10"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Condition/131287944",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "131287944",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-26T02:44:26.801-05:00",
+          "source": "#8iLXVvsOEfxWebuo"
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active",
+              "display": "active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-verificationStatus",
+              "code": "confirmed",
+              "display": "confirmed"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "code": "encounter-diagnosis",
+                "display": "encounter-diagnosis"
+              }
+            ]
+          }
+        ],
+        "severity": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "24484000",
+              "display": "Severe"
+            }
+          ],
+          "text": "Severe"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "254637007",
+              "display": "Non-small cell lung cancer"
+            }
+          ],
+          "text": "Non-small cell lung cancer"
+        },
+        "subject": {
+          "reference": "Patient/131287943"
+        },
+        "onsetDateTime": "2025-06-15",
+        "recordedDate": "2025-06-15"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Condition/131287945",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "131287945",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-26T02:44:26.801-05:00",
+          "source": "#8iLXVvsOEfxWebuo"
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active",
+              "display": "active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-verificationStatus",
+              "code": "confirmed",
+              "display": "confirmed"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "code": "encounter-diagnosis",
+                "display": "encounter-diagnosis"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "13645005",
+              "display": "Chronic obstructive pulmonary disease"
+            }
+          ],
+          "text": "Chronic obstructive pulmonary disease"
+        },
+        "subject": {
+          "reference": "Patient/131287943"
+        },
+        "onsetDateTime": "2020-03-10",
+        "recordedDate": "2020-03-10"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Condition/131287946",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "131287946",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-26T02:44:26.801-05:00",
+          "source": "#8iLXVvsOEfxWebuo"
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active",
+              "display": "active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-verificationStatus",
+              "code": "confirmed",
+              "display": "confirmed"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "code": "encounter-diagnosis",
+                "display": "encounter-diagnosis"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "38341003",
+              "display": "Hypertension"
+            }
+          ],
+          "text": "Hypertension"
+        },
+        "subject": {
+          "reference": "Patient/131287943"
+        },
+        "onsetDateTime": "2018-11-01",
+        "recordedDate": "2018-11-01"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Condition/131287947",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "131287947",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-26T02:44:26.801-05:00",
+          "source": "#8iLXVvsOEfxWebuo"
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active",
+              "display": "active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-verificationStatus",
+              "code": "confirmed",
+              "display": "confirmed"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "code": "encounter-diagnosis",
+                "display": "encounter-diagnosis"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "48694002",
+              "display": "Anxiety disorder"
+            }
+          ],
+          "text": "Anxiety disorder"
+        },
+        "subject": {
+          "reference": "Patient/131287943"
+        },
+        "onsetDateTime": "2025-07-01",
+        "recordedDate": "2025-07-01"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Condition/131287983",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "131287983",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-26T02:44:29.270-05:00",
+          "source": "#aSsuQvRwobgElxdE"
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "resolved",
+              "display": "resolved"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-verificationStatus",
+              "code": "confirmed",
+              "display": "confirmed"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "code": "encounter-diagnosis",
+                "display": "encounter-diagnosis"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "22298006",
+              "display": "Acute myocardial infarction"
+            }
+          ],
+          "text": "Acute myocardial infarction"
+        },
+        "subject": {
+          "reference": "Patient/131287982"
+        },
+        "onsetDateTime": "2025-09-05",
+        "abatementDateTime": "2025-09-12",
+        "recordedDate": "2025-09-05"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Condition/131287984",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "131287984",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-26T02:44:29.270-05:00",
+          "source": "#aSsuQvRwobgElxdE"
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active",
+              "display": "active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-verificationStatus",
+              "code": "confirmed",
+              "display": "confirmed"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "code": "encounter-diagnosis",
+                "display": "encounter-diagnosis"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "53741008",
+              "display": "Coronary artery disease"
+            }
+          ],
+          "text": "Coronary artery disease"
+        },
+        "subject": {
+          "reference": "Patient/131287982"
+        },
+        "onsetDateTime": "2025-09-05",
+        "recordedDate": "2025-09-05"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Condition/131287985",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "131287985",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-26T02:44:29.270-05:00",
+          "source": "#aSsuQvRwobgElxdE"
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active",
+              "display": "active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-verificationStatus",
+              "code": "confirmed",
+              "display": "confirmed"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "code": "encounter-diagnosis",
+                "display": "encounter-diagnosis"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "44054006",
+              "display": "Type 2 diabetes mellitus"
+            }
+          ],
+          "text": "Type 2 diabetes mellitus"
+        },
+        "subject": {
+          "reference": "Patient/131287982"
+        },
+        "onsetDateTime": "2021-06-01",
+        "recordedDate": "2021-06-01"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Condition/131287986",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "131287986",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-26T02:44:29.270-05:00",
+          "source": "#aSsuQvRwobgElxdE"
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active",
+              "display": "active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-verificationStatus",
+              "code": "confirmed",
+              "display": "confirmed"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "code": "encounter-diagnosis",
+                "display": "encounter-diagnosis"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "38341003",
+              "display": "Essential hypertension"
+            }
+          ],
+          "text": "Essential hypertension"
+        },
+        "subject": {
+          "reference": "Patient/131287982"
+        },
+        "onsetDateTime": "2019-02-15",
+        "recordedDate": "2019-02-15"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Condition/131287987",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "131287987",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-26T02:44:29.270-05:00",
+          "source": "#aSsuQvRwobgElxdE"
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active",
+              "display": "active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-verificationStatus",
+              "code": "confirmed",
+              "display": "confirmed"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "code": "encounter-diagnosis",
+                "display": "encounter-diagnosis"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "55822004",
+              "display": "Hyperlipidemia"
+            }
+          ],
+          "text": "Hyperlipidemia"
+        },
+        "subject": {
+          "reference": "Patient/131287982"
+        },
+        "onsetDateTime": "2020-08-10",
+        "recordedDate": "2020-08-10"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Condition/131288018",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "131288018",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-26T02:44:31.420-05:00",
+          "source": "#zixuG8itJD1sgbNd"
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active",
+              "display": "active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-verificationStatus",
+              "code": "confirmed",
+              "display": "confirmed"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "code": "encounter-diagnosis",
+                "display": "encounter-diagnosis"
+              }
+            ]
+          }
+        ],
+        "severity": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "24484000",
+              "display": "Severe"
+            }
+          ],
+          "text": "Severe"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "33737001",
+              "display": "Multiple rib fractures (ribs 4-8 right)"
+            }
+          ],
+          "text": "Multiple rib fractures (ribs 4-8 right)"
+        },
+        "subject": {
+          "reference": "Patient/131288017"
+        },
+        "onsetDateTime": "2025-11-20",
+        "recordedDate": "2025-11-20"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Condition/131288019",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "131288019",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-26T02:44:31.420-05:00",
+          "source": "#zixuG8itJD1sgbNd"
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active",
+              "display": "active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-verificationStatus",
+              "code": "confirmed",
+              "display": "confirmed"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "code": "encounter-diagnosis",
+                "display": "encounter-diagnosis"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "25569004",
+              "display": "Pulmonary contusion, right lung"
+            }
+          ],
+          "text": "Pulmonary contusion, right lung"
+        },
+        "subject": {
+          "reference": "Patient/131288017"
+        },
+        "onsetDateTime": "2025-11-20",
+        "recordedDate": "2025-11-20"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Condition/131288020",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "131288020",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-26T02:44:31.420-05:00",
+          "source": "#zixuG8itJD1sgbNd"
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active",
+              "display": "active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-verificationStatus",
+              "code": "confirmed",
+              "display": "confirmed"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "code": "encounter-diagnosis",
+                "display": "encounter-diagnosis"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "58471000",
+              "display": "Splenic laceration, Grade II"
+            }
+          ],
+          "text": "Splenic laceration, Grade II"
+        },
+        "subject": {
+          "reference": "Patient/131288017"
+        },
+        "onsetDateTime": "2025-11-20",
+        "recordedDate": "2025-11-20"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Condition/131288021",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "131288021",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-26T02:44:31.420-05:00",
+          "source": "#zixuG8itJD1sgbNd"
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "resolved",
+              "display": "resolved"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-verificationStatus",
+              "code": "confirmed",
+              "display": "confirmed"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "code": "encounter-diagnosis",
+                "display": "encounter-diagnosis"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "110030002",
+              "display": "Concussion without loss of consciousness"
+            }
+          ],
+          "text": "Concussion without loss of consciousness"
+        },
+        "subject": {
+          "reference": "Patient/131288017"
+        },
+        "onsetDateTime": "2025-11-20",
+        "abatementDateTime": "2025-11-28",
+        "recordedDate": "2025-11-20"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Condition/131288053",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "131288053",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-26T02:44:33.926-05:00",
+          "source": "#nFnUwn5UqOcSngyy"
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active",
+              "display": "active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-verificationStatus",
+              "code": "confirmed",
+              "display": "confirmed"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "code": "encounter-diagnosis",
+                "display": "encounter-diagnosis"
+              }
+            ]
+          }
+        ],
+        "severity": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "24484000",
+              "display": "Severe"
+            }
+          ],
+          "text": "Severe"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "432504007",
+              "display": "Acute ischemic stroke - left MCA territory"
+            }
+          ],
+          "text": "Acute ischemic stroke - left MCA territory"
+        },
+        "subject": {
+          "reference": "Patient/131288052"
+        },
+        "onsetDateTime": "2025-10-01",
+        "recordedDate": "2025-10-01"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Condition/131288054",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "131288054",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-26T02:44:33.926-05:00",
+          "source": "#nFnUwn5UqOcSngyy"
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active",
+              "display": "active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-verificationStatus",
+              "code": "confirmed",
+              "display": "confirmed"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "code": "encounter-diagnosis",
+                "display": "encounter-diagnosis"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "49436004",
+              "display": "Atrial fibrillation"
+            }
+          ],
+          "text": "Atrial fibrillation"
+        },
+        "subject": {
+          "reference": "Patient/131288052"
+        },
+        "onsetDateTime": "2023-05-15",
+        "recordedDate": "2023-05-15"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Condition/131288055",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "131288055",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-26T02:44:33.926-05:00",
+          "source": "#nFnUwn5UqOcSngyy"
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active",
+              "display": "active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-verificationStatus",
+              "code": "confirmed",
+              "display": "confirmed"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "code": "encounter-diagnosis",
+                "display": "encounter-diagnosis"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "64586002",
+              "display": "Carotid artery stenosis, right - 80%"
+            }
+          ],
+          "text": "Carotid artery stenosis, right - 80%"
+        },
+        "subject": {
+          "reference": "Patient/131288052"
+        },
+        "onsetDateTime": "2025-10-02",
+        "recordedDate": "2025-10-02"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Condition/131288056",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "131288056",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-26T02:44:33.926-05:00",
+          "source": "#nFnUwn5UqOcSngyy"
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active",
+              "display": "active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-verificationStatus",
+              "code": "confirmed",
+              "display": "confirmed"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "code": "encounter-diagnosis",
+                "display": "encounter-diagnosis"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "429998004",
+              "display": "Vascular dementia"
+            }
+          ],
+          "text": "Vascular dementia"
+        },
+        "subject": {
+          "reference": "Patient/131288052"
+        },
+        "onsetDateTime": "2024-06-01",
+        "recordedDate": "2024-06-01"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Condition/131288057",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "131288057",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-26T02:44:33.926-05:00",
+          "source": "#nFnUwn5UqOcSngyy"
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active",
+              "display": "active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-verificationStatus",
+              "code": "confirmed",
+              "display": "confirmed"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "code": "encounter-diagnosis",
+                "display": "encounter-diagnosis"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "38341003",
+              "display": "Essential hypertension"
+            }
+          ],
+          "text": "Essential hypertension"
+        },
+        "subject": {
+          "reference": "Patient/131288052"
+        },
+        "onsetDateTime": "2015-01-10",
+        "recordedDate": "2015-01-10"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Condition/131288090",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "131288090",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-26T02:44:37.419-05:00",
+          "source": "#VntfdBEdXkgP2OOm"
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active",
+              "display": "active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-verificationStatus",
+              "code": "confirmed",
+              "display": "confirmed"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "code": "encounter-diagnosis",
+                "display": "encounter-diagnosis"
+              }
+            ]
+          }
+        ],
+        "severity": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "24484000",
+              "display": "Severe"
+            }
+          ],
+          "text": "Severe"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "34000006",
+              "display": "Crohn's disease of ileum and colon"
+            }
+          ],
+          "text": "Crohn's disease of ileum and colon"
+        },
+        "subject": {
+          "reference": "Patient/131288089"
+        },
+        "onsetDateTime": "2015-03-20",
+        "recordedDate": "2015-03-20"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Condition/131288091",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "131288091",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-26T02:44:37.419-05:00",
+          "source": "#VntfdBEdXkgP2OOm"
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active",
+              "display": "active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-verificationStatus",
+              "code": "confirmed",
+              "display": "confirmed"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "code": "encounter-diagnosis",
+                "display": "encounter-diagnosis"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "253844003",
+              "display": "Hepatic hemangioma"
+            }
+          ],
+          "text": "Hepatic hemangioma"
+        },
+        "subject": {
+          "reference": "Patient/131288089"
+        },
+        "onsetDateTime": "2025-04-10",
+        "recordedDate": "2025-04-10"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Condition/131288092",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "131288092",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-26T02:44:37.419-05:00",
+          "source": "#VntfdBEdXkgP2OOm"
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active",
+              "display": "active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-verificationStatus",
+              "code": "confirmed",
+              "display": "confirmed"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "code": "encounter-diagnosis",
+                "display": "encounter-diagnosis"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "87522002",
+              "display": "Iron deficiency anemia"
+            }
+          ],
+          "text": "Iron deficiency anemia"
+        },
+        "subject": {
+          "reference": "Patient/131288089"
+        },
+        "onsetDateTime": "2025-01-15",
+        "recordedDate": "2025-01-15"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Condition/131288093",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "131288093",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-26T02:44:37.419-05:00",
+          "source": "#VntfdBEdXkgP2OOm"
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active",
+              "display": "active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-verificationStatus",
+              "code": "confirmed",
+              "display": "confirmed"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "code": "encounter-diagnosis",
+                "display": "encounter-diagnosis"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "423902002",
+              "display": "Perianal fistula"
+            }
+          ],
+          "text": "Perianal fistula"
+        },
+        "subject": {
+          "reference": "Patient/131288089"
+        },
+        "onsetDateTime": "2025-06-01",
+        "recordedDate": "2025-06-01"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Condition/131288350",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "131288350",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-26T12:11:17.297-05:00",
+          "source": "#hpXLWalgXClXW61y"
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "inactive",
+              "display": "Inactive"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code": "unconfirmed",
+              "display": "unconfirmed"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "85898001",
+              "display": "Cardiomyopathy"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/131288336",
+          "identifier": {
+            "system": "https://fhir.nhs.uk/Id/nhs-number",
+            "value": "9736175243"
+          }
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Condition/131289241",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "131289241",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-26T18:31:35.302-05:00",
+          "source": "#Ila5jNLbaaPMq9IW"
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code": "confirmed"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "code": "problem-list-item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "44054006",
+              "display": "Diabetes mellitus type 2"
+            }
+          ],
+          "text": "Type 2 Diabetes"
+        },
+        "subject": {
+          "reference": "Patient/testmartin"
+        },
+        "onsetDateTime": "2025-01-01"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Condition/131289251",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "131289251",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-26T18:31:47.497-05:00",
+          "source": "#HsaVM9GwHjC2qs0w",
+          "tag": [
+            {
+              "system": "http://www.alpha.alp/use-case",
+              "code": "EX20"
+            }
+          ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><b>Condition:</b> No breathing difficulties (resolved). June 28, 2018.\r\n           </div>"
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "resolved"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "22803001",
+              "display": "Normal breathing"
+            }
+          ],
+          "text": "No breathing difficulties"
+        },
+        "subject": {
+          "reference": "Patient/131289233"
+        },
+        "encounter": {
+          "reference": "Encounter/131289246"
+        },
+        "recordedDate": "2018-06-28",
+        "asserter": {
+          "reference": "Patient/131289233"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Condition/131289252",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "131289252",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-26T18:31:47.497-05:00",
+          "source": "#HsaVM9GwHjC2qs0w",
+          "tag": [
+            {
+              "system": "http://www.alpha.alp/use-case",
+              "code": "EX20"
+            }
+          ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><b>Condition:</b> Pain in the right ear (resolved). June 28, 2018.\r\n              </div>"
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "resolved"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "16001004",
+              "display": "Pain in ear"
+            }
+          ]
+        },
+        "bodySite": [
+          {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "25577004",
+                "display": "Right ear"
+              }
+            ]
+          }
+        ],
+        "subject": {
+          "reference": "Patient/131289233"
+        },
+        "encounter": {
+          "reference": "Encounter/131289245"
+        },
+        "onsetDateTime": "2018-06-11",
+        "recordedDate": "2018-06-28",
+        "asserter": {
+          "reference": "Patient/131289233"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Condition/131289253",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "131289253",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-26T18:31:47.497-05:00",
+          "source": "#HsaVM9GwHjC2qs0w",
+          "tag": [
+            {
+              "system": "http://www.alpha.alp/use-case",
+              "code": "EX20"
+            }
+          ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><b>Condition:</b> Itchy skin rash (resolved). June 28, 2018.\r\n             </div>"
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "resolved"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "64144002",
+              "display": "Itchy skin eruption"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/131289233"
+        },
+        "encounter": {
+          "reference": "Encounter/131289246"
+        },
+        "recordedDate": "2018-06-28",
+        "asserter": {
+          "reference": "Patient/131289233"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Condition/131289254",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "131289254",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-26T18:31:47.497-05:00",
+          "source": "#HsaVM9GwHjC2qs0w",
+          "tag": [
+            {
+              "system": "http://www.alpha.alp/use-case",
+              "code": "EX20"
+            }
+          ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><b>Condition:</b> Otitis media, inflamed right eardrum (resolved). June 28, 2018.\r\n        </div>"
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "resolved"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code": "confirmed"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "65363002",
+              "display": "Otitis Media"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/131289233"
+        },
+        "encounter": {
+          "reference": "Encounter/131289245"
+        },
+        "recordedDate": "2018-06-28",
+        "asserter": {
+          "reference": "Practitioner/131289242",
+          "display": "Dr. Harold Hippocrates"
+        },
+        "evidence": [
+          {
+            "detail": [
+              {
+                "reference": "Observation/131289248",
+                "display": "Inflamed right eardrum"
+              }
+            ]
+          },
+          {
+            "detail": [
+              {
+                "reference": "Observation/131289249",
+                "display": "Body temperature of 38 degrees Celsius"
+              }
+            ]
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Condition/131289355",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "131289355",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-26T22:40:22.432-05:00",
+          "source": "#JzkVuemKGx99B1fu",
+          "tag": [
+            {
+              "system": "https://example.org/fhir/sort-test",
+              "code": "fhir-sort-test"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "38341003",
+              "display": "Hypertension"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/131289348"
+        },
+        "onsetDateTime": "2022-06-01T00:00:00Z"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Condition/131289356",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "131289356",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-26T22:40:23.431-05:00",
+          "source": "#U3d77ButXkJMJr1S",
+          "tag": [
+            {
+              "system": "https://example.org/fhir/sort-test",
+              "code": "fhir-sort-test"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "73211009",
+              "display": "Diabetes"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/131289349"
+        },
+        "onsetDateTime": "2022-09-15T00:00:00Z"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Condition/131289357",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "131289357",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-26T22:40:24.432-05:00",
+          "source": "#jgwNymgaLFbDNvj2",
+          "tag": [
+            {
+              "system": "https://example.org/fhir/sort-test",
+              "code": "fhir-sort-test"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "22298006",
+              "display": "Myocardial infarction"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/131289350"
+        },
+        "onsetDateTime": "2023-01-10T00:00:00Z"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Condition/131289373",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "131289373",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-26T22:42:53.024-05:00",
+          "source": "#u7mHtwKO1jSylD3M",
+          "tag": [
+            {
+              "system": "https://example.org/fhir/sort-test",
+              "code": "fhir-sort-test"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "38341003",
+              "display": "Hypertension"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/131289366"
+        },
+        "onsetDateTime": "2022-06-01T00:00:00Z"
+      },
+      "search": {
+        "mode": "match"
+      }
+    }
+  ]
+}

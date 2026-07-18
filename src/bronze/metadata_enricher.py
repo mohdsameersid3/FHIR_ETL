@@ -1,6 +1,7 @@
 from datetime import datetime, UTC
 import uuid
 from pathlib import Path
+from src.common.hash_calculator import HashCalculator
 
 
 class MetadataEnricher:

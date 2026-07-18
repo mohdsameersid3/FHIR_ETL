@@ -1,0 +1,3355 @@
+{
+  "resourceType": "Bundle",
+  "id": "e33e77de-6a8b-4c03-8a54-c98c5f653e66",
+  "meta": {
+    "lastUpdated": "2026-07-18T03:15:02.931-04:00"
+  },
+  "type": "searchset",
+  "link": [
+    {
+      "relation": "self",
+      "url": "https://hapi.fhir.org/baseR4/Encounter?_count=100"
+    },
+    {
+      "relation": "next",
+      "url": "https://hapi.fhir.org/baseR4?_getpages=e33e77de-6a8b-4c03-8a54-c98c5f653e66&_getpagesoffset=100&_count=100&_pretty=true&_bundletype=searchset"
+    }
+  ],
+  "entry": [
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/89188157",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "89188157",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-09T17:01:02.337-05:00",
+          "source": "#zAw0i3DTOhzKA6fQ"
+        },
+        "identifier": [
+          {
+            "value": "5b8ec78e-5094-4a57-8f23-38719c3f57fb"
+          }
+        ],
+        "subject": {
+          "display": "Bill Burr"
+        },
+        "period": {
+          "start": "2025-09-01T09:04:55.353000Z"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/89188314",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "89188314",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-09T17:01:03.339-05:00",
+          "source": "#Rlb1kghxDbLxRqJ7"
+        },
+        "identifier": [
+          {
+            "value": "739796a9-2632-4823-860e-374f0e3ff60c"
+          }
+        ],
+        "subject": {
+          "display": "Christina P."
+        },
+        "period": {
+          "start": "2025-09-01T09:50:46.289000Z"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/89188495",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "89188495",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-09T17:01:04.340-05:00",
+          "source": "#3lffJNyyUaFIIF1M"
+        },
+        "identifier": [
+          {
+            "value": "27b5e448-c001-4399-b748-49e72f5d41b9"
+          }
+        ],
+        "subject": {
+          "display": "Jack Hilton"
+        },
+        "period": {
+          "start": "2025-09-01T13:00:00.558000Z"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/89188595",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "89188595",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-09T17:01:05.340-05:00",
+          "source": "#Ef7SnrgOx0FnAerN"
+        },
+        "identifier": [
+          {
+            "value": "4eb83840-0a1e-496f-80f0-75bc3abc0bed"
+          }
+        ],
+        "subject": {
+          "display": "Taylor Downs"
+        },
+        "period": {
+          "start": "2025-09-01T13:02:15.351000Z"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/89188761",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "89188761",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-09T17:01:06.339-05:00",
+          "source": "#RqGIBLy48etDv0KO"
+        },
+        "identifier": [
+          {
+            "value": "5c1f39a8-47d0-4100-8bcd-27acc5f86b45"
+          }
+        ],
+        "subject": {
+          "display": "Jon Snow"
+        },
+        "period": {
+          "start": "2025-09-02T11:30:04.884000Z"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/89188929",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "89188929",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-09T17:01:07.341-05:00",
+          "source": "#u8FV7XdobpN519aV"
+        },
+        "identifier": [
+          {
+            "value": "2ca5242c-a234-4606-af0c-6a42d3aab0ac"
+          }
+        ],
+        "subject": {
+          "display": "Geoffrey Oyu"
+        },
+        "period": {
+          "start": "2025-09-02T13:38:57.999000Z"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/89189017",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "89189017",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-09T17:01:08.339-05:00",
+          "source": "#8Gi1JIe2NGzRQnHG"
+        },
+        "identifier": [
+          {
+            "value": "aa56cb5e018f4a2eb25a6244194816a6"
+          }
+        ],
+        "subject": {
+          "display": "Jane Doe"
+        },
+        "period": {
+          "start": "2025-09-12T20:42:24.168789Z"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/89189156",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "89189156",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-09T17:01:09.342-05:00",
+          "source": "#AiVK54U1E07aBHxh"
+        },
+        "identifier": [
+          {
+            "value": "a0059382b0ed443caa5d91179da3e8ea"
+          }
+        ],
+        "subject": {
+          "display": "Jane Doe"
+        },
+        "period": {
+          "start": "2025-09-12T20:42:24.437283Z"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/89189291",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "89189291",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-09T17:01:10.370-05:00",
+          "source": "#Fvyv5hxrAKffGn8I"
+        },
+        "identifier": [
+          {
+            "value": "e80a94c700dc4917a02bab8555af9ed7"
+          }
+        ],
+        "subject": {
+          "display": "Jane Doe"
+        },
+        "period": {
+          "start": "2025-09-12T20:42:24.654874Z"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/89189383",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "89189383",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-09T17:01:11.338-05:00",
+          "source": "#KfdHXoDIE4CzPunY"
+        },
+        "identifier": [
+          {
+            "value": "049ef80b9de54a2b9daa2a253f6b03ac"
+          }
+        ],
+        "subject": {
+          "display": "John Doe"
+        },
+        "period": {
+          "start": "2025-09-12T20:42:24.871026Z"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/89189490",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "89189490",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-09T17:01:12.338-05:00",
+          "source": "#z6z4JYYvRqLplKYt"
+        },
+        "identifier": [
+          {
+            "value": "fef254188a9e4f569914af173d5ab7e4"
+          }
+        ],
+        "subject": {
+          "display": "Rita Z\u00e1goni"
+        },
+        "period": {
+          "start": "2025-09-12T20:42:25.088000Z"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/89877019",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "89877019",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-09T18:01:53.888-05:00",
+          "source": "#Dm4iPZQDclyLxIND"
+        },
+        "identifier": [
+          {
+            "value": "a037a5d9-98a5-41f3-b405-0f5d2c7ce49b"
+          }
+        ],
+        "subject": {
+          "display": "Green Acres"
+        },
+        "period": {
+          "start": "2025-09-01T06:50:10.571000Z"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/89877244",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "89877244",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-09T18:01:54.887-05:00",
+          "source": "#riM4B7kc66LNyAqH"
+        },
+        "identifier": [
+          {
+            "value": "8d02ede5-1422-4413-91b6-039dac2830d4"
+          }
+        ],
+        "subject": {
+          "display": "Pius Kariuki"
+        },
+        "period": {
+          "start": "2025-09-01T08:07:36.051000Z"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/89877455",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "89877455",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-09T18:01:55.886-05:00",
+          "source": "#zlYuqA724IQDIKTT"
+        },
+        "identifier": [
+          {
+            "value": "fdb73065-01cd-43c5-acf5-0624479e226f"
+          }
+        ],
+        "subject": {
+          "display": "Jane Doe"
+        },
+        "period": {
+          "start": "2025-09-01T08:13:04.081000Z"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/89877674",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "89877674",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-09T18:01:56.887-05:00",
+          "source": "#nx2LbE81qm1cKjt4"
+        },
+        "identifier": [
+          {
+            "value": "32294fcd-e050-4487-b3ea-575539241ea3"
+          }
+        ],
+        "subject": {
+          "display": "Bob Bowman"
+        },
+        "period": {
+          "start": "2025-09-01T08:49:54.682000Z"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/89877854",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "89877854",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-09T18:01:57.886-05:00",
+          "source": "#3URVjtgLpUSLxDXv"
+        },
+        "identifier": [
+          {
+            "value": "5b8ec78e-5094-4a57-8f23-38719c3f57fb"
+          }
+        ],
+        "subject": {
+          "display": "Bill Burr"
+        },
+        "period": {
+          "start": "2025-09-01T09:04:55.353000Z"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/89878032",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "89878032",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-09T18:01:58.889-05:00",
+          "source": "#39UwjMy05YNOXaUR"
+        },
+        "identifier": [
+          {
+            "value": "739796a9-2632-4823-860e-374f0e3ff60c"
+          }
+        ],
+        "subject": {
+          "display": "Christina P."
+        },
+        "period": {
+          "start": "2025-09-01T09:50:46.289000Z"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/89878224",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "89878224",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-09T18:01:59.886-05:00",
+          "source": "#1P0ynbfTiIppyg2X"
+        },
+        "identifier": [
+          {
+            "value": "27b5e448-c001-4399-b748-49e72f5d41b9"
+          }
+        ],
+        "subject": {
+          "display": "Jack Hilton"
+        },
+        "period": {
+          "start": "2025-09-01T13:00:00.558000Z"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/89878425",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "89878425",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-09T18:02:00.886-05:00",
+          "source": "#1FaA7YDomBkpdvLT"
+        },
+        "identifier": [
+          {
+            "value": "4eb83840-0a1e-496f-80f0-75bc3abc0bed"
+          }
+        ],
+        "subject": {
+          "display": "Taylor Downs"
+        },
+        "period": {
+          "start": "2025-09-01T13:02:15.351000Z"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/89878611",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "89878611",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-09T18:02:01.887-05:00",
+          "source": "#kldCFuQl2Vsbn0ke"
+        },
+        "identifier": [
+          {
+            "value": "5c1f39a8-47d0-4100-8bcd-27acc5f86b45"
+          }
+        ],
+        "subject": {
+          "display": "Jon Snow"
+        },
+        "period": {
+          "start": "2025-09-02T11:30:04.884000Z"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/89878805",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "89878805",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-09T18:02:02.887-05:00",
+          "source": "#8MKnlzBTiLla6qC1"
+        },
+        "identifier": [
+          {
+            "value": "2ca5242c-a234-4606-af0c-6a42d3aab0ac"
+          }
+        ],
+        "subject": {
+          "display": "Geoffrey Oyu"
+        },
+        "period": {
+          "start": "2025-09-02T13:38:57.999000Z"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/89879030",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "89879030",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-09T18:02:03.886-05:00",
+          "source": "#7uxSnQb2eefHVTZV"
+        },
+        "identifier": [
+          {
+            "value": "aa56cb5e018f4a2eb25a6244194816a6"
+          }
+        ],
+        "subject": {
+          "display": "Jane Doe"
+        },
+        "period": {
+          "start": "2025-09-12T20:42:24.168789Z"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/89879239",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "89879239",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-09T18:02:04.887-05:00",
+          "source": "#EAet2kJDYZjExs0l"
+        },
+        "identifier": [
+          {
+            "value": "a0059382b0ed443caa5d91179da3e8ea"
+          }
+        ],
+        "subject": {
+          "display": "Jane Doe"
+        },
+        "period": {
+          "start": "2025-09-12T20:42:24.437283Z"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/89879455",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "89879455",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-09T18:02:05.887-05:00",
+          "source": "#jU7YbWnyM2i86fxG"
+        },
+        "identifier": [
+          {
+            "value": "e80a94c700dc4917a02bab8555af9ed7"
+          }
+        ],
+        "subject": {
+          "display": "Jane Doe"
+        },
+        "period": {
+          "start": "2025-09-12T20:42:24.654874Z"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/89879655",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "89879655",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-09T18:02:06.887-05:00",
+          "source": "#pyq5ISKBq4kOezwF"
+        },
+        "identifier": [
+          {
+            "value": "049ef80b9de54a2b9daa2a253f6b03ac"
+          }
+        ],
+        "subject": {
+          "display": "John Doe"
+        },
+        "period": {
+          "start": "2025-09-12T20:42:24.871026Z"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/89879864",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "89879864",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-09T18:02:07.887-05:00",
+          "source": "#EsUkMGJzjjHjWhYp"
+        },
+        "identifier": [
+          {
+            "value": "fef254188a9e4f569914af173d5ab7e4"
+          }
+        ],
+        "subject": {
+          "display": "Rita Z\u00e1goni"
+        },
+        "period": {
+          "start": "2025-09-12T20:42:25.088000Z"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/90543313",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "90543313",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-09T19:00:38.813-05:00",
+          "source": "#bkkhj5l0PdjX36dp"
+        },
+        "identifier": [
+          {
+            "value": "a037a5d9-98a5-41f3-b405-0f5d2c7ce49b"
+          }
+        ],
+        "subject": {
+          "display": "Green Acres"
+        },
+        "period": {
+          "start": "2025-09-01T06:50:10.571000Z"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/90543604",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "90543604",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-09T19:00:39.814-05:00",
+          "source": "#m7DFoBckZmW5U1R4"
+        },
+        "identifier": [
+          {
+            "value": "8d02ede5-1422-4413-91b6-039dac2830d4"
+          }
+        ],
+        "subject": {
+          "display": "Pius Kariuki"
+        },
+        "period": {
+          "start": "2025-09-01T08:07:36.051000Z"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/90543771",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "90543771",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-09T19:00:40.814-05:00",
+          "source": "#L0xDc0uRIhVHmG7K"
+        },
+        "identifier": [
+          {
+            "value": "fdb73065-01cd-43c5-acf5-0624479e226f"
+          }
+        ],
+        "subject": {
+          "display": "Jane Doe"
+        },
+        "period": {
+          "start": "2025-09-01T08:13:04.081000Z"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/90543942",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "90543942",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-09T19:00:41.817-05:00",
+          "source": "#N4oZkozPWnyND0rX"
+        },
+        "identifier": [
+          {
+            "value": "32294fcd-e050-4487-b3ea-575539241ea3"
+          }
+        ],
+        "subject": {
+          "display": "Bob Bowman"
+        },
+        "period": {
+          "start": "2025-09-01T08:49:54.682000Z"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/90544057",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "90544057",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-09T19:00:42.813-05:00",
+          "source": "#enOox8rH3tF3XXz2"
+        },
+        "identifier": [
+          {
+            "value": "5b8ec78e-5094-4a57-8f23-38719c3f57fb"
+          }
+        ],
+        "subject": {
+          "display": "Bill Burr"
+        },
+        "period": {
+          "start": "2025-09-01T09:04:55.353000Z"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/90544188",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "90544188",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-09T19:00:43.813-05:00",
+          "source": "#DbarpE4rosfIk3Zn"
+        },
+        "identifier": [
+          {
+            "value": "739796a9-2632-4823-860e-374f0e3ff60c"
+          }
+        ],
+        "subject": {
+          "display": "Christina P."
+        },
+        "period": {
+          "start": "2025-09-01T09:50:46.289000Z"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/90544337",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "90544337",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-09T19:00:44.813-05:00",
+          "source": "#2SuY84AFkgwqezw9"
+        },
+        "identifier": [
+          {
+            "value": "27b5e448-c001-4399-b748-49e72f5d41b9"
+          }
+        ],
+        "subject": {
+          "display": "Jack Hilton"
+        },
+        "period": {
+          "start": "2025-09-01T13:00:00.558000Z"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/90544523",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "90544523",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-09T19:00:45.815-05:00",
+          "source": "#BIx2Zb39oi6SHGgu"
+        },
+        "identifier": [
+          {
+            "value": "4eb83840-0a1e-496f-80f0-75bc3abc0bed"
+          }
+        ],
+        "subject": {
+          "display": "Taylor Downs"
+        },
+        "period": {
+          "start": "2025-09-01T13:02:15.351000Z"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/90544699",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "90544699",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-09T19:00:46.815-05:00",
+          "source": "#NfMV88Bnt0jOaYYY"
+        },
+        "identifier": [
+          {
+            "value": "5c1f39a8-47d0-4100-8bcd-27acc5f86b45"
+          }
+        ],
+        "subject": {
+          "display": "Jon Snow"
+        },
+        "period": {
+          "start": "2025-09-02T11:30:04.884000Z"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/90544901",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "90544901",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-09T19:00:47.812-05:00",
+          "source": "#qoql0VM3odium0NL"
+        },
+        "identifier": [
+          {
+            "value": "2ca5242c-a234-4606-af0c-6a42d3aab0ac"
+          }
+        ],
+        "subject": {
+          "display": "Geoffrey Oyu"
+        },
+        "period": {
+          "start": "2025-09-02T13:38:57.999000Z"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/90545176",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "90545176",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-09T19:00:48.812-05:00",
+          "source": "#pdB8WsHyNejBvEJU"
+        },
+        "identifier": [
+          {
+            "value": "aa56cb5e018f4a2eb25a6244194816a6"
+          }
+        ],
+        "subject": {
+          "display": "Jane Doe"
+        },
+        "period": {
+          "start": "2025-09-12T20:42:24.168789Z"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/90545346",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "90545346",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-09T19:00:49.812-05:00",
+          "source": "#wwc2Efs8dyNe52KZ"
+        },
+        "identifier": [
+          {
+            "value": "a0059382b0ed443caa5d91179da3e8ea"
+          }
+        ],
+        "subject": {
+          "display": "Jane Doe"
+        },
+        "period": {
+          "start": "2025-09-12T20:42:24.437283Z"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/90545622",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "90545622",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-09T19:00:50.813-05:00",
+          "source": "#HpxTBmdqQTCo4PIZ"
+        },
+        "identifier": [
+          {
+            "value": "e80a94c700dc4917a02bab8555af9ed7"
+          }
+        ],
+        "subject": {
+          "display": "Jane Doe"
+        },
+        "period": {
+          "start": "2025-09-12T20:42:24.654874Z"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/90545762",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "90545762",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-09T19:00:51.813-05:00",
+          "source": "#MUuOJ13WDlA5F5qY"
+        },
+        "identifier": [
+          {
+            "value": "049ef80b9de54a2b9daa2a253f6b03ac"
+          }
+        ],
+        "subject": {
+          "display": "John Doe"
+        },
+        "period": {
+          "start": "2025-09-12T20:42:24.871026Z"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/90546021",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "90546021",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-09T19:00:52.812-05:00",
+          "source": "#bwfkDMGTwEm45Cwm"
+        },
+        "identifier": [
+          {
+            "value": "fef254188a9e4f569914af173d5ab7e4"
+          }
+        ],
+        "subject": {
+          "display": "Rita Z\u00e1goni"
+        },
+        "period": {
+          "start": "2025-09-12T20:42:25.088000Z"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/91110082",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "91110082",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-09T20:00:30.147-05:00",
+          "source": "#bCqD9Jhp3EdBCcjH"
+        },
+        "identifier": [
+          {
+            "value": "a037a5d9-98a5-41f3-b405-0f5d2c7ce49b"
+          }
+        ],
+        "subject": {
+          "display": "Green Acres"
+        },
+        "period": {
+          "start": "2025-09-01T06:50:10.571000Z"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/91110245",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "91110245",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-09T20:00:31.140-05:00",
+          "source": "#SmM2cWiNxoCs15NE"
+        },
+        "identifier": [
+          {
+            "value": "8d02ede5-1422-4413-91b6-039dac2830d4"
+          }
+        ],
+        "subject": {
+          "display": "Pius Kariuki"
+        },
+        "period": {
+          "start": "2025-09-01T08:07:36.051000Z"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/91110375",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "91110375",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-09T20:00:32.144-05:00",
+          "source": "#6NWbSYt5T9AJWFgj"
+        },
+        "identifier": [
+          {
+            "value": "fdb73065-01cd-43c5-acf5-0624479e226f"
+          }
+        ],
+        "subject": {
+          "display": "Jane Doe"
+        },
+        "period": {
+          "start": "2025-09-01T08:13:04.081000Z"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/91110584",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "91110584",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-09T20:00:33.141-05:00",
+          "source": "#yNT0JHAiJTEhU11e"
+        },
+        "identifier": [
+          {
+            "value": "32294fcd-e050-4487-b3ea-575539241ea3"
+          }
+        ],
+        "subject": {
+          "display": "Bob Bowman"
+        },
+        "period": {
+          "start": "2025-09-01T08:49:54.682000Z"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/91110790",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "91110790",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-09T20:00:34.142-05:00",
+          "source": "#idGk0RiY9PIhA41a"
+        },
+        "identifier": [
+          {
+            "value": "5b8ec78e-5094-4a57-8f23-38719c3f57fb"
+          }
+        ],
+        "subject": {
+          "display": "Bill Burr"
+        },
+        "period": {
+          "start": "2025-09-01T09:04:55.353000Z"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/91111028",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "91111028",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-09T20:00:35.142-05:00",
+          "source": "#SPKKaZhW519QR3bR"
+        },
+        "identifier": [
+          {
+            "value": "739796a9-2632-4823-860e-374f0e3ff60c"
+          }
+        ],
+        "subject": {
+          "display": "Christina P."
+        },
+        "period": {
+          "start": "2025-09-01T09:50:46.289000Z"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/91111228",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "91111228",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-09T20:00:36.162-05:00",
+          "source": "#juG8BTQsAnUOEEc0"
+        },
+        "identifier": [
+          {
+            "value": "27b5e448-c001-4399-b748-49e72f5d41b9"
+          }
+        ],
+        "subject": {
+          "display": "Jack Hilton"
+        },
+        "period": {
+          "start": "2025-09-01T13:00:00.558000Z"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/91111458",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "91111458",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-09T20:00:37.141-05:00",
+          "source": "#X8yKyjpXa1E6KrsY"
+        },
+        "identifier": [
+          {
+            "value": "4eb83840-0a1e-496f-80f0-75bc3abc0bed"
+          }
+        ],
+        "subject": {
+          "display": "Taylor Downs"
+        },
+        "period": {
+          "start": "2025-09-01T13:02:15.351000Z"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/91111649",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "91111649",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-09T20:00:38.142-05:00",
+          "source": "#lweRHECj7LOA0HRS"
+        },
+        "identifier": [
+          {
+            "value": "5c1f39a8-47d0-4100-8bcd-27acc5f86b45"
+          }
+        ],
+        "subject": {
+          "display": "Jon Snow"
+        },
+        "period": {
+          "start": "2025-09-02T11:30:04.884000Z"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/91111901",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "91111901",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-09T20:00:39.143-05:00",
+          "source": "#FUg8PWSmcsF30n13"
+        },
+        "identifier": [
+          {
+            "value": "2ca5242c-a234-4606-af0c-6a42d3aab0ac"
+          }
+        ],
+        "subject": {
+          "display": "Geoffrey Oyu"
+        },
+        "period": {
+          "start": "2025-09-02T13:38:57.999000Z"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/91112093",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "91112093",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-09T20:00:40.144-05:00",
+          "source": "#aSg0bniUWqV3Tu3u"
+        },
+        "identifier": [
+          {
+            "value": "aa56cb5e018f4a2eb25a6244194816a6"
+          }
+        ],
+        "subject": {
+          "display": "Jane Doe"
+        },
+        "period": {
+          "start": "2025-09-12T20:42:24.168789Z"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/91112353",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "91112353",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-09T20:00:41.141-05:00",
+          "source": "#D80E3Bqw91cxpZCs"
+        },
+        "identifier": [
+          {
+            "value": "a0059382b0ed443caa5d91179da3e8ea"
+          }
+        ],
+        "subject": {
+          "display": "Jane Doe"
+        },
+        "period": {
+          "start": "2025-09-12T20:42:24.437283Z"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/91112542",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "91112542",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-09T20:00:42.141-05:00",
+          "source": "#njsAFNW0Cptbwn5Z"
+        },
+        "identifier": [
+          {
+            "value": "e80a94c700dc4917a02bab8555af9ed7"
+          }
+        ],
+        "subject": {
+          "display": "Jane Doe"
+        },
+        "period": {
+          "start": "2025-09-12T20:42:24.654874Z"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/91112781",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "91112781",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-09T20:00:43.143-05:00",
+          "source": "#5jT9fDQKmpoNdBZU"
+        },
+        "identifier": [
+          {
+            "value": "049ef80b9de54a2b9daa2a253f6b03ac"
+          }
+        ],
+        "subject": {
+          "display": "John Doe"
+        },
+        "period": {
+          "start": "2025-09-12T20:42:24.871026Z"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/91112910",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "91112910",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-09T20:00:44.141-05:00",
+          "source": "#O8i1t0a9PDULX6W9"
+        },
+        "identifier": [
+          {
+            "value": "fef254188a9e4f569914af173d5ab7e4"
+          }
+        ],
+        "subject": {
+          "display": "Rita Z\u00e1goni"
+        },
+        "period": {
+          "start": "2025-09-12T20:42:25.088000Z"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/91701963",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "91701963",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-09T21:00:47.093-05:00",
+          "source": "#pitmKXg0pGrzN9mI"
+        },
+        "identifier": [
+          {
+            "value": "a037a5d9-98a5-41f3-b405-0f5d2c7ce49b"
+          }
+        ],
+        "subject": {
+          "display": "Green Acres"
+        },
+        "period": {
+          "start": "2025-09-01T06:50:10.571000Z"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/91702158",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "91702158",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-09T21:00:48.092-05:00",
+          "source": "#j13iSxzafEwue7Va"
+        },
+        "identifier": [
+          {
+            "value": "8d02ede5-1422-4413-91b6-039dac2830d4"
+          }
+        ],
+        "subject": {
+          "display": "Pius Kariuki"
+        },
+        "period": {
+          "start": "2025-09-01T08:07:36.051000Z"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/91702355",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "91702355",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-09T21:00:49.094-05:00",
+          "source": "#fffXV5uSY9yh7mDx"
+        },
+        "identifier": [
+          {
+            "value": "fdb73065-01cd-43c5-acf5-0624479e226f"
+          }
+        ],
+        "subject": {
+          "display": "Jane Doe"
+        },
+        "period": {
+          "start": "2025-09-01T08:13:04.081000Z"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/91702562",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "91702562",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-09T21:00:50.094-05:00",
+          "source": "#6tzPo1ff5XDPhDDt"
+        },
+        "identifier": [
+          {
+            "value": "32294fcd-e050-4487-b3ea-575539241ea3"
+          }
+        ],
+        "subject": {
+          "display": "Bob Bowman"
+        },
+        "period": {
+          "start": "2025-09-01T08:49:54.682000Z"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/91702766",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "91702766",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-09T21:00:51.094-05:00",
+          "source": "#3ncaRnNrEvC0TWrb"
+        },
+        "identifier": [
+          {
+            "value": "5b8ec78e-5094-4a57-8f23-38719c3f57fb"
+          }
+        ],
+        "subject": {
+          "display": "Bill Burr"
+        },
+        "period": {
+          "start": "2025-09-01T09:04:55.353000Z"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/91702960",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "91702960",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-09T21:00:52.093-05:00",
+          "source": "#4uTb62nXFa2LHBQ2"
+        },
+        "identifier": [
+          {
+            "value": "739796a9-2632-4823-860e-374f0e3ff60c"
+          }
+        ],
+        "subject": {
+          "display": "Christina P."
+        },
+        "period": {
+          "start": "2025-09-01T09:50:46.289000Z"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/91703173",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "91703173",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-09T21:00:53.092-05:00",
+          "source": "#XVTYeggcGDqHdi4T"
+        },
+        "identifier": [
+          {
+            "value": "27b5e448-c001-4399-b748-49e72f5d41b9"
+          }
+        ],
+        "subject": {
+          "display": "Jack Hilton"
+        },
+        "period": {
+          "start": "2025-09-01T13:00:00.558000Z"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/91703350",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "91703350",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-09T21:00:54.092-05:00",
+          "source": "#DL9DSvufhHCxAql6"
+        },
+        "identifier": [
+          {
+            "value": "4eb83840-0a1e-496f-80f0-75bc3abc0bed"
+          }
+        ],
+        "subject": {
+          "display": "Taylor Downs"
+        },
+        "period": {
+          "start": "2025-09-01T13:02:15.351000Z"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/91703578",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "91703578",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-09T21:00:55.093-05:00",
+          "source": "#LczSrFUffN1KqN3S"
+        },
+        "identifier": [
+          {
+            "value": "5c1f39a8-47d0-4100-8bcd-27acc5f86b45"
+          }
+        ],
+        "subject": {
+          "display": "Jon Snow"
+        },
+        "period": {
+          "start": "2025-09-02T11:30:04.884000Z"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/91703771",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "91703771",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-09T21:00:56.092-05:00",
+          "source": "#3DmRKStgRvFBNIaz"
+        },
+        "identifier": [
+          {
+            "value": "2ca5242c-a234-4606-af0c-6a42d3aab0ac"
+          }
+        ],
+        "subject": {
+          "display": "Geoffrey Oyu"
+        },
+        "period": {
+          "start": "2025-09-02T13:38:57.999000Z"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/91703973",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "91703973",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-09T21:00:57.092-05:00",
+          "source": "#pdIwhdTvAgDdSFih"
+        },
+        "identifier": [
+          {
+            "value": "aa56cb5e018f4a2eb25a6244194816a6"
+          }
+        ],
+        "subject": {
+          "display": "Jane Doe"
+        },
+        "period": {
+          "start": "2025-09-12T20:42:24.168789Z"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/91704141",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "91704141",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-09T21:00:58.097-05:00",
+          "source": "#VCRUMvMwEEuyIhsj"
+        },
+        "identifier": [
+          {
+            "value": "a0059382b0ed443caa5d91179da3e8ea"
+          }
+        ],
+        "subject": {
+          "display": "Jane Doe"
+        },
+        "period": {
+          "start": "2025-09-12T20:42:24.437283Z"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/91704359",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "91704359",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-09T21:00:59.092-05:00",
+          "source": "#xlXkvcKY1iEe9R7c"
+        },
+        "identifier": [
+          {
+            "value": "e80a94c700dc4917a02bab8555af9ed7"
+          }
+        ],
+        "subject": {
+          "display": "Jane Doe"
+        },
+        "period": {
+          "start": "2025-09-12T20:42:24.654874Z"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/91704511",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "91704511",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-09T21:01:00.095-05:00",
+          "source": "#j2msBUfJBhIfF3WV"
+        },
+        "identifier": [
+          {
+            "value": "049ef80b9de54a2b9daa2a253f6b03ac"
+          }
+        ],
+        "subject": {
+          "display": "John Doe"
+        },
+        "period": {
+          "start": "2025-09-12T20:42:24.871026Z"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/91704740",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "91704740",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-09T21:01:01.094-05:00",
+          "source": "#D7UAJpKXmsPqqR4K"
+        },
+        "identifier": [
+          {
+            "value": "fef254188a9e4f569914af173d5ab7e4"
+          }
+        ],
+        "subject": {
+          "display": "Rita Z\u00e1goni"
+        },
+        "period": {
+          "start": "2025-09-12T20:42:25.088000Z"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/92312849",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "92312849",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-09T22:00:32.295-05:00",
+          "source": "#H5BGb57ySNSTVezK"
+        },
+        "identifier": [
+          {
+            "value": "a037a5d9-98a5-41f3-b405-0f5d2c7ce49b"
+          }
+        ],
+        "subject": {
+          "display": "Green Acres"
+        },
+        "period": {
+          "start": "2025-09-01T06:50:10.571000Z"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/92312903",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "92312903",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-09T22:00:33.290-05:00",
+          "source": "#YG8GdJ7P7mSwXDtN"
+        },
+        "identifier": [
+          {
+            "value": "8d02ede5-1422-4413-91b6-039dac2830d4"
+          }
+        ],
+        "subject": {
+          "display": "Pius Kariuki"
+        },
+        "period": {
+          "start": "2025-09-01T08:07:36.051000Z"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/92312986",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "92312986",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-09T22:00:34.293-05:00",
+          "source": "#ic42pC0wftyWxx3G"
+        },
+        "identifier": [
+          {
+            "value": "fdb73065-01cd-43c5-acf5-0624479e226f"
+          }
+        ],
+        "subject": {
+          "display": "Jane Doe"
+        },
+        "period": {
+          "start": "2025-09-01T08:13:04.081000Z"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/92313155",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "92313155",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-09T22:00:35.291-05:00",
+          "source": "#fKBLy46NQoMnjtjW"
+        },
+        "identifier": [
+          {
+            "value": "32294fcd-e050-4487-b3ea-575539241ea3"
+          }
+        ],
+        "subject": {
+          "display": "Bob Bowman"
+        },
+        "period": {
+          "start": "2025-09-01T08:49:54.682000Z"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/92313300",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "92313300",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-09T22:00:36.290-05:00",
+          "source": "#KRKRD6UQ94lsf2mM"
+        },
+        "identifier": [
+          {
+            "value": "5b8ec78e-5094-4a57-8f23-38719c3f57fb"
+          }
+        ],
+        "subject": {
+          "display": "Bill Burr"
+        },
+        "period": {
+          "start": "2025-09-01T09:04:55.353000Z"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/92313374",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "92313374",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-09T22:00:37.291-05:00",
+          "source": "#Ov4asXfgixTFs3HO"
+        },
+        "identifier": [
+          {
+            "value": "739796a9-2632-4823-860e-374f0e3ff60c"
+          }
+        ],
+        "subject": {
+          "display": "Christina P."
+        },
+        "period": {
+          "start": "2025-09-01T09:50:46.289000Z"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/92313518",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "92313518",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-09T22:00:38.291-05:00",
+          "source": "#H6vlGQxD59bFeI2W"
+        },
+        "identifier": [
+          {
+            "value": "27b5e448-c001-4399-b748-49e72f5d41b9"
+          }
+        ],
+        "subject": {
+          "display": "Jack Hilton"
+        },
+        "period": {
+          "start": "2025-09-01T13:00:00.558000Z"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/92313692",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "92313692",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-09T22:00:39.290-05:00",
+          "source": "#FmopKGIiKwO9Dhdl"
+        },
+        "identifier": [
+          {
+            "value": "4eb83840-0a1e-496f-80f0-75bc3abc0bed"
+          }
+        ],
+        "subject": {
+          "display": "Taylor Downs"
+        },
+        "period": {
+          "start": "2025-09-01T13:02:15.351000Z"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/92313777",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "92313777",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-09T22:00:40.290-05:00",
+          "source": "#DI0x52w5dwZ7UC1t"
+        },
+        "identifier": [
+          {
+            "value": "5c1f39a8-47d0-4100-8bcd-27acc5f86b45"
+          }
+        ],
+        "subject": {
+          "display": "Jon Snow"
+        },
+        "period": {
+          "start": "2025-09-02T11:30:04.884000Z"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/92313926",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "92313926",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-09T22:00:41.293-05:00",
+          "source": "#F6DyFCXjIUeuSCoA"
+        },
+        "identifier": [
+          {
+            "value": "2ca5242c-a234-4606-af0c-6a42d3aab0ac"
+          }
+        ],
+        "subject": {
+          "display": "Geoffrey Oyu"
+        },
+        "period": {
+          "start": "2025-09-02T13:38:57.999000Z"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/92314075",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "92314075",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-09T22:00:42.290-05:00",
+          "source": "#KnB8r3Mv9OD5M4qM"
+        },
+        "identifier": [
+          {
+            "value": "aa56cb5e018f4a2eb25a6244194816a6"
+          }
+        ],
+        "subject": {
+          "display": "Jane Doe"
+        },
+        "period": {
+          "start": "2025-09-12T20:42:24.168789Z"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/92314203",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "92314203",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-09T22:00:43.291-05:00",
+          "source": "#sdL4yrYI1zsqlMmm"
+        },
+        "identifier": [
+          {
+            "value": "a0059382b0ed443caa5d91179da3e8ea"
+          }
+        ],
+        "subject": {
+          "display": "Jane Doe"
+        },
+        "period": {
+          "start": "2025-09-12T20:42:24.437283Z"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/92314363",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "92314363",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-09T22:00:44.290-05:00",
+          "source": "#feUjyekSk1vBcXuR"
+        },
+        "identifier": [
+          {
+            "value": "e80a94c700dc4917a02bab8555af9ed7"
+          }
+        ],
+        "subject": {
+          "display": "Jane Doe"
+        },
+        "period": {
+          "start": "2025-09-12T20:42:24.654874Z"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/92314556",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "92314556",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-09T22:00:45.293-05:00",
+          "source": "#TH5qwA931rwSJmaT"
+        },
+        "identifier": [
+          {
+            "value": "049ef80b9de54a2b9daa2a253f6b03ac"
+          }
+        ],
+        "subject": {
+          "display": "John Doe"
+        },
+        "period": {
+          "start": "2025-09-12T20:42:24.871026Z"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/92314730",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "92314730",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-09T22:00:46.291-05:00",
+          "source": "#zSyeNsPCTRMqWwJd"
+        },
+        "identifier": [
+          {
+            "value": "fef254188a9e4f569914af173d5ab7e4"
+          }
+        ],
+        "subject": {
+          "display": "Rita Z\u00e1goni"
+        },
+        "period": {
+          "start": "2025-09-12T20:42:25.088000Z"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/101283395",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "101283395",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-10T10:30:40.070-05:00",
+          "source": "#CmegQDjMG6KpZd0j"
+        },
+        "status": "finished"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/T-123456789-000000-EK",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "T-123456789-000000-EK",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-10T13:37:36.357-05:00",
+          "source": "#PqTCbkme7E6kYVGK",
+          "profile": [
+            "https://www.medizininformatik-initiative.de/fhir/core/modul-fall/StructureDefinition/KontaktGesundheitseinrichtung"
+          ]
+        },
+        "extension": [
+          {
+            "url": "http://fhir.de/StructureDefinition/Aufnahmegrund",
+            "extension": [
+              {
+                "url": "ErsteUndZweiteStelle",
+                "valueCoding": {
+                  "system": "http://fhir.de/CodeSystem/dkgev/AufnahmegrundErsteUndZweiteStelle",
+                  "code": "01",
+                  "display": "KH-Behandlung, vollstat."
+                }
+              },
+              {
+                "url": "DritteStelle",
+                "valueCoding": {
+                  "system": "http://fhir.de/CodeSystem/dkgev/AufnahmegrundDritteStelle",
+                  "code": "0",
+                  "display": "Anderes"
+                }
+              },
+              {
+                "url": "VierteStelle",
+                "valueCoding": {
+                  "system": "http://fhir.de/CodeSystem/dkgev/AufnahmegrundVierteStelle",
+                  "code": "1",
+                  "display": "Normalfall"
+                }
+              }
+            ]
+          }
+        ],
+        "identifier": [
+          {
+            "use": "official",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "code": "VN"
+                }
+              ]
+            },
+            "system": "http://localIdentifier.de/identifiers/encounter",
+            "value": "T-123456789"
+          },
+          {
+            "use": "secondary",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "code": "U"
+                }
+              ]
+            },
+            "system": "http://localIdentifier.de/identifiers/encounter_transferid",
+            "value": "000000"
+          },
+          {
+            "use": "secondary",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "code": "U"
+                }
+              ]
+            },
+            "system": "http://localIdentifier.de/identifiers/encounter_contactlevel",
+            "value": "EK"
+          }
+        ],
+        "status": "finished",
+        "class": {
+          "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+          "code": "IMP",
+          "display": "inpatient encounter"
+        },
+        "type": [
+          {
+            "coding": [
+              {
+                "system": "http://fhir.de/CodeSystem/Kontaktebene",
+                "code": "einrichtungskontakt",
+                "display": "Einrichtungskontakt"
+              }
+            ]
+          }
+        ],
+        "subject": {
+          "reference": "Patient/T-123456789"
+        },
+        "period": {
+          "start": "2022-08-01T10:00:00+02:00",
+          "end": "2022-08-10T17:00:00+02:00"
+        },
+        "hospitalization": {
+          "admitSource": {
+            "coding": [
+              {
+                "system": "http://fhir.de/CodeSystem/dgkev/Aufnahmeanlass",
+                "code": "A",
+                "display": "Verlegung (mit Behandlungsdauer im verlegenden Krankenhaus bis zu 24 Stunden)"
+              }
+            ]
+          },
+          "dischargeDisposition": {
+            "extension": [
+              {
+                "url": "http://fhir.de/StructureDefinition/Entlassungsgrund",
+                "extension": [
+                  {
+                    "url": "ErsteUndZweiteStelle",
+                    "valueCoding": {
+                      "system": "http://fhir.de/CodeSystem/dkgev/EntlassungsgrundErsteUndZweiteStelle",
+                      "code": "07",
+                      "display": "Tod"
+                    }
+                  },
+                  {
+                    "url": "DritteStelle",
+                    "valueCoding": {
+                      "system": "http://fhir.de/CodeSystem/dkgev/EntlassungsgrundDritteStelle",
+                      "code": "9",
+                      "display": "keine Angabe"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/T-123456789-22222222-AK-0-0",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "T-123456789-22222222-AK-0-0",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-10T13:37:36.357-05:00",
+          "source": "#PqTCbkme7E6kYVGK",
+          "profile": [
+            "https://www.medizininformatik-initiative.de/fhir/core/modul-fall/StructureDefinition/KontaktGesundheitseinrichtung"
+          ]
+        },
+        "identifier": [
+          {
+            "use": "official",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "code": "VN"
+                }
+              ]
+            },
+            "system": "http://localIdentifier.de/identifiers/encounter",
+            "value": "T-123456789"
+          },
+          {
+            "use": "secondary",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "code": "U"
+                }
+              ]
+            },
+            "system": "http://localIdentifier.de/identifiers/encounter_transferid",
+            "value": "22222222"
+          },
+          {
+            "use": "secondary",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "code": "U"
+                }
+              ]
+            },
+            "system": "http://localIdentifier.de/identifiers/encounter_contactlevel",
+            "value": "AK"
+          }
+        ],
+        "status": "finished",
+        "class": {
+          "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+          "code": "IMP",
+          "display": "inpatient encounter"
+        },
+        "type": [
+          {
+            "coding": [
+              {
+                "system": "http://fhir.de/CodeSystem/Kontaktebene",
+                "code": "abteilungskontakt",
+                "display": "Abteilungskontakt"
+              }
+            ]
+          }
+        ],
+        "serviceType": {
+          "coding": [
+            {
+              "system": "http://fhir.de/CodeSystem/dkgev/Fachabteilungsschluessel",
+              "code": "0300",
+              "display": "Kardiologie"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/T-123456789"
+        },
+        "period": {
+          "start": "2022-08-01T10:00:00+02:00",
+          "end": "2022-08-10T17:00:00+02:00"
+        },
+        "location": [
+          {
+            "location": {
+              "reference": "Location/T-222222"
+            },
+            "physicalType": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/location-physical-type",
+                  "code": "wa",
+                  "display": "Ward"
+                }
+              ]
+            },
+            "period": {
+              "start": "2022-08-01T10:00:00+02:00",
+              "end": "2022-08-10T17:00:00+02:00"
+            }
+          }
+        ],
+        "partOf": {
+          "reference": "Encounter/T-123456789-000000-EK"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/T-123456790-000000-EK",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "T-123456790-000000-EK",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-10T13:37:36.357-05:00",
+          "source": "#PqTCbkme7E6kYVGK",
+          "profile": [
+            "https://www.medizininformatik-initiative.de/fhir/core/modul-fall/StructureDefinition/KontaktGesundheitseinrichtung"
+          ]
+        },
+        "extension": [
+          {
+            "url": "http://fhir.de/StructureDefinition/Aufnahmegrund",
+            "extension": [
+              {
+                "url": "ErsteUndZweiteStelle",
+                "valueCoding": {
+                  "system": "http://fhir.de/CodeSystem/dkgev/AufnahmegrundErsteUndZweiteStelle",
+                  "code": "01",
+                  "display": "KH-Behandlung, vollstat."
+                }
+              },
+              {
+                "url": "DritteStelle",
+                "valueCoding": {
+                  "system": "http://fhir.de/CodeSystem/dkgev/AufnahmegrundDritteStelle",
+                  "code": "0",
+                  "display": "Anderes"
+                }
+              },
+              {
+                "url": "VierteStelle",
+                "valueCoding": {
+                  "system": "http://fhir.de/CodeSystem/dkgev/AufnahmegrundVierteStelle",
+                  "code": "1",
+                  "display": "Normalfall"
+                }
+              }
+            ]
+          }
+        ],
+        "identifier": [
+          {
+            "use": "official",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "code": "VN"
+                }
+              ]
+            },
+            "system": "http://localIdentifier.de/identifiers/encounter",
+            "value": "T-123456790"
+          },
+          {
+            "use": "secondary",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "code": "U"
+                }
+              ]
+            },
+            "system": "http://localIdentifier.de/identifiers/encounter_transferid",
+            "value": "000000"
+          },
+          {
+            "use": "secondary",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "code": "U"
+                }
+              ]
+            },
+            "system": "http://localIdentifier.de/identifiers/encounter_contactlevel",
+            "value": "EK"
+          }
+        ],
+        "status": "in-progress",
+        "class": {
+          "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+          "code": "IMP",
+          "display": "inpatient encounter"
+        },
+        "type": [
+          {
+            "coding": [
+              {
+                "system": "http://fhir.de/CodeSystem/Kontaktebene",
+                "code": "einrichtungskontakt",
+                "display": "Einrichtungskontakt"
+              }
+            ]
+          }
+        ],
+        "subject": {
+          "reference": "Patient/T-123456790",
+          "type": "Patient",
+          "identifier": {
+            "system": "http://localIdentifier.de/identifiers/patient",
+            "value": "T-123456790"
+          }
+        },
+        "period": {
+          "start": "2022-08-01T00:00:00+02:00"
+        },
+        "hospitalization": {
+          "admitSource": {
+            "coding": [
+              {
+                "system": "http://fhir.de/CodeSystem/dgkev/Aufnahmeanlass",
+                "code": "E",
+                "display": "Einweisung durch einen Arzt"
+              }
+            ]
+          }
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/T-123456790-123456790-AK",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "T-123456790-123456790-AK",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-10T13:37:36.357-05:00",
+          "source": "#PqTCbkme7E6kYVGK",
+          "profile": [
+            "https://www.medizininformatik-initiative.de/fhir/core/modul-fall/StructureDefinition/KontaktGesundheitseinrichtung"
+          ]
+        },
+        "identifier": [
+          {
+            "use": "official",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "code": "VN"
+                }
+              ]
+            },
+            "system": "http://localIdentifier.de/identifiers/encounter",
+            "value": "T-123456790"
+          },
+          {
+            "use": "secondary",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "code": "U"
+                }
+              ]
+            },
+            "system": "http://localIdentifier.de/identifiers/encounter_transferid",
+            "value": "123456790"
+          },
+          {
+            "use": "secondary",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "code": "U"
+                }
+              ]
+            },
+            "system": "http://localIdentifier.de/identifiers/encounter_contactlevel",
+            "value": "AK"
+          }
+        ],
+        "status": "in-progress",
+        "class": {
+          "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+          "code": "IMP",
+          "display": "inpatient encounter"
+        },
+        "type": [
+          {
+            "coding": [
+              {
+                "system": "http://fhir.de/CodeSystem/Kontaktebene",
+                "code": "abteilungskontakt",
+                "display": "Abteilungskontakt"
+              }
+            ]
+          }
+        ],
+        "serviceType": {
+          "coding": [
+            {
+              "system": "http://fhir.de/CodeSystem/dkgev/Fachabteilungsschluessel",
+              "code": "0100",
+              "display": "Innere Medizin"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/T-123456790",
+          "type": "Patient",
+          "identifier": {
+            "system": "http://localIdentifier.de/identifiers/patient",
+            "value": "T-123456790"
+          }
+        },
+        "period": {
+          "start": "2022-08-01T00:00:00+02:00"
+        },
+        "location": [
+          {
+            "location": {
+              "reference": "Location/T-222222"
+            },
+            "physicalType": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/location-physical-type",
+                  "code": "wa",
+                  "display": "Ward"
+                }
+              ]
+            },
+            "period": {
+              "start": "2022-08-01T00:00:00+02:00"
+            }
+          }
+        ],
+        "partOf": {
+          "reference": "Encounter/T-123456790-000000-EK"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/T-ECMO-MULTIPLE-CODES-USAGE-000000-EK",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "T-ECMO-MULTIPLE-CODES-USAGE-000000-EK",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-10T13:37:36.357-05:00",
+          "source": "#PqTCbkme7E6kYVGK",
+          "profile": [
+            "https://www.medizininformatik-initiative.de/fhir/core/modul-fall/StructureDefinition/KontaktGesundheitseinrichtung"
+          ]
+        },
+        "extension": [
+          {
+            "url": "http://fhir.de/StructureDefinition/Aufnahmegrund",
+            "extension": [
+              {
+                "url": "ErsteUndZweiteStelle",
+                "valueCoding": {
+                  "system": "http://fhir.de/CodeSystem/dkgev/AufnahmegrundErsteUndZweiteStelle",
+                  "code": "01",
+                  "display": "KH-Behandlung, vollstat."
+                }
+              },
+              {
+                "url": "DritteStelle",
+                "valueCoding": {
+                  "system": "http://fhir.de/CodeSystem/dkgev/AufnahmegrundDritteStelle",
+                  "code": "0",
+                  "display": "Anderes"
+                }
+              },
+              {
+                "url": "VierteStelle",
+                "valueCoding": {
+                  "system": "http://fhir.de/CodeSystem/dkgev/AufnahmegrundVierteStelle",
+                  "code": "1",
+                  "display": "Normalfall"
+                }
+              }
+            ]
+          }
+        ],
+        "identifier": [
+          {
+            "use": "official",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "code": "VN"
+                }
+              ]
+            },
+            "system": "http://localIdentifier.de/identifiers/encounter",
+            "value": "T-ECMO-MULTIPLE-CODES-USAGE"
+          },
+          {
+            "use": "secondary",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "code": "U"
+                }
+              ]
+            },
+            "system": "http://localIdentifier.de/identifiers/encounter_transferid",
+            "value": "000000"
+          },
+          {
+            "use": "secondary",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "code": "U"
+                }
+              ]
+            },
+            "system": "http://localIdentifier.de/identifiers/encounter_contactlevel",
+            "value": "EK"
+          }
+        ],
+        "status": "finished",
+        "class": {
+          "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+          "code": "IMP",
+          "display": "inpatient encounter"
+        },
+        "type": [
+          {
+            "coding": [
+              {
+                "system": "http://fhir.de/CodeSystem/Kontaktebene",
+                "code": "einrichtungskontakt",
+                "display": "Einrichtungskontakt"
+              }
+            ]
+          }
+        ],
+        "subject": {
+          "reference": "Patient/T-ECMO-MULTIPLE-CODES-USAGE"
+        },
+        "period": {
+          "start": "2022-08-01T10:00:00+02:00",
+          "end": "2022-08-10T17:00:00+02:00"
+        },
+        "hospitalization": {
+          "admitSource": {
+            "coding": [
+              {
+                "system": "http://fhir.de/CodeSystem/dgkev/Aufnahmeanlass",
+                "code": "A",
+                "display": "Verlegung (mit Behandlungsdauer im verlegenden Krankenhaus bis zu 24 Stunden)"
+              }
+            ]
+          },
+          "dischargeDisposition": {
+            "extension": [
+              {
+                "url": "http://fhir.de/StructureDefinition/Entlassungsgrund",
+                "extension": [
+                  {
+                    "url": "ErsteUndZweiteStelle",
+                    "valueCoding": {
+                      "system": "http://fhir.de/CodeSystem/dkgev/EntlassungsgrundErsteUndZweiteStelle",
+                      "code": "07",
+                      "display": "Tod"
+                    }
+                  },
+                  {
+                    "url": "DritteStelle",
+                    "valueCoding": {
+                      "system": "http://fhir.de/CodeSystem/dkgev/EntlassungsgrundDritteStelle",
+                      "code": "9",
+                      "display": "keine Angabe"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/T-ECMO-MULTIPLE-CODES-USAGE-22222222-AK-0-0",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "T-ECMO-MULTIPLE-CODES-USAGE-22222222-AK-0-0",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-10T13:37:36.357-05:00",
+          "source": "#PqTCbkme7E6kYVGK",
+          "profile": [
+            "https://www.medizininformatik-initiative.de/fhir/core/modul-fall/StructureDefinition/KontaktGesundheitseinrichtung"
+          ]
+        },
+        "identifier": [
+          {
+            "use": "official",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "code": "VN"
+                }
+              ]
+            },
+            "system": "http://localIdentifier.de/identifiers/encounter",
+            "value": "T-ECMO-MULTIPLE-CODES-USAGE"
+          },
+          {
+            "use": "secondary",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "code": "U"
+                }
+              ]
+            },
+            "system": "http://localIdentifier.de/identifiers/encounter_transferid",
+            "value": "22222222"
+          },
+          {
+            "use": "secondary",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "code": "U"
+                }
+              ]
+            },
+            "system": "http://localIdentifier.de/identifiers/encounter_contactlevel",
+            "value": "AK"
+          }
+        ],
+        "status": "finished",
+        "class": {
+          "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+          "code": "IMP",
+          "display": "inpatient encounter"
+        },
+        "type": [
+          {
+            "coding": [
+              {
+                "system": "http://fhir.de/CodeSystem/Kontaktebene",
+                "code": "abteilungskontakt",
+                "display": "Abteilungskontakt"
+              }
+            ]
+          }
+        ],
+        "serviceType": {
+          "coding": [
+            {
+              "system": "http://fhir.de/CodeSystem/dkgev/Fachabteilungsschluessel",
+              "code": "0300",
+              "display": "Kardiologie"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/T-ECMO-MULTIPLE-CODES-USAGE"
+        },
+        "period": {
+          "start": "2022-08-01T10:00:00+02:00",
+          "end": "2022-08-10T17:00:00+02:00"
+        },
+        "location": [
+          {
+            "location": {
+              "reference": "Location/T-222222"
+            },
+            "physicalType": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/location-physical-type",
+                  "code": "wa",
+                  "display": "Ward"
+                }
+              ]
+            },
+            "period": {
+              "start": "2022-08-01T10:00:00+02:00",
+              "end": "2022-08-10T17:00:00+02:00"
+            }
+          }
+        ],
+        "partOf": {
+          "reference": "Encounter/T-ECMO-MULTIPLE-CODES-USAGE-000000-EK"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/T-MULTIPLE-OBSERVATIONLAB-CODES-000000-EK",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "T-MULTIPLE-OBSERVATIONLAB-CODES-000000-EK",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-10T13:37:36.357-05:00",
+          "source": "#PqTCbkme7E6kYVGK",
+          "profile": [
+            "https://www.medizininformatik-initiative.de/fhir/core/modul-fall/StructureDefinition/KontaktGesundheitseinrichtung"
+          ]
+        },
+        "extension": [
+          {
+            "url": "http://fhir.de/StructureDefinition/Aufnahmegrund",
+            "extension": [
+              {
+                "url": "ErsteUndZweiteStelle",
+                "valueCoding": {
+                  "system": "http://fhir.de/CodeSystem/dkgev/AufnahmegrundErsteUndZweiteStelle",
+                  "code": "01",
+                  "display": "KH-Behandlung, vollstat."
+                }
+              },
+              {
+                "url": "DritteStelle",
+                "valueCoding": {
+                  "system": "http://fhir.de/CodeSystem/dkgev/AufnahmegrundDritteStelle",
+                  "code": "0",
+                  "display": "Anderes"
+                }
+              },
+              {
+                "url": "VierteStelle",
+                "valueCoding": {
+                  "system": "http://fhir.de/CodeSystem/dkgev/AufnahmegrundVierteStelle",
+                  "code": "1",
+                  "display": "Normalfall"
+                }
+              }
+            ]
+          }
+        ],
+        "identifier": [
+          {
+            "use": "official",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "code": "VN"
+                }
+              ]
+            },
+            "system": "http://localIdentifier.de/identifiers/encounter",
+            "value": "T-MULTIPLE-OBSERVATIONLAB-CODES"
+          },
+          {
+            "use": "secondary",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "code": "U"
+                }
+              ]
+            },
+            "system": "http://localIdentifier.de/identifiers/encounter_transferid",
+            "value": "000000"
+          },
+          {
+            "use": "secondary",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "code": "U"
+                }
+              ]
+            },
+            "system": "http://localIdentifier.de/identifiers/encounter_contactlevel",
+            "value": "EK"
+          }
+        ],
+        "status": "finished",
+        "class": {
+          "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+          "code": "IMP",
+          "display": "inpatient encounter"
+        },
+        "type": [
+          {
+            "coding": [
+              {
+                "system": "http://fhir.de/CodeSystem/Kontaktebene",
+                "code": "einrichtungskontakt",
+                "display": "Einrichtungskontakt"
+              }
+            ]
+          }
+        ],
+        "subject": {
+          "reference": "Patient/T-MULTIPLE-OBSERVATIONLAB-CODES"
+        },
+        "period": {
+          "start": "2025-01-01T10:00:00+02:00",
+          "end": "2025-01-20T17:00:00+02:00"
+        },
+        "hospitalization": {
+          "admitSource": {
+            "coding": [
+              {
+                "system": "http://fhir.de/CodeSystem/dgkev/Aufnahmeanlass",
+                "code": "A",
+                "display": "Verlegung (mit Behandlungsdauer im verlegenden Krankenhaus bis zu 24 Stunden)"
+              }
+            ]
+          },
+          "dischargeDisposition": {
+            "extension": [
+              {
+                "url": "http://fhir.de/StructureDefinition/Entlassungsgrund",
+                "extension": [
+                  {
+                    "url": "ErsteUndZweiteStelle",
+                    "valueCoding": {
+                      "system": "http://fhir.de/CodeSystem/dkgev/EntlassungsgrundErsteUndZweiteStelle",
+                      "code": "07",
+                      "display": "Tod"
+                    }
+                  },
+                  {
+                    "url": "DritteStelle",
+                    "valueCoding": {
+                      "system": "http://fhir.de/CodeSystem/dkgev/EntlassungsgrundDritteStelle",
+                      "code": "9",
+                      "display": "keine Angabe"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/114226547",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "114226547",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-11T06:01:10.917-05:00",
+          "source": "#W7g7sP2c2RL4AFS5"
+        },
+        "identifier": [
+          {
+            "value": "a037a5d9-98a5-41f3-b405-0f5d2c7ce49b"
+          }
+        ],
+        "subject": {
+          "display": "Green Acres"
+        },
+        "period": {
+          "start": "2025-09-01T06:50:10.571000Z"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/114226756",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "114226756",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-11T06:01:11.917-05:00",
+          "source": "#tgFdJfn12o4ueHGt"
+        },
+        "identifier": [
+          {
+            "value": "8d02ede5-1422-4413-91b6-039dac2830d4"
+          }
+        ],
+        "subject": {
+          "display": "Pius Kariuki"
+        },
+        "period": {
+          "start": "2025-09-01T08:07:36.051000Z"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/114226916",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "114226916",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-11T06:01:12.917-05:00",
+          "source": "#H9Pd9tn5S3IzHNgw"
+        },
+        "identifier": [
+          {
+            "value": "fdb73065-01cd-43c5-acf5-0624479e226f"
+          }
+        ],
+        "subject": {
+          "display": "Jane Doe"
+        },
+        "period": {
+          "start": "2025-09-01T08:13:04.081000Z"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/114227062",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "114227062",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-11T06:01:13.920-05:00",
+          "source": "#ZUIGG2u1THg0Qpvi"
+        },
+        "identifier": [
+          {
+            "value": "32294fcd-e050-4487-b3ea-575539241ea3"
+          }
+        ],
+        "subject": {
+          "display": "Bob Bowman"
+        },
+        "period": {
+          "start": "2025-09-01T08:49:54.682000Z"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/114227252",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "114227252",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-11T06:01:14.917-05:00",
+          "source": "#wf5XPneYA2kvflQz"
+        },
+        "identifier": [
+          {
+            "value": "5b8ec78e-5094-4a57-8f23-38719c3f57fb"
+          }
+        ],
+        "subject": {
+          "display": "Bill Burr"
+        },
+        "period": {
+          "start": "2025-09-01T09:04:55.353000Z"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/114227439",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "114227439",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-02-11T06:01:15.917-05:00",
+          "source": "#glXMcgki194qyxEV"
+        },
+        "identifier": [
+          {
+            "value": "739796a9-2632-4823-860e-374f0e3ff60c"
+          }
+        ],
+        "subject": {
+          "display": "Christina P."
+        },
+        "period": {
+          "start": "2025-09-01T09:50:46.289000Z"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    }
+  ]
+}
