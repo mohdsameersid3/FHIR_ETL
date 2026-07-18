@@ -26,6 +26,8 @@ class MetadataEnricher:
 
             row = record.copy()
 
+            row["row_hash"] = HashCalculator.calculate(record)
+
             row["resource_name"] = resource
 
             row["source_file"] = Path(source_file).name
@@ -39,7 +41,7 @@ class MetadataEnricher:
             row["load_timestamp"] = self.load_timestamp
 
             row["ingestion_run_id"] = self.run_id
-
+            
             enriched.append(row)
 
         return enriched
