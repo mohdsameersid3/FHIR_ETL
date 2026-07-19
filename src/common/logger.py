@@ -1,8 +1,15 @@
 import logging
+import os
 from pathlib import Path
 from config.settings import settings
 
-PROJECT_ROOT = Path(__file__).resolve().parents[2]
+# Handle __file__ not being defined in Databricks contexts
+try:
+    PROJECT_ROOT = Path(__file__).resolve().parents[2]
+except NameError:
+    # Fallback: Use the known project structure in Databricks Repos
+    # When __file__ is not defined, we're in /Repos/mohdsameersid3@gmail.com/FHIR_ETL/
+    PROJECT_ROOT = Path("/Workspace/Repos/mohdsameersid3@gmail.com/FHIR_ETL")
 
 LOG_PATH = PROJECT_ROOT / Path(settings.get()["logging"]["log_path"])
 LOG_PATH.mkdir(parents=True, exist_ok=True)

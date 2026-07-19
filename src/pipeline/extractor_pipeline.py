@@ -25,7 +25,7 @@ class ExtractionPipeline:
         self.initial_load_date = config['load_time']['initial_load_date']
 
     def run(self, resource, params=None):
-        extraction_timestamp = datetime.now(UTC)
+        extraction_timestamp = datetime.now(UTC).isoformat()
         page_number = 1
         total_records = 0
         self.checkpoint_manager.load()

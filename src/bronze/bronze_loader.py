@@ -21,29 +21,26 @@ class BronzeLoader:
             .json(raw_path)
         )
 
-        exploded_df = df.select( "*", explode("entry").alias("entry_json"))
-        bronze_df = exploded_df.withColumn("resource_json", col("entry_json.resource") )
-
-        bronze_df = bronze_df.withColumn(
+        # Check if 'entry' column exists, filter out records without it
+        if "entry" not in df.columns:
+            raise ValueError(f"No 'entry' column found in JSON data. Available columns: {df.columns}")
+        
+        # Filter out rows where entry is null before exploding
+        df_with_entries = df.filter(col("entry").isNotNull())
+        
+        # Explode and transform in one go using select with multiple expressions
+        bronze_df = df_with_entries.select(
+            explode("entry").alias("entry_json")
+        ).select(
+            current_timestamp().alias("load_timestamp"),
+            sha2(to_json(col("entry_json")), 256).alias("row_hash"),
+            col("entry_json.fullUrl").alias("api_url"),
+            col("entry_json.resource").alias("resource_json")
+        ).select(
             "load_timestamp",
-            current_timestamp()
-        )
-
-        bronze_df = bronze_df.withColumn(
-            "api_url",
-            # get_json_object("entry_json","$.fullUrl")
-             col("entry_json.fullUrl")
-        )
-
-        bronze_df = bronze_df.withColumn(
             "row_hash",
-            sha2(to_json(col("entry_json")), 256)
+            "api_url",
+            "resource_json.*"
         )
-
-        bronze_df = bronze_df.select(
-                "load_timestamp",
-                "row_hash",
-                "api_url",
-                "resource_json" )
 
         return bronze_df

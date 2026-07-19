@@ -1,69 +1,95 @@
 import json
 from datetime import datetime, UTC
+
 from src.common.logger import LoggerFactory
+
 
 class CheckpointManager:
 
-    def __init__(self, dbutils,
-        checkpoint_file="/Volumes/workspace/default/fhir/checkpoint/checkpoint.json"):
+    def __init__(
+        self,
+        dbutils,
+        checkpoint_file="/Volumes/workspace/default/FHIR/checkpoint/checkpoint.json"
+    ):
 
-        self.checkpoint_file = checkpoint_file
         self.dbutils = dbutils
-        # Create checkpoint directory if it doesn't exist
-        checkpoint_dir = "/".join(self.checkpoint_file.split("/")[:-1])
+        self.checkpoint_file = checkpoint_file
+
+        checkpoint_dir = "/".join(checkpoint_file.split("/")[:-1])
         self.dbutils.mkdir(checkpoint_dir)
 
         self.logger = LoggerFactory.get_logger(__name__)
 
     def load(self):
+        """
+        Loads the checkpoint file.
+        Creates an empty checkpoint if it doesn't exist.
+        """
 
-        # Create empty checkpoint file if it doesn't exist
-        self.logger.info("Checking for checkpoint file")
         try:
-            checkpoint_data = self.dbutils.read_json(self.checkpoint_file)
-            self.logger.info("Checkpoint file exists")
-            return json.loads(checkpoint_data)
+            checkpoint = self.dbutils.read_json(self.checkpoint_file)
+            self.logger.info("Checkpoint loaded successfully.")
+            return checkpoint
+
         except Exception:
-            self.logger.info("Checkpoint file doesn't exist creating a new one")
+            self.logger.info("Checkpoint not found. Creating a new checkpoint.")
+
+            checkpoint = {}
+
             self.dbutils.write_json(
                 self.checkpoint_file,
-                json.dumps({}, indent=4)
-                )
-            return {}
+                checkpoint
+            )
 
-    def save(self, resource, last_page, total_records, status, incremental_from=None):
+            return checkpoint
+
+    def save(
+        self,
+        resource,
+        last_page,
+        total_records,
+        status,
+        incremental_from=None
+    ):
+        """
+        Saves or updates checkpoint information for a resource.
+        """
 
         checkpoint = self.load()
+
         current_time = datetime.now(UTC).isoformat()
-        
-        checkpoint = { resource:
-            {"last_successful_run": current_time,
-            "incremental_from": current_time or incremental_time,
+
+        checkpoint[resource] = {
+            "last_successful_run": current_time,
+            "incremental_from": incremental_from or current_time,
             "last_page": last_page,
             "total_records": total_records,
             "status": status
-            }
-            }
-        self.logger.info(f"Saving checkpoint for {checkpoint[resource]} to {self.checkpoint_file}")
-        self.dbutils.write_json(self.checkpoint_file, json.dumps(checkpoint, indent=4))
-        self.logger.info(f"Checkpoint {resource} saved successfullly to {self.checkpoint_file}")
+        }
 
-        self.logger.info( f"for Resource : {resource}\n "
-                        f"Last successful run: {checkpoint[resource]['last_successful_run']}\n "
-                         f"Last page: {checkpoint[resource]['last_page']}\n "
-                         f"Total records fetched: {checkpoint[resource]['total_records']}\n "
-                         f"Status: {checkpoint[resource]['status']}\n" )
+        self.dbutils.write_json(
+            self.checkpoint_file,
+            checkpoint
+        )
+
+        self.logger.info(
+            f"Checkpoint saved for {resource}\n"
+            f"Last Successful Run : {checkpoint[resource]['last_successful_run']}\n"
+            f"Incremental From    : {checkpoint[resource]['incremental_from']}\n"
+            f"Last Page           : {checkpoint[resource]['last_page']}\n"
+            f"Total Records       : {checkpoint[resource]['total_records']}\n"
+            f"Status              : {checkpoint[resource]['status']}"
+        )
 
     def get_incremental_timestamp(self, resource):
-        """Returns the incremental timestamp for the given resource"""
+        """
+        Returns the last successful incremental timestamp for a resource.
+        """
+
         checkpoint = self.load()
-        return checkpoint.get(resource, {}).get("incremental_from")
 
-
-
-
-
-
-
-
-
+        return (
+            checkpoint
+            .get(resource, {})
+            .get("incremental_from")
+        )

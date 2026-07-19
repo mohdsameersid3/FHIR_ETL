@@ -3,13 +3,13 @@ project:
   environment: Databricks
 
 api:
-  base_url: "https://hapi.fhir.org/baseR4"
+  base_url: https://hapi.fhir.org/baseR4
   timeout: 30
   page_size: 500
-  retry_count: 3
+
 
 load_time:
-  initial_load_date: '2026-07-15'
+  initial_load_date: '2026-07-01'
   incremental_time: None
 
 resources:
@@ -19,18 +19,15 @@ resources:
   - Condition
 
 storage:
-  "base_path": "dbfs:/Volumes/workspace/default/FHIR/"
-  raw_path: "dbfs:/Volumes/workspace/default/FHIR/raw"
-  bronze_path: "dbfs:/Volumes/workspace/default/FHIR/bronze"
-  silver_path: "dbfs:/Volumes/workspace/default/FHIR/silver"
-  gold_path: "dbfs:/Volumes/workspace/default/FHIR/gold"
+  base_path: dbfs:/Volumes/workspace/default/FHIR/
+  raw_path: dbfs:/Volumes/workspace/default/FHIR/raw
+  bronze_path: dbfs:/Volumes/workspace/default/FHIR/bronze
+  silver_path: dbfs:/Volumes/workspace/default/FHIR/silver
+  gold_path: dbfs:/Volumes/workspace/default/FHIR/gold
 
 logging:
   level: INFO
-  log_path: "./logs"
-
-metadata:
-  source_system: HAPI_FHIR
+  log_path: ./logs
 
 pipeline:
   mode: development
@@ -41,48 +38,45 @@ resource_mappings:
     target_table: silver_patient
     business_key: patient_id
     columns:
-      patient_id: "$.id"
-      active: "$.active"
-      gender: "$.gender"
-      birth_date: "$.birthDate"
-      city: "$.address[0].city"
-      state: "$.address[0].state"
-      country: "$.address[0].country"
-      resource_type: "$.resourceType"
+      patient_id: id
+      active: active
+      gender: gender
+      birth_date: birthDate
+      address: address
+      resource_type: resourceType
 
   Encounter:
     target_table: silver_encounter
     business_key: encounter_id
     columns:
-      encounter_id: "$.id"
-      status: "$.status"
-      class: "$.class.code"
-      start_date: "$.period.start"
-      end_date: "$.period.end"
-      patient_reference: "$.subject.reference"
-      resource_type: "$.resourceType"
+      encounter_id: id
+      status: status
+      class: class.code
+      start_date: period.start
+      end_date: period.end
+      patient_reference: subject.reference
+      resource_type: resourceType
 
   Observation:
     target_table: silver_observation
     business_key: observation_id
     columns:
-      observation_id: "$.id"
-      status: "$.status"
-      observation_code: "$.code.text"
-      effective_datetime: "$.effectiveDateTime"
-      patient_reference: "$.subject.reference"
-      encounter_reference: "$.encounter.reference"
-      resource_type: "$.resourceType"
+      observation_id: id
+      status: status
+      observation_code: code.text
+      effective_datetime: effectiveDateTime
+      patient_reference: subject.reference
+      encounter_reference: encounter.reference
+      resource_type: resourceType
 
   Condition:
     target_table: silver_condition
     business_key: condition_id
     columns:
-      condition_id: "$.id"
-      clinical_status: "$.clinicalStatus.text"
-      verification_status: "$.verificationStatus.text"
-      condition: "$.code.text"
-      patient_reference: "$.subject.reference"
-      encounter_reference: "$.encounter.reference"
-      onset_datetime: "$.onsetDateTime"
-      resource_type: "$.resourceType"
+      condition_id: id
+      clinical_status: clinicalStatus.text
+      verification_status: verificationStatus.text
+      patient_reference: subject.reference
+      encounter_reference: encounter.reference
+      onset_datetime: onsetDateTime
+      resource_type: resourceType

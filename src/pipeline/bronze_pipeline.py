@@ -13,5 +13,5 @@ class BronzePipeline:
 
         (df.write
               .format("delta")
-              .mode("overwrite")
+              .mode("append")
               .saveAsTable(f"workspace.bronze.{resource.lower()}"))  

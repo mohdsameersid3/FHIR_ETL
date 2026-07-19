@@ -11,5 +11,5 @@ class FHIRClient:
 
         self.base_url = config['api']['base_url']
         self.timeout = config['api']['timeout']
-        self.logger = LoggerFactory.get_logger(__name__)
+        # self.logger = LoggerFactory.get_logger(__name__)
 
