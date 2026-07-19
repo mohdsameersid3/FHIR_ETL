@@ -1,8 +1,8 @@
 from datetime import datetime, UTC
 import uuid
 from pathlib import Path
-from src.common.hash_calculator import HashCalculator
-
+import hashlib
+import json
 
 class MetadataEnricher:
 
@@ -11,11 +11,18 @@ class MetadataEnricher:
         self.run_id = str(uuid.uuid4())
         self.load_timestamp = datetime.now(UTC).isoformat()
 
+    def calculate(self, record):
+
+        record_json = json.dumps(
+            record,
+            sort_keys=True)
+
+        return hashlib.sha256(record_json.encode("utf-8")).hexdigest()
+
     def enrich(
         self,
         records,
         resource,
-        source_file,
         page_number,
         api_params,
         extraction_timestamp
@@ -27,11 +34,9 @@ class MetadataEnricher:
 
             row = record.copy()
 
-            row["row_hash"] = HashCalculator.calculate(record)
+            row["row_hash"] = self.calculate(record)
 
             row["resource_name"] = resource
-
-            row["source_file"] = Path(source_file).name
 
             row["page_number"] = page_number
 

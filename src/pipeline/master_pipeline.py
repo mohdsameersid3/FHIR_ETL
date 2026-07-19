@@ -4,10 +4,11 @@ from src.pipeline.bronze_pipeline import BronzePipeline
 
 class MasterPipeline:
 
-    def __init__(self):
-
-        self.extraction = ExtractionPipeline()
-        self.bronze = BronzePipeline()
+    def __init__(self, dbutils, spark):
+        
+        self.dbutils = dbutils
+        self.extraction = ExtractionPipeline(self.dbutils)
+        self.bronze = BronzePipeline(spark)
 
     def run(self):
 

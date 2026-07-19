@@ -1,0 +1,552 @@
+2026-07-19 09:40:19,580 | INFO | extractor_pipeline | Starting extraction for Patient
+2026-07-19 09:40:19,580 | INFO | extractor_pipeline | This is initial load
+2026-07-19 09:40:19,580 | INFO | extractor_pipeline | Starting initial full load from None
+2026-07-19 09:40:21,869 | INFO | extractor_pipeline | Page=1 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Patient/2026-07-19/page_00001.json
+2026-07-19 09:40:24,430 | INFO | extractor_pipeline | Page=2 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Patient/2026-07-19/page_00002.json
+2026-07-19 09:40:27,238 | INFO | extractor_pipeline | Page=3 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Patient/2026-07-19/page_00003.json
+2026-07-19 09:40:29,421 | INFO | extractor_pipeline | Page=4 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Patient/2026-07-19/page_00004.json
+2026-07-19 09:40:31,927 | INFO | extractor_pipeline | Page=5 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Patient/2026-07-19/page_00005.json
+2026-07-19 09:40:33,925 | INFO | extractor_pipeline | Page=6 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Patient/2026-07-19/page_00006.json
+2026-07-19 09:40:35,855 | INFO | extractor_pipeline | Page=7 | Records=322 | Saved=/Volumes/workspace/default/FHIR/raw/Patient/2026-07-19/page_00007.json
+2026-07-19 09:40:35,855 | INFO | extractor_pipeline | Patient extraction completed successfully.
+2026-07-19 09:40:36,502 | INFO | extractor_pipeline | Starting extraction for Encounter
+2026-07-19 09:40:36,502 | INFO | extractor_pipeline | This is initial load
+2026-07-19 09:40:36,502 | INFO | extractor_pipeline | Starting initial full load from None
+2026-07-19 09:40:38,565 | INFO | extractor_pipeline | Page=1 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Encounter/2026-07-19/page_00001.json
+2026-07-19 09:40:41,167 | INFO | extractor_pipeline | Page=2 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Encounter/2026-07-19/page_00002.json
+2026-07-19 09:40:43,621 | INFO | extractor_pipeline | Page=3 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Encounter/2026-07-19/page_00003.json
+2026-07-19 09:40:45,602 | INFO | extractor_pipeline | Page=4 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Encounter/2026-07-19/page_00004.json
+2026-07-19 09:40:48,103 | INFO | extractor_pipeline | Page=5 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Encounter/2026-07-19/page_00005.json
+2026-07-19 09:40:50,138 | INFO | extractor_pipeline | Page=6 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Encounter/2026-07-19/page_00006.json
+2026-07-19 09:40:52,188 | INFO | extractor_pipeline | Page=7 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Encounter/2026-07-19/page_00007.json
+2026-07-19 09:40:54,108 | INFO | extractor_pipeline | Page=8 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Encounter/2026-07-19/page_00008.json
+2026-07-19 09:40:56,155 | INFO | extractor_pipeline | Page=9 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Encounter/2026-07-19/page_00009.json
+2026-07-19 09:40:58,117 | INFO | extractor_pipeline | Page=10 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Encounter/2026-07-19/page_00010.json
+2026-07-19 09:40:59,939 | INFO | extractor_pipeline | Page=11 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Encounter/2026-07-19/page_00011.json
+2026-07-19 09:41:02,051 | INFO | extractor_pipeline | Page=12 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Encounter/2026-07-19/page_00012.json
+2026-07-19 09:41:03,984 | INFO | extractor_pipeline | Page=13 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Encounter/2026-07-19/page_00013.json
+2026-07-19 09:41:05,851 | INFO | extractor_pipeline | Page=14 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Encounter/2026-07-19/page_00014.json
+2026-07-19 09:41:07,698 | INFO | extractor_pipeline | Page=15 | Records=144 | Saved=/Volumes/workspace/default/FHIR/raw/Encounter/2026-07-19/page_00015.json
+2026-07-19 09:41:07,698 | INFO | extractor_pipeline | Encounter extraction completed successfully.
+2026-07-19 09:41:08,332 | INFO | extractor_pipeline | Starting extraction for Observation
+2026-07-19 09:41:08,333 | INFO | extractor_pipeline | This is initial load
+2026-07-19 09:41:08,333 | INFO | extractor_pipeline | Starting initial full load from None
+2026-07-19 09:41:10,127 | INFO | extractor_pipeline | Page=1 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00001.json
+2026-07-19 09:41:12,662 | INFO | extractor_pipeline | Page=2 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00002.json
+2026-07-19 09:41:15,197 | INFO | extractor_pipeline | Page=3 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00003.json
+2026-07-19 09:41:17,032 | INFO | extractor_pipeline | Page=4 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00004.json
+2026-07-19 09:41:20,166 | INFO | extractor_pipeline | Page=5 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00005.json
+2026-07-19 09:41:22,337 | INFO | extractor_pipeline | Page=6 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00006.json
+2026-07-19 09:41:24,369 | INFO | extractor_pipeline | Page=7 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00007.json
+2026-07-19 09:41:26,577 | INFO | extractor_pipeline | Page=8 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00008.json
+2026-07-19 09:41:28,473 | INFO | extractor_pipeline | Page=9 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00009.json
+2026-07-19 09:41:30,360 | INFO | extractor_pipeline | Page=10 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00010.json
+2026-07-19 09:41:32,434 | INFO | extractor_pipeline | Page=11 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00011.json
+2026-07-19 09:41:34,441 | INFO | extractor_pipeline | Page=12 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00012.json
+2026-07-19 09:41:36,725 | INFO | extractor_pipeline | Page=13 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00013.json
+2026-07-19 09:41:38,547 | INFO | extractor_pipeline | Page=14 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00014.json
+2026-07-19 09:41:40,419 | INFO | extractor_pipeline | Page=15 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00015.json
+2026-07-19 09:41:42,400 | INFO | extractor_pipeline | Page=16 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00016.json
+2026-07-19 09:41:44,579 | INFO | extractor_pipeline | Page=17 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00017.json
+2026-07-19 09:41:46,735 | INFO | extractor_pipeline | Page=18 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00018.json
+2026-07-19 09:41:48,741 | INFO | extractor_pipeline | Page=19 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00019.json
+2026-07-19 09:41:50,638 | INFO | extractor_pipeline | Page=20 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00020.json
+2026-07-19 09:41:52,605 | INFO | extractor_pipeline | Page=21 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00021.json
+2026-07-19 09:41:54,674 | INFO | extractor_pipeline | Page=22 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00022.json
+2026-07-19 09:41:56,592 | INFO | extractor_pipeline | Page=23 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00023.json
+2026-07-19 09:41:58,813 | INFO | extractor_pipeline | Page=24 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00024.json
+2026-07-19 09:42:00,779 | INFO | extractor_pipeline | Page=25 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00025.json
+2026-07-19 09:42:02,826 | INFO | extractor_pipeline | Page=26 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00026.json
+2026-07-19 09:42:04,907 | INFO | extractor_pipeline | Page=27 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00027.json
+2026-07-19 09:42:06,967 | INFO | extractor_pipeline | Page=28 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00028.json
+2026-07-19 09:42:08,707 | INFO | extractor_pipeline | Page=29 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00029.json
+2026-07-19 09:42:10,532 | INFO | extractor_pipeline | Page=30 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00030.json
+2026-07-19 09:42:12,452 | INFO | extractor_pipeline | Page=31 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00031.json
+2026-07-19 09:42:14,398 | INFO | extractor_pipeline | Page=32 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00032.json
+2026-07-19 09:42:16,463 | INFO | extractor_pipeline | Page=33 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00033.json
+2026-07-19 09:42:18,433 | INFO | extractor_pipeline | Page=34 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00034.json
+2026-07-19 09:42:20,428 | INFO | extractor_pipeline | Page=35 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00035.json
+2026-07-19 09:42:22,462 | INFO | extractor_pipeline | Page=36 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00036.json
+2026-07-19 09:42:24,390 | INFO | extractor_pipeline | Page=37 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00037.json
+2026-07-19 09:42:26,626 | INFO | extractor_pipeline | Page=38 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00038.json
+2026-07-19 09:42:28,670 | INFO | extractor_pipeline | Page=39 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00039.json
+2026-07-19 09:42:30,501 | INFO | extractor_pipeline | Page=40 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00040.json
+2026-07-19 09:42:32,703 | INFO | extractor_pipeline | Page=41 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00041.json
+2026-07-19 09:42:34,569 | INFO | extractor_pipeline | Page=42 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00042.json
+2026-07-19 09:42:36,384 | INFO | extractor_pipeline | Page=43 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00043.json
+2026-07-19 09:42:38,493 | INFO | extractor_pipeline | Page=44 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00044.json
+2026-07-19 09:42:40,333 | INFO | extractor_pipeline | Page=45 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00045.json
+2026-07-19 09:42:42,204 | INFO | extractor_pipeline | Page=46 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00046.json
+2026-07-19 09:42:44,164 | INFO | extractor_pipeline | Page=47 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00047.json
+2026-07-19 09:42:46,002 | INFO | extractor_pipeline | Page=48 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00048.json
+2026-07-19 09:42:47,778 | INFO | extractor_pipeline | Page=49 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00049.json
+2026-07-19 09:42:49,692 | INFO | extractor_pipeline | Page=50 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00050.json
+2026-07-19 09:42:51,529 | INFO | extractor_pipeline | Page=51 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00051.json
+2026-07-19 09:42:53,364 | INFO | extractor_pipeline | Page=52 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00052.json
+2026-07-19 09:42:55,314 | INFO | extractor_pipeline | Page=53 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00053.json
+2026-07-19 09:42:57,582 | INFO | extractor_pipeline | Page=54 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00054.json
+2026-07-19 09:42:59,649 | INFO | extractor_pipeline | Page=55 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00055.json
+2026-07-19 09:43:01,430 | INFO | extractor_pipeline | Page=56 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00056.json
+2026-07-19 09:43:03,373 | INFO | extractor_pipeline | Page=57 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00057.json
+2026-07-19 09:43:05,524 | INFO | extractor_pipeline | Page=58 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00058.json
+2026-07-19 09:43:07,838 | INFO | extractor_pipeline | Page=59 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00059.json
+2026-07-19 09:43:09,852 | INFO | extractor_pipeline | Page=60 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00060.json
+2026-07-19 09:43:11,614 | INFO | extractor_pipeline | Page=61 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00061.json
+2026-07-19 09:43:13,387 | INFO | extractor_pipeline | Page=62 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00062.json
+2026-07-19 09:43:15,226 | INFO | extractor_pipeline | Page=63 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00063.json
+2026-07-19 09:43:17,489 | INFO | extractor_pipeline | Page=64 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00064.json
+2026-07-19 09:43:19,471 | INFO | extractor_pipeline | Page=65 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00065.json
+2026-07-19 09:43:21,543 | INFO | extractor_pipeline | Page=66 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00066.json
+2026-07-19 09:43:23,450 | INFO | extractor_pipeline | Page=67 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00067.json
+2026-07-19 09:43:25,338 | INFO | extractor_pipeline | Page=68 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00068.json
+2026-07-19 09:43:27,656 | INFO | extractor_pipeline | Page=69 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00069.json
+2026-07-19 09:43:29,638 | INFO | extractor_pipeline | Page=70 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00070.json
+2026-07-19 09:43:31,820 | INFO | extractor_pipeline | Page=71 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00071.json
+2026-07-19 09:43:33,751 | INFO | extractor_pipeline | Page=72 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00072.json
+2026-07-19 09:43:35,641 | INFO | extractor_pipeline | Page=73 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00073.json
+2026-07-19 09:43:37,994 | INFO | extractor_pipeline | Page=74 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00074.json
+2026-07-19 09:43:39,840 | INFO | extractor_pipeline | Page=75 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00075.json
+2026-07-19 09:43:41,672 | INFO | extractor_pipeline | Page=76 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00076.json
+2026-07-19 09:43:43,574 | INFO | extractor_pipeline | Page=77 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00077.json
+2026-07-19 09:43:45,437 | INFO | extractor_pipeline | Page=78 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00078.json
+2026-07-19 09:43:47,355 | INFO | extractor_pipeline | Page=79 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00079.json
+2026-07-19 09:43:49,599 | INFO | extractor_pipeline | Page=80 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00080.json
+2026-07-19 09:43:51,520 | INFO | extractor_pipeline | Page=81 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00081.json
+2026-07-19 09:43:53,477 | INFO | extractor_pipeline | Page=82 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00082.json
+2026-07-19 09:43:55,338 | INFO | extractor_pipeline | Page=83 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00083.json
+2026-07-19 09:43:57,246 | INFO | extractor_pipeline | Page=84 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00084.json
+2026-07-19 09:43:59,189 | INFO | extractor_pipeline | Page=85 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00085.json
+2026-07-19 09:44:01,016 | INFO | extractor_pipeline | Page=86 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00086.json
+2026-07-19 09:44:02,799 | INFO | extractor_pipeline | Page=87 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00087.json
+2026-07-19 09:44:04,906 | INFO | extractor_pipeline | Page=88 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00088.json
+2026-07-19 09:44:06,686 | INFO | extractor_pipeline | Page=89 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00089.json
+2026-07-19 09:44:08,588 | INFO | extractor_pipeline | Page=90 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00090.json
+2026-07-19 09:44:10,573 | INFO | extractor_pipeline | Page=91 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00091.json
+2026-07-19 09:44:12,453 | INFO | extractor_pipeline | Page=92 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00092.json
+2026-07-19 09:44:14,229 | INFO | extractor_pipeline | Page=93 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00093.json
+2026-07-19 09:44:16,154 | INFO | extractor_pipeline | Page=94 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00094.json
+2026-07-19 09:44:17,923 | INFO | extractor_pipeline | Page=95 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00095.json
+2026-07-19 09:44:19,878 | INFO | extractor_pipeline | Page=96 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00096.json
+2026-07-19 09:44:22,236 | INFO | extractor_pipeline | Page=97 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00097.json
+2026-07-19 09:44:24,138 | INFO | extractor_pipeline | Page=98 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00098.json
+2026-07-19 09:44:26,113 | INFO | extractor_pipeline | Page=99 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00099.json
+2026-07-19 09:44:28,022 | INFO | extractor_pipeline | Page=100 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00100.json
+2026-07-19 09:44:30,100 | INFO | extractor_pipeline | Page=101 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00101.json
+2026-07-19 09:44:32,461 | INFO | extractor_pipeline | Page=102 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00102.json
+2026-07-19 09:44:34,663 | INFO | extractor_pipeline | Page=103 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00103.json
+2026-07-19 09:44:36,635 | INFO | extractor_pipeline | Page=104 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00104.json
+2026-07-19 09:44:38,262 | INFO | extractor_pipeline | Page=105 | Records=75 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00105.json
+2026-07-19 09:44:38,262 | INFO | extractor_pipeline | Observation extraction completed successfully.
+2026-07-19 09:44:38,931 | INFO | extractor_pipeline | Starting extraction for Condition
+2026-07-19 09:44:38,931 | INFO | extractor_pipeline | This is initial load
+2026-07-19 09:44:38,931 | INFO | extractor_pipeline | Starting initial full load from None
+2026-07-19 09:44:40,821 | INFO | extractor_pipeline | Page=1 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Condition/2026-07-19/page_00001.json
+2026-07-19 09:44:43,392 | INFO | extractor_pipeline | Page=2 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Condition/2026-07-19/page_00002.json
+2026-07-19 09:44:45,833 | INFO | extractor_pipeline | Page=3 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Condition/2026-07-19/page_00003.json
+2026-07-19 09:44:47,748 | INFO | extractor_pipeline | Page=4 | Records=65 | Saved=/Volumes/workspace/default/FHIR/raw/Condition/2026-07-19/page_00004.json
+2026-07-19 09:44:47,748 | INFO | extractor_pipeline | Condition extraction completed successfully.
+2026-07-19 10:32:42,544 | INFO | extractor_pipeline | Starting extraction for Patient
+2026-07-19 10:32:42,586 | INFO | extractor_pipeline | This is initial load
+2026-07-19 10:32:42,587 | INFO | extractor_pipeline | Starting initial full load from None
+2026-07-19 10:32:45,453 | INFO | extractor_pipeline | Page=1 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Patient/2026-07-19/page_00001.json
+2026-07-19 10:32:48,032 | INFO | extractor_pipeline | Page=2 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Patient/2026-07-19/page_00002.json
+2026-07-19 10:32:50,617 | INFO | extractor_pipeline | Page=3 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Patient/2026-07-19/page_00003.json
+2026-07-19 10:32:52,845 | INFO | extractor_pipeline | Page=4 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Patient/2026-07-19/page_00004.json
+2026-07-19 10:32:55,418 | INFO | extractor_pipeline | Page=5 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Patient/2026-07-19/page_00005.json
+2026-07-19 10:32:57,590 | INFO | extractor_pipeline | Page=6 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Patient/2026-07-19/page_00006.json
+2026-07-19 10:32:59,548 | INFO | extractor_pipeline | Page=7 | Records=322 | Saved=/Volumes/workspace/default/FHIR/raw/Patient/2026-07-19/page_00007.json
+2026-07-19 10:32:59,549 | INFO | extractor_pipeline | Patient extraction completed successfully.
+2026-07-19 10:33:00,398 | INFO | extractor_pipeline | Starting extraction for Encounter
+2026-07-19 10:33:00,398 | INFO | extractor_pipeline | This is initial load
+2026-07-19 10:33:00,398 | INFO | extractor_pipeline | Starting initial full load from None
+2026-07-19 10:33:02,638 | INFO | extractor_pipeline | Page=1 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Encounter/2026-07-19/page_00001.json
+2026-07-19 10:33:05,231 | INFO | extractor_pipeline | Page=2 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Encounter/2026-07-19/page_00002.json
+2026-07-19 10:33:07,761 | INFO | extractor_pipeline | Page=3 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Encounter/2026-07-19/page_00003.json
+2026-07-19 10:33:09,634 | INFO | extractor_pipeline | Page=4 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Encounter/2026-07-19/page_00004.json
+2026-07-19 10:33:12,272 | INFO | extractor_pipeline | Page=5 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Encounter/2026-07-19/page_00005.json
+2026-07-19 10:33:14,483 | INFO | extractor_pipeline | Page=6 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Encounter/2026-07-19/page_00006.json
+2026-07-19 10:33:16,481 | INFO | extractor_pipeline | Page=7 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Encounter/2026-07-19/page_00007.json
+2026-07-19 10:33:18,609 | INFO | extractor_pipeline | Page=8 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Encounter/2026-07-19/page_00008.json
+2026-07-19 10:33:20,674 | INFO | extractor_pipeline | Page=9 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Encounter/2026-07-19/page_00009.json
+2026-07-19 10:33:22,703 | INFO | extractor_pipeline | Page=10 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Encounter/2026-07-19/page_00010.json
+2026-07-19 10:33:24,972 | INFO | extractor_pipeline | Page=11 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Encounter/2026-07-19/page_00011.json
+2026-07-19 10:33:27,139 | INFO | extractor_pipeline | Page=12 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Encounter/2026-07-19/page_00012.json
+2026-07-19 10:33:29,178 | INFO | extractor_pipeline | Page=13 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Encounter/2026-07-19/page_00013.json
+2026-07-19 10:33:31,081 | INFO | extractor_pipeline | Page=14 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Encounter/2026-07-19/page_00014.json
+2026-07-19 10:33:33,158 | INFO | extractor_pipeline | Page=15 | Records=144 | Saved=/Volumes/workspace/default/FHIR/raw/Encounter/2026-07-19/page_00015.json
+2026-07-19 10:33:33,158 | INFO | extractor_pipeline | Encounter extraction completed successfully.
+2026-07-19 10:33:33,895 | INFO | extractor_pipeline | Starting extraction for Observation
+2026-07-19 10:33:33,895 | INFO | extractor_pipeline | This is initial load
+2026-07-19 10:33:33,895 | INFO | extractor_pipeline | Starting initial full load from None
+2026-07-19 10:33:35,985 | INFO | extractor_pipeline | Page=1 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00001.json
+2026-07-19 10:33:38,287 | INFO | extractor_pipeline | Page=2 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00002.json
+2026-07-19 10:33:40,721 | INFO | extractor_pipeline | Page=3 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00003.json
+2026-07-19 10:33:42,720 | INFO | extractor_pipeline | Page=4 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00004.json
+2026-07-19 10:33:45,906 | INFO | extractor_pipeline | Page=5 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00005.json
+2026-07-19 10:33:47,754 | INFO | extractor_pipeline | Page=6 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00006.json
+2026-07-19 10:33:49,611 | INFO | extractor_pipeline | Page=7 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00007.json
+2026-07-19 10:33:51,556 | INFO | extractor_pipeline | Page=8 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00008.json
+2026-07-19 10:33:53,376 | INFO | extractor_pipeline | Page=9 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00009.json
+2026-07-19 10:33:55,309 | INFO | extractor_pipeline | Page=10 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00010.json
+2026-07-19 10:33:57,627 | INFO | extractor_pipeline | Page=11 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00011.json
+2026-07-19 10:33:59,638 | INFO | extractor_pipeline | Page=12 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00012.json
+2026-07-19 10:34:01,675 | INFO | extractor_pipeline | Page=13 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00013.json
+2026-07-19 10:34:03,690 | INFO | extractor_pipeline | Page=14 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00014.json
+2026-07-19 10:34:05,670 | INFO | extractor_pipeline | Page=15 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00015.json
+2026-07-19 10:34:07,768 | INFO | extractor_pipeline | Page=16 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00016.json
+2026-07-19 10:34:09,695 | INFO | extractor_pipeline | Page=17 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00017.json
+2026-07-19 10:34:11,670 | INFO | extractor_pipeline | Page=18 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00018.json
+2026-07-19 10:34:13,910 | INFO | extractor_pipeline | Page=19 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00019.json
+2026-07-19 10:34:15,869 | INFO | extractor_pipeline | Page=20 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00020.json
+2026-07-19 10:34:17,831 | INFO | extractor_pipeline | Page=21 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00021.json
+2026-07-19 10:34:19,776 | INFO | extractor_pipeline | Page=22 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00022.json
+2026-07-19 10:34:21,707 | INFO | extractor_pipeline | Page=23 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00023.json
+2026-07-19 10:34:23,866 | INFO | extractor_pipeline | Page=24 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00024.json
+2026-07-19 10:34:25,995 | INFO | extractor_pipeline | Page=25 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00025.json
+2026-07-19 10:34:28,494 | INFO | extractor_pipeline | Page=26 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00026.json
+2026-07-19 10:34:30,544 | INFO | extractor_pipeline | Page=27 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00027.json
+2026-07-19 10:34:32,629 | INFO | extractor_pipeline | Page=28 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00028.json
+2026-07-19 10:34:34,750 | INFO | extractor_pipeline | Page=29 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00029.json
+2026-07-19 10:34:36,789 | INFO | extractor_pipeline | Page=30 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00030.json
+2026-07-19 10:34:38,873 | INFO | extractor_pipeline | Page=31 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00031.json
+2026-07-19 10:34:40,860 | INFO | extractor_pipeline | Page=32 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00032.json
+2026-07-19 10:34:42,996 | INFO | extractor_pipeline | Page=33 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00033.json
+2026-07-19 10:34:45,346 | INFO | extractor_pipeline | Page=34 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00034.json
+2026-07-19 10:34:47,327 | INFO | extractor_pipeline | Page=35 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00035.json
+2026-07-19 10:34:49,451 | INFO | extractor_pipeline | Page=36 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00036.json
+2026-07-19 10:34:51,363 | INFO | extractor_pipeline | Page=37 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00037.json
+2026-07-19 10:34:53,316 | INFO | extractor_pipeline | Page=38 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00038.json
+2026-07-19 10:34:55,449 | INFO | extractor_pipeline | Page=39 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00039.json
+2026-07-19 10:34:57,506 | INFO | extractor_pipeline | Page=40 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00040.json
+2026-07-19 10:34:59,512 | INFO | extractor_pipeline | Page=41 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00041.json
+2026-07-19 10:35:01,542 | INFO | extractor_pipeline | Page=42 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00042.json
+2026-07-19 10:35:03,581 | INFO | extractor_pipeline | Page=43 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00043.json
+2026-07-19 10:35:05,586 | INFO | extractor_pipeline | Page=44 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00044.json
+2026-07-19 10:35:07,471 | INFO | extractor_pipeline | Page=45 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00045.json
+2026-07-19 10:35:09,343 | INFO | extractor_pipeline | Page=46 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00046.json
+2026-07-19 10:35:11,314 | INFO | extractor_pipeline | Page=47 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00047.json
+2026-07-19 10:35:13,386 | INFO | extractor_pipeline | Page=48 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00048.json
+2026-07-19 10:35:15,313 | INFO | extractor_pipeline | Page=49 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00049.json
+2026-07-19 10:35:17,334 | INFO | extractor_pipeline | Page=50 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00050.json
+2026-07-19 10:35:19,338 | INFO | extractor_pipeline | Page=51 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00051.json
+2026-07-19 10:35:21,322 | INFO | extractor_pipeline | Page=52 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00052.json
+2026-07-19 10:35:23,419 | INFO | extractor_pipeline | Page=53 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00053.json
+2026-07-19 10:35:25,367 | INFO | extractor_pipeline | Page=54 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00054.json
+2026-07-19 10:35:27,644 | INFO | extractor_pipeline | Page=55 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00055.json
+2026-07-19 10:35:29,468 | INFO | extractor_pipeline | Page=56 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00056.json
+2026-07-19 10:35:31,392 | INFO | extractor_pipeline | Page=57 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00057.json
+2026-07-19 10:35:33,384 | INFO | extractor_pipeline | Page=58 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00058.json
+2026-07-19 10:35:35,330 | INFO | extractor_pipeline | Page=59 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00059.json
+2026-07-19 10:35:37,411 | INFO | extractor_pipeline | Page=60 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00060.json
+2026-07-19 10:35:39,300 | INFO | extractor_pipeline | Page=61 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00061.json
+2026-07-19 10:35:41,230 | INFO | extractor_pipeline | Page=62 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00062.json
+2026-07-19 10:35:43,599 | INFO | extractor_pipeline | Page=63 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00063.json
+2026-07-19 10:35:45,781 | INFO | extractor_pipeline | Page=64 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00064.json
+2026-07-19 10:35:47,828 | INFO | extractor_pipeline | Page=65 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00065.json
+2026-07-19 10:35:49,724 | INFO | extractor_pipeline | Page=66 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00066.json
+2026-07-19 10:35:51,720 | INFO | extractor_pipeline | Page=67 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00067.json
+2026-07-19 10:35:53,672 | INFO | extractor_pipeline | Page=68 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00068.json
+2026-07-19 10:35:55,565 | INFO | extractor_pipeline | Page=69 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00069.json
+2026-07-19 10:35:57,526 | INFO | extractor_pipeline | Page=70 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00070.json
+2026-07-19 10:35:59,621 | INFO | extractor_pipeline | Page=71 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00071.json
+2026-07-19 10:36:01,500 | INFO | extractor_pipeline | Page=72 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00072.json
+2026-07-19 10:36:03,428 | INFO | extractor_pipeline | Page=73 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00073.json
+2026-07-19 10:36:05,480 | INFO | extractor_pipeline | Page=74 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00074.json
+2026-07-19 10:36:07,384 | INFO | extractor_pipeline | Page=75 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00075.json
+2026-07-19 10:36:09,364 | INFO | extractor_pipeline | Page=76 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00076.json
+2026-07-19 10:36:11,378 | INFO | extractor_pipeline | Page=77 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00077.json
+2026-07-19 10:36:13,388 | INFO | extractor_pipeline | Page=78 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00078.json
+2026-07-19 10:36:15,724 | INFO | extractor_pipeline | Page=79 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00079.json
+2026-07-19 10:36:17,577 | INFO | extractor_pipeline | Page=80 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00080.json
+2026-07-19 10:36:19,557 | INFO | extractor_pipeline | Page=81 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00081.json
+2026-07-19 10:36:21,529 | INFO | extractor_pipeline | Page=82 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00082.json
+2026-07-19 10:36:23,371 | INFO | extractor_pipeline | Page=83 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00083.json
+2026-07-19 10:36:25,346 | INFO | extractor_pipeline | Page=84 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00084.json
+2026-07-19 10:36:27,514 | INFO | extractor_pipeline | Page=85 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00085.json
+2026-07-19 10:36:29,551 | INFO | extractor_pipeline | Page=86 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00086.json
+2026-07-19 10:36:31,663 | INFO | extractor_pipeline | Page=87 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00087.json
+2026-07-19 10:36:33,558 | INFO | extractor_pipeline | Page=88 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00088.json
+2026-07-19 10:36:35,505 | INFO | extractor_pipeline | Page=89 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00089.json
+2026-07-19 10:36:37,831 | INFO | extractor_pipeline | Page=90 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00090.json
+2026-07-19 10:36:39,770 | INFO | extractor_pipeline | Page=91 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00091.json
+2026-07-19 10:36:41,748 | INFO | extractor_pipeline | Page=92 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00092.json
+2026-07-19 10:36:43,891 | INFO | extractor_pipeline | Page=93 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00093.json
+2026-07-19 10:36:45,909 | INFO | extractor_pipeline | Page=94 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00094.json
+2026-07-19 10:36:47,758 | INFO | extractor_pipeline | Page=95 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00095.json
+2026-07-19 10:36:49,824 | INFO | extractor_pipeline | Page=96 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00096.json
+2026-07-19 10:36:51,733 | INFO | extractor_pipeline | Page=97 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00097.json
+2026-07-19 10:36:53,847 | INFO | extractor_pipeline | Page=98 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00098.json
+2026-07-19 10:36:55,948 | INFO | extractor_pipeline | Page=99 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00099.json
+2026-07-19 10:36:58,060 | INFO | extractor_pipeline | Page=100 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00100.json
+2026-07-19 10:37:00,121 | INFO | extractor_pipeline | Page=101 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00101.json
+2026-07-19 10:37:02,151 | INFO | extractor_pipeline | Page=102 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00102.json
+2026-07-19 10:37:04,362 | INFO | extractor_pipeline | Page=103 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00103.json
+2026-07-19 10:37:06,346 | INFO | extractor_pipeline | Page=104 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00104.json
+2026-07-19 10:37:08,089 | INFO | extractor_pipeline | Page=105 | Records=76 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00105.json
+2026-07-19 10:37:08,090 | INFO | extractor_pipeline | Observation extraction completed successfully.
+2026-07-19 10:37:08,747 | INFO | extractor_pipeline | Starting extraction for Condition
+2026-07-19 10:37:08,747 | INFO | extractor_pipeline | This is initial load
+2026-07-19 10:37:08,748 | INFO | extractor_pipeline | Starting initial full load from None
+2026-07-19 10:37:10,793 | INFO | extractor_pipeline | Page=1 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Condition/2026-07-19/page_00001.json
+2026-07-19 10:37:13,418 | INFO | extractor_pipeline | Page=2 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Condition/2026-07-19/page_00002.json
+2026-07-19 10:37:15,733 | INFO | extractor_pipeline | Page=3 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Condition/2026-07-19/page_00003.json
+2026-07-19 10:37:17,547 | INFO | extractor_pipeline | Page=4 | Records=65 | Saved=/Volumes/workspace/default/FHIR/raw/Condition/2026-07-19/page_00004.json
+2026-07-19 10:37:17,547 | INFO | extractor_pipeline | Condition extraction completed successfully.
+2026-07-19 10:50:10,542 | INFO | extractor_pipeline | Starting extraction for Patient
+2026-07-19 10:50:10,542 | INFO | extractor_pipeline | This is initial load
+2026-07-19 10:50:10,543 | INFO | extractor_pipeline | Starting initial full load from None
+2026-07-19 10:50:12,887 | INFO | extractor_pipeline | Page=1 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Patient/2026-07-19/page_00001.json
+2026-07-19 10:50:15,266 | INFO | extractor_pipeline | Page=2 | Records=331 | Saved=/Volumes/workspace/default/FHIR/raw/Patient/2026-07-19/page_00002.json
+2026-07-19 10:50:15,267 | INFO | extractor_pipeline | Patient extraction completed successfully.
+2026-07-19 10:50:16,135 | INFO | extractor_pipeline | Starting extraction for Encounter
+2026-07-19 10:50:16,136 | INFO | extractor_pipeline | This is initial load
+2026-07-19 10:50:16,136 | INFO | extractor_pipeline | Starting initial full load from None
+2026-07-19 10:50:18,201 | INFO | extractor_pipeline | Page=1 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Encounter/2026-07-19/page_00001.json
+2026-07-19 10:50:20,639 | INFO | extractor_pipeline | Page=2 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Encounter/2026-07-19/page_00002.json
+2026-07-19 10:50:23,340 | INFO | extractor_pipeline | Page=3 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Encounter/2026-07-19/page_00003.json
+2026-07-19 10:50:25,252 | INFO | extractor_pipeline | Page=4 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Encounter/2026-07-19/page_00004.json
+2026-07-19 10:50:27,777 | INFO | extractor_pipeline | Page=5 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Encounter/2026-07-19/page_00005.json
+2026-07-19 10:50:29,696 | INFO | extractor_pipeline | Page=6 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Encounter/2026-07-19/page_00006.json
+2026-07-19 10:50:31,740 | INFO | extractor_pipeline | Page=7 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Encounter/2026-07-19/page_00007.json
+2026-07-19 10:50:33,733 | INFO | extractor_pipeline | Page=8 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Encounter/2026-07-19/page_00008.json
+2026-07-19 10:50:35,498 | INFO | extractor_pipeline | Page=9 | Records=172 | Saved=/Volumes/workspace/default/FHIR/raw/Encounter/2026-07-19/page_00009.json
+2026-07-19 10:50:35,498 | INFO | extractor_pipeline | Encounter extraction completed successfully.
+2026-07-19 10:50:36,169 | INFO | extractor_pipeline | Starting extraction for Observation
+2026-07-19 10:50:36,169 | INFO | extractor_pipeline | This is initial load
+2026-07-19 10:50:36,169 | INFO | extractor_pipeline | Starting initial full load from None
+2026-07-19 10:50:38,202 | INFO | extractor_pipeline | Page=1 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00001.json
+2026-07-19 10:50:40,723 | INFO | extractor_pipeline | Page=2 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00002.json
+2026-07-19 10:50:43,312 | INFO | extractor_pipeline | Page=3 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00003.json
+2026-07-19 10:50:45,485 | INFO | extractor_pipeline | Page=4 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00004.json
+2026-07-19 10:50:48,231 | INFO | extractor_pipeline | Page=5 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00005.json
+2026-07-19 10:50:50,094 | INFO | extractor_pipeline | Page=6 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00006.json
+2026-07-19 10:50:52,085 | INFO | extractor_pipeline | Page=7 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00007.json
+2026-07-19 10:50:54,038 | INFO | extractor_pipeline | Page=8 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00008.json
+2026-07-19 10:50:55,998 | INFO | extractor_pipeline | Page=9 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00009.json
+2026-07-19 10:50:58,002 | INFO | extractor_pipeline | Page=10 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00010.json
+2026-07-19 10:50:59,902 | INFO | extractor_pipeline | Page=11 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00011.json
+2026-07-19 10:51:02,116 | INFO | extractor_pipeline | Page=12 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00012.json
+2026-07-19 10:51:04,347 | INFO | extractor_pipeline | Page=13 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00013.json
+2026-07-19 10:51:06,353 | INFO | extractor_pipeline | Page=14 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00014.json
+2026-07-19 10:51:08,356 | INFO | extractor_pipeline | Page=15 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00015.json
+2026-07-19 10:51:10,342 | INFO | extractor_pipeline | Page=16 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00016.json
+2026-07-19 10:51:12,424 | INFO | extractor_pipeline | Page=17 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00017.json
+2026-07-19 10:51:14,318 | INFO | extractor_pipeline | Page=18 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00018.json
+2026-07-19 10:51:16,732 | INFO | extractor_pipeline | Page=19 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00019.json
+2026-07-19 10:51:18,659 | INFO | extractor_pipeline | Page=20 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00020.json
+2026-07-19 10:51:20,677 | INFO | extractor_pipeline | Page=21 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00021.json
+2026-07-19 10:51:22,650 | INFO | extractor_pipeline | Page=22 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00022.json
+2026-07-19 10:51:24,632 | INFO | extractor_pipeline | Page=23 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00023.json
+2026-07-19 10:51:26,810 | INFO | extractor_pipeline | Page=24 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00024.json
+2026-07-19 10:51:28,900 | INFO | extractor_pipeline | Page=25 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00025.json
+2026-07-19 10:51:30,991 | INFO | extractor_pipeline | Page=26 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00026.json
+2026-07-19 10:51:32,938 | INFO | extractor_pipeline | Page=27 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00027.json
+2026-07-19 10:51:34,826 | INFO | extractor_pipeline | Page=28 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00028.json
+2026-07-19 10:51:36,883 | INFO | extractor_pipeline | Page=29 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00029.json
+2026-07-19 10:51:39,015 | INFO | extractor_pipeline | Page=30 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00030.json
+2026-07-19 10:51:40,895 | INFO | extractor_pipeline | Page=31 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00031.json
+2026-07-19 10:51:43,174 | INFO | extractor_pipeline | Page=32 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00032.json
+2026-07-19 10:51:45,132 | INFO | extractor_pipeline | Page=33 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00033.json
+2026-07-19 10:51:47,325 | INFO | extractor_pipeline | Page=34 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00034.json
+2026-07-19 10:51:49,580 | INFO | extractor_pipeline | Page=35 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00035.json
+2026-07-19 10:51:51,520 | INFO | extractor_pipeline | Page=36 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00036.json
+2026-07-19 10:51:53,472 | INFO | extractor_pipeline | Page=37 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00037.json
+2026-07-19 10:51:55,311 | INFO | extractor_pipeline | Page=38 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00038.json
+2026-07-19 10:51:57,259 | INFO | extractor_pipeline | Page=39 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00039.json
+2026-07-19 10:51:59,293 | INFO | extractor_pipeline | Page=40 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00040.json
+2026-07-19 10:52:01,437 | INFO | extractor_pipeline | Page=41 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00041.json
+2026-07-19 10:52:03,261 | INFO | extractor_pipeline | Page=42 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00042.json
+2026-07-19 10:52:05,174 | INFO | extractor_pipeline | Page=43 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00043.json
+2026-07-19 10:52:07,042 | INFO | extractor_pipeline | Page=44 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00044.json
+2026-07-19 10:52:09,026 | INFO | extractor_pipeline | Page=45 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00045.json
+2026-07-19 10:52:11,063 | INFO | extractor_pipeline | Page=46 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00046.json
+2026-07-19 10:52:13,204 | INFO | extractor_pipeline | Page=47 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00047.json
+2026-07-19 10:52:15,031 | INFO | extractor_pipeline | Page=48 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00048.json
+2026-07-19 10:52:16,869 | INFO | extractor_pipeline | Page=49 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00049.json
+2026-07-19 10:52:18,743 | INFO | extractor_pipeline | Page=50 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00050.json
+2026-07-19 10:52:20,719 | INFO | extractor_pipeline | Page=51 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00051.json
+2026-07-19 10:52:22,752 | INFO | extractor_pipeline | Page=52 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00052.json
+2026-07-19 10:52:24,773 | INFO | extractor_pipeline | Page=53 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00053.json
+2026-07-19 10:52:26,725 | INFO | extractor_pipeline | Page=54 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00054.json
+2026-07-19 10:52:28,597 | INFO | extractor_pipeline | Page=55 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00055.json
+2026-07-19 10:52:30,439 | INFO | extractor_pipeline | Page=56 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00056.json
+2026-07-19 10:52:32,427 | INFO | extractor_pipeline | Page=57 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00057.json
+2026-07-19 10:52:34,610 | INFO | extractor_pipeline | Page=58 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00058.json
+2026-07-19 10:52:36,496 | INFO | extractor_pipeline | Page=59 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00059.json
+2026-07-19 10:52:38,404 | INFO | extractor_pipeline | Page=60 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00060.json
+2026-07-19 10:52:40,433 | INFO | extractor_pipeline | Page=61 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00061.json
+2026-07-19 10:52:42,555 | INFO | extractor_pipeline | Page=62 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00062.json
+2026-07-19 10:52:44,615 | INFO | extractor_pipeline | Page=63 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00063.json
+2026-07-19 10:52:46,696 | INFO | extractor_pipeline | Page=64 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00064.json
+2026-07-19 10:52:48,584 | INFO | extractor_pipeline | Page=65 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00065.json
+2026-07-19 10:52:50,472 | INFO | extractor_pipeline | Page=66 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00066.json
+2026-07-19 10:52:52,467 | INFO | extractor_pipeline | Page=67 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00067.json
+2026-07-19 10:52:54,353 | INFO | extractor_pipeline | Page=68 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00068.json
+2026-07-19 10:52:56,285 | INFO | extractor_pipeline | Page=69 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00069.json
+2026-07-19 10:52:58,213 | INFO | extractor_pipeline | Page=70 | Records=174 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00070.json
+2026-07-19 10:52:58,213 | INFO | extractor_pipeline | Observation extraction completed successfully.
+2026-07-19 10:52:58,848 | INFO | extractor_pipeline | Starting extraction for Condition
+2026-07-19 10:52:58,848 | INFO | extractor_pipeline | This is initial load
+2026-07-19 10:52:58,849 | INFO | extractor_pipeline | Starting initial full load from None
+2026-07-19 10:53:00,634 | INFO | extractor_pipeline | Page=1 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Condition/2026-07-19/page_00001.json
+2026-07-19 10:53:02,854 | INFO | extractor_pipeline | Page=2 | Records=152 | Saved=/Volumes/workspace/default/FHIR/raw/Condition/2026-07-19/page_00002.json
+2026-07-19 10:53:02,854 | INFO | extractor_pipeline | Condition extraction completed successfully.
+2026-07-19 12:22:35,909 | INFO | extractor_pipeline | Starting extraction for Patient
+2026-07-19 12:22:35,910 | INFO | extractor_pipeline | This is initial load
+2026-07-19 12:22:35,910 | INFO | extractor_pipeline | Starting initial full load from None
+2026-07-19 12:22:38,833 | INFO | extractor_pipeline | Page=1 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Patient/2026-07-19/page_00001.json
+2026-07-19 12:22:41,226 | INFO | extractor_pipeline | Page=2 | Records=335 | Saved=/Volumes/workspace/default/FHIR/raw/Patient/2026-07-19/page_00002.json
+2026-07-19 12:22:41,226 | INFO | extractor_pipeline | Patient extraction completed successfully.
+2026-07-19 12:22:51,669 | INFO | extractor_pipeline | Starting extraction for Encounter
+2026-07-19 12:22:51,669 | INFO | extractor_pipeline | This is initial load
+2026-07-19 12:22:51,669 | INFO | extractor_pipeline | Starting initial full load from None
+2026-07-19 12:22:53,962 | INFO | extractor_pipeline | Page=1 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Encounter/2026-07-19/page_00001.json
+2026-07-19 12:22:56,414 | INFO | extractor_pipeline | Page=2 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Encounter/2026-07-19/page_00002.json
+2026-07-19 12:22:58,866 | INFO | extractor_pipeline | Page=3 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Encounter/2026-07-19/page_00003.json
+2026-07-19 12:23:00,815 | INFO | extractor_pipeline | Page=4 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Encounter/2026-07-19/page_00004.json
+2026-07-19 12:23:03,428 | INFO | extractor_pipeline | Page=5 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Encounter/2026-07-19/page_00005.json
+2026-07-19 12:23:05,525 | INFO | extractor_pipeline | Page=6 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Encounter/2026-07-19/page_00006.json
+2026-07-19 12:23:07,520 | INFO | extractor_pipeline | Page=7 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Encounter/2026-07-19/page_00007.json
+2026-07-19 12:23:09,464 | INFO | extractor_pipeline | Page=8 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Encounter/2026-07-19/page_00008.json
+2026-07-19 12:23:11,355 | INFO | extractor_pipeline | Page=9 | Records=173 | Saved=/Volumes/workspace/default/FHIR/raw/Encounter/2026-07-19/page_00009.json
+2026-07-19 12:23:11,355 | INFO | extractor_pipeline | Encounter extraction completed successfully.
+2026-07-19 12:23:17,185 | INFO | extractor_pipeline | Starting extraction for Observation
+2026-07-19 12:23:17,185 | INFO | extractor_pipeline | This is initial load
+2026-07-19 12:23:17,185 | INFO | extractor_pipeline | Starting initial full load from None
+2026-07-19 12:23:19,394 | INFO | extractor_pipeline | Page=1 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00001.json
+2026-07-19 12:23:21,950 | INFO | extractor_pipeline | Page=2 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00002.json
+2026-07-19 12:23:24,245 | INFO | extractor_pipeline | Page=3 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00003.json
+2026-07-19 12:23:26,368 | INFO | extractor_pipeline | Page=4 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00004.json
+2026-07-19 12:23:29,512 | INFO | extractor_pipeline | Page=5 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00005.json
+2026-07-19 12:23:31,431 | INFO | extractor_pipeline | Page=6 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00006.json
+2026-07-19 12:23:33,402 | INFO | extractor_pipeline | Page=7 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00007.json
+2026-07-19 12:23:35,360 | INFO | extractor_pipeline | Page=8 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00008.json
+2026-07-19 12:23:37,369 | INFO | extractor_pipeline | Page=9 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00009.json
+2026-07-19 12:23:39,366 | INFO | extractor_pipeline | Page=10 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00010.json
+2026-07-19 12:23:41,439 | INFO | extractor_pipeline | Page=11 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00011.json
+2026-07-19 12:23:43,607 | INFO | extractor_pipeline | Page=12 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00012.json
+2026-07-19 12:23:45,666 | INFO | extractor_pipeline | Page=13 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00013.json
+2026-07-19 12:23:47,582 | INFO | extractor_pipeline | Page=14 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00014.json
+2026-07-19 12:23:49,641 | INFO | extractor_pipeline | Page=15 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00015.json
+2026-07-19 12:23:51,681 | INFO | extractor_pipeline | Page=16 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00016.json
+2026-07-19 12:23:53,520 | INFO | extractor_pipeline | Page=17 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00017.json
+2026-07-19 12:23:55,429 | INFO | extractor_pipeline | Page=18 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00018.json
+2026-07-19 12:23:57,456 | INFO | extractor_pipeline | Page=19 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00019.json
+2026-07-19 12:23:59,372 | INFO | extractor_pipeline | Page=20 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00020.json
+2026-07-19 12:24:01,330 | INFO | extractor_pipeline | Page=21 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00021.json
+2026-07-19 12:24:03,326 | INFO | extractor_pipeline | Page=22 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00022.json
+2026-07-19 12:24:05,274 | INFO | extractor_pipeline | Page=23 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00023.json
+2026-07-19 12:24:07,385 | INFO | extractor_pipeline | Page=24 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00024.json
+2026-07-19 12:24:09,303 | INFO | extractor_pipeline | Page=25 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00025.json
+2026-07-19 12:24:11,396 | INFO | extractor_pipeline | Page=26 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00026.json
+2026-07-19 12:24:13,346 | INFO | extractor_pipeline | Page=27 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00027.json
+2026-07-19 12:24:15,394 | INFO | extractor_pipeline | Page=28 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00028.json
+2026-07-19 12:24:17,346 | INFO | extractor_pipeline | Page=29 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00029.json
+2026-07-19 12:24:19,268 | INFO | extractor_pipeline | Page=30 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00030.json
+2026-07-19 12:24:21,329 | INFO | extractor_pipeline | Page=31 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00031.json
+2026-07-19 12:24:23,530 | INFO | extractor_pipeline | Page=32 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00032.json
+2026-07-19 12:24:25,604 | INFO | extractor_pipeline | Page=33 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00033.json
+2026-07-19 12:24:27,801 | INFO | extractor_pipeline | Page=34 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00034.json
+2026-07-19 12:24:29,683 | INFO | extractor_pipeline | Page=35 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00035.json
+2026-07-19 12:24:31,699 | INFO | extractor_pipeline | Page=36 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00036.json
+2026-07-19 12:24:33,712 | INFO | extractor_pipeline | Page=37 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00037.json
+2026-07-19 12:24:35,858 | INFO | extractor_pipeline | Page=38 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00038.json
+2026-07-19 12:25:51,060 | INFO | extractor_pipeline | Starting extraction for Patient
+2026-07-19 12:25:51,061 | INFO | extractor_pipeline | This is initial load
+2026-07-19 12:25:51,061 | INFO | extractor_pipeline | Starting initial full load from None
+2026-07-19 12:25:53,566 | INFO | extractor_pipeline | Page=1 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Patient/2026-07-19/page_00001.json
+2026-07-19 12:25:56,087 | INFO | extractor_pipeline | Page=2 | Records=336 | Saved=/Volumes/workspace/default/FHIR/raw/Patient/2026-07-19/page_00002.json
+2026-07-19 12:25:56,087 | INFO | extractor_pipeline | Patient extraction completed successfully.
+2026-07-19 12:25:59,939 | INFO | extractor_pipeline | Starting extraction for Encounter
+2026-07-19 12:25:59,939 | INFO | extractor_pipeline | This is initial load
+2026-07-19 12:25:59,939 | INFO | extractor_pipeline | Starting initial full load from None
+2026-07-19 12:26:01,969 | INFO | extractor_pipeline | Page=1 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Encounter/2026-07-19/page_00001.json
+2026-07-19 12:26:04,435 | INFO | extractor_pipeline | Page=2 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Encounter/2026-07-19/page_00002.json
+2026-07-19 12:26:06,873 | INFO | extractor_pipeline | Page=3 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Encounter/2026-07-19/page_00003.json
+2026-07-19 12:26:08,705 | INFO | extractor_pipeline | Page=4 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Encounter/2026-07-19/page_00004.json
+2026-07-19 12:26:11,326 | INFO | extractor_pipeline | Page=5 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Encounter/2026-07-19/page_00005.json
+2026-07-19 12:26:13,254 | INFO | extractor_pipeline | Page=6 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Encounter/2026-07-19/page_00006.json
+2026-07-19 12:26:15,498 | INFO | extractor_pipeline | Page=7 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Encounter/2026-07-19/page_00007.json
+2026-07-19 12:26:17,443 | INFO | extractor_pipeline | Page=8 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Encounter/2026-07-19/page_00008.json
+2026-07-19 12:26:19,199 | INFO | extractor_pipeline | Page=9 | Records=173 | Saved=/Volumes/workspace/default/FHIR/raw/Encounter/2026-07-19/page_00009.json
+2026-07-19 12:26:19,200 | INFO | extractor_pipeline | Encounter extraction completed successfully.
+2026-07-19 12:26:23,621 | INFO | extractor_pipeline | Starting extraction for Observation
+2026-07-19 12:26:23,621 | INFO | extractor_pipeline | This is initial load
+2026-07-19 12:26:23,621 | INFO | extractor_pipeline | Starting initial full load from None
+2026-07-19 12:26:25,701 | INFO | extractor_pipeline | Page=1 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00001.json
+2026-07-19 12:26:28,313 | INFO | extractor_pipeline | Page=2 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00002.json
+2026-07-19 12:26:30,637 | INFO | extractor_pipeline | Page=3 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00003.json
+2026-07-19 12:26:32,710 | INFO | extractor_pipeline | Page=4 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00004.json
+2026-07-19 12:26:35,609 | INFO | extractor_pipeline | Page=5 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00005.json
+2026-07-19 12:26:37,595 | INFO | extractor_pipeline | Page=6 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00006.json
+2026-07-19 12:26:39,534 | INFO | extractor_pipeline | Page=7 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00007.json
+2026-07-19 12:26:41,472 | INFO | extractor_pipeline | Page=8 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00008.json
+2026-07-19 12:26:43,467 | INFO | extractor_pipeline | Page=9 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00009.json
+2026-07-19 12:26:45,642 | INFO | extractor_pipeline | Page=10 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00010.json
+2026-07-19 12:26:47,713 | INFO | extractor_pipeline | Page=11 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00011.json
+2026-07-19 12:26:49,738 | INFO | extractor_pipeline | Page=12 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00012.json
+2026-07-19 12:26:51,692 | INFO | extractor_pipeline | Page=13 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00013.json
+2026-07-19 12:26:53,716 | INFO | extractor_pipeline | Page=14 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00014.json
+2026-07-19 12:26:55,597 | INFO | extractor_pipeline | Page=15 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00015.json
+2026-07-19 12:26:57,760 | INFO | extractor_pipeline | Page=16 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00016.json
+2026-07-19 12:26:59,740 | INFO | extractor_pipeline | Page=17 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00017.json
+2026-07-19 12:27:01,665 | INFO | extractor_pipeline | Page=18 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00018.json
+2026-07-19 12:27:03,666 | INFO | extractor_pipeline | Page=19 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00019.json
+2026-07-19 12:27:05,556 | INFO | extractor_pipeline | Page=20 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00020.json
+2026-07-19 12:27:07,557 | INFO | extractor_pipeline | Page=21 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00021.json
+2026-07-19 12:27:09,553 | INFO | extractor_pipeline | Page=22 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00022.json
+2026-07-19 12:27:11,575 | INFO | extractor_pipeline | Page=23 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00023.json
+2026-07-19 12:27:13,528 | INFO | extractor_pipeline | Page=24 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00024.json
+2026-07-19 12:27:15,424 | INFO | extractor_pipeline | Page=25 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00025.json
+2026-07-19 12:27:17,216 | INFO | extractor_pipeline | Page=26 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00026.json
+2026-07-19 12:27:19,118 | INFO | extractor_pipeline | Page=27 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00027.json
+2026-07-19 12:27:21,437 | INFO | extractor_pipeline | Page=28 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00028.json
+2026-07-19 12:27:23,372 | INFO | extractor_pipeline | Page=29 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00029.json
+2026-07-19 12:27:25,300 | INFO | extractor_pipeline | Page=30 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00030.json
+2026-07-19 12:27:27,170 | INFO | extractor_pipeline | Page=31 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00031.json
+2026-07-19 12:27:29,278 | INFO | extractor_pipeline | Page=32 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00032.json
+2026-07-19 12:27:31,261 | INFO | extractor_pipeline | Page=33 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00033.json
+2026-07-19 12:27:33,163 | INFO | extractor_pipeline | Page=34 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00034.json
+2026-07-19 12:27:35,056 | INFO | extractor_pipeline | Page=35 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00035.json
+2026-07-19 12:27:36,976 | INFO | extractor_pipeline | Page=36 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00036.json
+2026-07-19 12:27:38,715 | INFO | extractor_pipeline | Page=37 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00037.json
+2026-07-19 12:27:40,749 | INFO | extractor_pipeline | Page=38 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00038.json
+2026-07-19 12:27:42,831 | INFO | extractor_pipeline | Page=39 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00039.json
+2026-07-19 12:27:44,663 | INFO | extractor_pipeline | Page=40 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00040.json
+2026-07-19 12:27:46,657 | INFO | extractor_pipeline | Page=41 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00041.json
+2026-07-19 12:27:48,590 | INFO | extractor_pipeline | Page=42 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00042.json
+2026-07-19 12:27:50,521 | INFO | extractor_pipeline | Page=43 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00043.json
+2026-07-19 12:27:52,731 | INFO | extractor_pipeline | Page=44 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00044.json
+2026-07-19 12:27:54,849 | INFO | extractor_pipeline | Page=45 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00045.json
+2026-07-19 12:27:56,779 | INFO | extractor_pipeline | Page=46 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00046.json
+2026-07-19 12:27:58,606 | INFO | extractor_pipeline | Page=47 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00047.json
+2026-07-19 12:28:00,397 | INFO | extractor_pipeline | Page=48 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00048.json
+2026-07-19 12:28:02,415 | INFO | extractor_pipeline | Page=49 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00049.json
+2026-07-19 12:28:04,711 | INFO | extractor_pipeline | Page=50 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00050.json
+2026-07-19 12:28:06,672 | INFO | extractor_pipeline | Page=51 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00051.json
+2026-07-19 12:28:08,421 | INFO | extractor_pipeline | Page=52 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00052.json
+2026-07-19 12:28:10,288 | INFO | extractor_pipeline | Page=53 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00053.json
+2026-07-19 12:28:12,370 | INFO | extractor_pipeline | Page=54 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00054.json
+2026-07-19 12:28:14,387 | INFO | extractor_pipeline | Page=55 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00055.json
+2026-07-19 12:28:16,441 | INFO | extractor_pipeline | Page=56 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00056.json
+2026-07-19 12:28:18,232 | INFO | extractor_pipeline | Page=57 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00057.json
+2026-07-19 12:28:20,227 | INFO | extractor_pipeline | Page=58 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00058.json
+2026-07-19 12:28:22,227 | INFO | extractor_pipeline | Page=59 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00059.json
+2026-07-19 12:28:24,242 | INFO | extractor_pipeline | Page=60 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00060.json
+2026-07-19 12:28:26,484 | INFO | extractor_pipeline | Page=61 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00061.json
+2026-07-19 12:28:28,336 | INFO | extractor_pipeline | Page=62 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00062.json
+2026-07-19 12:28:30,279 | INFO | extractor_pipeline | Page=63 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00063.json
+2026-07-19 12:28:32,283 | INFO | extractor_pipeline | Page=64 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00064.json
+2026-07-19 12:28:34,209 | INFO | extractor_pipeline | Page=65 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00065.json
+2026-07-19 12:28:36,284 | INFO | extractor_pipeline | Page=66 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00066.json
+2026-07-19 12:28:38,530 | INFO | extractor_pipeline | Page=67 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00067.json
+2026-07-19 12:28:40,458 | INFO | extractor_pipeline | Page=68 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00068.json
+2026-07-19 12:28:42,616 | INFO | extractor_pipeline | Page=69 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00069.json
+2026-07-19 12:28:44,594 | INFO | extractor_pipeline | Page=70 | Records=210 | Saved=/Volumes/workspace/default/FHIR/raw/Observation/2026-07-19/page_00070.json
+2026-07-19 12:28:44,595 | INFO | extractor_pipeline | Observation extraction completed successfully.
+2026-07-19 12:28:57,521 | INFO | extractor_pipeline | Starting extraction for Condition
+2026-07-19 12:28:57,522 | INFO | extractor_pipeline | This is initial load
+2026-07-19 12:28:57,522 | INFO | extractor_pipeline | Starting initial full load from None
+2026-07-19 12:28:59,971 | INFO | extractor_pipeline | Page=1 | Records=500 | Saved=/Volumes/workspace/default/FHIR/raw/Condition/2026-07-19/page_00001.json
+2026-07-19 12:29:02,505 | INFO | extractor_pipeline | Page=2 | Records=153 | Saved=/Volumes/workspace/default/FHIR/raw/Condition/2026-07-19/page_00002.json
+2026-07-19 12:29:02,505 | INFO | extractor_pipeline | Condition extraction completed successfully.

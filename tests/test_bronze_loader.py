@@ -1,20 +1,14 @@
-from pathlib import Path
 from src.bronze.bronze_loader import BronzeLoader
+from src.common.spark import SparkSessionManager
 
-print("Program Started")
+spark = SparkSessionManager().get_session()
 
-loader = BronzeLoader()
+loader = BronzeLoader(spark)
 
-PROJECT_ROOT = Path.cwd().parent
 
-file = PROJECT_ROOT / "data" / "raw" / "Patient" / "2026-07-18" / "page_00001.json"
+df = loader.load('Patient')
 
-print(f"File exists: {file.exists()}")
-print(f"File: {file}")
+df.display()
 
-records = loader.load(file)
+print(f"Number of records: {df.count()}")
 
-print(f"Number of records: {len(records)}")
-
-if len(records) > 0:
-    print(records[0])

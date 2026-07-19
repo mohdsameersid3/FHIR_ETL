@@ -12,6 +12,4 @@ class HashCalculator:
             sort_keys=True
         )
 
-        return hashlib.sha256(
-            record_json.encode("utf-8")
-        ).hexdigest()
+        return hashlib.sha256(record_json.encode("utf-8")).hexdigest()
