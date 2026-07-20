@@ -21,25 +21,12 @@ class SilverPipeline:
                             # Trim strings
                             .withColumn("patient_id", trim(col("patient_id")))
                             .withColumn("gender", trim(col("gender")))
-                            # .withColumn("city", trim(col("city")))
-                            # .withColumn("state", trim(col("state")))
-                            # .withColumn("country", trim(col("country")))
+                            .withColumn("country", trim(col("country")))
 
-                            # Empty string → NULL
-                            # .withColumn(
-                            #     "city",
-                            #     when(col("city") == "", None).otherwise(col("city"))
-                            # )
-
-                            # .withColumn(
-                            #     "state",
-                            #     when(col("state") == "", None).otherwise(col("state"))
-                            # )
-
-                            # .withColumn(
-                            #     "country",
-                            #     when(col("country") == "", None).otherwise(col("country"))
-                            # )
+                            .withColumn(
+                                "country",
+                                when(col("country") == "", None).otherwise(col("country"))
+                            )
 
                             # Standardize Gender
                             .withColumn(
@@ -84,8 +71,8 @@ class SilverPipeline:
                             .dropDuplicates(["patient_id"])
 
                         )
-                # column_names = [col(column) for column in patient_df.columns]
-                # patient_df = self.scd_handler.type2handler(patient_df).select(col(*column_names))
+                # column_names = [col(column) for column in patient_df.columns ]
+                # patient_df = self.scd_handler.type2handler(patient_df).select(*column_names)
                 (patient_df.write
               .format("delta")
               .mode("append")
@@ -166,13 +153,8 @@ class SilverPipeline:
                             )
 
                             .withColumn(
-                                "clinical_status",
-                                trim(col("clinical_status"))
-                            )
-
-                            .withColumn(
-                                "verification_status",
-                                trim(col("verification_status"))
+                                "clinicalStatus",
+                                trim(col("clinicalStatus"))
                             )
 
                             .withColumn(

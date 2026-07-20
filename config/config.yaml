@@ -41,9 +41,11 @@ resource_mappings:
       patient_id: id
       active: active
       gender: gender
+      address: address 
+      country: address[0].country
       birth_date: birthDate
-      address: address
-      resource_type: resourceType
+      resourceType: resourceType
+
 
   Encounter:
     target_table: silver_encounter
@@ -55,7 +57,8 @@ resource_mappings:
       start_date: period.start
       end_date: period.end
       patient_reference: subject.reference
-      resource_type: resourceType
+      resourceType: resourceType
+
 
   Observation:
     target_table: silver_observation
@@ -67,16 +70,17 @@ resource_mappings:
       effective_datetime: effectiveDateTime
       patient_reference: subject.reference
       encounter_reference: encounter.reference
-      resource_type: resourceType
+      resourceType: resourceType
+
 
   Condition:
     target_table: silver_condition
     business_key: condition_id
     columns:
       condition_id: id
-      clinical_status: clinicalStatus.text
-      verification_status: verificationStatus.text
       patient_reference: subject.reference
       encounter_reference: encounter.reference
+      condition: code.text
       onset_datetime: onsetDateTime
-      resource_type: resourceType
+      clinicalStatus: clinicalStatus.text
+      resourceType: resourceType

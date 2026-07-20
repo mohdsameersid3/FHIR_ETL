@@ -26,7 +26,7 @@ class GoldPipeline:
         )
 
         encounter_df = self.spark.table(
-            "workspace..silver.encounter"
+            "workspace.silver.encounter"
         )
 
         observation_df = self.spark.table(
@@ -146,7 +146,7 @@ class GoldPipeline:
 
                 col("birth_date"),
 
-                col("address"),
+                col("country"),
 
                 coalesce(
                     col("encounter_count"),

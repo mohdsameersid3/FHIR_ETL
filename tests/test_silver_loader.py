@@ -6,5 +6,5 @@ from src.common.spark import SparkSessionManager
 spark = SparkSessionManager().get_session()
 
 silver_loader = SilverLoader(spark)
-df = silver_loader.load('Encounter')
+df = silver_loader.load('Condition')
 print(df.columns)
