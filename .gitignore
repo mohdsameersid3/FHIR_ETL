@@ -1,0 +1,88 @@
+```gitignore
+# ===========================
+# Python
+# ===========================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+venv/
+.venv/
+env/
+
+# ===========================
+# IDE
+# ===========================
+.vscode/
+.idea/
+*.swp
+
+# ===========================
+# Jupyter
+# ===========================
+.ipynb_checkpoints/
+
+# ===========================
+# Logs
+# ===========================
+logs/
+*.log
+
+# ===========================
+# Test Cache
+# ===========================
+.pytest_cache/
+.coverage
+htmlcov/
+
+# ===========================
+# OS Files
+# ===========================
+.DS_Store
+Thumbs.db
+
+# ===========================
+# Spark
+# ===========================
+spark-warehouse/
+metastore_db/
+derby.log
+
+# ===========================
+# Build
+# ===========================
+dist/
+build/
+*.egg-info/
+
+# ===========================
+# Data (keep folder structure if required)
+# ===========================
+
+# Raw API responses
+data/raw/
+
+# Bronze data
+data/bronze/
+
+# Checkpoints
+data/checkpoint/
+
+# If you also generate these later
+data/silver/
+data/gold/
+
+# ===========================
+# Temporary notebooks
+# ===========================
+tests/*.ipynb
+
+# Temporary python files
+tests/New File*
+
+# ===========================
+# Compiled notebooks
+# ===========================
+*.dbc
+```
